@@ -45,7 +45,7 @@ texto
 [0:18:00](#t=18m0s) Patrocínio de Eventos<br>
 [0:26:19](#t=26m19s) NodeJS cada vez mais no fluxo de trabalho<br>
 [0:34:47](#t=34m47s) Pré-processadores, *transpilers* e afins (LESS, SASS, CoffeeScript etc.)<br>
-[0:46:17](#t=46m17s) [Mozilla remove a opção de disabilitar JavaScript](https://bugzilla.mozilla.org/show_bug.cgi?id=873709)<br>
+[0:46:17](#t=46m17s) [Mozilla remove a opção de desabilitar JavaScript](https://bugzilla.mozilla.org/show_bug.cgi?id=873709)<br>
 [0:47:51](#t=47m51s) Acessibilidade no Brasil<br>
 [0:50:13](#t=50m13s) [Prêmio Nacional de Acessibilidade na Web](http://premio.w3c.br/)<br>
 [0:56:26](#t=56m26s) [Accessibility Developer Tools](https://github.com/GoogleChrome/accessibility-developer-tools)<br>
