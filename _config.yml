@@ -4,3 +4,4 @@ url:       http://zofe.com.br
 auto:      true
 server:    true
 markdown:  maruku
+excerpt_separator: ""
