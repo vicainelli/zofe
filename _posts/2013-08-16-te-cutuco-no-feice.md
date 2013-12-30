@@ -18,7 +18,7 @@ Neste episódio batemos um papo divertido com o Fábio M. Costa, Front-End Engin
 
 <img title="Mosaico - Episódio 9 - Te Cutuco No Feice" src="http://i.imgur.com/6GqkpjC.png" class="mosaico" alt="Mosaico - Episódio 9 - Te Cutuco No Feice" width="600" height="600">
 
-Resolvemos dar uma mudada. Ou seria MAIS uma? Desta vez experimentamos interações com os ouvintes do podcast, ao vivo. A entrevista contou com um chat em tempo real com o entrevistado e, a gravação das notícias e eventos fizemos ao vivo, via Google Hangout (mas só o áudio). 
+Resolvemos dar uma mudada. Ou seria MAIS uma? Desta vez experimentamos interações com os ouvintes do podcast, ao vivo. A entrevista contou com um chat em tempo real com o entrevistado e, a gravação das notícias e eventos fizemos ao vivo, via Google Hangout (mas só o áudio).
 
 Comentem dizendo o que acharam :D
 

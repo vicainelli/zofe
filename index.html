@@ -14,8 +14,8 @@ layout: default
   </header>
 
   <div class="entry-content clearfix">
-    {% if post.excerpt %}
-      {{ post.excerpt | markdownify }}
+    {% if post.excerpt_tag %}
+      {{ post.excerpt_tag | markdownify }}
       <p><a href="{{ post.url }}" class="more-link">Continue lendo →</a></p>
     {% else %}
       {{ post.content }}
