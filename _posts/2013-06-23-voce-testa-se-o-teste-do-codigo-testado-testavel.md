@@ -60,7 +60,6 @@ Neste episódio (que de gravação teve mais de DUAS horas) vamos falar também 
 * [Browsershots](http://browsershots.org/)
 * [Testable JavaScript](http://www.amazon.com/Testable-JavaScript-Mark-Ethan-Trostler/dp/1449323391)
 * [Test-Driven JavaScript Development (Developers Library)](http://www.amazon.com/Test-Driven-JavaScript-Development-Developers-Library/dp/0321683919)
-*
 
 
 ## Siga o ZOFE

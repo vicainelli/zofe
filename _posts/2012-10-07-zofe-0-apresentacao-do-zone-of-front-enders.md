@@ -9,7 +9,6 @@ durationMeta: T48M21S
 tags: episodio, braziljs, felipe-moura, braziljs-conf
 layout: post
 ---
-
 {% excerpt %}
 O episódio 0 é uma apresentação sobre a proposta do podcast. Um papo sobre a idéia, como surgiu, formato, periodicidade e muito mais.
 
