@@ -5,8 +5,8 @@ episodeID: 'ep11'
 audio: http://zofe.com.br/episodios/zofe-11-antes-do-que-vem-depois-e-vice-versa
 mosaico: http://i.imgur.com/0c6CIcp.png
 tags: episodio, front-end, desabafo, palestras, eventos
-duration: '1:24:45'
-durationMeta: T1H24M45S
+duration: '1:31:35'
+durationMeta: T1H31M35S
 layout: post
 ---
 
