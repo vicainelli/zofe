@@ -67,4 +67,4 @@ Um grande abraço para o [Vital](https://twitter.com/vitallimacod) que se fez se
 
 ## De brinde
 
-<iframe width="420" height="315" src="//www.youtube.com/embed/-3eBQssbkTc" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe width="420" height="315" src="//www.youtube.com/embed/-3eBQssbkTc" frameborder="0">   </iframe>
