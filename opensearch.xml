@@ -1,0 +1,22 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>ZOFE</ShortName>
+  <LongName>Busca do Zone Of Front-Enders</LongName>
+  <Description>Busque nos arquivos do ZOFE podcast</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <AdultContent>false</AdultContent>
+  <Language>pt-br</Language>
+  <Developer>Daniel Filho</Developer>
+  <Contact>daniel@zofe.com.br</Contact>
+  <Description>Podcast sobre desenvolvimento web, com foco em tecnologias front-end e JavaScript</Description>
+  <Tags>html css javascript html5 css3 development frontend front-end xml web</Tags>
+  <Attribution>Dados da busca do ZOFE, http://zofe.com.br/</Attribution>
+  <SyndicationRight>open</SyndicationRight>
+  <Image height="16" width="16" type="image/vnd.microsoft.icon">http://zofe.com.br/favicon.ico</Image>
+  <Image height="160" width="160" type="image/png">http://zofe.com.br/favicon-160x160.png</Image>
+  <Url type="text/html" template="http://www.google.com/search?sitesearch={{ site.url | cgi_escape }}%2F&amp;as_q={searchTerms}"/>
+</OpenSearchDescription>
