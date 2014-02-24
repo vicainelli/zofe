@@ -2340,17 +2340,17 @@ text-align: center;
 }
 .ie h4 {
   margin: 1.1em 0 0.5em;
-  font-size: 21x;
+  font-size: 21px;
   font-size: 1.3125rem;
 }
 .ie h5 {
   margin: 0.9em 0 0.9em;
-  font-size: 19x;
+  font-size: 19px;
   font-size: 1.1875rem;
 }
 .ie h6 {
   margin: 0.7em 0 0.7em;
-  font-size: 18x;
+  font-size: 18px;
   font-size: 1.125rem;
 }
 .ie .entry-header h1.entry-title,
@@ -2706,17 +2706,17 @@ h3 {
 }
 h4 {
   margin: 1.1em 0 0.5em;
-  font-size: 21x;
+  font-size: 21px;
   font-size: 1.3125rem;
 }
 h5 {
   margin: 0.9em 0 0.9em;
-  font-size: 19x;
+  font-size: 19px;
   font-size: 1.1875rem;
 }
 h6 {
   margin: 0.7em 0 0.7em;
-  font-size: 18x;
+  font-size: 18px;
   font-size: 1.125rem;
 }
 /* --- Header --- */
@@ -3436,7 +3436,7 @@ img{page-break-inside:avoid;page-break-after:avoid;}
 
 .mosaico{
   display: block;
-  cleat: both;
+  clear: both;
   max-width: 600px;
   max-height: 600px;
   margin: 1em auto;
