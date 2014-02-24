@@ -5,3 +5,6 @@ auto:      true
 server:    true
 markdown:  maruku
 excerpt_separator: ""
+
+title: "Zone Of Front-Enders - ZOFE"
+exclude: [episodios]
