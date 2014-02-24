@@ -1,4 +1,4 @@
-f/*
+/*
 Theme Name: Zone Of Front-Enders
 Theme URI: http://zofe.com.br/
 Description: Zone of Front-Enders.
@@ -61,7 +61,7 @@ h3 {
 }
 h4 {
   margin: 1em 0 0.4em;
-  font-size: 21x;
+  font-size: 21px;
   font-size: 1.3125rem;
 }
 h5 {
@@ -71,7 +71,7 @@ h5 {
 }
 h6 {
   margin: 0.7em 0 0.4em;
-  font-size: 16x;
+  font-size: 16px;
   font-size: 1rem;
 }
 
