@@ -17,7 +17,7 @@ Vital. Do latim, *vitālis*. Em alemão, espanhol, francês, indonésio e inglê
 
 Com a participação de nossos amigos do começo ao fim, [Almir](https://twitter.com/almirfilho) e [Caio](https://twitter.com/caio_gondim) compartilham sua experiência e trajetória, com bom humor e participação de um público ESSENCIAL para o episódio.
 
-Um grande abraço para o [Vital](https://twitter.com/vitallimacod) que se fez sem igual para um episódio animal, além de muito legal.
+Um grande abraço para o [Vital](https://twitter.com/vitallyma) que se fez sem igual para um episódio animal, além de muito legal.
 
 
 <img title="Mosaico - Episódio 12 - Loop Vital Para Você" src="http://i.imgur.com/cZADk5g.png" class="mosaico" alt="Mosaico - Episódio 12 - Loop Vital Para Você" width="600" height="600">
