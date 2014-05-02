@@ -11,7 +11,7 @@ layout: post
 ---
 
 {% excerpt %}
-DIRETO de San Francisco, na ensolarada California, Zeno SanDiego e Ciro Nunes participam de mais um ZOFE.minify(); e Daniel de São Paulo. Forever alone.
+DIRETO de San Francisco, na ensolarada California, Zeno SanDiego e [Ciro Nunes](http://twitter.com/cironunesdev) participam de mais um ZOFE.minify(); e Daniel de São Paulo. Forever alone.
 
 Falaremos de AngularJS, JSConfBR, MEANJS
 {% endexcerpt %}
