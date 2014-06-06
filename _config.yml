@@ -3,7 +3,7 @@ permalink: /posts/:title/
 url:       http://zofe.com.br
 auto:      true
 server:    true
-markdown:  maruku
+markdown:  Kramdown
 excerpt_separator: ""
 
 title: "Zone Of Front-Enders - ZOFE"
