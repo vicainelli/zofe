@@ -34,46 +34,57 @@
      * @returns the time in seconds
      */
     var parseTime = function(str) {
-        var plain = /^\d+$/g,
-            npt = /^(?:npt:)?(?:(?:(\d\d?):)?(\d\d?):)?(\d\d?)(\.\d+)?$/,
+        var plain = /^\d+(\.\d+)?$/g,
+            npt = /^(?:npt:)?(?:(?:(\d+):)?(\d\d?):)?(\d\d?)(\.\d+)?$/,
             quirks = /^(?:(\d\d?)[hH])?(?:(\d\d?)[mM])?(\d\d?)[sS]$/,
             match;
         if (plain.test(str)) {
-            return parseInt(str,10);
+            return parseFloat(str);
         }
         match = npt.exec(str) || quirks.exec(str);
         if (match) {
-            return (3600 * (parseInt(match[1],10) || 0) + 60 * (parseInt(match[2],10) || 0) + parseInt(match[3],10) + (parseInt(match[4],10) || 0));
+            return (3600 * (parseInt(match[1],10) || 0) + 60 * (parseInt(match[2],10) || 0) + parseInt(match[3],10) + (parseFloat(match[4]) || 0));
         }
         return 0;
     };
 
     var timestamp,
         media,
+        soundcloudPlayer = document.querySelector('#soundcloud-player iframe'),
         t = getQueryVariable() || 0;
     if (t) {
-        timestamp = parseTime(t);
-        media = document.querySelector('audio, video');
-        if (!!media) {
-            media.setAttribute('preload', 'true');
-            media.addEventListener('canplay', function () {
-                /* only start the player if it is not already playing */
-                if( !this.paused){
-                    return false;
-                }
-                this.currentTime = timestamp;
-                this.play();
-            }, false);
-            if(!media.paused) {
+        if(!soundcloudPlayer) {
+            timestamp = parseTime(t);
+            media = document.querySelector('audio, video');
+            if (!!media) {
+                // Preload the media
+                media.setAttribute('preload', 'true');
+                // Set the current time. Will update if playing. Will fail if paused.
                 media.currentTime = timestamp;
+                // If the media is able to play, play.
+                media.addEventListener('canplay', function () {
+                    /* only start the player if it is not already playing */
+                    if( !this.paused){
+                        return false;
+                    }
+                    this.currentTime = timestamp;
+                    this.play();
+                }, false);
             }
+        } else {
+            var scIFRAME = document.querySelector('#soundcloud-player iframe'),
+                scPlayer = SC.Widget(scIFRAME),
+                timestamp = parseTime(t)*1000;
+            scPlayer.seekTo(timestamp);
         }
     }
 
     if (window.addEventListener) {
+        window.addEventListener("DOMContentLoaded", timeJump, false);
         window.addEventListener("hashchange", timeJump, false);
     }
     else if (window.attachEvent) {
+        window.attachEvent("onload", timeJump);
         window.attachEvent("onhashchange", timeJump);
     }
 }());
