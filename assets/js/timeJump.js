@@ -73,8 +73,8 @@
             }
         } else {
             var scIFRAME = document.querySelector('#soundcloud-player iframe'),
-                scPlayer = SC.Widget(scIFRAME),
-                timestamp = parseTime(t)*1000;
+                scPlayer = SC.Widget(scIFRAME);
+            timestamp = parseTime(t)*1000;
             scPlayer.seekTo(timestamp);
         }
     }
