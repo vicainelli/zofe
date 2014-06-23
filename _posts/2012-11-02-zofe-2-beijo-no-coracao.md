@@ -6,6 +6,7 @@ mosaico: http://i.imgur.com/ZSyFi.png
 audio: http://zofe.com.br/episodios/zofe-02-beijo-no-coracao
 duration: '56:52'
 durationMeta: T56M52S
+soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155517102%3Fsecret_token%3Ds-9P19G&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
 tags: w3c, episodio
 layout: post
 ---
@@ -22,29 +23,29 @@ Toda a entrevista foi feita durante a [Conferência Web.BR](http://conferenciawe
 
 ## Momento IE6
 
-[2:40](#t=2m40s) Momento IE6 – Apresentação<br>
-[2:52](#t=2m52s) Momento IE6 – Arduino (valeu William Oliveira!)<br>
-[4:02](#t=4m02s) Momento IE6 – MDN (valeu Jaydson!)
+[0:2:40](#t=0:2:40) Momento IE6 – Apresentação<br>
+[0:2:52](#t=0:2:52) Momento IE6 – Arduino (valeu William Oliveira!)<br>
+[0:4:02](#t=0:4:02) Momento IE6 – MDN (valeu Jaydson!)
 
 ## Notícias:
 
-[4:42](#t=4m42s) [TPAC W3C](http://www.w3.org/2012/10/TPAC/ "TPAC W3C")<br>
-[5:25](#t=5m25s) [Prioridades do CSSWG](http://disruptive-innovations.com/zoo/customers/CSSWG/Priorities.html "Prioridades do CSSWG")<br>
-[7:15](#t=7m15s) [YUI Compressor](http://www.yuiblog.com/blog/2012/10/16/state-of-yui-compressor/ "YUI Compressor")<br>
-[9:12](#t=9m12s) [Chrome Canary suporta &lt;input type=date /&gt; e &lt;input type=time /&gt;](https://twitter.com/danielfilho/status/263318786327855105 "Twitter: Canary suporta a type date e time em inputs")<br>
-[9:53](#t=9m53s) [Components](https://github.com/component/component "Components")<br>
+[0:4:42](#t=0:4:42) [TPAC W3C](http://www.w3.org/2012/10/TPAC/ "TPAC W3C")<br>
+[0:5:25](#t=0:5:25) [Prioridades do CSSWG](http://disruptive-innovations.com/zoo/customers/CSSWG/Priorities.html "Prioridades do CSSWG")<br>
+[0:7:15](#t=0:7:15) [YUI Compressor](http://www.yuiblog.com/blog/2012/10/16/state-of-yui-compressor/ "YUI Compressor")<br>
+[0:9:12](#t=0:9:12) [Chrome Canary suporta &lt;input type=date /&gt; e &lt;input type=time /&gt;](https://twitter.com/danielfilho/status/263318786327855105 "Twitter: Canary suporta a type date e time em inputs")<br>
+[0:9:53](#t=0:9:53) [Components](https://github.com/component/component "Components")<br>
   — [Post do Miller Medeiros](http://blog.millermedeiros.com/stop-writing-plugins-start-writing-components/ "Post do Miller Medeiros")<br>
   — [Como foi a Conferência Web.BR](http://conferenciaweb.w3c.br "Como foi a Conferência Web.BR")
 
 ## Entrevista:
 
-[15:06](#t=15m06s) Entrevista com Yaso e Reinaldo, ambos do escritório brasileiro do W3C
+[0:15:06](#t=0:15:06) Entrevista com Yaso e Reinaldo, ambos do escritório brasileiro do W3C
 
 ## Eventos:
 
-[48:17](#t=48m17s) [Front In Maceió](http://frontinmaceio.com.br/ "Front In Maceió")<br>
+[0:48:17](#t=0:48:17) [Front In Maceió](http://frontinmaceio.com.br/ "Front In Maceió")<br>
   — [Palestra do Loop Infinito – HTML5 Sensitivo](https://speakerdeck.com/loopinfinito/html5-sensitivo-seu-browser-no-plano-astral "Palestra do Loop Infinito – HTML5 Sensitivo")<br>
-[50:07](#t=50m07s) [Front In Sampa – \["BRAZILJSFINAL"\]](http://www.frontinsampa.com.br/ "Front In Sampa")
+[0:50:07](#t=0:50:07) [Front In Sampa – \["BRAZILJSFINAL"\]](http://www.frontinsampa.com.br/ "Front In Sampa")
 
 ## Links:
 
@@ -64,4 +65,4 @@ Toda a entrevista foi feita durante a [Conferência Web.BR](http://conferenciawe
 
 [Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
 [Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
-[55:11](#t=55m11s) Zone Of Front-Enders no Google+: &nbsp;URL só ouvindo.
+[0:55:11](#t=0:55:11) Zone Of Front-Enders no Google+: &nbsp;URL só ouvindo.

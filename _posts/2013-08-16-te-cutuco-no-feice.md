@@ -4,6 +4,7 @@ subtitle: 'Um brasileiro aprontando ALTAS CONFUSÕES no Feice'
 episodeID: 'ep9'
 audio: http://zofe.com.br/episodios/zofe-09-te-cutuco-no-feice
 mosaico: http://i.imgur.com/6GqkpjC.png
+soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155520351%3Fsecret_token%3Ds-AFgXe&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
 tags: episodio, front-end, facebook, fabio costa
 duration: '1:24:45'
 durationMeta: T1H24M45S
@@ -29,19 +30,19 @@ Comentem dizendo o que acharam :D
 
 
 ### Novidades
-[0:02:51](#t=2m51s) [Getting Traction For Your Open Source Project](http://mdswanson.com/blog/2013/07/19/getting-traction-for-your-open-source-project.html)<br>
-[0:04:27](#t=4m27s) [Bootstrap 3](http://getbootstrap.com/)<br>
-[0:05:25](#t=5m25s) [Bootstrap: 1% da web](http://blog.meanpath.com/twitter-bootstrap-now-powering-1-percent-of-the-web/)<br>
-[0:10:10](#t=10m10s) [Stylie](http://jeremyckahn.github.io/stylie/)<br>
-[0:12:36](#t=12m36s) [Vídeos da JSConf US](http://www.youtube.com/watch?v=f_9nDBtSInI&list=PL37ZVnwpeshF7AHpbZt33aW0brYJyNftx)<br>
+[02:51](#t=0:2:51) [Getting Traction For Your Open Source Project](http://mdswanson.com/blog/2013/07/19/getting-traction-for-your-open-source-project.html)<br>
+[04:27](#t=0:4:27) [Bootstrap 3](http://getbootstrap.com/)<br>
+[05:25](#t=0:5:25) [Bootstrap: 1% da web](http://blog.meanpath.com/twitter-bootstrap-now-powering-1-percent-of-the-web/)<br>
+[10:10](#t=0:10:10) [Stylie](http://jeremyckahn.github.io/stylie/)<br>
+[12:36](#t=0:12:36) [Vídeos da JSConf US](http://www.youtube.com/watch?v=f_9nDBtSInI&list=PL37ZVnwpeshF7AHpbZt33aW0brYJyNftx)<br>
 
 
 ### Entrevista
-[0:15:10](#t=15m10s) Entrevista com Fábio M. Costa<br>
+[15:10](#t=0:15:10) Entrevista com Fábio M. Costa<br>
 
 
 ### Eventos
-[1:18:26](#t=1h18m26s) [BrazilJS](http://braziljs.com.br)<br>
+[1:18:26](#t=1:18:26) [BrazilJS](http://braziljs.com.br)<br>
 
 
 ## Siga o ZOFE

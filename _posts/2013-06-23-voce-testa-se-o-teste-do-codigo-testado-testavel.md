@@ -4,6 +4,7 @@ subtitle: 'Testes no Front-end, com Leonardo Balter'
 episodeID: 'ep8'
 audio: http://zofe.com.br/episodios/zofe-08-voce-testa-se-o-teste-do-codigo-testado-testavel
 mosaico: http://i.imgur.com/yXLfT12.png
+soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155520374%3Fsecret_token%3Ds-rmkdQ&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
 tags: episodio, front-end, teste, leo balter,
 duration: '1:35:39'
 durationMeta: T1H35M39S
@@ -23,14 +24,14 @@ Neste episódio (que de gravação teve mais de DUAS horas) vamos falar também 
 
 ### Bate-papo
 
-[0:05:16](#t=5m16s) [Push Notifications To The Browser](http://html5hacks.com/blog/2013/04/21/push-notifications-to-the-browser-with-server-sent-events/)<br>
-[0:08:46](#t=8m46s) [Chrome Blink](http://blog.chromium.org/2013/04/blink-rendering-engine-for-chromium.html)<br>
-[0:23:40](#t=23m40s) [Servo](https://blog.mozilla.org/blog/2013/04/03/mozilla-and-samsung-collaborate-on-next-generation-web-browser-engine/)<br>
-[0:28:17](#t=28m17s) [The State Of HTML5 Video](http://www.longtailvideo.com/html5)<br>
-[0:31:43](#t=31m43s) [Unheap](http://www.unheap.com/)<br>
-[0:38:39](#t=38m39s) [NO DRM IN HTML5!](http://www.defectivebydesign.org/no-drm-in-html5)<br>
-[0:45:28](#t=45m28s) [The Intern](http://theintern.io/)<br>
-[0:46:20](#t=46m20s) Testes em JavaScript com [@leobalter](http://twitter.com/leobalter)<br>
+[0:05:16](#t=0:5:16) [Push Notifications To The Browser](http://html5hacks.com/blog/2013/04/21/push-notifications-to-the-browser-with-server-sent-events/)<br>
+[0:08:46](#t=0:8:46) [Chrome Blink](http://blog.chromium.org/2013/04/blink-rendering-engine-for-chromium.html)<br>
+[0:23:40](#t=0:23:40) [Servo](https://blog.mozilla.org/blog/2013/04/03/mozilla-and-samsung-collaborate-on-next-generation-web-browser-engine/)<br>
+[0:28:17](#t=0:28:17) [The State Of HTML5 Video](http://www.longtailvideo.com/html5)<br>
+[0:31:43](#t=0:31:43) [Unheap](http://www.unheap.com/)<br>
+[0:38:39](#t=0:38:39) [NO DRM IN HTML5!](http://www.defectivebydesign.org/no-drm-in-html5)<br>
+[0:45:28](#t=0:45:28) [The Intern](http://theintern.io/)<br>
+[0:46:20](#t=0:46:20) Testes em JavaScript com [@leobalter](http://twitter.com/leobalter)<br>
 
 
 ### Links interessantes

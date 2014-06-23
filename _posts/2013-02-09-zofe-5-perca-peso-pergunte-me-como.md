@@ -6,6 +6,7 @@ mosaico: http://i.imgur.com/HGILa8T.png
 audio: http://zofe.com.br/episodios/zofe-05-perca-peso-pergunte-me-como
 duration: '1:11:53'
 durationMeta: T1H11M53S
+soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155519072%3Fsecret_token%3Ds-VZCQ1&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
 tags: episodio, twitter, yahoo, yslow, front-end, performance, campus-party
 layout: post
 ---
@@ -26,34 +27,34 @@ Por pouquíssimas pessoas que acessam a versão OGG do podcast, resolvemos deixa
 
 ## Notícias
 
-[0:1:46](#t=1m46s) [Alloy UI](http://alloyui.com/)<br>
+[01:46](#t=0:1:46) [Alloy UI](http://alloyui.com/)<br>
 
 ### Bate-papo
 
-[00:02:23](#t=2m23s) Entrevista com [Marcel Duran](http://twitter.com/marcelduran)<br>
-[00:07:30](#t=7m30s) [Stoyan Stefanov](https://twitter.com/stoyanstefanov)<br>
-[00:12:23](#t=12m23s) [High-Performance Web Sites, Steve Souders](http://www.amazon.com.br/High-Performance-Web-Sites-ebook/dp/B0028N4WHY/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1360379705&sr=1-1)<br>
-[00:16:36](#t=16m36s) [Even Faster Web Sites, Steve Souders](http://www.amazon.com.br/Even-Faster-Web-Sites-ebook/dp/B0043D2EHW/ref=sr_1_2?s=digital-text&ie=UTF8&qid=1360379941&sr=1-2)<br>
-[00:17:01](#t=17m01s) [Web Performance Daybook, Stoyan Stefanov](http://www.amazon.com.br/Web-Performance-Daybook-Volume-ebook/dp/B008CQA8BA/ref=sr_1_2?s=digital-text&ie=UTF8&qid=1360380001&sr=1-2)<br>
-[00:17:25](#t=17m25s) [Performance Calendar](http://calendar.perfplanet.com/)<br>
-[00:19:52](#t=19m52s) [Exceptional Performance Team](http://developer.yahoo.com/performance/)<br>
-[00:30:09](#t=30m09s) [Web Page Test API](https://github.com/marcelduran/webpagetest-api)<br>
-[00:33:40](#t=33m40s) [Make The Web Faster](https://developers.google.com/speed/)<br>
-[00:34:06](#t=34m06s) [Steve Souders](http://stevesouders.com/)<br>
-[00:34:56](#t=34m56s) [Philip Tellis](http://bluesmoon.info/)<br>
-[00:36:03](#t=36m03s) [Sultans Of Speed](http://www.sultansofspeed.com/)<br>
-[00:36:37](#t=36m37s) [Performance Calendar](http://calendar.perfplanet.com/)<br>
-[00:36:46](#t=36m46s) [Perf Planet](http://www.perfplanet.com/)<br>
-[00:37:18](#t=37m18s) [YSlow](http://yslow.org/)<br>
-[00:47:56](#t=47m56s) [Page Speed](https://developers.google.com/speed/pagespeed/)<br>
-[00:54:25](#t=54m25s) [Velocity Conf](http://velocityconf.com/)<br>
-[00:58:06](#t=58m06s) [FEEC Conf](http://www.feecbr.com.br/pt/)<br>
-[00:59:17](#t=59m17s) [Douglas Crockford](http://www.crockford.com/)<br>
-[00:59:53](#t=59m53s) [Permanent Weight Loss](http://www.crockford.com/pwl/)<br>
+[02:23](#t=0:2:23) Entrevista com [Marcel Duran](http://twitter.com/marcelduran)<br>
+[07:30](#t=0:7:30) [Stoyan Stefanov](https://twitter.com/stoyanstefanov)<br>
+[12:23](#t=0:12:23) [High-Performance Web Sites, Steve Souders](http://www.amazon.com.br/High-Performance-Web-Sites-ebook/dp/B0028N4WHY/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1360379705&sr=1-1)<br>
+[16:36](#t=0:16:36) [Even Faster Web Sites, Steve Souders](http://www.amazon.com.br/Even-Faster-Web-Sites-ebook/dp/B0043D2EHW/ref=sr_1_2?s=digital-text&ie=UTF8&qid=1360379941&sr=1-2)<br>
+[17:01](#t=0:17:01) [Web Performance Daybook, Stoyan Stefanov](http://www.amazon.com.br/Web-Performance-Daybook-Volume-ebook/dp/B008CQA8BA/ref=sr_1_2?s=digital-text&ie=UTF8&qid=1360380001&sr=1-2)<br>
+[17:25](#t=0:17:25) [Performance Calendar](http://calendar.perfplanet.com/)<br>
+[19:52](#t=0:19:52) [Exceptional Performance Team](http://developer.yahoo.com/performance/)<br>
+[30:09](#t=0:30:09) [Web Page Test API](https://github.com/marcelduran/webpagetest-api)<br>
+[33:40](#t=0:33:40) [Make The Web Faster](https://developers.google.com/speed/)<br>
+[34:06](#t=0:34:06) [Steve Souders](http://stevesouders.com/)<br>
+[34:56](#t=0:34:56) [Philip Tellis](http://bluesmoon.info/)<br>
+[36:03](#t=0:36:03) [Sultans Of Speed](http://www.sultansofspeed.com/)<br>
+[36:37](#t=0:36:37) [Performance Calendar](http://calendar.perfplanet.com/)<br>
+[36:46](#t=0:36:46) [Perf Planet](http://www.perfplanet.com/)<br>
+[37:18](#t=0:37:18) [YSlow](http://yslow.org/)<br>
+[47:56](#t=0:47:56) [Page Speed](https://developers.google.com/speed/pagespeed/)<br>
+[54:25](#t=0:54:25) [Velocity Conf](http://velocityconf.com/)<br>
+[58:06](#t=0:58:06) [FEEC Conf](http://www.feecbr.com.br/pt/)<br>
+[59:17](#t=0:59:17) [Douglas Crockford](http://www.crockford.com/)<br>
+[59:53](#t=0:59:53) [Permanent Weight Loss](http://www.crockford.com/pwl/)<br>
 
 ### Eventos
 
-[01:05:50](#t=1h05m50s) Eventos<br>
+[1:05:50](#t=1:05:50) Eventos<br>
 
 * [Zeno Rocha e Bernard de Luna: Layouts Responsivos o seu conteúdo em múltiplos dispositivos](http://www.youtube.com/watch?v=ty7zj37gaBI)<br>
 * [Daniel Filho: Desenvolvendo Interfaces Total-Flex](http://www.youtube.com/watch?v=b9ZrOdTFkNk)<br>

@@ -6,6 +6,7 @@ mosaico: http://i.imgur.com/HwwDi.png
 audio: http://zofe.com.br/episodios/zofe-01-agora-e-pra-valer
 duration: '54:15'
 durationMeta: T54M15S
+soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155516820%3Fsecret_token%3Ds-cb53Q&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
 tags: opera, episodio, miket-aylor,
 layout: post
 ---
@@ -22,22 +23,22 @@ Recomendamos que baixem a versão AAC e ouçam em seu iPod, iPhone ou iTunes. O 
 
 ## Notícias
 
-[2:02](#t=2m02s) [The Future Of Web Gaming](http://www.youtube.com/watch?v=Voz0-5Ynpyo "The Future Of Web Gaming")<br>
-[3:35](#t=3m35s) [WebPlatform.org](http://webplatform.org "Web Platform")<br>
-[4:28](#t=4m28s) [NodeCopter](http://nodecopter.com "NodeCopter JS")<br>
-[7:47](#t=7m47s) [Scripted](https://github.com/scripted-editor/scripted "VMWare's Scripted")
+[0:2:02](#t=0:2:02) [The Future Of Web Gaming](http://www.youtube.com/watch?v=Voz0-5Ynpyo "The Future Of Web Gaming")<br>
+[0:3:35](#t=0:3:35) [WebPlatform.org](http://webplatform.org "Web Platform")<br>
+[0:4:28](#t=0:4:28) [NodeCopter](http://nodecopter.com "NodeCopter JS")<br>
+[0:7:47](#t=0:7:47) [Scripted](https://github.com/scripted-editor/scripted "VMWare's Scripted")
 
 ## Entrevista
 
-[11:16](#t=11m16s) Início da entrevista com [Mike Taylor](http://miketaylr.com)<br>
+[0:11:16](#t=0:11:16) Início da entrevista com [Mike Taylor](http://miketaylr.com)<br>
 { os links da conversa serão postados em breve }
 
 ## Eventos
 
-[48:29](#t=48m29s) [W3C Web.BR](http://conferenciaweb.w3c.br)<br>
-[50:55](#t=50m55s) [YAPC::2012](http://yapcbrasil.org.br/2012)<br>
-[51:24](#t=51m24s) [BlackBerry Jam Sessions](http://blackberryjamsessions.com)
+[0:48:29](#t=0:48:29) [W3C Web.BR](http://conferenciaweb.w3c.br)<br>
+[0:50:55](#t=0:50:55) [YAPC::2012](http://yapcbrasil.org.br/2012)<br>
+[0:51:24](#t=0:51:24) [BlackBerry Jam Sessions](http://blackberryjamsessions.com)
 
 ## Errata
 
-[36:50](#t=36m50s) MDN não é uma wiki criada por um navegador e sim pela fundação Mozilla na qual tem como principal produto um navegador.
+[0:36:50](#t=0:36:50) MDN não é uma wiki criada por um navegador e sim pela fundação Mozilla na qual tem como principal produto um navegador.

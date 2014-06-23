@@ -6,6 +6,7 @@ mosaico: http://i.imgur.com/2eU6yo6.png
 audio: http://zofe.com.br/episodios/zofe-06-o-que-voce-fez-hoje
 duration: '1:11:53'
 durationMeta: T1H11M53S
+soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155519268%3Fsecret_token%3Ds-d2QoA&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
 tags: episodio, front-end, dia, sorteio, resultado
 layout: post
 ---
@@ -22,26 +23,26 @@ Seguindo no formato conhecido internamente como "Forever Alones" (mentira, acabe
 
 ### Bate-papo
 
-[02:25](#t=2m25s) O que você fez hoje, Daniel?<br>
-[03:42](#t=3m42s) [@lorn & @marcelduran @ twitter by @twisitor](https://twitter.com/twisitor/status/306878539318300672)<br>
-[04:31](#t=4m31s) [A Biografia do Steve Jobs](http://www.amazon.com.br/Steve-Jobs-ebook/dp/B004W2UBYW/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1363035262&s/r=1-1)<br>
-[05:23](#t=5m23s) O que você fez hoje, Zeno?<br>
-[08:11](#t=8m11s) [Cloud9 IDE](http://c9.io/)<br>
-[08:37](#t=8m37s) [Docpad](http://docpad.org/)<br>
-[11:01](#t=11m01s) [NetTuts+](http://net.tutsplus.com/)<br>
-[11:16](#t=11m16s) [Team Collaboration With GitHub](http://net.tutsplus.com/articles/general/team-collaboration-with-github/)<br>
-[11:57](#t=11m57s) [Trello](http://trello.com/)<br>
-[12:31](#t=12m31s) [Travis-CI](http://travis-ci.org)<br>
-[12:51](#t=12m51s) [jQuery-Github](https://github.com/zenorocha/jquery-github)<br>
-[14:55](#t=14m55s) [GruntJS](http://gruntjs.com/)<br>
-[16:13](#t=16m13s) [TViG](http://tvig.ig.com.br/)<br>
-[16:57](#t=16m57s) [Capistrano](http://capistranorb.com/)<br>
-[29:41](#t=29m41s) [Jekyll](http://jekyllrb.com/)<br>
-[30:46](#t=30m46s) [Octopress](http://octopress.org/)<br>
-[36:40](#t=36m40s) [Why are front end developers so high in demand at startups if front end development is relatively easier than other fields of engineering?](https://www.quora.com/Startups/Why-are-front-end-developers-so-high-in-demand-at-startups-if-front-end-development-is-relatively-easier-than-other-fields-of-engineering)<br>
-[42:55](#t=42m55s) [Discrepância profissional](http://i.imgur.com/aX8LXyu.png)<br>
-[44:59](#t=44m59s) [Chris Williams: An End to Negativity](http://jsconf.eu/2011/an_end_to_negativity.html)<br>
-[53:39](#t=53m39s) Sorteio: Bolsa do Twitter<br>
+[02:25](#t=0:2:25) O que você fez hoje, Daniel?<br>
+[03:42](#t=0:3:42) [@lorn & @marcelduran @ twitter by @twisitor](https://twitter.com/twisitor/status/306878539318300672)<br>
+[04:31](#t=0:4:31) [A Biografia do Steve Jobs](http://www.amazon.com.br/Steve-Jobs-ebook/dp/B004W2UBYW/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1363035262&s/r=1-1)<br>
+[05:23](#t=0:5:23) O que você fez hoje, Zeno?<br>
+[08:11](#t=0:8:11) [Cloud9 IDE](http://c9.io/)<br>
+[08:37](#t=0:8:37) [Docpad](http://docpad.org/)<br>
+[11:01](#t=0:11:01) [NetTuts+](http://net.tutsplus.com/)<br>
+[11:16](#t=0:11:16) [Team Collaboration With GitHub](http://net.tutsplus.com/articles/general/team-collaboration-with-github/)<br>
+[11:57](#t=0:11:57) [Trello](http://trello.com/)<br>
+[12:31](#t=0:12:31) [Travis-CI](http://travis-ci.org)<br>
+[12:51](#t=0:12:51) [jQuery-Github](https://github.com/zenorocha/jquery-github)<br>
+[14:55](#t=0:14:55) [GruntJS](http://gruntjs.com/)<br>
+[16:13](#t=0:16:13) [TViG](http://tvig.ig.com.br/)<br>
+[16:57](#t=0:16:57) [Capistrano](http://capistranorb.com/)<br>
+[29:41](#t=0:29:41) [Jekyll](http://jekyllrb.com/)<br>
+[30:46](#t=0:30:46) [Octopress](http://octopress.org/)<br>
+[36:40](#t=0:36:40) [Why are front end developers so high in demand at startups if front end development is relatively easier than other fields of engineering?](https://www.quora.com/Startups/Why-are-front-end-developers-so-high-in-demand-at-startups-if-front-end-development-is-relatively-easier-than-other-fields-of-engineering)<br>
+[42:55](#t=0:42:55) [Discrepância profissional](http://i.imgur.com/aX8LXyu.png)<br>
+[44:59](#t=0:44:59) [Chris Williams: An End to Negativity](http://jsconf.eu/2011/an_end_to_negativity.html)<br>
+[53:39](#t=0:53:39) Sorteio: Bolsa do Twitter<br>
 
 ## Sorteio: Twitter + ZOFE
 E foi feito o sorteio da promoção e os vencedores são:

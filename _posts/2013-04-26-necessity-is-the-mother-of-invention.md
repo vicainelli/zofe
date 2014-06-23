@@ -6,6 +6,7 @@ mosaico: http://i.imgur.com/chJ9Ze2.png
 audio: http://zofe.com.br/episodios/zofe-07-necessity-is-the-mother-of-invention
 duration: '1:09:49'
 durationMeta: T1H09M49S
+soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155519873%3Fsecret_token%3Ds-vokk4&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
 tags: episodio, front-end, jonathan neal, english
 layout: post
 ---
@@ -22,19 +23,19 @@ Estamos numa correria, este foi o episódio que mais levou tempo pra se gravar (
 
 ### Bate-papo
 
-[5:15](#t=5m15s) Entrevista com [Jonathan Neal](http://twitter.com/jon_neal)<br>
-[10:54](#t=10m54s) [viewsource.in](http://viewsource.in)<br>
-[17:34](#t=17m34s) [normalize.css](http://necolas.github.io/normalize.css/)<br>
-[27:02](#t=27m02s) [HTML5 Boilerplate](http://h5bp.com/)<br>
-[30:16](#t=30m16s) [Dive Into HTML5](http://diveintohtml5.info/)<br>
-[39:53](#t=39m53s) [polyfill.io](http://polyfill.io/) / [GitHub](https://github.com/jonathantneal/polyfill) <br>
-[44:21](#t=44m21s) IRC - [Freenode Server](https://www.freenode.net/)<br>
-[48:18](#t=48m18s) A Message for brazilian developers<br>
+[5:15](#t=0:5:15) Entrevista com [Jonathan Neal](http://twitter.com/jon_neal)<br>
+[10:54](#t=0:10:54) [viewsource.in](http://viewsource.in)<br>
+[17:34](#t=0:17:34) [normalize.css](http://necolas.github.io/normalize.css/)<br>
+[27:02](#t=0:27:02) [HTML5 Boilerplate](http://h5bp.com/)<br>
+[30:16](#t=0:30:16) [Dive Into HTML5](http://diveintohtml5.info/)<br>
+[39:53](#t=0:39:53) [polyfill.io](http://polyfill.io/) / [GitHub](https://github.com/jonathantneal/polyfill) <br>
+[44:21](#t=0:44:21) IRC - [Freenode Server](https://www.freenode.net/)<br>
+[48:18](#t=0:48:18) A Message for brazilian developers<br>
 
 ### Eventos
-[51:00] (#t=51m0s) Eventos <br>
-[1:00:58] (#t=1h0m58s) [Google Chrome Apps Hackathon](https://plus.google.com/events/cobmr4esq1ua8ss7phv5040b14c) <br>
-[1:04:12] (#t=1h4m12s) [Front In Rio](http://frontinrio.com.br/) <br>
+[51:00](#t=51:00) Eventos <br>
+[1:00:58](#t=1:0:58) [Google Chrome Apps Hackathon](https://plus.google.com/events/cobmr4esq1ua8ss7phv5040b14c) <br>
+[1:04:12](#t=1:4:12) [Front In Rio](http://frontinrio.com.br/) <br>
 
 ## Siga o ZOFE
 
