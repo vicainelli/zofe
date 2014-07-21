@@ -48,8 +48,8 @@ Enfim, ouça e comente. Digam o que acharam de mudarmos pra SoundCloud, das capa
 [0:33:00](#t=0:33:00) [Harmonic](https://github.com/es6rocks/harmonic/)<br>
 [0:33:52](#t=0:33:52) [Cérebro](http://cerebrobr.github.io/cerebro/)<br>
 [0:37:30](#t=0:37:30) [Roadmap do NPM CLI](http://blog.npmjs.org/post/91303926460/npm-cli-roadmap-a-periodic-update)<br>
-[0:00:00](#t=0:00:00) [Farewell NodeJS](https://medium.com/code-adventures/farewell-node-js-4ba9e7f3e52b)<br>
 [0:41:50](#t=0:41:50) [Workshops da BrazilJS 2014](http://www.eventick.com.br/workshop-braziljs-2014)<br>
+[0:43:45](#t=0:43:45) [Farewell NodeJS](https://medium.com/code-adventures/farewell-node-js-4ba9e7f3e52b)<br>
 [0:43:45](#t=0:43:45) [Why I'm Staying with Node](https://medium.com/@ded/why-im-staying-with-node-e6fd3be62e34)<br>
 [0:43:45](#t=0:43:45) [Alguém Importante Deixou a Comunidade. E Agora?](http://www.akitaonrails.com/2014/07/06/off-topic-alguem-importante-deixou-a-comunidade-e-agora)<br>
 [0:43:45](#t=0:43:45) [TJ Holowaychuk Está Largando o NodeJS](http://jcemer.com/tj-holowaychuk-esta-largando-node-js.html)<br>
