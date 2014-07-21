@@ -3457,7 +3457,7 @@ img{page-break-inside:avoid;page-break-after:avoid;}
   margin-right: 0;
 }
 form.wufoo ul {
-  width: 445px;
+  width: 100%;
   margin: auto;
   margin-top: 30px;
 }
@@ -3470,7 +3470,7 @@ form.wufoo label::after {
   color: red;
 }
 form.wufoo .field {
-  width: 435px;
+  width: 96%;
   margin-bottom: 10px;
 }
 form.wufoo li.buttons a {
