@@ -36,6 +36,11 @@ body {
   margin:0 auto;
 }
 
+.container {
+  max-width:980px;
+  margin:0 auto;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*  Headlines
 /*-----------------------------------------------------------------------------------*/
@@ -182,7 +187,7 @@ input.wpcf7-submit:hover,
 .widget-area .widget_meola_sociallinks,
 .widget-area .widget_meola_about,
 .single-post .author-info {
-  background:#F0DB4F;
+  background:#FFF;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -232,6 +237,11 @@ dl dd {
 /*-----------------------------------------------------------------------------------*/
 /*  Header
 /*-----------------------------------------------------------------------------------*/
+.logo {
+  float: left;
+  padding: 20px 0;
+}
+
 #branding {
   display:block;
   padding:40px 20px;
@@ -300,6 +310,8 @@ dl dd {
   overflow:hidden;
   background:#f6f6f6;
   text-align:center;
+  float: right !important;
+  padding: 35px 0;
 }
 #site-nav ul ul {
   padding:0;
@@ -2004,6 +2016,19 @@ ul.sociallinks li a.rsscomments {
 ul.sociallinks li a.itunes {
   background: url(../img/socialicons.png) -1120px 0 no-repeat;
 }
+
+/*-----------------------------------------------------------------------------------*/
+/*  Sobre
+/*-----------------------------------------------------------------------------------*/
+#sobre {
+  background:#393939;
+  height: 300px;
+}
+
+#sobre .container h3 {
+  text-align: center;
+}
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  Footer
