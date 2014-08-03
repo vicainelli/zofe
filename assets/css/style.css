@@ -3503,21 +3503,12 @@ form.wufoo .buttons a{
 
 /* Busca */
 .buscaBtn .buscaWrapper{
+  display: none;
   position: absolute;
   left: -30px;
   top: 8px;
   width: 350px;
   background-color: transparent;
-  opacity: 0;
-
-  -webkit-transition: opacity 100ms ease-in-out;
-  -moz-transition   : opacity 100ms ease-in-out;
-  -ms-transition    : opacity 100ms ease-in-out;
-  -o-transition     : opacity 100ms ease-in-out;
-  transition        : opacity 100ms ease-in-out;
-}
-.buscaBtn:hover .buscaWrapper{
-  opacity: 1;
 }
 .buscaBtn .buscaWrapper .searchSubmit,
 .buscaBtn .buscaWrapper .searchSubmit:hover{
@@ -3561,16 +3552,16 @@ form.wufoo .buttons a{
   top: -12px;
 }
 
-  #mobile-menu ul {
-    list-style: none;
-    padding: 4px 0px;
-  }
+#mobile-menu ul {
+  list-style: none;
+  padding: 4px 0px;
+}
 
-    #mobile-menu ul li {
-      line-height: 36px;
-      border-bottom: 1px solid #EEE;
-    }
+#mobile-menu ul li {
+  line-height: 36px;
+  border-bottom: 1px solid #EEE;
+}
 
-    #mobile-menu ul li:last-child {
-      border-bottom: none;
-    }
+#mobile-menu ul li:last-child {
+  border-bottom: none;
+}
