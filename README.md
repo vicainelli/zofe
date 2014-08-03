@@ -24,7 +24,7 @@ Depois vá para pasta do projeto:
 
 E finalmente rode:
 
-	jekyll
+	jekyll serve
 
 Agora você irá ver o site rodando em `localhost:4000` :D
 
