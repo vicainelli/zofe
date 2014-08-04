@@ -4,14 +4,14 @@
   <article>
 
     <aside class="entry-details">
-      <a href="{{ post.url }}" class="entry-date">{{ post.date | date: "%d/%m/%y" }}</a>
+      <a href="{{ post.url }}" class="entry-date-image">{{ post.date | date: "%d/%m/%y" }}</a>
     </aside>
 
-    <header class="entry-header">
-      <h2 class="entry-title"><a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a></h2>
+    <header class="entry-header-image">
+      <h2 class="entry-title-image"><a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a></h2>
     </header>
 
-    <div class="entry-content clearfix">
+    <div class="entry-content-image clearfix">
       {% if post.excerpt_tag %}
         {{ post.excerpt_tag | markdownify }}
         <p><a href="{{ post.url }}" class="more-link">Continue lendo →</a></p>
