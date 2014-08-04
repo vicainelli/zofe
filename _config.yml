@@ -6,3 +6,4 @@ excerpt_separator: ""
 
 title: "Zone Of Front-Enders - ZOFE"
 exclude: [episodios]
+cover-image: "../assets/img/covers/cover-image.jpg"

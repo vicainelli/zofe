@@ -356,6 +356,14 @@ dl dd {
   margin: 0 auto 60px;
 }
 
+/* --- Header-image episode cover --- */
+#header-image {
+  background: url(../img/covers/cover-image.jpg) repeat-x;
+  background-size: 134%;
+  border-top: 8px solid #f0dc3f;
+}
+
+
 /*-----------------------------------------------------------------------------------*/
 /*  Posts
 /*-----------------------------------------------------------------------------------*/
