@@ -40,7 +40,7 @@ Também vai rolar o [PRIMEIRO ENCONTRO ZOFE](http://www.eventick.com.br/encontro
 [1:02:17](#t=1:02:17) [TrackingJS](http://trackingjs.com)<br>
 [1:12:23](#t=1:12:23) [Front In BH 2014 - Just Magic](http://blog.eventick.com.br/front-in-bh-2014-just-magic/)<br>
 [1:12:52](#t=1:12:52) [Front In Aracaju](http://www.frontinaracaju.com.br/)<br>
-[1:23:23](#t=1:13:23) [X-Salada: o melhor webcomponent do mundo](https://github.com/danielfilho/x-salada)<br>
+[1:13:23](#t=1:13:23) [X-Salada: o melhor webcomponent do mundo](https://github.com/danielfilho/x-salada)<br>
 
 
 ## Siga o ZOFE
