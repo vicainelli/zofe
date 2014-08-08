@@ -19,6 +19,9 @@ Neste episódio, Miller Medeiros se tornou o terceiro membro do podcast, e até 
 
 <img title="Capa do Episódio 17 - Tcheretchê Tcheretchê Tcheretchê Tchetchê" src="http://i.imgur.com/zBSbaok.png" class="mosaico" alt="Mosaico - Episódio 17 - Tcheretchê Tcheretchê Tcheretchê Tchetchê" width="600" height="600">
 
+Também vai rolar o [PRIMEIRO ENCONTRO ZOFE](http://www.eventick.com.br/encontro-zofe-2014), que também vai ser um esquenta pra [BrazilJS](http://braziljs.com.br). Inscreva-se já e vá jogar conversa fora com o Daniel Filho e o Zeno Rocha. Vai ser divertido ;)
+
+<a href="http://www.eventick.com.br/encontro-zofe-2014"><img src="http://i.imgur.com/lRfMxiS.png" alt="Primeiro Encontro ZOFE"></a>
 
 [0:01:35](#t=0:01:35) [Miller Medeiros](https://twitter.com/millermedeiros)<br>
 [0:03:40](#t=0:03:40) [Camiseta do ZOFE](https://cottonbureau.com/products/zone-of-front-enders)<br>
