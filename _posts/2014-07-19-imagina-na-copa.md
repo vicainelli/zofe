@@ -23,7 +23,7 @@ Também vamos mudar o esquema das imagens dos episódios: agora serão capas. Se
 
 Enfim, ouça e comente. Digam o que acharam de mudarmos pra SoundCloud, das capas e o que acham do cabelo novo do Zeno. NÃO, PÉRA!
 
-<img title="Capa do Episódio 16 - Imagina na Copa" src="http://i.imgur.com/WKzll1A.png" class="mosaico" alt="Mosaico - Episódio 15.minify('ciro nunes'); - AngularJS" width="600" height="600">
+<img title="Capa do Episódio 16 - Imagina na Copa" src="http://i.imgur.com/WKzll1A.png" class="mosaico" alt="Mosaico - Episódio 16 - Imagina na Copa" width="600" height="600">
 
 
 [0:03:14](#t=0:03:14) [ZOFE no SoundCloud](http://soundcloud.com/zofepod)<br>
