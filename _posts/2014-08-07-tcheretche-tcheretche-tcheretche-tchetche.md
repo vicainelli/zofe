@@ -35,6 +35,7 @@ Também vai rolar o [PRIMEIRO ENCONTRO ZOFE](http://www.eventick.com.br/encontro
 [0:27:21](#t=0:27:21) [Shipping The New GitHub Issues](http://markdotto.com/2014/08/04/shipping-the-new-github-issues/)<br>
 [0:34:10](#t=0:34:10) [Constructors Should Not Cause Side Effects](http://blog.millermedeiros.com/constructors-should-not-cause-side-effects/)<br>
 [0:54:20](#t=0:54:20) [Swiffit](http://swffit.millermedeiros.com/)<br>
+[0:57:35](#t=0:57:35) [esformatter](https://github.com/millermedeiros/esformatter)<br>
 [0:58:57](#t=0:58:57) [Front In BH](http://frontinbh.com.br/2014/)<br>
 [0:59:08](#t=0:59:08) Anúncio bombástico.<br>
 [1:02:17](#t=1:02:17) [TrackingJS](http://trackingjs.com)<br>
