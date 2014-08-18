@@ -185,9 +185,12 @@ input.wpcf7-submit:hover,
 /* ---  Special Background Color (Special Widgets, Main Nav, Autor Info)  --- */
 #site-nav-wrap,
 .widget-area .widget_meola_sociallinks,
-.widget-area .widget_meola_about,
 .single-post .author-info {
   background:#FFF;
+}
+
+.widget-area .widget_meola_about {
+  background: #393939;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -1606,6 +1609,8 @@ input.wpcf7-submit {
 .widget-area .widget ul li {
   padding-bottom:10px;
   list-style:none;
+  display: inline-block;
+  margin: 0;
   font-size: 16px;
   font-size: 1rem;
   line-height:1.35;
@@ -2064,7 +2069,8 @@ ul.sociallinks li a.itunes {
   font-size:0.875rem;
   list-style:none;
 }
-#site-info {
+
+/*#site-info {
   clear:both;
   padding:60px 0;
   color:#aaa;
@@ -2108,6 +2114,12 @@ ul.sociallinks li a.itunes {
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
           border-radius: 5px;
+}
+*/
+.copyright {
+  background: #e3e3e3;
+  text-align:center;
+  padding: 10px;
 }
 
 /*-----------------------------------------------------------------------------------*/
