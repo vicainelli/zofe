@@ -1,7 +1,12 @@
 $(function () {
   'use strict';
 
-  var widget = SC.Widget(document.querySelector('#soundcloud-player iframe'));
+  var iframe = document.querySelector('#soundcloud-player iframe');
+
+  if (!iframe)
+    return;
+
+  var widget = SC.Widget(iframe);
   var slice = Function.prototype.call.bind(Array.prototype.slice);
   var PATTERN = /#t=(\d):(\d{2}):(\d{2})/;
   var currNearest;
