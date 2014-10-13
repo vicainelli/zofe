@@ -26,7 +26,7 @@ Confira este episódio que foi o primeiro do tipo. E foi emocionante :)
 [0:17:58](#t=0:17:58) [Maujor](https://twitter.com/maujor)<br>
 [0:18:57](#t=0:18:57) [Diego Eis](https://twitter.com/diegoeis)<br>
 [0:19:25](#t=0:19:25) [Tableless](http://tableless.com.br/)<br>
-[0:21:49](#t=0:29:49) [HTML5 Diff](http://www.w3.org/TR/html5-diff/)<br>
+[0:21:49](#t=0:21:49) [HTML5 Diff](http://www.w3.org/TR/html5-diff/)<br>
 [0:24:58](#t=0:24:58) [SVG](http://www.w3.org/Graphics/SVG/)<br>
 [0:26:25](#t=0:26:25) [Can I Use SVG?](http://caniuse.com/#search=svg)<br>
 [0:26:43](#t=0:26:43) [SVG Circus](http://svgcircus.com/)<br>
