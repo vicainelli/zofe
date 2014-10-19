@@ -12,19 +12,27 @@ Instale o [Git](http://git-scm.com/downloads) e o [Ruby](http://www.ruby-lang.or
 
 Uma vez tendo instalado essas dependências, abra o terminal e instale o [Jekyll](http://jekyllrb.com/) através do comando:
 
-	gem install jekyll
+```sh
+$ gem install jekyll
+```
 
 Agora clone o projeto:
 
-	git clone git@github.com:braziljs/zofe.git
+```sh
+$ git clone git@github.com:braziljs/zofe.git
+```
 
 Depois vá para pasta do projeto:
 
-	cd zofe
+```sh
+$ cd zofe
+```
 
 E finalmente rode:
 
-	jekyll serve
+```sh
+jekyll server --watch
+```
 
 Agora você irá ver o site rodando em `localhost:4000` :D
 
@@ -32,7 +40,7 @@ Agora você irá ver o site rodando em `localhost:4000` :D
 
 A estrutura básica do projeto se dá na seguinte forma:
 
-<pre>
+```
 .
 ├── README.md
 ├── _config.yml
@@ -49,7 +57,7 @@ A estrutura básica do projeto se dá na seguinte forma:
 ├── promocoes
 ├── robots.txt
 └── sobre
-</pre>
+```
 
 ### [_config.yml](https://github.com/braziljs/zofe/blob/master/_config.yml)
 
