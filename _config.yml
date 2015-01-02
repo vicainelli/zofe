@@ -7,3 +7,17 @@ excerpt_separator: ""
 title: "Zone Of Front-Enders - ZOFE"
 exclude: ['episodios', 'README.md', 'package.json', 'Gruntfile.js', 'node_modules', 'Gemfile*']
 cover-image: "../assets/img/covers/cover-image.jpg"
+
+members:
+  - name: Almir Filho
+    url: https://twitter.com/almirfilho
+    image: http://www.gravatar.com/avatar/92c3db0f88b5ea3722addf91a1ab11cd?s=300
+  - name: Caio Gondim
+    url: https://twitter.com/caio_gondim
+    image: http://www.gravatar.com/avatar/212b8b6589f7e98dae14e6517101f427?s=300
+  - name: Daniel Filho
+    url: https://twitter.com/danielfilho
+    image: http://www.gravatar.com/avatar/3f2ebf61315d43cae59e727dab091620?s=300
+  - name: Rafael Rinaldi
+    url: https://twitter.com/rafaelrinaldi
+    image: http://www.gravatar.com/avatar/ffc5102ee85d0d7ec57200fa3e6b1fce?s=300
