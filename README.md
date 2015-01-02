@@ -1,4 +1,4 @@
-# Zone Of Front-Enders
+# Zone Of Front-Enders ![Build Status](https://api.travis-ci.org/zofepod/zofe.svg)
 
 Podcast apresentado por [Daniel Filho](http://github.com/danielfilho) & [Zeno Rocha](http://github.com/zenorocha).
 
