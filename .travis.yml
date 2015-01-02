@@ -8,3 +8,5 @@ before_script:
   - npm install
 script:
   - grunt build
+notifications:
+  slack: codehood:CnVdeb7uhKqSj7hq22ncgXKD
