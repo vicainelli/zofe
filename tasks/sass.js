@@ -1,5 +1,6 @@
 module.exports = function(grunt){
   grunt.config('sass', {
+
     dist: {
       options: {
         style: 'compressed'
@@ -8,6 +9,7 @@ module.exports = function(grunt){
         'assets/css/main.css': 'assets/sass/main.sass'
       }
     },
+
     dev: {
       options: {
         style: 'expanded'
@@ -16,5 +18,6 @@ module.exports = function(grunt){
         'assets/css/main.css': 'assets/sass/main.sass'
       }
     }
+
   });
 };

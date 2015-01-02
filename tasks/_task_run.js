@@ -1,5 +1,3 @@
 module.exports = function(grunt){
-  grunt.registerTask('run', [
-    'shell:jekyll_serve'
-  ]);
+  grunt.registerTask('run', ['concurrent:dev']);
 };
