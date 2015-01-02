@@ -1,0 +1,22 @@
+<section class="about">
+
+  <h3 class="about-title">Sobre</h3>
+
+  <p class="about-description">
+  Podcast com enfoque no desenvolvimento front-end da web. Sempre trazendo
+  novidades, entrevistas, eventos e multiplicando conhecimento. Este podcast é
+  apresentado por Daniel Filho e Zeno Rocha.
+  </p>
+
+  <ul class="members">
+    {% for member in site.members %}
+    <li class="member">
+      <a class="member-link" href="{{ member.url }}">
+        <img class="member-image" src="{{ member.image }}" alt="{{ member.name }}" />
+        <p class="member-name">{{ member.name }}</p>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+
+</section>
