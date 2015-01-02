@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/zofepod/zofe/issues"
   },
-  "homepage": "https://github.com/zofepod/zofe"
+  "homepage": "https://github.com/zofepod/zofe",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
 }
