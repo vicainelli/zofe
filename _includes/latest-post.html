@@ -8,16 +8,16 @@
 
     <header class="entry-header-image">
       <h2 class="entry-title-image">
-	<a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a>
+  <a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a>
       </h2>
     </header>
 
     <div class="entry-content-image">
       {% if post.excerpt_tag %}
-	{{ post.excerpt_tag | markdownify }}
-	<p><a href="{{ post.url }}" class="more-link">Continue lendo →</a></p>
+  {{ post.excerpt_tag | markdownify }}
+  <p><a href="{{ post.url }}" class="more-link">Continue lendo →</a></p>
       {% else %}
-	{{ post.content }}
+  {{ post.content }}
       {% endif %}
     </div>
   </article>
