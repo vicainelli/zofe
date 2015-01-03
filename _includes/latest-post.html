@@ -1,0 +1,26 @@
+<div class="latest-post">
+
+  {% for post in paginator.posts limit:1 %}
+  <article>
+    <aside class="entry-details">
+      <a href="{{ post.url }}" class="entry-date-image">{{ post.date | date: "%d/%m/%y" }}</a>
+    </aside>
+
+    <header class="entry-header-image">
+      <h2 class="entry-title-image">
+        <a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a>
+      </h2>
+    </header>
+
+    <div class="entry-content-image">
+      {% if post.excerpt_tag %}
+        {{ post.excerpt_tag | markdownify }}
+        <p><a href="{{ post.url }}" class="more-link">Continue lendo →</a></p>
+      {% else %}
+        {{ post.content }}
+      {% endif %}
+    </div>
+  </article>
+  {% endfor %}
+
+</div><!-- end #header -->
