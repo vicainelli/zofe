@@ -4,16 +4,14 @@ layout: default
 
 {% for post in paginator.posts offset:1 %}
 <article>
-
-  <aside class="entry-details">
-    <a href="{{ post.url }}" class="entry-date">{{ post.date | date: "%d/%m/%y" }}</a>
-  </aside>
-
-  <header class="entry-header">
-    <h2 class="entry-title"><a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a></h2>
+  <header class="episode-header">
+    <a href="{{ post.url }}" class="episode-date">{{ post.date | date: "%d/%m/%y" }}</a>
+    <h2>
+      <a href="{{ post.url }}" title="{{ post.title }}" class="episode-title" rel="bookmark">{{ post.title }}</a>
+    </h2>
   </header>
 
-  <div class="entry-content">
+  <div class="episode-content">
     {% if post.excerpt_tag %}
       {{ post.excerpt_tag | markdownify }}
       <p><a href="{{ post.url }}" class="more-link">Continue lendo →</a></p>
@@ -21,20 +19,19 @@ layout: default
       {{ post.content }}
     {% endif %}
   </div>
-
 </article>
 {% endfor %}
 
 <section id="pagination">
   {% if paginator.previous_page %}
-  {% if paginator.previous_page == 1 %}
-  <a class="pagination-prev" href="/">← Recentes</a>
-  {% else %}
-  <a class="pagination-prev" href="/page{{paginator.previous_page}}">← Recentes</a>
-  {% endif %}
+    {% if paginator.previous_page == 1 %}
+      <a class="pagination-prev" href="/">← Recentes</a>
+    {% else %}
+      <a class="pagination-prev" href="/page{{paginator.previous_page}}">← Recentes</a>
+    {% endif %}
   {% endif %}
 
   {% if paginator.next_page %}
-  <a class="pagination-next" href="/page{{paginator.next_page}}">Antigos →</a>
+    <a class="pagination-next" href="/page{{paginator.next_page}}">Antigos →</a>
   {% endif %}
 </section>
