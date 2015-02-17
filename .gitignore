@@ -8,3 +8,6 @@ episodios
 zofe-0-apresentacao-do-zone-of-front-enders
 zofe-1-agora-e-pra-valer
 zofe-2-beijo-no-coracao
+node_modules/
+assets/css/
+.sass-cache/
