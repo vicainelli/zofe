@@ -22,16 +22,16 @@ layout: default
 </article>
 {% endfor %}
 
-<section id="pagination">
+<section class="pagination">
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-      <a class="pagination-prev" href="/">← Recentes</a>
+      <a class="pagination-prev" href="/"><img src="/assets/images/icons/arrow.svg" alt="Episódios mais antigos"></a>
     {% else %}
-      <a class="pagination-prev" href="/page{{paginator.previous_page}}">← Recentes</a>
+      <a class="pagination-prev" href="/page{{paginator.previous_page}}"><img src="/assets/images/icons/arrow.svg" alt="Episódios mais antigos"></a>
     {% endif %}
   {% endif %}
 
   {% if paginator.next_page %}
-    <a class="pagination-next" href="/page{{paginator.next_page}}">Antigos →</a>
+    <a class="pagination-next" href="/page{{paginator.next_page}}"><img src="/assets/images/icons/arrow.svg" alt="Episódios mais recentes"></a>
   {% endif %}
 </section>
