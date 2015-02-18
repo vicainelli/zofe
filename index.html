@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include latest-post.html %}
+
 <div class="episodes">
   {% for post in paginator.posts offset:1 %}
   <article>

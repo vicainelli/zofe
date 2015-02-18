@@ -1,15 +1,6 @@
 $(document).ready( function(){
   var searchFocusTimer;
 
-  // responsive menu function
-  $('#mobile-menu-btn').toggle( function( event ){
-    event.preventDefault();
-    $('#mobile-menu').fadeIn();
-  }, function( event ){
-    event.preventDefault();
-    $('#mobile-menu').fadeOut();
-  });
-
   // search behavior
   $('.buscaBtn').on('mouseenter', function() {
     if (searchFocusTimer) {
@@ -26,12 +17,19 @@ $(document).ready( function(){
   });
 
   // Altera links externos para abrirem em uma nova aba
-  // -- Armazena endereco da pagina
   var domain = document.location.protocol+'//'+document.location.host,
     links = $('.entry-content a').each(function(index,element) {
     if(element.href.substr(0,domain.length) !== domain) {
       element.target = '_blank';
     }
   });
+
+  // pjax navigation config
+  // $(document).pjax(
+  //   'a[data-pjax]',
+  //   '[data-pjax-container]', {
+  //     fragment: '[data-pjax-container]'
+  //   }
+  // );
 
 });
