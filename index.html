@@ -2,25 +2,27 @@
 layout: default
 ---
 
-{% for post in paginator.posts offset:1 %}
-<article>
-  <header class="episode-header">
-    <a href="{{ post.url }}" class="episode-date">{{ post.date | date: "%d/%m/%y" }}</a>
-    <h2>
-      <a href="{{ post.url }}" title="{{ post.title }}" class="episode-title" rel="bookmark">{{ post.title }}</a>
-    </h2>
-  </header>
+<div class="episodes">
+  {% for post in paginator.posts offset:1 %}
+  <article>
+    <header class="episode-header">
+      <a href="{{ post.url }}" class="episode-date">{{ post.date | date: "%d/%m/%y" }}</a>
+      <h2>
+        <a href="{{ post.url }}" title="{{ post.title }}" class="episode-title" rel="bookmark">{{ post.title }}</a>
+      </h2>
+    </header>
 
-  <div class="episode-content">
-    {% if post.excerpt_tag %}
-      {{ post.excerpt_tag | markdownify }}
-      <p><a href="{{ post.url }}" class="more-link">Continue lendo <span class="arrow">→</span></a></p>
-    {% else %}
-      {{ post.content }}
-    {% endif %}
-  </div>
-</article>
-{% endfor %}
+    <div class="episode-content">
+      {% if post.excerpt_tag %}
+        {{ post.excerpt_tag | markdownify }}
+        <p><a href="{{ post.url }}" class="more-link">Continue lendo <span class="arrow">→</span></a></p>
+      {% else %}
+        {{ post.content }}
+      {% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div><!-- /#content -->
 
 <section class="pagination">
   {% if paginator.previous_page %}
