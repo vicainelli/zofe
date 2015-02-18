@@ -2,21 +2,25 @@
 layout: default
 ---
 
-<article class="episode container">
-  <header class="episode-header"{% if page.mosaico_g %} style="background-image: url({{ page.mosaico_g }})"{% endif %}>
+<article class="episode u-full-width">
+  <header class="episode-header u-full-width"{% if page.mosaico_g %} style="background-image: url({{ page.mosaico_g }})"{% endif %}>
     <a href="{{ page.url }}" class="latest-post-date">{{ page.date | date: "%d/%m/%y" }}</a>
     <h2 class="episode-title">
       <a href="{{ page.url }}" title="{{ page.title }}" class="latest-post-title" rel="bookmark">{{ page.title }}</a>
     </h2>
   </header>
 
-  <div class="episode-content row">
-    {{ content }}
+  <div class="episode-content container">
+    <div class="row">
+      {{ content }}
 
-    <div id="soundcloud-player">{{ page.soundcloud-player }}</div>
+      <div id="soundcloud-player">{{ page.soundcloud-player }}</div>
+    </div>
   </div>
 
-  <footer class="episode-meta row">
-    {% include disqus.html %}
+  <footer class="episode-meta container">
+    <div class="row">
+      {% include disqus.html %}
+    </div>
   </footer>
 </article>
