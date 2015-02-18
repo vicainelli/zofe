@@ -4,9 +4,9 @@ layout: default
 
 {% include latest-post.html %}
 
-<div class="episodes">
+<div class="episodes container">
   {% for post in paginator.posts offset:1 %}
-  <article>
+  <article class="row">
     <header class="episode-header">
       <a href="{{ post.url }}" class="episode-date">{{ post.date | date: "%d/%m/%y" }}</a>
       <h2>
