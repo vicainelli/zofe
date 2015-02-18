@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="episode">
+<article class="episode container">
   <header class="episode-header"{% if page.mosaico_g %} style="background-image: url({{ page.mosaico_g }})"{% endif %}>
     <a href="{{ page.url }}" class="latest-post-date">{{ page.date | date: "%d/%m/%y" }}</a>
     <h2 class="episode-title">
@@ -10,13 +10,13 @@ layout: default
     </h2>
   </header>
 
-  <div class="episode-content">
+  <div class="episode-content row">
     {{ content }}
 
     <div id="soundcloud-player">{{ page.soundcloud-player }}</div>
   </div>
 
-  <footer class="episode-meta">
+  <footer class="episode-meta row">
     {% include disqus.html %}
   </footer>
 </article>
