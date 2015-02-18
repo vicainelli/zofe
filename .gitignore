@@ -11,3 +11,4 @@ zofe-2-beijo-no-coracao
 node_modules
 .sass-cache
 assets/css
+assets/js/vendor
