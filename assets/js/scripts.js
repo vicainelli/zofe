@@ -23,13 +23,4 @@ $(document).ready( function(){
       element.target = '_blank';
     }
   });
-
-  // pjax navigation config
-  // $(document).pjax(
-  //   'a[data-pjax]',
-  //   '[data-pjax-container]', {
-  //     fragment: '[data-pjax-container]'
-  //   }
-  // );
-
 });
