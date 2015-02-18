@@ -23,3 +23,12 @@ You're supposed to have [Jekyll](http://jekyllrb.com/) installed globally. This 
 
 * [Arrow icon by Mateo Zlatar](http://thenounproject.com/term/arrow/6490/)
 * [Our own fork](https://github.com/zofepod/TimeJump) of [TimeJump](https://github.com/davatron5000/TimeJump) (ours support [SoundCloud](http://soundcloud.com) player)
+* [pjax](https://github.com/defunkt/jquery-pjax)
+
+-----
+
+### License:
+
+* All code made by ZOFE team is MIT.
+* All code used by ZOFE team but not crafted by ZOFE team have it's own license, check that out before using.
+* Posts, page content and all media made by ZOFE team belong to ZOFE team. Ask before doing something with it.
