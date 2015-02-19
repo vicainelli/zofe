@@ -6,6 +6,7 @@ audio: http://feeds.soundcloud.com/stream/162204771-zofepod-17-tcheretche-tchere
 soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/162204771%3Fsecret_token%3Ds-WVmpl&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 tags: episodio, front-end, eventos, noticias, open-source, javascript, miller medeiros
 mosaico: 'http://i.imgur.com/zBSbaok.png'
+mosaico_g: 'http://i.imgur.com/tz58sIA.png'
 duration: '1:21:01'
 durationMeta: T1H21M01S
 layout: post
