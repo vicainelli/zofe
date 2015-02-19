@@ -17,7 +17,7 @@ layout: default
     <div class="episode-content">
       {% if post.excerpt_tag %}
         {{ post.excerpt_tag | markdownify }}
-        <p><a href="{{ post.url }}" class="more-link">Continue lendo <span class="arrow">→</span></a></p>
+        <p><a href="{{ post.url }}" class="more-link">Acessar episódio <span class="arrow">→</span></a></p>
       {% else %}
         {{ post.content }}
       {% endif %}
