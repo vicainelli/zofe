@@ -3,6 +3,7 @@ title: 'ZOFE #7: Necessity Is The Mother Of Invention'
 subtitle: 'Where is the book? The book is on the table. I LOVE BARBECUE!'
 episodeID: 'ep7'
 mosaico: http://i.imgur.com/chJ9Ze2.png
+mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
 audio: http://zofe.com.br/episodios/zofe-07-necessity-is-the-mother-of-invention
 duration: '1:09:49'
 durationMeta: T1H09M49S

@@ -3,6 +3,7 @@ title: 'ZOFE #1: Agora é pra valer!'
 subtitle: 'Agora é pra valer!'
 episodeID: 'ep1'
 mosaico: http://i.imgur.com/HwwDi.png
+mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
 audio: http://zofe.com.br/episodios/zofe-01-agora-e-pra-valer
 duration: '54:15'
 durationMeta: T54M15S

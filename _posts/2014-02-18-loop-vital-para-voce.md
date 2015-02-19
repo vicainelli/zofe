@@ -6,6 +6,7 @@ audio: http://zofe.com.br/episodios/zofe-12-loop-vital-para-voce
 soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155521409%3Fsecret_token%3Ds-82kMk&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
 tags: episodio, front-end, loop infinito, vital
 mosaico: http://i.imgur.com/cZADk5g.png
+mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
 duration: '1:31:35'
 durationMeta: T1H31M35S
 layout: post

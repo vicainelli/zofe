@@ -3,6 +3,7 @@ title: 'ZOFE #0: Apresentação do Zone Of Front-Enders'
 subtitle: 'Apresentação do Zone Of Front-Enders'
 episodeID: 'ep0'
 mosaico: http://i.imgur.com/HwwDi.png
+mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
 audio: http://zofe.com.br/episodios/zofe-0-apresentacao
 duration: '48:21'
 durationMeta: T48M21S

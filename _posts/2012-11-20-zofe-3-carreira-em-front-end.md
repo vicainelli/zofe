@@ -3,6 +3,7 @@ title: 'ZOFE #3: Carreira em Front-End'
 subtitle: 'Respostas para dúvidas sobre a profissão'
 episodeID: 'ep3'
 mosaico: http://i.imgur.com/K5Rrl.png
+mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
 audio: http://zofe.com.br/episodios/zofe-03-carreira-em-front-end
 duration: '1:07:59'
 durationMeta: T1H07M59S
