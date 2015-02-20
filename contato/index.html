@@ -18,31 +18,34 @@ layout: default
   </header>
 
   <form
-    class="contact-form row"
+    id="form1"
+    name="form1"
+    class="contact-form row wufoo topLabel page"
+    enctype="multipart/form-data"
     autocomplete="off"
     method="post"
-    novalidate
+    novalidate=""
     action="https://zofe.wufoo.com/forms/z7x3p9/#public"
   >
     <ul class="contact-form-fields-list">
       <li>
         <label class="twelve columns" for="contact-form-name-field">Nome</label>
         <input
-          id="contact-form-name-field"
-          name="name"
+          id="Field1"
+          name="Field1"
           type="text"
           class="contact-form-name-field twelve columns"
           value=""
           maxlength="255"
           tabindex="1"
-          required
+          required=""
         />
       </li>
       <li>
         <label class="twelve columns" for="contact-form-email-field">E-mail</label>
         <input
-          id="contact-form-email-field"
-          name="email"
+          id="Field3"
+          name="Field3"
           type="email"
           spellcheck="false"
           class="contact-form-email-field twelve columns"
@@ -54,21 +57,24 @@ layout: default
       </li>
       <li>
         <label class="twelve columns" for="contact-form-message-input">Mensagem</label>
-        <textarea id="Field6"
-          name="message"
+        <textarea
+          id="Field6"
+          name="Field6"
           class="contact-form-message-field twelve columns"
           spellcheck="true"
           rows="10"
           cols="50"
           tabindex="3"
-          required
+          required=""
         ></textarea>
       </li>
       <li class="contact-form-buttons row">
         <input
+          id="saveForm"
+          name="saveForm"
           class=""
-          type="submit"
           value="Enviar"
+          type="submit"
         />
         <a
           class="u-pull-right"
