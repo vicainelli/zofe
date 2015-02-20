@@ -1,0 +1,38 @@
+{
+  "name": "zofe",
+  "version": "2.0.0",
+  "description": "Zone Of Front-Enders, a podcast about web development, front-end and stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zofepod/zofe.git"
+  },
+  "keywords": [
+    "podcast",
+    "site",
+    "front-end",
+    "zone",
+    "of",
+    "front-enders",
+    "web",
+    "talks",
+    "dev"
+  ],
+  "author": "Daniel Filho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zofepod/zofe/issues"
+  },
+  "homepage": "https://github.com/zofepod/zofe",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-shell": "^1.1.1",
+    "load-grunt-tasks": "^2.0.0"
+  }
+}

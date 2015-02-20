@@ -1,0 +1,25 @@
+.main-menu
+  display: inline-block
+  float: right
+  margin: 40px 0 0 0
+
+  li
+    display: inline-block
+    text-transform: uppercase
+    margin: 0 0 0 1em
+
+    a
+      padding: 0 0 5px 0
+      color: $menu-font-color
+      font-weight: bold
+      border-bottom: 3px solid transparent
+      transition: border .2s ease-in-out
+
+      &:hover,
+      &.active
+        border-bottom: 3px solid $zofe-yellow
+
+
+@media (max-width: 425px)
+  .main-menu
+    float: none

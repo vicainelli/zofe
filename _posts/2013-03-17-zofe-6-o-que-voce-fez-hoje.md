@@ -3,6 +3,7 @@ title: 'ZOFE #6: O que você fez hoje?'
 subtitle: 'Como foi o dia de Daniel Filho, Zeno Rocha e o seu. É sério.'
 episodeID: 'ep6'
 mosaico: http://i.imgur.com/2eU6yo6.png
+mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
 audio: http://zofe.com.br/episodios/zofe-06-o-que-voce-fez-hoje
 duration: '1:11:53'
 durationMeta: T1H11M53S

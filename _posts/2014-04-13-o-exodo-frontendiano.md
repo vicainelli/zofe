@@ -6,6 +6,7 @@ audio: http://zofe.com.br/episodios/zofe-13-o-exodo-frontendiano
 soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155521873%3Fsecret_token%3Ds-ZeUFb&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
 tags: episodio, front-end, eduardo shiota, shiota, booking
 mosaico: http://i.imgur.com/j0cLYVD.png
+mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
 duration: '0:57:16'
 durationMeta: T0H57M16S
 layout: post

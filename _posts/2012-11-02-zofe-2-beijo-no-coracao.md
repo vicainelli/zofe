@@ -3,6 +3,7 @@ title: 'ZOFE #2: Beijo no Coração'
 subtitle: 'Beijo no Coração'
 episodeID: 'ep2'
 mosaico: http://i.imgur.com/ZSyFi.png
+mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
 audio: http://zofe.com.br/episodios/zofe-02-beijo-no-coracao
 duration: '56:52'
 durationMeta: T56M52S

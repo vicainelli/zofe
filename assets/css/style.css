@@ -36,6 +36,11 @@ body {
   margin:0 auto;
 }
 
+.container {
+  max-width:980px;
+  margin:0 auto;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*  Headlines
 /*-----------------------------------------------------------------------------------*/
@@ -180,9 +185,12 @@ input.wpcf7-submit:hover,
 /* ---  Special Background Color (Special Widgets, Main Nav, Autor Info)  --- */
 #site-nav-wrap,
 .widget-area .widget_meola_sociallinks,
-.widget-area .widget_meola_about,
 .single-post .author-info {
-  background:#F0DB4F;
+  background:#FFF;
+}
+
+.widget-area .widget_meola_about {
+  background: #393939;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -232,6 +240,11 @@ dl dd {
 /*-----------------------------------------------------------------------------------*/
 /*  Header
 /*-----------------------------------------------------------------------------------*/
+.logo {
+  float: left;
+  padding: 20px 0;
+}
+
 #branding {
   display:block;
   padding:40px 20px;
@@ -300,6 +313,8 @@ dl dd {
   overflow:hidden;
   background:#f6f6f6;
   text-align:center;
+  float: right !important;
+  padding: 35px 0;
 }
 #site-nav ul ul {
   padding:0;
@@ -344,6 +359,15 @@ dl dd {
   margin: 0 auto 60px;
 }
 
+/* --- Header-image episode cover --- */
+#header-image {
+  background: url(../img/covers/cover-image.jpg) repeat-x;
+  background-size: 134%;
+  border-top: 8px solid #f0dc3f;
+  padding: 15px 0;
+}
+
+
 /*-----------------------------------------------------------------------------------*/
 /*  Posts
 /*-----------------------------------------------------------------------------------*/
@@ -359,6 +383,7 @@ dl dd {
 }
 
 .entry-content,
+.entry-content-image,
 .entry-summary {
   max-width:100%;
   margin:0 auto;
@@ -395,8 +420,12 @@ dl dd {
   line-height: 1;
   text-transform:uppercase;
 }
+.entry-details a.entry-date-image {
+  color: white;
+}
 /* --- Post Header --- */
-.entry-header {
+.entry-header,
+.entry-header-image {
   max-width:100%;
   margin:0 auto;
   padding:0 20px 25px;
@@ -513,6 +542,7 @@ dl dd {
 /*  Typography
 /*-----------------------------------------------------------------------------------*/
 .entry-content p,
+.entry-content-image p,
 .entry-summary p {
   margin: 0 0 30px;
   line-height:1.6;
@@ -520,7 +550,8 @@ dl dd {
    -moz-hyphens: auto;
    hyphens: auto;
 }
-.entry-content p.intro {
+.entry-content p.intro,
+.entry-content-image p.intro {
   font-size:19px;
   font-size:1.1875rem;
   line-height:1.3;
@@ -529,6 +560,7 @@ p.justify {
   text-align:justify;
 }
 .entry-content p:last-child,
+.entry-content-image p:last-child,
 .entry-summary p:last-child {
   margin: 0;
 }
@@ -1577,6 +1609,8 @@ input.wpcf7-submit {
 .widget-area .widget ul li {
   padding-bottom:10px;
   list-style:none;
+  display: inline-block;
+  margin: 0;
   font-size: 16px;
   font-size: 1rem;
   line-height:1.35;
@@ -2006,6 +2040,19 @@ ul.sociallinks li a.itunes {
 }
 
 /*-----------------------------------------------------------------------------------*/
+/*  Sobre
+/*-----------------------------------------------------------------------------------*/
+#sobre {
+  background:#393939;
+  height: 300px;
+}
+
+#sobre .container h3 {
+  text-align: center;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
 /*  Footer
 /*-----------------------------------------------------------------------------------*/
 #footer {
@@ -2022,7 +2069,8 @@ ul.sociallinks li a.itunes {
   font-size:0.875rem;
   list-style:none;
 }
-#site-info {
+
+/*#site-info {
   clear:both;
   padding:60px 0;
   color:#aaa;
@@ -2066,6 +2114,12 @@ ul.sociallinks li a.itunes {
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
           border-radius: 5px;
+}
+*/
+.copyright {
+  background: #e3e3e3;
+  text-align:center;
+  padding: 10px;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -2669,6 +2723,7 @@ img.wp-post-image {
 .entry-summary,
 .entry-details,
 .entry-header,
+.entry-header-image,
 .entry-meta,
 .author-description,
 #comments,
@@ -2743,11 +2798,18 @@ h6 {
   padding:0 0 60px;
 }
 .entry-header h1.entry-title,
-.entry-header h2.entry-title {
+.entry-header h2.entry-title,
+.entry-header-image h2 {
   font-size:48px;
   font-size:3rem;
   line-height:1.2em;
   padding:0 40px;
+}
+.entry-header-image h2.entry-title-image{
+  margin: 0.2em 0 0.6em;
+}
+.entry-title-image a{
+  color: white;
 }
 .entry-content,
 .entry-summary {
@@ -2996,9 +3058,11 @@ body {
 
 .page-header,
 .entry-content,
+.entry-content-image,
 .entry-summary,
 .entry-details,
 .entry-header,
+.entry-header-image,
 .entry-meta,
 .author-description,
 #comments,
@@ -3014,7 +3078,8 @@ body {
 .format-quote .entry-content,
 .format-gallery .entry-content,
 .fullwidth .entry-header,
-.fullwidth .entry-content {
+.fullwidth .entry-content,
+.fullwidth .entry-content-image {
   padding-left:60px;
   padding-right:60px;
 }

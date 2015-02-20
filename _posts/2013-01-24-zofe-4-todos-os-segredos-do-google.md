@@ -3,6 +3,7 @@ title: 'ZOFE #4: Todos Os Segredos do Google!!!1!onze!!'
 subtitle: 'Brincadeira. São só uns três ou quatro..'
 episodeID: 'ep4'
 mosaico: http://i.imgur.com/YOd4ID5.png
+mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
 audio: http://zofe.com.br/episodios/zofe-04-todos-os-segredos-do-google
 duration: '1:27:01'
 durationMeta: T1H27M01S
