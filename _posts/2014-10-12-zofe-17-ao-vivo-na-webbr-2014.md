@@ -3,6 +3,7 @@ title: 'ZOFE #18 - Ao Vivo na web.br'
 subtitle: 'Com Reinaldo Ferraz'
 episodeID: 'ep18'
 audio: 'http://feeds.soundcloud.com/stream/171872428-zofepod-zofe-18-ao-vivo-na-webbr'
+audio_file_length: 39509251
 soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/171872428%3Fsecret_token%3Ds-lwcFc&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 tags: episodio, front-end, eventos, webbr, reinaldo-ferraz
 mosaico: 'http://i.imgur.com/40Aflgb.png'
