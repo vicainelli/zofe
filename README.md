@@ -11,7 +11,7 @@ You're supposed to have [Jekyll](http://jekyllrb.com/) installed globally. This 
 * Clone the repo
 * Install all dependencies by performing on the repo's folder:
   * `npm install`
-  * `bower isntall`
+  * `bower install`
 * Now, `grunt run`
 * Access http://localhost:4000
 * 🚢
