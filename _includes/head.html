@@ -1,5 +1,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:url" content="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:image" content="{% if page.mosaico_g %}{{ page.mosaico_g }}{% else %}http://i.imgur.com/XnpW5Kp.png{% endif %}">
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:locale:alternate" content="en_US" />
+{% if page.date %}<meta property="article:publisher" content="https://facebook.com/zofepod" />
+<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+<meta property="article:author" content="https://facebook.com/zofepod" />{% endif %}
+
 <meta name="msapplication-TileColor" content="#333333">
 <meta name="msapplication-TileImage" content="/assets/images/icons/mstile-144x144.png">
 
