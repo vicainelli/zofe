@@ -1,24 +1,33 @@
 ---
-title: 'ZOFE #21: ZOFuncional'
-subtitle: ''
+title: 'ZOFE #21 - ZOFuncional'
+subtitle: 'O ZOFE é igual o JavaScript: Multiparadigma'
 episodeID: 'ep21'
-audio: ''
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/192038747%3Fsecret_token%3Ds-mwj5H&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
-tags: episodio, front-end, zofe, underscore, babel, es6, npm, semver
-mosaico: ''
-mosaico_g: ''
+audio: 'http://feeds.soundcloud.com/stream/192716887-zofepod-zofe-21-zofuncional'
+audio_file_length: 32261261
+soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/192716887&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+tags: episodio, front-end, zofe, npm, babel, es6, jspm
+mosaico: 'http://i.imgur.com/H45znuF.png'
+mosaico_g: 'http://i.imgur.com/dTY86oF.png'
 duration: '0:33:10'
-durationMeta: T0H32M39S
+durationMeta: T0H33M10S
 layout: post
 ---
 
 {% excerpt %}
-
+O ZOFE é igual o JavaScript: Multiparadigma. 6to5 que virou Babel, Risadas, ES6, Pacotes no front-end com NPM (que gostamos. Inclusive temos amigos que são!)
 {% endexcerpt %}
 
-## Episódio 21
+Nesse episódio, [Daniel Filho](https://twitter.com/danielfilho), [Caio Gondim](https://twitter.com/caio_gondim) e [Rafael Rinaldi](https://twitter.com/rafaelrinaldi) (que tem problemas em instalar jQuery com NPM hoje. Mas amanhã, não!)
 
-<img title="Capa do Episódio 20 - Dois Ponto Zero" src="http://i.imgur.com/z4hY97Y.jpg" class="mosaico" alt="Mosaico - Episódio 20 - Episódio 20 - Dois Ponto Zero" width="600" height="600">
+### Agradecimento especial
+
+Um abraço gigante para o [Philip Sampaio](https://github.com/philss) e [Nilton Cesar](https://github.com/niltoncms) que estão dando uma força com o código do ZOFE, resolvendo [alguns](https://github.com/zofepod/zofe/pull/72) [problemas](https://github.com/zofepod/zofe/pull/74) com a padronização de nosso feed, pra atender melhor mais apps de podcast.
+
+### E você?
+
+Participe! Comente ali em baixo, ajude o ZOFE agitando com a gente. Digam o que estão achando dessa nova fase e tudo mais.
+
+<img title="Capa do Episódio 21 - ZOFuncional" src="http://i.imgur.com/H45znuF.png" class="mosaico" alt="Mosaico - Episódio 21 - ZOFuncional" width="600" height="600">
 
 [0:02:25](#t=0:02:25) [Babel](https://babeljs.io)<br>
 [0:03:50](#t=0:03:50) [Guillermo Rauch – EcmaScript 6](http://rauchg.com/2015/ecmascript-6)<br>
