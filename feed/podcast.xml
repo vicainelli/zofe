@@ -2,7 +2,7 @@
 layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
 
     <title>Zone Of Front-Enders - Podcast</title>
@@ -32,6 +32,12 @@ layout: null
       <itunes:author>Zone of Front-Enders</itunes:author>
       <itunes:subtitle>{{ post.subtitle | strip_html }}</itunes:subtitle>
       <itunes:summary>{{ post.excerpt | strip_html }}</itunes:summary>
+      <description>
+        <![CDATA[ {{ post.excerpt | strip_html }} ]]>
+      </description>
+      <content:encoded>
+        <![CDATA[ {{ post.excerpt }} ]]>
+      </content:encoded>
       <itunes:image href="{{ post.mosaico }}" />
       <enclosure url="{{ post.audio }}.m4a" length="{{ post.audio_file_length }}" type="audio/x-m4a" />
       <guid>{{ post.audio }}.m4a</guid>

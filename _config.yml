@@ -2,7 +2,7 @@ paginate:  5
 permalink: /posts/:title/
 url:       http://zofe.com.br
 markdown:  Kramdown
-excerpt_separator: ""
+excerpt_separator: someNonsenseString
 
 title: "Zone Of Front-Enders - ZOFE"
 exclude: [
