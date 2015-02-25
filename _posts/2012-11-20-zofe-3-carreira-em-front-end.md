@@ -5,6 +5,7 @@ episodeID: 'ep3'
 mosaico: http://i.imgur.com/K5Rrl.png
 mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
 audio: http://zofe.com.br/episodios/zofe-03-carreira-em-front-end
+audio_file_length: 32638769
 duration: '1:07:59'
 durationMeta: T1H07M59S
 soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155517497%3Fsecret_token%3Ds-3DZIw&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
