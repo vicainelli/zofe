@@ -81,30 +81,44 @@ describe('getTime', function() {
   });
 });
 
-describe('getNearest',function () {
-  var getNearest = utils.getNearest;
+describe('getNearestSmaller',function () {
+  var getNearestSmaller = utils.getNearestSmaller;
 
   it('be defined',function () {
-    assert(!!getNearest);
+    assert(!!getNearestSmaller);
   });
-
-  it('return the same point if only one',function () {
-    var actual = getNearest([5], 10);
+  
+  it('return the first if there is no floor',function () {
+    var actual = getNearestSmaller([5], 4);
     var expected = 5;
 
     assert.equal(actual, expected);
   });
 
-  it('return the max if nearer to the max',function () {
-    var actual = getNearest([1, 13], 10);
-    var expected = 13;
+  it('return the unique point if it is lower',function () {
+    var actual = getNearestSmaller([5], 10);
+    var expected = 5;
 
     assert.equal(actual, expected);
   });
 
-  it('return the min if nearer to the min',function () {
-    var actual = getNearest([1, 13], 3);
+  it('return first if the number is in a range',function () {
+    var actual = getNearestSmaller([1, 12], 10);
     var expected = 1;
+
+    assert.equal(actual, expected);
+  });
+
+  it('return the last if the number is after the range',function () {
+    var actual = getNearestSmaller([1, 12], 15);
+    var expected = 12;
+
+    assert.equal(actual, expected);
+  });
+
+  it('return the value if it is equal',function () {
+    var actual = getNearestSmaller([7], 7);
+    var expected = 7;
 
     assert.equal(actual, expected);
   });
