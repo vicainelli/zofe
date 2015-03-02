@@ -8,5 +8,10 @@ before_script:
   - npm install
 script:
   - grunt build
+after_success:
+  - bash deploy/script.bash
+  - openssl aes-256-cbc -K $encrypted_64ebfcd72846_key -iv $encrypted_64ebfcd72846_iv -in deploy/notification.bash.enc -out deploy/notification.bash -d
+  - bash deploy/notification.bash
 notifications:
-  slack: codehood:CnVdeb7uhKqSj7hq22ncgXKD
+  slack:
+    - secure: "lgIokb+6DIhsWC1cMWflbuDSRhVKHRYY3B4q2IgFKestlnwYnvbJsnQuU0wEKHFscjxD6fIZpMooxKPhqz3M8GFA6qIBizsD4p0H7kjSg+gvHWmxkn11IVdjxEyqJZOjeSDNK+5l/Jg8eBr0nZm6umlciO0apkZcE23javc1uBM="
