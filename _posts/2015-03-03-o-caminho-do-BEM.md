@@ -21,6 +21,7 @@ Nesse episódio, [Daniel Filho](https://twitter.com/danielfilho), [Caio Gondim](
 
 <img title="Capa do Episódio 22 - O Caminho do BEM" src="http://i.imgur.com/BVVHWYu.png" class="mosaico" alt="Mosaico - Episódio 22 - O Caminho do BEM" width="600" height="600">
 
+[0:00:50](#t=0:00:50) Pular intro<br>
 [0:02:10](#t=0:02:10) [@fnando](https://twitter.com/fnando)<br>
 [0:02:17](#t=0:02:17) [@philss](https://twitter.com/philss)<br>
 [0:02:35](#t=0:02:35) [Digital Ocean: AJUDE O ZOFE!](https://www.digitalocean.com/?refcode=d33f8db85bf3)<br>
