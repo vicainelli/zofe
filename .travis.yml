@@ -4,6 +4,7 @@ node_js:
 install:
   - travis_retry gem install --no-document jekyll
   - travis_retry npm install -g grunt-cli
+  - travis_retry npm install -g bower
 before_script:
   - npm install
   - bower install
