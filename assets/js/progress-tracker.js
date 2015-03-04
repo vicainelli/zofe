@@ -1,10 +1,9 @@
 (function () {
   'use strict';
-  
+
   /**
    * Metodos Auxiliares
    */
-  
 
   var utils = {
     /**
@@ -31,23 +30,23 @@
     },
 
     /**
-     * Encontra, em um array de numeros, o elemento que é menor e ao mesmo tempo
-     * mais próximo de um número fornecido.
+     * Encontra, em um array de numeros, o numero
+     * mais proximo de um dado.
      * @param  {array} where onde procurar
      * @param  {number} num   numero que setta a
      *                        proximidade
      * @return {number}       o numero mais
      *                        proximo daquele passado
      */
-    getNearestSmaller: function (where, num) {
+    getNearest: function (where, num) {
       var c = where[0];
 
       for (var i = 0, N = where.length; i < N; i++)
-        if (Math.abs(num - where[i]) < Math.abs(num - c) && num - where[i] >= 0)
+        if (Math.abs(num - where[i]) < Math.abs(num - c))
           c = where[i];
 
       return c;
-    },
+    }
   };
 
   // para que possamos testar com o Mocha
@@ -83,7 +82,7 @@
     }, {});
 
     // setta o mais proximo como o primeiro
-    currNearest = utils.getNearestSmaller(timeMap, 0);
+    currNearest = utils.getNearest(timeMap, 0);
 
     widget.bind(SC.Widget.Events.READY, function () {
       widget.bind(SC.Widget.Events.PLAY_PROGRESS, highlightTime);
@@ -96,7 +95,7 @@
      */
     function highlightTime (ev) {
       var time = (ev.currentPosition / 1000) | 0;
-      var nearest = utils.getNearestSmaller(Object.keys(timeMap), time);
+      var nearest = utils.getNearest(Object.keys(timeMap), time);
 
       if (currNearest !== nearest) {
         for (var i in timeMap) {
