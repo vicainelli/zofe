@@ -22,13 +22,12 @@
 .episode-title
   display: block
   margin-top: 20px
-  font-size: 1.2em
+  font-size: 1em
   font-weight: normal
   text-decoration: none
   color: $main-font-color
 
 .episode-content
-  margin-top: 20px
   font-size: 22px
   line-height: 1.7em
   color: $main-font-color
@@ -62,3 +61,12 @@
 
   .arrow
     float: right
+
+@media (max-width: 550px)
+  .episode-title
+    font-size: 0.9em
+
+  .episode-content
+    font-size: 16px
+    color: lighten($main-font-color, 30%)
+    text-align: center
