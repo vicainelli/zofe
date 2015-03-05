@@ -3,11 +3,17 @@ set -ex
 
 branch=$TRAVIS_BRANCH
 
+if [[ "$TRAVIS_PULL_REQUEST" != "false" ]]; then
+  echo "=> Skipping deploy for pull request."
+  exit 0
+fi
+
 if [[ "$branch" = "master" ]]; then
   root_dir="/var/www/zofe.com.br/html"
 elif [[ "$branch" = "staging" ]]; then
   root_dir="/var/www/staging.zofe.com.br/html"
 else
+  echo "=> Skipping deploy for $branch branch"
   exit 0
 fi
 
