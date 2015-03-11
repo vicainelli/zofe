@@ -6,7 +6,7 @@ Former co-host: [Zeno Rocha](https://github.com/zenorocha)
 
 ## Building
 
-You're supposed to have [Jekyll](http://jekyllrb.com/) installed globally. This will be fixed soon.
+You're supposed to have [Jekyll](http://jekyllrb.com/), [Bower](http://bower.io/) and [Grunt](http://gruntjs.com/) installed globally. This will be fixed soon.
 
 * Clone the repo
 * Install all dependencies by performing on the repo's folder:
