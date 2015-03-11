@@ -1,6 +1,6 @@
 # Zone Of Front-Enders ![Build Status](https://api.travis-ci.org/zofepod/zofe.svg)
 
-Podcast created and hosted by [Daniel Filho](http://github.com/danielfilho); co-hosted by [Almir Filho](https://github.com/almirfilho), [Caio Gondim](https://github.com/caiogondim) e [Rafael Rinaldi](https://github.com/rafaelrinaldi/).
+Podcast created and hosted by [Daniel Filho](http://github.com/danielfilho); co-hosted by [Almir Filho](https://github.com/almirfilho), [Bruno Passos](https://github.com/bpassos), [Caio Gondim](https://github.com/caiogondim) e [Rafael Rinaldi](https://github.com/rafaelrinaldi/).
 
 Former co-host: [Zeno Rocha](https://github.com/zenorocha)
 

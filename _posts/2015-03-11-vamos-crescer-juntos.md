@@ -1,0 +1,50 @@
+---
+title: 'ZOFE #23 - Vamos Crescer Juntos'
+subtitle: 'Vamos ajudar o @leonardokzw ;)'
+episodeID: 'ep23'
+audio: 'http://feeds.soundcloud.com/stream/195293580-zofepod-zofe-23-vamos-crescer-juntos'
+audio_file_length: 43430102
+soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/195293580&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+tags: episodio, front-end, leonardokzw
+mosaico: 'http://i.imgur.com/VIn6EUj.png'
+mosaico_g: 'http://i.imgur.com/nPLgQGd.png'
+duration: '0:44:41'
+durationMeta: T0H44M41S
+layout: post
+---
+
+{% excerpt %}
+Neste episódio apresentamos MAIS um *ZOFER*: o [Bruno Passos](https://twitter.com/brunopassos). No final do episódio demos mais detalhes de como foi *refatorar* o ZOFE e antes, falamos com o [Leo](http://leokz.com/campanha/) e porque o ZOFE precisa da sua ajuda. Ouça, entenda e ajude ;)
+{% endexcerpt %}
+
+Nesse episódio, [Daniel Filho](https://twitter.com/danielfilho), [Bruno Passos](https://twitter.com/brunopassos), [Rafael Rinaldi](https://twitter.com/rafaelrinaldi) e [Almir Filho](https://twitter.com/almirfilho) chegam pra falar de algo sério e pedir sua ajuda.
+
+Um querido colega da comunidade, [Leonardo Konarzewski](https://twitter.com/leonardokzw), está enfrentando uma dificuldade. E nós temos certeza que você, que sempre foi um ótimo ouvinte, irá ajudar.
+
+Saiba mais sobre o caso em: [http://leokz.com/campanha/](http://leokz.com/campanha/)
+
+<img title="Capa do Episódio 23 - Vamos Crescer Juntos" src="http://i.imgur.com/VIn6EUj.png" class="mosaico" alt="Mosaico - Episódio 23 - Vamos Crescer Juntos" width="600" height="600">
+
+[0:00:50](#t=0:00:50) Pular intro<br>
+[0:02:20](#t=0:02:20) [Bruno Passos](https://twitter.com/brunopassos)<br>
+[0:04:50](#t=0:04:50) [Leonardo Konarzewski](http://leokz.com/)<br>
+[0:06:00](#t=0:06:00) [AJUDE o Leo!](http://leokz.com/campanha/)<br>
+[0:07:00](#t=0:07:00) [Tem conta no PayPal? AJUDE!](http://leokz.com/campanha/)<br>
+[0:08:00](#t=0:08:00) [Tem conta no PagSeguro? AJUDE!](http://leokz.com/campanha/)<br>
+[0:09:00](#t=0:09:00) [Tem conta no Itaú? AJUDE!](http://leokz.com/campanha/)<br>
+[0:11:00](#t=0:11:00) [Tem conta no Banrisul? AJUDE!](http://leokz.com/campanha/)<br>
+[0:21:52](#t=0:21:52) Mais sobre a refatoracao do ZOFE<br>
+[0:25:57](#t=0:25:57) [Bootstrap](http://getbootstrap.com/)<br>
+[0:29:30](#t=0:29:30) [Pull Request da refatoração do ZOFE](https://github.com/zofepod/zofe/pull/66)<br>
+[0:29:54](#t=0:29:54) [Plataformatec](http://plataformatec.com.br)<br>
+[0:32:13](#t=0:32:13) [Travis-CI](http://travis-ci.org/)<br>
+[0:32:54](#t=0:32:54) [grunt-concurrent](https://www.npmjs.com/package/grunt-concurrent)<br>
+[0:32:59](#t=0:32:59) [grunt-newer](https://www.npmjs.com/package/grunt-newer)<br>
+[0:37:12](#t=0:37:12) [AJUDE o Leo!](http://leokz.com/campanha/)<br>
+[0:39:30](#t=0:39:30) [Diego Eis <3](http://zofe.com.br/posts/zofe-19-seja-voce-mesmo-bundao/)<br>
+[0:40:00](#t=0:40:00) [AJUDE o Leo, Diegão! ;)](http://leokz.com/campanha/)<br>
+
+## Siga o ZOFE
+
+[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
+[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
