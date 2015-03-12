@@ -18,7 +18,7 @@ $(document).ready( function(){
 
   // Altera links externos para abrirem em uma nova aba
   var domain = document.location.protocol+'//'+document.location.host,
-    links = $('.entry-content a').each(function(index,element) {
+    links = $('.main-content a').each(function(index,element) {
     if(element.href.substr(0,domain.length) !== domain) {
       element.target = '_blank';
     }
