@@ -12,7 +12,9 @@ You're supposed to have [Jekyll](http://jekyllrb.com/) installed globally. This 
 * Install all dependencies by performing on the repo's folder:
   * `npm install`
   * `bower install`
-* Now, `grunt run`
+* Now
+  * `grunt build`
+  * `grunt run`
 * Access http://localhost:4000
 * 🚢
 
