@@ -28,6 +28,24 @@ Ouçam, comentem e opinem!
 <img title="Capa do Episódio 26 - Google UK" src="http://i.imgur.com/m0b2GiM.jpg" class="mosaico" alt="Mosaico - Episódio 25 - Google UK" width="600" height="600">
 
 [0:00:50](#t=0:00:50) Pular intro<br>
+[0:01:39](#t=0:01:39) Início da Entrevista<br>
+[0:02:25](#t=0:02:25) [Paul Lewis](https://twitter.com/aerotwist/)<br>
+[0:02:47](#t=0:02:47) [Addy Osmani](https://twitter.com/addyosmani/)<br>
+[0:03:22](#t=0:03:22) [Jake Archibald](https://twitter.com/jaffathecake/)<br>
+[0:04:33](#t=0:04:33) [Polymer e Web Components](https://www.polymer-project.org/)<br>
+[0:18:14](#t=0:18:14) [Progressive Enhancement Is Still Important](http://jakearchibald.com/2013/progressive-enhancement-still-important/)<br>
+[0:19:57](#t=0:19:57) [ZOFE #7: Necessity Is The Mother Of Invention](http://zofe.com.br/posts/necessity-is-the-mother-of-invention/)<br>
+[0:20:54](#t=0:20:54) [Shady DOM](https://www.polymer-project.org/0.8/docs/devguide/local-dom.html)<br>
+[0:22:55](#t=0:22:55) [WHATWG Mailing List](https://whatwg.org/mailing-list)<br>
+[0:31:20](#t=0:31:20) [SVGOMG](http://jakearchibald.github.io/svgomg/)<br>
+[0:33:22](#t=0:33:22) [Ben Vinegar](https://twitter.com/bentlegen)<br>
+[0:33:25](#t=0:33:25) [Seamless iFrames: The Future, Today!](https://www.youtube.com/watch?v=gQCm8VYn93Y) <sup>atenção: este vídeo é bem antigo :)</sup><br>
+[0:33:33](#t=0:33:33) [Third-Party JavaScript](http://www.amazon.com/Third-Party-JavaScript-Ben-Vinegar/dp/1617290548/ref=sr_1_1?ie=UTF8&qid=1429870979&sr=8-1)<br>
+[0:26:25](#t=0:26:25) [Streaming JS on V8](http://blog.chromium.org/2015/03/new-javascript-techniques-for-rapid.html)<br>
+[0:30:19](#t=0:30:19) [The Air Horner](https://theairhorner.appspot.com/)<br>
+[0:30:35](#t=0:30:35) [Paul Kinlan](https://twitter.com/paul_kinlan)<br>
+
+
 
 ## Siga o ZOFE
 
