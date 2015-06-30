@@ -21,7 +21,7 @@ Conversamos bastante sobre gráficos, web workers e as tendências pra esse ano 
 
 Este segundo episódio ficou maior que o esperado. Será bem atípico, mas esperamos que vocês gostem!
 
-<img title="Capa do Episódio 27 - Google UK" src="http://i.imgur.com/m0b2GiM.jpg" class="mosaico" alt="Mosaico - Episódio 25 - Google UK" width="600" height="600">
+<img title="Capa do Episódio 27 - Google UK" src="http://i.imgur.com/m0b2GiM.jpg" class="mosaico" alt="Mosaico - Episódio 27 - Google UK" width="600" height="600">
 
 [0:00:50](#t=0:00:50) Pular intro<br>
 [0:01:11](#t=0:01:11) Início da entrevista<br>
