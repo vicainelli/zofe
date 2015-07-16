@@ -3,9 +3,6 @@
   "version": "2.0.0",
   "description": "Zone Of Front-Enders, a podcast about web development, front-end and stuff",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/zofepod/zofe.git"
