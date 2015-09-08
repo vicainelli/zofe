@@ -29,22 +29,22 @@ Além das notícias no início e os eventos no final do episódio.
 
 ### Bate-Papo
 
-[0:00:14](#t=0:0:14) [Zeno doente](https://twitter.com/zenorocha/status/390120821257039872)<br>
-[0:03:21](#t=0:3:21) [Caneca](https://twitter.com/renatodeluna/status/415915101481619456) e [camiseta](https://twitter.com/danielfilho/status/402946071753547776) do ZOFE<br>
-[0:04:47](#t=0:4:47) [Pesquisa Tableless](http://tableless.com.br/survey/)<br>
-[0:06:40](#t=0:6:40) Notícias<br>
-[0:06:48](#t=0:6:48) [Performance and Custom Elements](http://www.stevesouders.com/blog/2013/11/26/performance-and-custom-elements/) e [Async and HTML Imports](http://www.stevesouders.com/blog/2013/11/16/async-ads-with-html-imports/)<br>
-[0:08:09](#t=0:8:09) [Performance Calendar](http://calendar.perfplanet.com/2013/)<br>
-[0:09:07](#t=0:9:07) [CSS Media Queries nível 4](http://loopinfinito.com.br/2013/11/26/media-queries-nivel-4/)<br>
-[0:13:37](#t=0:13:37) [Scale NPM](http://scalenpm.org)<br>
-[0:16:36](#t=0:16:36) [Hipster Hacker](http://twitter.com/hipsterhacker)<br>
-[0:18:41](#t=0:18:41) [KrakenJS](https://github.com/paypal/kraken-js)<br>
-[0:19:36](#t=0:19:36) [Groupon migra para NodeJS](https://engineering.groupon.com/2013/node-js/geekon-i-tier/)<br>
-[0:21:14](#t=0:21:14) Palestras<br>
-[0:50:03](#t=0:50:03) Perguntas<br>
-[1:04:24](#t=1:04:24) Desabafo do Daniel Filho<br>
-[1:12:10](#t=1:12:10) [Don't Tell Me What To Do](https://medium.com/i-m-h-o/974fbfe7900)<br>
-[1:18:16](#t=1:18:16) Eventos<br>
+[0:00:14](#t=0:0:14){: .timer} [Zeno doente](https://twitter.com/zenorocha/status/390120821257039872)<br>
+[0:03:21](#t=0:3:21){: .timer} [Caneca](https://twitter.com/renatodeluna/status/415915101481619456) e [camiseta](https://twitter.com/danielfilho/status/402946071753547776) do ZOFE<br>
+[0:04:47](#t=0:4:47){: .timer} [Pesquisa Tableless](http://tableless.com.br/survey/)<br>
+[0:06:40](#t=0:6:40){: .timer} Notícias<br>
+[0:06:48](#t=0:6:48){: .timer} [Performance and Custom Elements](http://www.stevesouders.com/blog/2013/11/26/performance-and-custom-elements/) e [Async and HTML Imports](http://www.stevesouders.com/blog/2013/11/16/async-ads-with-html-imports/)<br>
+[0:08:09](#t=0:8:09){: .timer} [Performance Calendar](http://calendar.perfplanet.com/2013/)<br>
+[0:09:07](#t=0:9:07){: .timer} [CSS Media Queries nível 4](http://loopinfinito.com.br/2013/11/26/media-queries-nivel-4/)<br>
+[0:13:37](#t=0:13:37){: .timer} [Scale NPM](http://scalenpm.org)<br>
+[0:16:36](#t=0:16:36){: .timer} [Hipster Hacker](http://twitter.com/hipsterhacker)<br>
+[0:18:41](#t=0:18:41){: .timer} [KrakenJS](https://github.com/paypal/kraken-js)<br>
+[0:19:36](#t=0:19:36){: .timer} [Groupon migra para NodeJS](https://engineering.groupon.com/2013/node-js/geekon-i-tier/)<br>
+[0:21:14](#t=0:21:14){: .timer} Palestras<br>
+[0:50:03](#t=0:50:03){: .timer} Perguntas<br>
+[1:04:24](#t=1:04:24){: .timer} Desabafo do Daniel Filho<br>
+[1:12:10](#t=1:12:10){: .timer} [Don't Tell Me What To Do](https://medium.com/i-m-h-o/974fbfe7900)<br>
+[1:18:16](#t=1:18:16){: .timer} Eventos<br>
 
 
 ## Siga o ZOFE

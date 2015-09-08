@@ -25,19 +25,19 @@ Estamos numa correria, este foi o episódio que mais levou tempo pra se gravar (
 
 ### Bate-papo
 
-[5:15](#t=0:5:15) Entrevista com [Jonathan Neal](http://twitter.com/jon_neal)<br>
-[10:54](#t=0:10:54) [viewsource.in](http://viewsource.in)<br>
-[17:34](#t=0:17:34) [normalize.css](http://necolas.github.io/normalize.css/)<br>
-[27:02](#t=0:27:02) [HTML5 Boilerplate](http://h5bp.com/)<br>
-[30:16](#t=0:30:16) [Dive Into HTML5](http://diveintohtml5.info/)<br>
-[39:53](#t=0:39:53) [polyfill.io](http://polyfill.io/) / [GitHub](https://github.com/jonathantneal/polyfill) <br>
-[44:21](#t=0:44:21) IRC - [Freenode Server](https://www.freenode.net/)<br>
-[48:18](#t=0:48:18) A Message for brazilian developers<br>
+[5:15](#t=0:5:15){: .timer} Entrevista com [Jonathan Neal](http://twitter.com/jon_neal)<br>
+[10:54](#t=0:10:54){: .timer} [viewsource.in](http://viewsource.in)<br>
+[17:34](#t=0:17:34){: .timer} [normalize.css](http://necolas.github.io/normalize.css/)<br>
+[27:02](#t=0:27:02){: .timer} [HTML5 Boilerplate](http://h5bp.com/)<br>
+[30:16](#t=0:30:16){: .timer} [Dive Into HTML5](http://diveintohtml5.info/)<br>
+[39:53](#t=0:39:53){: .timer} [polyfill.io](http://polyfill.io/) / [GitHub](https://github.com/jonathantneal/polyfill) <br>
+[44:21](#t=0:44:21){: .timer} IRC - [Freenode Server](https://www.freenode.net/)<br>
+[48:18](#t=0:48:18){: .timer} A Message for brazilian developers<br>
 
 ### Eventos
-[51:00](#t=51:00) Eventos <br>
-[1:00:58](#t=1:0:58) [Google Chrome Apps Hackathon](https://plus.google.com/events/cobmr4esq1ua8ss7phv5040b14c) <br>
-[1:04:12](#t=1:4:12) [Front In Rio](http://frontinrio.com.br/) <br>
+[51:00](#t=51:00) {: .timer}Eventos <br>
+[1:00:58](#t=1:0:58){: .timer} [Google Chrome Apps Hackathon](https://plus.google.com/events/cobmr4esq1ua8ss7phv5040b14c) <br>
+[1:04:12](#t=1:4:12){: .timer} [Front In Rio](http://frontinrio.com.br/) <br>
 
 ## Siga o ZOFE
 

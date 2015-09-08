@@ -25,23 +25,23 @@ Agora bora ouvir o podcast?
 
 <img title="Capa do Episódio 24 - A Muriçoca Gigante" src="http://i.imgur.com/1uiTK0z.png" class="mosaico" alt="Mosaico - Episódio 24 - A Muriçoca Gigante" width="600" height="600">
 
-[0:00:50](#t=0:00:50) Pular intro<br>
-[0:02:15](#t=0:02:15) [Leo KZ](http://leokz.com/campanha/)<br>
-[0:04:00](#t=0:04:00) [Front-end United](http://frontendunited.io/leokzw/)<br>
-[0:08:48](#t=0:08:48) [Animation Timeline in Chrome DevTools](https://www.youtube.com/watch?v=U9xfYbKxosI)<br>
-[0:11:02](#t=0:11:02) [EmberConf 2015](https://www.youtube.com/playlist?list=PLE7tQUdRKcyacwiUPs0CjPYt6tJub4xXU#emberconf)<br>
-[0:11:36](#t=0:11:36) [Glimmer](https://github.com/emberjs/ember.js/pull/10501)<br>
-[0:12:40](#t=0:12:40) [Caret](https://github.com/thomaswilburn/Caret)<br>
-[0:13:12](#t=0:13:12) [Vim.js](https://github.com/coolwanglu/vim.js)<br>
-[0:15:26](#t=0:15:26) [VIMIUM](https://vimium.github.io/)<br>
-[0:16:08](#t=0:16:08) [Motion sensing using the doppler effect](http://danielrapp.github.io/doppler/)<br>
-[0:18:30](#t=0:18:30) [Recreating the spectrogram face](http://danielrapp.github.io/spectroface/)<br>
-[0:19:25](#t=0:19:25) [Mr. Doob](http://mrdoob.com)<br>
-[0:19:29](#t=0:19:29) [Aaron Koblin](http://www.aaronkoblin.com)<br>
-[0:19:36](#t=0:19:36) [Airbnb em site mobile vs. responsivo](http://responsivewebdesign.com/podcast/airbnb.html)<br>
-[0:20:56](#t=0:20:56) [NodeGit](http://www.nodegit.org/)<br>
-[0:22:38](#t=0:22:38) [js-git (por Tim Caswell)](https://github.com/creationix/js-git)<br>
-[0:22:47](#t=0:22:47) [JavaScript Jabber com Tim Caswell](http://devchat.tv/js-jabber/101-jsj-js-git-with-tim-caswell)<br>
+[0:00:50](#t=0:00:50){: .timer} Pular intro<br>
+[0:02:15](#t=0:02:15){: .timer} [Leo KZ](http://leokz.com/campanha/)<br>
+[0:04:00](#t=0:04:00){: .timer} [Front-end United](http://frontendunited.io/leokzw/)<br>
+[0:08:48](#t=0:08:48){: .timer} [Animation Timeline in Chrome DevTools](https://www.youtube.com/watch?v=U9xfYbKxosI)<br>
+[0:11:02](#t=0:11:02){: .timer} [EmberConf 2015](https://www.youtube.com/playlist?list=PLE7tQUdRKcyacwiUPs0CjPYt6tJub4xXU#emberconf)<br>
+[0:11:36](#t=0:11:36){: .timer} [Glimmer](https://github.com/emberjs/ember.js/pull/10501)<br>
+[0:12:40](#t=0:12:40){: .timer} [Caret](https://github.com/thomaswilburn/Caret)<br>
+[0:13:12](#t=0:13:12){: .timer} [Vim.js](https://github.com/coolwanglu/vim.js)<br>
+[0:15:26](#t=0:15:26){: .timer} [VIMIUM](https://vimium.github.io/)<br>
+[0:16:08](#t=0:16:08){: .timer} [Motion sensing using the doppler effect](http://danielrapp.github.io/doppler/)<br>
+[0:18:30](#t=0:18:30){: .timer} [Recreating the spectrogram face](http://danielrapp.github.io/spectroface/)<br>
+[0:19:25](#t=0:19:25){: .timer} [Mr. Doob](http://mrdoob.com)<br>
+[0:19:29](#t=0:19:29){: .timer} [Aaron Koblin](http://www.aaronkoblin.com)<br>
+[0:19:36](#t=0:19:36){: .timer} [Airbnb em site mobile vs. responsivo](http://responsivewebdesign.com/podcast/airbnb.html)<br>
+[0:20:56](#t=0:20:56){: .timer} [NodeGit](http://www.nodegit.org/)<br>
+[0:22:38](#t=0:22:38){: .timer} [js-git (por Tim Caswell)](https://github.com/creationix/js-git)<br>
+[0:22:47](#t=0:22:47){: .timer} [JavaScript Jabber com Tim Caswell](http://devchat.tv/js-jabber/101-jsj-js-git-with-tim-caswell)<br>
 
 ## Siga o ZOFE
 

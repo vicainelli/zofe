@@ -25,22 +25,22 @@ Recomendamos que baixem a versão AAC e ouçam em seu iPod, iPhone ou iTunes. O 
 
 ## Notícias
 
-[0:2:02](#t=0:2:02) [The Future Of Web Gaming](http://www.youtube.com/watch?v=Voz0-5Ynpyo "The Future Of Web Gaming")<br>
-[0:3:35](#t=0:3:35) [WebPlatform.org](http://webplatform.org "Web Platform")<br>
-[0:4:28](#t=0:4:28) [NodeCopter](http://nodecopter.com "NodeCopter JS")<br>
-[0:7:47](#t=0:7:47) [Scripted](https://github.com/scripted-editor/scripted "VMWare's Scripted")
+[0:2:02](#t=0:2:02){: .timer} [The Future Of Web Gaming](http://www.youtube.com/watch?v=Voz0-5Ynpyo "The Future Of Web Gaming")<br>
+[0:3:35](#t=0:3:35){: .timer} [WebPlatform.org](http://webplatform.org "Web Platform")<br>
+[0:4:28](#t=0:4:28){: .timer} [NodeCopter](http://nodecopter.com "NodeCopter JS")<br>
+[0:7:47](#t=0:7:47){: .timer} [Scripted](https://github.com/scripted-editor/scripted "VMWare's Scripted")
 
 ## Entrevista
 
-[0:11:16](#t=0:11:16) Início da entrevista com [Mike Taylor](http://miketaylr.com)<br>
+[0:11:16](#t=0:11:16){: .timer} Início da entrevista com [Mike Taylor](http://miketaylr.com)<br>
 { os links da conversa serão postados em breve }
 
 ## Eventos
 
-[0:48:29](#t=0:48:29) [W3C Web.BR](http://conferenciaweb.w3c.br)<br>
-[0:50:55](#t=0:50:55) [YAPC::2012](http://yapcbrasil.org.br/2012)<br>
-[0:51:24](#t=0:51:24) [BlackBerry Jam Sessions](http://blackberryjamsessions.com)
+[0:48:29](#t=0:48:29){: .timer} [W3C Web.BR](http://conferenciaweb.w3c.br)<br>
+[0:50:55](#t=0:50:55){: .timer} [YAPC::2012](http://yapcbrasil.org.br/2012)<br>
+[0:51:24](#t=0:51:24){: .timer} [BlackBerry Jam Sessions](http://blackberryjamsessions.com)
 
 ## Errata
 
-[0:36:50](#t=0:36:50) MDN não é uma wiki criada por um navegador e sim pela fundação Mozilla na qual tem como principal produto um navegador.
+[0:36:50](#t=0:36:50){: .timer} MDN não é uma wiki criada por um navegador e sim pela fundação Mozilla na qual tem como principal produto um navegador.
