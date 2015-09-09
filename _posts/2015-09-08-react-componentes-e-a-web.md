@@ -2,12 +2,12 @@
 title: 'ZOFE #30 - Componentes, React e a Web'
 subtitle: 'Com o convidado Jean Carlo Emer'
 episodeID: 'ep30'
-audio: ''
-audio_file_length:
-soundcloud-player: ''
+audio: 'http://feeds.soundcloud.com/stream/223126448-zofepod-zofe-30'
+audio_file_length: 39611851
+soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/223126448&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 tags: episodio, front-end, javascript, react, componentes
-mosaico: 'http://i.imgur.com/AbrOFjy.png'
-mosaico_g: 'http://i.imgur.com/0PUDC7E.png'
+mosaico: 'http://i.imgur.com/sDF5eCC.png'
+mosaico_g: 'http://i.imgur.com/obDkdB5.png'
 duration: '0:40:44'
 durationMeta: T0H40M44S
 layout: post
@@ -20,7 +20,7 @@ O [Jean Carlo Emer](http://twitter.com/jcemer) topou bater um papo com a gente s
 
 Prepare-se para um episódio denso e direto ao ponto. Muitos links interessantes e material pra estudo!
 
-[0:00:00](#t=0:00:00){: .timer} Pular intro<br>
+[0:00:17](#t=0:00:17){: .timer} Pular intro<br>
 [0:01:47](#t=0:01:47){: .timer} [Jean Carlo Emer](http://jcemer.com)<br>
 [0:02:30](#t=0:02:30){: .timer} [Slides Pedro Nauck](https://speakerdeck.com/pedronauck/reactjs-keep-simple-everything-can-be-a-component)<br>
 [0:04:45](#t=0:04:45){: .timer} [UML](https://en.wikipedia.org/wiki/Component_%28UML%29)<br>
