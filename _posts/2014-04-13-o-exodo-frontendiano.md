@@ -26,37 +26,37 @@ Também contamos com uma nova abertura que entendedores entenderão :D
 
 ### Bate-Papo
 
-[0:03:40](#t=0:3:40) Como tudo começou<br>
-[0:06:23](#t=0:6:23) Design vs. programação e a harmonia entre cada um<br>
-[0:08:45](#t=0:8:45) [Jared Spool](https://twitter.com/jmspool)<br>
-[0:15:53](#t=0:15:53) Quais os motivos pra sair do Brasil?<br>
-[0:19:04](#t=0:19:04) Sobre o êxodo (ou: [trabalhe na booking](https://workingatbooking.com/))<br>
-[0:23:49](#t=0:23:49) [ZOFE Trampos](http://zofe.com.br/trampos/2014-01-24-zofe-trampos/)<br>
-[0:24:21](#t=0:24:21) [Mauricio Wolff](http://mauriciowolff.com/)<br>
-[0:24:44](#t=0:24:44) [Bruno Passos](http://brunopassos.co.uk/)<br>
-[0:24:53](#t=0:24:53) [Ricardo Tomasi](http://ricardo.cc/)<br>
-[0:24:00](#t=0:24:00) [Gabriel Oliveira](http://www.linkedin.com/in/gabrielso)<br>
-[0:25:45](#t=0:25:45) Tecnologias que despertam curiosidade<br>
-[0:26:36](#t=0:26:36) [Web Audio Band](https://github.com/eshiota/webaudio_band)<br>
-[0:26:38](#t=0:26:38) [retro-audio-js](https://github.com/eshiota/retro-audio-js)<br>
-[0:29:39](#t=0:29:39) Bibliotecas e Frameworks de uso<br>
-[0:30:11](#t=0:30:11) [Middleman](http://middlemanapp.com/)<br>
-[0:30:14](#t=0:30:14) [Jekyll](http://jekyllrb.com)<br>
-[0:30:20](#t=0:30:20) [GruntJS](http://gruntjs.com/)<br>
-[0:30:28](#t=0:30:28) [Asset Pipeline](http://guides.rubyonrails.org/asset_pipeline.html)<br>
-[0:30:40](#t=0:30:40) [Bower](http://bower.io)<br>
-[0:31:26](#t=0:31:26) [Douglas Crockford](http://www.crockford.com/)<br>
-[0:31:48](#t=0:31:48) [module](https://github.com/fnando/module)<br>
-[0:32:20](#t=0:32:20) Pontos altos da carreira<br>
-[0:33:28](#t=0:33:28) [Harry Roberts](https://twitter.com/csswizardry)<br>
-[0:34:52](#t=0:34:52) Desafios do trabalho com e-commerces<br>
-[0:38:00](#t=0:38:00) [A/B testing](http://en.wikipedia.org/wiki/A/B_testing)<br>
-[0:39:34](#t=0:39:34) [optimizely.com](https://www.optimizely.com/) / [Obama's Case Study](http://blog.optimizely.com/2010/11/29/how-obama-raised-60-million-by-running-a-simple-experiment/)<br>
-[0:41:56](#t=0:41:56) HiPPO - Highest Paid Person's Opinion<br>
-[0:43:13](#t=0:43:13) Quais dificuldades são entrentadas no dia-a-dia de uma empresa do porte da Booking.com?<br>
-[0:47:43](#t=0:47:43) Qual o perfíl do pessoal e como é o trabalho na Booking?<br>
-[0:52:17](#t=0:52:17) [How To Code](http://howtocode.com.br/)<br>
-[0:55:23](#t=0:55:23) Considerações finais<br>
+[0:03:40](#t=0:3:40){: .timer} Como tudo começou<br>
+[0:06:23](#t=0:6:23){: .timer} Design vs. programação e a harmonia entre cada um<br>
+[0:08:45](#t=0:8:45){: .timer} [Jared Spool](https://twitter.com/jmspool)<br>
+[0:15:53](#t=0:15:53){: .timer} Quais os motivos pra sair do Brasil?<br>
+[0:19:04](#t=0:19:04){: .timer} Sobre o êxodo (ou: [trabalhe na booking](https://workingatbooking.com/))<br>
+[0:23:49](#t=0:23:49){: .timer} [ZOFE Trampos](http://zofe.com.br/trampos/2014-01-24-zofe-trampos/)<br>
+[0:24:21](#t=0:24:21){: .timer} [Mauricio Wolff](http://mauriciowolff.com/)<br>
+[0:24:44](#t=0:24:44){: .timer} [Bruno Passos](http://brunopassos.co.uk/)<br>
+[0:24:53](#t=0:24:53){: .timer} [Ricardo Tomasi](http://ricardo.cc/)<br>
+[0:24:00](#t=0:24:00){: .timer} [Gabriel Oliveira](http://www.linkedin.com/in/gabrielso)<br>
+[0:25:45](#t=0:25:45){: .timer} Tecnologias que despertam curiosidade<br>
+[0:26:36](#t=0:26:36){: .timer} [Web Audio Band](https://github.com/eshiota/webaudio_band)<br>
+[0:26:38](#t=0:26:38){: .timer} [retro-audio-js](https://github.com/eshiota/retro-audio-js)<br>
+[0:29:39](#t=0:29:39){: .timer} Bibliotecas e Frameworks de uso<br>
+[0:30:11](#t=0:30:11){: .timer} [Middleman](http://middlemanapp.com/)<br>
+[0:30:14](#t=0:30:14){: .timer} [Jekyll](http://jekyllrb.com)<br>
+[0:30:20](#t=0:30:20){: .timer} [GruntJS](http://gruntjs.com/)<br>
+[0:30:28](#t=0:30:28){: .timer} [Asset Pipeline](http://guides.rubyonrails.org/asset_pipeline.html)<br>
+[0:30:40](#t=0:30:40){: .timer} [Bower](http://bower.io)<br>
+[0:31:26](#t=0:31:26){: .timer} [Douglas Crockford](http://www.crockford.com/)<br>
+[0:31:48](#t=0:31:48){: .timer} [module](https://github.com/fnando/module)<br>
+[0:32:20](#t=0:32:20){: .timer} Pontos altos da carreira<br>
+[0:33:28](#t=0:33:28){: .timer} [Harry Roberts](https://twitter.com/csswizardry)<br>
+[0:34:52](#t=0:34:52){: .timer} Desafios do trabalho com e-commerces<br>
+[0:38:00](#t=0:38:00){: .timer} [A/B testing](http://en.wikipedia.org/wiki/A/B_testing)<br>
+[0:39:34](#t=0:39:34){: .timer} [optimizely.com](https://www.optimizely.com/) / [Obama's Case Study](http://blog.optimizely.com/2010/11/29/how-obama-raised-60-million-by-running-a-simple-experiment/)<br>
+[0:41:56](#t=0:41:56){: .timer} HiPPO - Highest Paid Person's Opinion<br>
+[0:43:13](#t=0:43:13){: .timer} Quais dificuldades são entrentadas no dia-a-dia de uma empresa do porte da Booking.com?<br>
+[0:47:43](#t=0:47:43){: .timer} Qual o perfíl do pessoal e como é o trabalho na Booking?<br>
+[0:52:17](#t=0:52:17){: .timer} [How To Code](http://howtocode.com.br/)<br>
+[0:55:23](#t=0:55:23){: .timer} Considerações finais<br>
 
 
 

@@ -25,33 +25,33 @@ Agora você pode deixar seus comentários no post do episódio (no caso deste, n
 
 ## Notícias
 
-[1:42](#t=0:1:42) Novo sistema por trás do [zofe.com.br](http://zofe.com.br)<br>
-[4:14](#t=0:4:14) [Push API Working Draft](http://www.w3.org/TR/2012/WD-push-api-20121018/)<br>
-[5:05](#t=0:5:05) [Clipboard APIs](http://www.w3.org/TR/clipboard-apis/)<br>
-[6:22](#t=0:6:22) [CSS Module Collision Level 3 - Unnoficial Draft](http://lists.w3.org/Archives/Public/www-archive/2012Oct/att-0120/Overview.html)<br>
-[6:52](#t=0:6:52) [WebRTC na versão Stable do Chrome](https://plus.google.com/113817074606039822053/posts/8sfcXcTAbwD)<br>
-[7:40](#t=0:7:40) [xRTML Contest](http://contest.xrtml.org/)<br>
-[10:24](#t=0:10:24) [BrazilJS: Eventos](http://braziljs.org/eventos) e [BrazilJS: Projetos](http://braziljs.org/projetos)<br>
+[1:42](#t=0:1:42){: .timer} Novo sistema por trás do [zofe.com.br](http://zofe.com.br)<br>
+[4:14](#t=0:4:14){: .timer} [Push API Working Draft](http://www.w3.org/TR/2012/WD-push-api-20121018/)<br>
+[5:05](#t=0:5:05){: .timer} [Clipboard APIs](http://www.w3.org/TR/clipboard-apis/)<br>
+[6:22](#t=0:6:22){: .timer} [CSS Module Collision Level 3 - Unnoficial Draft](http://lists.w3.org/Archives/Public/www-archive/2012Oct/att-0120/Overview.html)<br>
+[6:52](#t=0:6:52){: .timer} [WebRTC na versão Stable do Chrome](https://plus.google.com/113817074606039822053/posts/8sfcXcTAbwD)<br>
+[7:40](#t=0:7:40){: .timer} [xRTML Contest](http://contest.xrtml.org/)<br>
+[10:24](#t=0:10:24){: .timer} [BrazilJS: Eventos](http://braziljs.org/eventos) e [BrazilJS: Projetos](http://braziljs.org/projetos)<br>
 
 ### Bate-papo
 
-[12:38](#t=0:12:38) Carreira Front-End<br>
-[19:24](#t=0:19:24) [Pesquisando sobre Front-end](http://danielfilho.info/blog/pesquisando-sobre-front-end/)<br>
-[21:33](#t=0:21:33) [Bons Front-enders](https://github.com/leobetosouza/bons-front-enders)<br>
-[21:53](#t=0:21:53) [Front-end Developer Interview Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions)<br>
-[35:55](#t=0:35:55) [Estou iniciando em javascript, por onde começo?](http://javascriptbrasil.com/artigos/estou-iniciando-em-javascript-por-onde-comeco)<br>
-[36:10](#t=0:36:10) [Quero aprender ou conhecer melhor JavaScript. Por onde começar?](http://www.luiztiago.com/post/34760239764/quero-aprender-ou-conhecer-melhor-javascript-por-onde)<br>
+[12:38](#t=0:12:38){: .timer} Carreira Front-End<br>
+[19:24](#t=0:19:24){: .timer} [Pesquisando sobre Front-end](http://danielfilho.info/blog/pesquisando-sobre-front-end/)<br>
+[21:33](#t=0:21:33){: .timer} [Bons Front-enders](https://github.com/leobetosouza/bons-front-enders)<br>
+[21:53](#t=0:21:53){: .timer} [Front-end Developer Interview Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions)<br>
+[35:55](#t=0:35:55){: .timer} [Estou iniciando em javascript, por onde começo?](http://javascriptbrasil.com/artigos/estou-iniciando-em-javascript-por-onde-comeco)<br>
+[36:10](#t=0:36:10){: .timer} [Quero aprender ou conhecer melhor JavaScript. Por onde começar?](http://www.luiztiago.com/post/34760239764/quero-aprender-ou-conhecer-melhor-javascript-por-onde)<br>
 
 ### Eventos
 
-[59:41](#t=0:59:41) [Front in Sampa](http://www.frontinsampa.com.br/)<br>
-[1:00:00](#t=1:00:00) [EATI](http://www.cafw.ufsm.br/eati/2012/)<br>
-[1:01:57](#t=1:01:57) [FrontInterior](http://www.frontinterior.com.br)<br>
-[1:04:28](#t=1:04:28) [DevFest](http://devfest.com.br)<br>
+[59:41](#t=0:59:41){: .timer} [Front in Sampa](http://www.frontinsampa.com.br/)<br>
+[1:00:00](#t=1:00:00){: .timer} [EATI](http://www.cafw.ufsm.br/eati/2012/)<br>
+[1:01:57](#t=1:01:57){: .timer} [FrontInterior](http://www.frontinterior.com.br)<br>
+[1:04:28](#t=1:04:28){: .timer} [DevFest](http://devfest.com.br)<br>
 
 
 ## Siga o ZOFE
 
 [Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
 [Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
-[55:11](#t=0:55:11) Zone Of Front-Enders no Google+: &nbsp;URL só ouvindo.
+[55:11](#t=0:55:11){: .timer} Zone Of Front-Enders no Google+: &nbsp;URL só ouvindo.

@@ -22,20 +22,20 @@ Confira este episódio que foi o primeiro do tipo. E foi emocionante :)
 <img title="Capa do Episódio 18 - Ao Vivo na web.br" src="http://i.imgur.com/40Aflgb.png" class="mosaico" alt="Mosaico - Episódio 18 - Ao Vivo na web.br" width="600" height="600">
 
 
-[0:04:00](#t=0:04:00) [Reinaldo Ferraz](https://twitter.com/reinaldoferraz)<br>
-[0:11:17](#t=0:11:17) [Sobrinho Manifesto](https://github.com/braziljs/sobrinho-manifesto)<br>
-[0:15:05](#t=0:15:05) [Banda Brittanica](http://bandabrittanica.com/)<br>
-[0:17:58](#t=0:17:58) [Maujor](https://twitter.com/maujor)<br>
-[0:18:57](#t=0:18:57) [Diego Eis](https://twitter.com/diegoeis)<br>
-[0:19:25](#t=0:19:25) [Tableless](http://tableless.com.br/)<br>
-[0:21:49](#t=0:21:49) [HTML5 Diff](http://www.w3.org/TR/html5-diff/)<br>
-[0:24:58](#t=0:24:58) [SVG](http://www.w3.org/Graphics/SVG/)<br>
-[0:26:25](#t=0:26:25) [Can I Use SVG?](http://caniuse.com/#search=svg)<br>
-[0:26:43](#t=0:26:43) [SVG Circus](http://svgcircus.com/)<br>
-[0:26:58](#t=0:26:58) [Doug Schepers](https://twitter.com/shepazu)<br>
-[0:29:05](#t=0:29:05) [Awesome SVG](https://github.com/willianjusten/awesome-svg)<br>
-[0:30:54](#t=0:30:54) [Navigation Timing 2](http://www.w3.org/TR/navigation-timing-2/)<br>
-[0:32:05](#t=0:32:05) [Timing.JS](https://github.com/addyosmani/timing.js)<br>
+[0:04:00](#t=0:04:00){: .timer} [Reinaldo Ferraz](https://twitter.com/reinaldoferraz)<br>
+[0:11:17](#t=0:11:17){: .timer} [Sobrinho Manifesto](https://github.com/braziljs/sobrinho-manifesto)<br>
+[0:15:05](#t=0:15:05){: .timer} [Banda Brittanica](http://bandabrittanica.com/)<br>
+[0:17:58](#t=0:17:58){: .timer} [Maujor](https://twitter.com/maujor)<br>
+[0:18:57](#t=0:18:57){: .timer} [Diego Eis](https://twitter.com/diegoeis)<br>
+[0:19:25](#t=0:19:25){: .timer} [Tableless](http://tableless.com.br/)<br>
+[0:21:49](#t=0:21:49){: .timer} [HTML5 Diff](http://www.w3.org/TR/html5-diff/)<br>
+[0:24:58](#t=0:24:58){: .timer} [SVG](http://www.w3.org/Graphics/SVG/)<br>
+[0:26:25](#t=0:26:25){: .timer} [Can I Use SVG?](http://caniuse.com/#search=svg)<br>
+[0:26:43](#t=0:26:43){: .timer} [SVG Circus](http://svgcircus.com/)<br>
+[0:26:58](#t=0:26:58){: .timer} [Doug Schepers](https://twitter.com/shepazu)<br>
+[0:29:05](#t=0:29:05){: .timer} [Awesome SVG](https://github.com/willianjusten/awesome-svg)<br>
+[0:30:54](#t=0:30:54){: .timer} [Navigation Timing 2](http://www.w3.org/TR/navigation-timing-2/)<br>
+[0:32:05](#t=0:32:05){: .timer} [Timing.JS](https://github.com/addyosmani/timing.js)<br>
 
 
 ## Siga o ZOFE

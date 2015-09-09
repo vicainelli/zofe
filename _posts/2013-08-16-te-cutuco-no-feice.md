@@ -32,19 +32,19 @@ Comentem dizendo o que acharam :D
 
 
 ### Novidades
-[02:51](#t=0:2:51) [Getting Traction For Your Open Source Project](http://mdswanson.com/blog/2013/07/19/getting-traction-for-your-open-source-project.html)<br>
-[04:27](#t=0:4:27) [Bootstrap 3](http://getbootstrap.com/)<br>
-[05:25](#t=0:5:25) [Bootstrap: 1% da web](http://blog.meanpath.com/twitter-bootstrap-now-powering-1-percent-of-the-web/)<br>
-[10:10](#t=0:10:10) [Stylie](http://jeremyckahn.github.io/stylie/)<br>
-[12:36](#t=0:12:36) [Vídeos da JSConf US](http://www.youtube.com/watch?v=f_9nDBtSInI&list=PL37ZVnwpeshF7AHpbZt33aW0brYJyNftx)<br>
+[02:51](#t=0:2:51){: .timer} [Getting Traction For Your Open Source Project](http://mdswanson.com/blog/2013/07/19/getting-traction-for-your-open-source-project.html)<br>
+[04:27](#t=0:4:27){: .timer} [Bootstrap 3](http://getbootstrap.com/)<br>
+[05:25](#t=0:5:25){: .timer} [Bootstrap: 1% da web](http://blog.meanpath.com/twitter-bootstrap-now-powering-1-percent-of-the-web/)<br>
+[10:10](#t=0:10:10){: .timer} [Stylie](http://jeremyckahn.github.io/stylie/)<br>
+[12:36](#t=0:12:36){: .timer} [Vídeos da JSConf US](http://www.youtube.com/watch?v=f_9nDBtSInI&list=PL37ZVnwpeshF7AHpbZt33aW0brYJyNftx)<br>
 
 
 ### Entrevista
-[15:10](#t=0:15:10) Entrevista com Fábio M. Costa<br>
+[15:10](#t=0:15:10){: .timer} Entrevista com Fábio M. Costa<br>
 
 
 ### Eventos
-[1:18:26](#t=1:18:26) [BrazilJS](http://braziljs.com.br)<br>
+[1:18:26](#t=1:18:26){: .timer} [BrazilJS](http://braziljs.com.br)<br>
 
 
 ## Siga o ZOFE

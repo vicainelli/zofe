@@ -28,35 +28,35 @@ Enfim, ouça e comente. Digam o que acharam de mudarmos pra SoundCloud, das capa
 <img title="Capa do Episódio 16 - Imagina na Copa" src="http://i.imgur.com/WKzll1A.png" class="mosaico" alt="Mosaico - Episódio 16 - Imagina na Copa" width="600" height="600">
 
 
-[0:03:14](#t=0:03:14) [ZOFE no SoundCloud](http://soundcloud.com/zofepod)<br>
-[0:04:52](#t=0:04:52) [TimeJump](https://github.com/zofepod/timejump)<br>
-[0:05:45](#t=0:05:45) [Webdesign Responsivo](http://novatec.com.br/livros/webdesign-responsivo/)<br>
-[0:07:21](#t=0:07:21) [Vagrant Cookbook](https://leanpub.com/vagrantcookbook-ptbr)<br>
-[0:07:45](#t=0:07:45) [Setup da Erika Heidi](http://setup.loopinfinito.com.br/erika-heidi/)<br>
-[0:08:17](#t=0:08:17) [Setup - Loop Infinito](http://setup.loopinfinito.com.br/)<br>
-[0:12:55](#t=0:12:55) [WebIDE](https://hacks.mozilla.org/2014/06/webide-lands-in-nightly/)<br>
-[0:13:58](#t=0:13:58) [Firefox Aurora](https://www.mozilla.org/en-US/firefox/channel/#aurora)<br>
-[0:14:22](#t=0:14:22) [Chrome 36](http://blog.chromium.org/2014/05/chrome-36-beta-elementanimate-html.html)<br>
-[0:17:14](#t=0:17:14) [ES7 Observe](http://www.html5rocks.com/en/tutorials/es7/observe/)<br>
-[0:20:06](#t=0:20:06) [Andy Wingo](https://twitter.com/andywingo)<br>
-[0:20:28](#t=0:20:28) [Breach](http://breach.cc/)<br>
-[0:22:57](#t=0:22:57) [Web Starter Kit](https://developers.google.com/web/starter-kit/)<br>
-[0:23:55](#t=0:23:55) [Google Fundamentals](https://developers.google.com/web/fundamentals/)<br>
-[0:24:40](#t=0:24:40) [Learn Layout](http://pt-br.learnlayout.com/)<br>
-[0:25:40](#t=0:25:40) [BrazilJS Conf](http://braziljs.com.br/)<br>
-[0:27:05](#t=0:27:05) [Bilhar Porto Dez](http://www.bilharportodez.com.br/)<br>
-[0:30:05](#t=0:30:05) irc.freenode.net -- /join #braziljs<br>
-[0:31:10](#t=0:31:10) [ES6 ROCKS!](http://es6rocks.com/)<br>
-[0:33:00](#t=0:33:00) [Harmonic](https://github.com/es6rocks/harmonic/)<br>
-[0:33:52](#t=0:33:52) [Cérebro](http://cerebrobr.github.io/cerebro/)<br>
-[0:37:30](#t=0:37:30) [Roadmap do NPM CLI](http://blog.npmjs.org/post/91303926460/npm-cli-roadmap-a-periodic-update)<br>
-[0:41:50](#t=0:41:50) [Workshops da BrazilJS 2014](http://www.eventick.com.br/workshop-braziljs-2014)<br>
-[0:43:45](#t=0:43:45) [Farewell NodeJS](https://medium.com/code-adventures/farewell-node-js-4ba9e7f3e52b)<br>
-[0:43:45](#t=0:43:45) [Why I'm Staying with Node](https://medium.com/@ded/why-im-staying-with-node-e6fd3be62e34)<br>
-[0:43:45](#t=0:43:45) [Alguém Importante Deixou a Comunidade. E Agora?](http://www.akitaonrails.com/2014/07/06/off-topic-alguem-importante-deixou-a-comunidade-e-agora)<br>
-[0:43:45](#t=0:43:45) [TJ Holowaychuk Está Largando o NodeJS](http://jcemer.com/tj-holowaychuk-esta-largando-node-js.html)<br>
-[0:49:58](#t=0:49:58) [How Did TJ Holowaychuk Learn To Program](http://www.quora.com/TJ-Holowaychuk-1/How-did-TJ-Holowaychuk-learn-to-program)<br>
-[0:50:25](#t=0:50:25) [JSConf Argentina 2012 - Interview for BrazilJS Community](https://www.youtube.com/watch?v=wxDBF3OOaRA)<br>
+[0:03:14](#t=0:03:14){: .timer} [ZOFE no SoundCloud](http://soundcloud.com/zofepod)<br>
+[0:04:52](#t=0:04:52){: .timer} [TimeJump](https://github.com/zofepod/timejump)<br>
+[0:05:45](#t=0:05:45){: .timer} [Webdesign Responsivo](http://novatec.com.br/livros/webdesign-responsivo/)<br>
+[0:07:21](#t=0:07:21){: .timer} [Vagrant Cookbook](https://leanpub.com/vagrantcookbook-ptbr)<br>
+[0:07:45](#t=0:07:45){: .timer} [Setup da Erika Heidi](http://setup.loopinfinito.com.br/erika-heidi/)<br>
+[0:08:17](#t=0:08:17){: .timer} [Setup - Loop Infinito](http://setup.loopinfinito.com.br/)<br>
+[0:12:55](#t=0:12:55){: .timer} [WebIDE](https://hacks.mozilla.org/2014/06/webide-lands-in-nightly/)<br>
+[0:13:58](#t=0:13:58){: .timer} [Firefox Aurora](https://www.mozilla.org/en-US/firefox/channel/#aurora)<br>
+[0:14:22](#t=0:14:22){: .timer} [Chrome 36](http://blog.chromium.org/2014/05/chrome-36-beta-elementanimate-html.html)<br>
+[0:17:14](#t=0:17:14){: .timer} [ES7 Observe](http://www.html5rocks.com/en/tutorials/es7/observe/)<br>
+[0:20:06](#t=0:20:06){: .timer} [Andy Wingo](https://twitter.com/andywingo)<br>
+[0:20:28](#t=0:20:28){: .timer} [Breach](http://breach.cc/)<br>
+[0:22:57](#t=0:22:57){: .timer} [Web Starter Kit](https://developers.google.com/web/starter-kit/)<br>
+[0:23:55](#t=0:23:55){: .timer} [Google Fundamentals](https://developers.google.com/web/fundamentals/)<br>
+[0:24:40](#t=0:24:40){: .timer} [Learn Layout](http://pt-br.learnlayout.com/)<br>
+[0:25:40](#t=0:25:40){: .timer} [BrazilJS Conf](http://braziljs.com.br/)<br>
+[0:27:05](#t=0:27:05){: .timer} [Bilhar Porto Dez](http://www.bilharportodez.com.br/)<br>
+[0:30:05](#t=0:30:05){: .timer} irc.freenode.net -- /join #braziljs<br>
+[0:31:10](#t=0:31:10){: .timer} [ES6 ROCKS!](http://es6rocks.com/)<br>
+[0:33:00](#t=0:33:00){: .timer} [Harmonic](https://github.com/es6rocks/harmonic/)<br>
+[0:33:52](#t=0:33:52){: .timer} [Cérebro](http://cerebrobr.github.io/cerebro/)<br>
+[0:37:30](#t=0:37:30){: .timer} [Roadmap do NPM CLI](http://blog.npmjs.org/post/91303926460/npm-cli-roadmap-a-periodic-update)<br>
+[0:41:50](#t=0:41:50){: .timer} [Workshops da BrazilJS 2014](http://www.eventick.com.br/workshop-braziljs-2014)<br>
+[0:43:45](#t=0:43:45){: .timer} [Farewell NodeJS](https://medium.com/code-adventures/farewell-node-js-4ba9e7f3e52b)<br>
+[0:43:45](#t=0:43:45){: .timer} [Why I'm Staying with Node](https://medium.com/@ded/why-im-staying-with-node-e6fd3be62e34)<br>
+[0:43:45](#t=0:43:45){: .timer} [Alguém Importante Deixou a Comunidade. E Agora?](http://www.akitaonrails.com/2014/07/06/off-topic-alguem-importante-deixou-a-comunidade-e-agora)<br>
+[0:43:45](#t=0:43:45){: .timer} [TJ Holowaychuk Está Largando o NodeJS](http://jcemer.com/tj-holowaychuk-esta-largando-node-js.html)<br>
+[0:49:58](#t=0:49:58){: .timer} [How Did TJ Holowaychuk Learn To Program](http://www.quora.com/TJ-Holowaychuk-1/How-did-TJ-Holowaychuk-learn-to-program)<br>
+[0:50:25](#t=0:50:25){: .timer} [JSConf Argentina 2012 - Interview for BrazilJS Community](https://www.youtube.com/watch?v=wxDBF3OOaRA)<br>
 
 
 ## Siga o ZOFE

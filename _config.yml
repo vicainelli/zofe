@@ -17,9 +17,6 @@ exclude: [
 cover-image: "//i.imgur.com/3wwFY7n.png"
 
 members:
-  - name: Almir Filho
-    url: https://twitter.com/almirfilho
-    image: http://www.gravatar.com/avatar/92c3db0f88b5ea3722addf91a1ab11cd?s=300
   - name: Bruno Passos
     url: https://twitter.com/brunopassos
     image: http://gravatar.com/avatar/0905f523f153bdfbca51d2dfb7c2dd27?s=300

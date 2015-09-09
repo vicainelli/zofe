@@ -25,24 +25,24 @@ Saiba mais sobre o caso em: [http://leokz.com/campanha/](http://leokz.com/campan
 
 <img title="Capa do Episódio 23 - Vamos Crescer Juntos" src="http://i.imgur.com/VIn6EUj.png" class="mosaico" alt="Mosaico - Episódio 23 - Vamos Crescer Juntos" width="600" height="600">
 
-[0:00:50](#t=0:00:50) Pular intro<br>
-[0:02:20](#t=0:02:20) [Bruno Passos](https://twitter.com/brunopassos)<br>
-[0:04:50](#t=0:04:50) [Leonardo Konarzewski](http://leokz.com/)<br>
-[0:06:00](#t=0:06:00) [AJUDE o Leo!](http://leokz.com/campanha/)<br>
-[0:07:00](#t=0:07:00) [Tem conta no PayPal? AJUDE!](http://leokz.com/campanha/)<br>
-[0:08:00](#t=0:08:00) [Tem conta no PagSeguro? AJUDE!](http://leokz.com/campanha/)<br>
-[0:09:00](#t=0:09:00) [Tem conta no Itaú? AJUDE!](http://leokz.com/campanha/)<br>
-[0:11:00](#t=0:11:00) [Tem conta no Banrisul? AJUDE!](http://leokz.com/campanha/)<br>
-[0:21:52](#t=0:21:52) Mais sobre a refatoracao do ZOFE<br>
-[0:25:57](#t=0:25:57) [Bootstrap](http://getbootstrap.com/)<br>
-[0:29:30](#t=0:29:30) [Pull Request da refatoração do ZOFE](https://github.com/zofepod/zofe/pull/66)<br>
-[0:29:54](#t=0:29:54) [Plataformatec](http://plataformatec.com.br)<br>
-[0:32:13](#t=0:32:13) [Travis-CI](http://travis-ci.org/)<br>
-[0:32:54](#t=0:32:54) [grunt-concurrent](https://www.npmjs.com/package/grunt-concurrent)<br>
-[0:32:59](#t=0:32:59) [grunt-newer](https://www.npmjs.com/package/grunt-newer)<br>
-[0:37:12](#t=0:37:12) [AJUDE o Leo!](http://leokz.com/campanha/)<br>
-[0:39:30](#t=0:39:30) [Diego Eis <3](http://zofe.com.br/posts/zofe-19-seja-voce-mesmo-bundao/)<br>
-[0:40:00](#t=0:40:00) [AJUDE o Leo, Diegão! ;)](http://leokz.com/campanha/)<br>
+[0:00:50](#t=0:00:50){: .timer} Pular intro<br>
+[0:02:20](#t=0:02:20){: .timer} [Bruno Passos](https://twitter.com/brunopassos)<br>
+[0:04:50](#t=0:04:50){: .timer} [Leonardo Konarzewski](http://leokz.com/)<br>
+[0:06:00](#t=0:06:00){: .timer} [AJUDE o Leo!](http://leokz.com/campanha/)<br>
+[0:07:00](#t=0:07:00){: .timer} [Tem conta no PayPal? AJUDE!](http://leokz.com/campanha/)<br>
+[0:08:00](#t=0:08:00){: .timer} [Tem conta no PagSeguro? AJUDE!](http://leokz.com/campanha/)<br>
+[0:09:00](#t=0:09:00){: .timer} [Tem conta no Itaú? AJUDE!](http://leokz.com/campanha/)<br>
+[0:11:00](#t=0:11:00){: .timer} [Tem conta no Banrisul? AJUDE!](http://leokz.com/campanha/)<br>
+[0:21:52](#t=0:21:52){: .timer} Mais sobre a refatoracao do ZOFE<br>
+[0:25:57](#t=0:25:57){: .timer} [Bootstrap](http://getbootstrap.com/)<br>
+[0:29:30](#t=0:29:30){: .timer} [Pull Request da refatoração do ZOFE](https://github.com/zofepod/zofe/pull/66)<br>
+[0:29:54](#t=0:29:54){: .timer} [Plataformatec](http://plataformatec.com.br)<br>
+[0:32:13](#t=0:32:13){: .timer} [Travis-CI](http://travis-ci.org/)<br>
+[0:32:54](#t=0:32:54){: .timer} [grunt-concurrent](https://www.npmjs.com/package/grunt-concurrent)<br>
+[0:32:59](#t=0:32:59){: .timer} [grunt-newer](https://www.npmjs.com/package/grunt-newer)<br>
+[0:37:12](#t=0:37:12){: .timer} [AJUDE o Leo!](http://leokz.com/campanha/)<br>
+[0:39:30](#t=0:39:30){: .timer} [Diego Eis <3](http://zofe.com.br/posts/zofe-19-seja-voce-mesmo-bundao/)<br>
+[0:40:00](#t=0:40:00){: .timer} [AJUDE o Leo, Diegão! ;)](http://leokz.com/campanha/)<br>
 
 ## Siga o ZOFE
 

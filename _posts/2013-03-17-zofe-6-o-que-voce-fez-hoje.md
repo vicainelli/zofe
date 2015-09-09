@@ -25,26 +25,26 @@ Seguindo no formato conhecido internamente como "Forever Alones" (mentira, acabe
 
 ### Bate-papo
 
-[02:25](#t=0:2:25) O que você fez hoje, Daniel?<br>
-[03:42](#t=0:3:42) [@lorn & @marcelduran @ twitter by @twisitor](https://twitter.com/twisitor/status/306878539318300672)<br>
-[04:31](#t=0:4:31) [A Biografia do Steve Jobs](http://www.amazon.com.br/Steve-Jobs-ebook/dp/B004W2UBYW/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1363035262&s/r=1-1)<br>
-[05:23](#t=0:5:23) O que você fez hoje, Zeno?<br>
-[08:11](#t=0:8:11) [Cloud9 IDE](http://c9.io/)<br>
-[08:37](#t=0:8:37) [Docpad](http://docpad.org/)<br>
-[11:01](#t=0:11:01) [NetTuts+](http://net.tutsplus.com/)<br>
-[11:16](#t=0:11:16) [Team Collaboration With GitHub](http://net.tutsplus.com/articles/general/team-collaboration-with-github/)<br>
-[11:57](#t=0:11:57) [Trello](http://trello.com/)<br>
-[12:31](#t=0:12:31) [Travis-CI](http://travis-ci.org)<br>
-[12:51](#t=0:12:51) [jQuery-Github](https://github.com/zenorocha/jquery-github)<br>
-[14:55](#t=0:14:55) [GruntJS](http://gruntjs.com/)<br>
-[16:13](#t=0:16:13) [TViG](http://tvig.ig.com.br/)<br>
-[16:57](#t=0:16:57) [Capistrano](http://capistranorb.com/)<br>
-[29:41](#t=0:29:41) [Jekyll](http://jekyllrb.com/)<br>
-[30:46](#t=0:30:46) [Octopress](http://octopress.org/)<br>
-[36:40](#t=0:36:40) [Why are front end developers so high in demand at startups if front end development is relatively easier than other fields of engineering?](https://www.quora.com/Startups/Why-are-front-end-developers-so-high-in-demand-at-startups-if-front-end-development-is-relatively-easier-than-other-fields-of-engineering)<br>
-[42:55](#t=0:42:55) [Discrepância profissional](http://i.imgur.com/aX8LXyu.png)<br>
-[44:59](#t=0:44:59) [Chris Williams: An End to Negativity](http://jsconf.eu/2011/an_end_to_negativity.html)<br>
-[53:39](#t=0:53:39) Sorteio: Bolsa do Twitter<br>
+[02:25](#t=0:2:25){: .timer} O que você fez hoje, Daniel?<br>
+[03:42](#t=0:3:42){: .timer} [@lorn & @marcelduran @ twitter by @twisitor](https://twitter.com/twisitor/status/306878539318300672)<br>
+[04:31](#t=0:4:31){: .timer} [A Biografia do Steve Jobs](http://www.amazon.com.br/Steve-Jobs-ebook/dp/B004W2UBYW/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1363035262&s/r=1-1)<br>
+[05:23](#t=0:5:23){: .timer} O que você fez hoje, Zeno?<br>
+[08:11](#t=0:8:11){: .timer} [Cloud9 IDE](http://c9.io/)<br>
+[08:37](#t=0:8:37){: .timer} [Docpad](http://docpad.org/)<br>
+[11:01](#t=0:11:01){: .timer} [NetTuts+](http://net.tutsplus.com/)<br>
+[11:16](#t=0:11:16){: .timer} [Team Collaboration With GitHub](http://net.tutsplus.com/articles/general/team-collaboration-with-github/)<br>
+[11:57](#t=0:11:57){: .timer} [Trello](http://trello.com/)<br>
+[12:31](#t=0:12:31){: .timer} [Travis-CI](http://travis-ci.org)<br>
+[12:51](#t=0:12:51){: .timer} [jQuery-Github](https://github.com/zenorocha/jquery-github)<br>
+[14:55](#t=0:14:55){: .timer} [GruntJS](http://gruntjs.com/)<br>
+[16:13](#t=0:16:13){: .timer} [TViG](http://tvig.ig.com.br/)<br>
+[16:57](#t=0:16:57){: .timer} [Capistrano](http://capistranorb.com/)<br>
+[29:41](#t=0:29:41){: .timer} [Jekyll](http://jekyllrb.com/)<br>
+[30:46](#t=0:30:46){: .timer} [Octopress](http://octopress.org/)<br>
+[36:40](#t=0:36:40){: .timer} [Why are front end developers so high in demand at startups if front end development is relatively easier than other fields of engineering?](https://www.quora.com/Startups/Why-are-front-end-developers-so-high-in-demand-at-startups-if-front-end-development-is-relatively-easier-than-other-fields-of-engineering)<br>
+[42:55](#t=0:42:55){: .timer} [Discrepância profissional](http://i.imgur.com/aX8LXyu.png)<br>
+[44:59](#t=0:44:59){: .timer} [Chris Williams: An End to Negativity](http://jsconf.eu/2011/an_end_to_negativity.html)<br>
+[53:39](#t=0:53:39){: .timer} Sorteio: Bolsa do Twitter<br>
 
 ## Sorteio: Twitter + ZOFE
 E foi feito o sorteio da promoção e os vencedores são:

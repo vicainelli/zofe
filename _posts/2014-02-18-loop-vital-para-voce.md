@@ -28,39 +28,39 @@ Um grande abraço para o [Vital](https://twitter.com/vitallyma) que se fez sem i
 
 ### Bate-Papo
 
-[0:02:51](#t=0:2:51) [Loop Infinito](http://loopinfinito.com.br)<br>
-[0:03:49](#t=0:3:49) [FEMUG-SP](http://bit.ly/FEMUG-SP)<br>
-[0:03:58](#t=0:3:58) [GulpJS](http://gulpjs.com)<br>
-[0:09:53](#t=0:9:53) [Webkit.JS](https://github.com/trevorlinton/webkit.js)<br>
-[0:10:22](#t=0:10:22) [if IE 10](https://twitter.com/sindresorhus/status/423899098094125056)<br>
-[0:10:46](#t=0:10:46) [NodeOS](http://node-os.com/)<br>
-[0:11:10](#t=0:11:10) [NodeJS Com Novo Mantenedor](http://blog.nodejs.org/2014/01/15/the-next-phase-of-node-js/)<br>
-[0:12:36](#t=0:12:36) [Google Now no Chrome](http://techcrunch.com/2014/01/16/google-now-makes-a-desktop-appearance-in-chrome-canary/)<br>
-[0:13:15](#t=0:13:15) [Indicador de Abas Barulhentas](http://chrome.blogspot.com.br/2013/11/track-down-those-noisy-tabs.html)<br>
-[0:13:53](#t=0:13:53) [FEMUG](https://github.com/braziljs/femug)<br>
-[0:22:28](#t=0:22:28) [sublime-jsrun](https://github.com/sindresorhus/sublime-jsrun)<br>
-[0:23:01](#t=0:23:01) [Setup - Loop Infinito](http://setup.loopinfinito.com.br)<br>
-[0:28:45](#t=0:28:45) [Vagrant](http://vagrantup.com)<br>
-[0:30:26](#t=0:30:26) [Travis-CI + Vagrant](http://about.travis-ci.org/fr/docs/user/ci-environment/)<br>
-[0:30:40](#t=0:30:40) [Docker](https://www.docker.io/)<br>
-[0:33:59](#t=0:33:59) [GShow](http://gshow.globo.com/)<br>
-[0:35:50](#t=0:35:50) [BBB 14](http://gshow.globo.com/bbb/bbb14/)<br>
-[0:41:01](#t=0:41:01) [Loop Infinito: Hello Web](http://loopinfinito.com.br/2012/04/01/hello-web/)<br>
-[0:43:57](#t=0:43:57) [Loop Infinito: Wired In](http://wiredin.loopinfinito.com.br)<br>
-[0:50:57](#t=0:50:57) [Blogs Mozilla](https://hacks.mozilla.org/)<br>
-[0:51:04](#t=0:51:04) [Chrome Blog](http://chrome.blogspot.com.br/)<br>
-[0:51:15](#t=0:51:15) [W3C](http://w3c.org)<br>
-[0:52:20](#t=0:52:20) [@danielfilho webdev list](https://twitter.com/danielfilho/webdev)<br>
-[0:53:12](#t=0:53:12) [Web Ahead](http://5by5.tv/webahead)<br>
-[0:53:20](#t=0:53:20) [ShopTalk](http://shoptalkshow.com)<br>
-[0:53:31](#t=0:53:31) [Grok Podcast](http://www.grokpodcast.com)<br>
-[0:53:44](#t=0:53:44) [This Developer's Live](http://thisdeveloperslife.com/)<br>
-[0:54:06](#t=0:54:06) [JavaScript Jabber](http://javascriptjabber.com/)<br>
-[0:54:16](#t=0:54:16) [NodeUP](http://nodeup.com/)<br>
-[0:54:48](#t=0:54:48) [The Changelog](http://thechangelog.com/)<br>
-[0:55:16](#t=0:55:16) Eventos<br>
-[0:55:10](#t=0:55:10) [Alagoas Dev Day](http://alagoasdevday.com.br)<br>
-[0:55:49](#t=0:55:49) [BrazilJS Conf 2014](http://braziljs.com.br/2014)<br>
+[0:02:51](#t=0:2:51){: .timer} [Loop Infinito](http://loopinfinito.com.br)<br>
+[0:03:49](#t=0:3:49){: .timer} [FEMUG-SP](http://bit.ly/FEMUG-SP)<br>
+[0:03:58](#t=0:3:58){: .timer} [GulpJS](http://gulpjs.com)<br>
+[0:09:53](#t=0:9:53){: .timer} [Webkit.JS](https://github.com/trevorlinton/webkit.js)<br>
+[0:10:22](#t=0:10:22){: .timer} [if IE 10](https://twitter.com/sindresorhus/status/423899098094125056)<br>
+[0:10:46](#t=0:10:46){: .timer} [NodeOS](http://node-os.com/)<br>
+[0:11:10](#t=0:11:10){: .timer} [NodeJS Com Novo Mantenedor](http://blog.nodejs.org/2014/01/15/the-next-phase-of-node-js/)<br>
+[0:12:36](#t=0:12:36){: .timer} [Google Now no Chrome](http://techcrunch.com/2014/01/16/google-now-makes-a-desktop-appearance-in-chrome-canary/)<br>
+[0:13:15](#t=0:13:15){: .timer} [Indicador de Abas Barulhentas](http://chrome.blogspot.com.br/2013/11/track-down-those-noisy-tabs.html)<br>
+[0:13:53](#t=0:13:53){: .timer} [FEMUG](https://github.com/braziljs/femug)<br>
+[0:22:28](#t=0:22:28){: .timer} [sublime-jsrun](https://github.com/sindresorhus/sublime-jsrun)<br>
+[0:23:01](#t=0:23:01){: .timer} [Setup - Loop Infinito](http://setup.loopinfinito.com.br)<br>
+[0:28:45](#t=0:28:45){: .timer} [Vagrant](http://vagrantup.com)<br>
+[0:30:26](#t=0:30:26){: .timer} [Travis-CI + Vagrant](http://about.travis-ci.org/fr/docs/user/ci-environment/)<br>
+[0:30:40](#t=0:30:40){: .timer} [Docker](https://www.docker.io/)<br>
+[0:33:59](#t=0:33:59){: .timer} [GShow](http://gshow.globo.com/)<br>
+[0:35:50](#t=0:35:50){: .timer} [BBB 14](http://gshow.globo.com/bbb/bbb14/)<br>
+[0:41:01](#t=0:41:01){: .timer} [Loop Infinito: Hello Web](http://loopinfinito.com.br/2012/04/01/hello-web/)<br>
+[0:43:57](#t=0:43:57){: .timer} [Loop Infinito: Wired In](http://wiredin.loopinfinito.com.br)<br>
+[0:50:57](#t=0:50:57){: .timer} [Blogs Mozilla](https://hacks.mozilla.org/)<br>
+[0:51:04](#t=0:51:04){: .timer} [Chrome Blog](http://chrome.blogspot.com.br/)<br>
+[0:51:15](#t=0:51:15){: .timer} [W3C](http://w3c.org)<br>
+[0:52:20](#t=0:52:20){: .timer} [@danielfilho webdev list](https://twitter.com/danielfilho/webdev)<br>
+[0:53:12](#t=0:53:12){: .timer} [Web Ahead](http://5by5.tv/webahead)<br>
+[0:53:20](#t=0:53:20){: .timer} [ShopTalk](http://shoptalkshow.com)<br>
+[0:53:31](#t=0:53:31){: .timer} [Grok Podcast](http://www.grokpodcast.com)<br>
+[0:53:44](#t=0:53:44){: .timer} [This Developer's Live](http://thisdeveloperslife.com/)<br>
+[0:54:06](#t=0:54:06){: .timer} [JavaScript Jabber](http://javascriptjabber.com/)<br>
+[0:54:16](#t=0:54:16){: .timer} [NodeUP](http://nodeup.com/)<br>
+[0:54:48](#t=0:54:48){: .timer} [The Changelog](http://thechangelog.com/)<br>
+[0:55:16](#t=0:55:16){: .timer} Eventos<br>
+[0:55:10](#t=0:55:10){: .timer} [Alagoas Dev Day](http://alagoasdevday.com.br)<br>
+[0:55:49](#t=0:55:49){: .timer} [BrazilJS Conf 2014](http://braziljs.com.br/2014)<br>
 
 
 ## Siga o ZOFE
