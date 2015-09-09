@@ -1,6 +1,6 @@
 ---
 title: 'ZOFE #30 - Componentes, React e a Web'
-subtitle: ''
+subtitle: 'Com o convidado Jean Carlo Emer'
 episodeID: 'ep30'
 audio: ''
 audio_file_length:
@@ -8,8 +8,8 @@ soundcloud-player: ''
 tags: episodio, front-end, javascript, react, componentes
 mosaico: 'http://i.imgur.com/AbrOFjy.png'
 mosaico_g: 'http://i.imgur.com/0PUDC7E.png'
-duration: '0:56:00'
-durationMeta: T0H56M00S
+duration: '0:40:44'
+durationMeta: T0H40M44S
 layout: post
 
 ---
@@ -19,7 +19,6 @@ O [Jean Carlo Emer](http://twitter.com/jcemer) topou bater um papo com a gente s
 {% endexcerpt %}
 
 Prepare-se para um episódio denso e direto ao ponto. Muitos links interessantes e material pra estudo!
-
 
 [0:00:00](#t=0:00:00){: .timer} Pular intro<br>
 [0:00:00](#t=0:00:00){: .timer} [Jean Carlo Emer](http://jcemer.com)<br>
