@@ -21,7 +21,7 @@
 
 .episode-title
   display: block
-  padding-bottom: 20px
+  margin-top: 20px
   font-size: 1em
   font-weight: normal
   text-decoration: none
@@ -36,6 +36,26 @@
     border-radius: 3px
     text-decoration: none
     transition: background .2s ease-in-out, color .2s ease-in-out
+
+.more-link-header
+  display: block
+  width: 200px
+  padding: 10px 15px
+  margin: 20px auto
+  font-size: 18px
+  color: $main-font-color
+  background-color: $zofe-yellow
+  text-shadow: none
+  border-radius: 5px
+  border: 2px solid $zofe-dark-yellow
+  transition: background-color 0.2s ease-in-out
+
+  &:hover
+    background-color: $zofe-dark-yellow
+    color: $main-font-color
+
+  .arrow
+    float: right
 
 .more-link
   display: block
@@ -63,4 +83,4 @@
   .episode-content
     font-size: 16px
     color: lighten($main-font-color, 30%)
-    text-align: left
+    text-align: center
