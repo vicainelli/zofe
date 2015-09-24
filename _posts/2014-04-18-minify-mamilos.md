@@ -19,9 +19,6 @@ Seguindo com nosso formato fechado totalmente aberto, resolvemos fazer episódio
 
 Comentem e passem a opinião de vocês, pra sabermos se continuamos assim ;)
 
-<img title="Mosaico - Episódio 14.minify(); - Mamilos" src="http://i.imgur.com/1wFIkwh.png" class="mosaico" alt="Mosaico - Episódio 14.minify(); - Mamilos" width="600" height="600">
-
-
 ### Bate-Papo
 
 [0:04:07](#t=0:04:07){: .timer} Dicas para desenvolvedores open-source<br>

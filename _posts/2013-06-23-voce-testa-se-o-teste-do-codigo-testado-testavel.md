@@ -17,8 +17,6 @@ layout: post
 Um assunto controverso e, em alguns casos, até polêmico: testes. Testar seu código é perder tempo de desenvolvimento? Ganhar qualidade no produto final? Deixar sua aplicação mais legível para terceiros? É necessário? COMOFAS????
 {% endexcerpt %}
 
-<img title="Mosaico - Episódio 8 - Você Testa Se O Teste Do Código Testado é Testável?" src="http://i.imgur.com/yXLfT12.png" class="mosaico" alt="Mosaico - Episódio 8 - Você Testa Se O Teste Do Código Testado é Testável?" width="600" height="600">
-
 Neste episódio vamos falar bastante sobre testes em JavaScript. Bastante mesmo. Tipo MAIS DE UMA HORA.
 
 Neste episódio (que de gravação teve mais de DUAS horas) vamos falar também sobre assuntos como *push notifications*, Blink e a bola esquerda do Daniel.

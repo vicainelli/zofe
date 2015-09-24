@@ -21,9 +21,6 @@ Falaremos de AngularJS, JSConfBR, MEANJS
 
 E QUERO VER RECLAMAR DO VOLUME AGORA!
 
-<img title="Mosaico - Episódio 15.minify('ciro nunes'); - AngularJS" src="http://i.imgur.com/5WZCwMk.png" class="mosaico" alt="Mosaico - Episódio 15.minify('ciro nunes'); - AngularJS" width="600" height="600">
-
-
 ### Bate-Papo
 
 [0:04:07](#t=0:04:07){: .timer} [Camisetas do ZOFE](http://eucompraria.com.br/produto/camiseta-zofe-zone-of-front-enders)<br>

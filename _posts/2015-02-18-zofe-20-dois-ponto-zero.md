@@ -21,8 +21,6 @@ Dois ponto zero. Talvez o episódio mais demorado pra ser lançado foi o mais r�
 
 O episódio tá pronto desde o comecinho de Janeiro, mas decidimos so lançar quando o novo site estivesse pronto. Em meio de viagens, semanas ultra atarefadas e fusos, FINALMENTE o dia chegou.
 
-<img title="Capa do Episódio 20 - Dois Ponto Zero" src="http://i.imgur.com/z4hY97Y.jpg" class="mosaico" alt="Mosaico - Episódio 20 - Episódio 20 - Dois Ponto Zero" width="600" height="600">
-
 [0:02:30](#t=0:02:30) [Daniel Filho](https://twitter.com/danielfilho)<br>
 [0:03:02](#t=0:03:02) [Caio Gondim](https://twitter.com/caio_gondim)<br>
 [0:03:18](#t=0:03:18) [Rafael Rinaldi](https://twitter.com/rafaelrinaldi)<br>

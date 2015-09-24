@@ -24,9 +24,6 @@ Quer saber como começar a palestrar? Ou como começamos? Dicas e até um desaba
 
 Além das notícias no início e os eventos no final do episódio.
 
-<img title="Mosaico - Episódio 11 - Antes Do Que Vem Depois e Vice-Versa" src="http://i.imgur.com/0c6CIcp.png" class="mosaico" alt="Mosaico - Episódio 11 - Antes Do Que Vem Depois e Vice-Versa" width="600" height="600">
-
-
 ### Bate-Papo
 
 [0:00:14](#t=0:0:14){: .timer} [Zeno doente](https://twitter.com/zenorocha/status/390120821257039872)<br>

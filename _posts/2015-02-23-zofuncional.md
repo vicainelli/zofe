@@ -27,8 +27,6 @@ Um abraço gigante para o [Philip Sampaio](https://github.com/philss) e [Nilton 
 
 Participe! Comente ali em baixo, ajude o ZOFE agitando com a gente. Digam o que estão achando dessa nova fase e tudo mais.
 
-<img title="Capa do Episódio 21 - ZOFuncional" src="http://i.imgur.com/H45znuF.png" class="mosaico" alt="Mosaico - Episódio 21 - ZOFuncional" width="600" height="600">
-
 [0:02:25](#t=0:02:25){: .timer} [Babel](https://babeljs.io)<br>
 [0:03:50](#t=0:03:50){: .timer} [Guillermo Rauch – EcmaScript 6](http://rauchg.com/2015/ecmascript-6)<br>
 [0:04:45](#t=0:04:45){: .timer} [Guillermo Rauch - Blog](http://rauchg.com/essays)<br>

@@ -17,8 +17,6 @@ layout: post
 Chegamos no segundo episódio do Zone Of Front-Enders. A entrevista da vez é dupla: Reinaldo Ferraz e Yasodara Córdova. Ambos trabalham como “Developer Relations” no escritório brasileiro do W3C.
 {% endexcerpt %}
 
-<img title="Mosaico - Episódio 2 - Beijo no Coração" src="http://i.imgur.com/ZSyFi.png" class="mosaico" alt="" width="600" height="600">
-
 Recomendamos que baixem a versão AAC e ouçam em seu iPod, iPhone ou iTunes. O conteúdo é mais rico, com links e imagens.
 
 Toda a entrevista foi feita durante a [Conferência Web.BR](http://conferenciaweb.w3c.br), em meio a todos os acontecimentos e apresentações, conseguimos alguns minutos dos anfitriões do evento para a entrevista.

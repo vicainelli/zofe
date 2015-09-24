@@ -19,8 +19,6 @@ No primeiro episódio oficial do Zone Of Front-Enders contamos com um convidado 
 Ele morou no Brasil por alguns anos, hoje trabalha como “Web Opener” na Opera Software e fala português melhor que a gente. Acho que corremos risco, Zeno! :D
 {% endexcerpt %}
 
-<img class="mosaico" title="Mosaico do episódio 1" src="http://i.imgur.com/HwwDi.png" alt="" width="600" height="600" />
-
 Recomendamos que baixem a versão AAC e ouçam em seu iPod, iPhone ou iTunes. O conteúdo é mais rico, com links e imagens.
 
 ## Notícias

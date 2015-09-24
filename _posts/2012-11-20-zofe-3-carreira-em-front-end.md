@@ -17,8 +17,6 @@ layout: post
 Terceiro episódio com nova plataforma no site e… FEED! Neste episódio temos um formato diferente: um bate-papo entre Daniel Filho e Zeno Rocha, com um tema escolhido pelo público: Carreira em Front-End.
 {% endexcerpt %}
 
-<img title="Mosaico - Episódio 3 - Carreira em Front-End" src="http://i.imgur.com/K5Rrl.png" class="mosaico" alt="" width="600" height="600">
-
 Neste episódio fizemos um formato diferente: um bate-papo entre Daniel Filho e Zeno Rocha, com um tema escolhido pelo público: Carreira em Front-End.
 
 Agora você pode deixar seus comentários no post do episódio (no caso deste, na seguinte url: [http://zofe.com.br/posts/zofe-3-carreira-em-front-end/](http://zofe.com.br/posts/zofe-3-carreira-em-front-end/)), além de uma nova página para contatos, um novo sistema de publicação e o tão aguardado [feed rss](http://zofe.com.br/feed/podcast.xml) para iTunes e outros aplicativos.
