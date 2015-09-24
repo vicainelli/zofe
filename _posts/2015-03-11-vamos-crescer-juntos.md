@@ -23,8 +23,6 @@ Um querido colega da comunidade, [Leonardo Konarzewski](https://twitter.com/leon
 
 Saiba mais sobre o caso em: [http://leokz.com/campanha/](http://leokz.com/campanha/)
 
-<img title="Capa do Episódio 23 - Vamos Crescer Juntos" src="http://i.imgur.com/VIn6EUj.png" class="mosaico" alt="Mosaico - Episódio 23 - Vamos Crescer Juntos" width="600" height="600">
-
 [0:00:50](#t=0:00:50){: .timer} Pular intro<br>
 [0:02:20](#t=0:02:20){: .timer} [Bruno Passos](https://twitter.com/brunopassos)<br>
 [0:04:50](#t=0:04:50){: .timer} [Leonardo Konarzewski](http://leokz.com/)<br>

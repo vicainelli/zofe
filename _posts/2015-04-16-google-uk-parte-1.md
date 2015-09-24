@@ -25,8 +25,6 @@ Outro detalhe: a galera está demorando um pouco pra mandar o link, mas não que
 
 Ouçam, comentem e opinem!
 
-<img title="Capa do Episódio 26 - Google UK" src="http://i.imgur.com/m0b2GiM.jpg" class="mosaico" alt="Mosaico - Episódio 25 - Google UK" width="600" height="600">
-
 [0:00:50](#t=0:00:50){: .timer} Pular intro<br>
 [0:01:39](#t=0:01:39){: .timer} Início da Entrevista<br>
 [0:02:25](#t=0:02:25){: .timer} [Paul Lewis](https://twitter.com/aerotwist/)<br>

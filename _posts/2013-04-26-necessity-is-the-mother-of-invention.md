@@ -19,8 +19,6 @@ Where is the book? The book is on the table. I LOVE BARBECUE!
 Pessoal, afiem seus ouvidos que hoje vamos treinar o inglês. Nosso entrevistado é Jonathan Neal que, assim como nosso co-apresentador, trabalha na Liferay e tem uma presença na comunidade open-source magnífica. Você já usou algum projeto que ele participou. Se não usou, tem algo de errado!
 {% endexcerpt %}
 
-<img title="Mosaico - Episódio 7 -  Necessity Is The Mother Of Invention" src="http://i.imgur.com/chJ9Ze2.png" class="mosaico" alt="Mosaico - Episódio 7 -  Necessity Is The Mother Of Invention" width="600" height="600">
-
 Estamos numa correria, este foi o episódio que mais levou tempo pra se gravar (e menos pra editar). O Zeno viajando, o Daniel passando mal e os dois trabalhando muito. Mas finalmente, saiu! Esperamos que gostem.
 
 ### Bate-papo

@@ -17,8 +17,6 @@ layout: post
 Vou te contar, se perder KG fosse tão fácil quando perder MB, eu era modelo e não programador! Mas já que, mesmo com uma força do Crockford pra perder KG ainda é difícil, vamos ficar com todas as dicas do Marcel Duran pra perder MB no front-end e ganhar velocidade e performance.
 {% endexcerpt %}
 
-<img title="Mosaico - Episódio 5 - Perca peso. Pergunte-me como." src="http://i.imgur.com/HGILa8T.png" class="mosaico" alt="" width="600" height="600">
-
 No episódio cinco, o entrevistado da vez é ninguém menos que [Marcel Duran](http://twitter.com/marcelduran). Ele conta como é manter um dos maiores projetos de análise de performance do front-end, o [YSlow](http://yslow.org), fala da sua trajetória até chegar ao Twitter e passa muitas dicas e links a respeito do assunto que domina: performance.
 
 Vem com a gente! :)

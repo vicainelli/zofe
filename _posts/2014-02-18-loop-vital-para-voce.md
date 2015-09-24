@@ -22,10 +22,6 @@ Com a participação de nossos amigos do começo ao fim, [Almir](https://twitter
 
 Um grande abraço para o [Vital](https://twitter.com/vitallyma) que se fez sem igual para um episódio animal, além de muito legal.
 
-
-<img title="Mosaico - Episódio 12 - Loop Vital Para Você" src="http://i.imgur.com/cZADk5g.png" class="mosaico" alt="Mosaico - Episódio 12 - Loop Vital Para Você" width="600" height="600">
-
-
 ### Bate-Papo
 
 [0:02:51](#t=0:2:51){: .timer} [Loop Infinito](http://loopinfinito.com.br)<br>

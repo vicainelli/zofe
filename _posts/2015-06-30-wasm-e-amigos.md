@@ -23,8 +23,6 @@ Nesse episódio começamos também a introduzir algumas mudanças no formato do 
 
 Pedimos desculpas pelo vacilo e áudio do Rafael Rinaldi. Entrou um guaxinim no microfone dele, mas parece que ele já tirou o bicho de lá com vida e já mandou pro IBAMA.
 
-<img title="Capa do Episódio 28 - WASM e Amigos" src="http://i.imgur.com/IqRmizJ.jpg" class="mosaico" alt="Mosaico - Episódio 28 - WASM e Amigos" width="600" height="600">
-
 [0:00:50](#t=0:00:50){: .timer} Pular intro<br>
 [0:02:34](#t=0:02:34){: .timer} [jQuery SF](http://jquerysf.com)<br>
 [0:04:07](#t=0:04:07){: .timer} [purify-css](https://github.com/purifycss/purifycss)<br>

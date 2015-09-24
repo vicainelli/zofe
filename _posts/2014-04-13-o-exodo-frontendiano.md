@@ -21,9 +21,6 @@ Como é trabalhar no terceiro maior e-commerces do mundo, como foi colaborar em 
 
 Também contamos com uma nova abertura que entendedores entenderão :D
 
-<img title="Mosaico - Episódio 13 - O Êxodo Frontendiano" src="http://i.imgur.com/j0cLYVD.png" class="mosaico" alt="Mosaico - Episódio 13 - O Êxodo Frontendiano" width="600" height="600">
-
-
 ### Bate-Papo
 
 [0:03:40](#t=0:3:40){: .timer} Como tudo começou<br>

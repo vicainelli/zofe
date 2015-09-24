@@ -26,9 +26,6 @@ Estamos todos vivos e todos bem e FINALMENTE gravamos nosso décimo episódio. T
 
 {% endexcerpt %}
 
-<img title="Mosaico - Episódio 10 - Especial - Busque Conhecimento" src="http://i.imgur.com/gjPDbTN.png" class="mosaico" alt="Mosaico - Episódio 10  - Especial - Busque Conhecimento" width="600" height="600">
-
-
 ### Bate-Papo
 
 [0:00:42](#t=0h0m42s){: .timer} [Daniel Filho](http://twitter.com/danielfilho)<br>

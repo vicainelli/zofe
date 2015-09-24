@@ -19,8 +19,6 @@ Como foi o dia do Daniel Filho? E o do Zeno Rocha? Mais importante ainda, querem
 Diga como foi seu dia profissional no comentário deste post, pode ser que, sei lá. De repente, você pode ganhar um botom do ZOFE, ou um adesivo. OU OS DOIS! (Vai que, né?)
 {% endexcerpt %}
 
-<img title="Mosaico - Episódio 6 -  O que você fez hoje?" src="http://i.imgur.com/2eU6yo6.png" class="mosaico" alt="Mosaico - Episódio 6 -  O que você fez hoje?" width="600" height="600">
-
 Seguindo no formato conhecido internamente como "Forever Alones" (mentira, acabei de inventar), Daniel e Zeno contam um pouco mais do seu dia-a-dia no trabalho, ferramentas que usam, além de pedir o que vem sendo pedindo desde 2010: um fim a negatividade. Corre e da o play!
 
 ### Bate-papo

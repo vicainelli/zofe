@@ -19,9 +19,6 @@ Novidade, novidade! O ZOFE foi convidado pra participar da [conferência web.br]
 
 Confira este episódio que foi o primeiro do tipo. E foi emocionante :)
 
-<img title="Capa do Episódio 18 - Ao Vivo na web.br" src="http://i.imgur.com/40Aflgb.png" class="mosaico" alt="Mosaico - Episódio 18 - Ao Vivo na web.br" width="600" height="600">
-
-
 [0:04:00](#t=0:04:00){: .timer} [Reinaldo Ferraz](https://twitter.com/reinaldoferraz)<br>
 [0:11:17](#t=0:11:17){: .timer} [Sobrinho Manifesto](https://github.com/braziljs/sobrinho-manifesto)<br>
 [0:15:05](#t=0:15:05){: .timer} [Banda Brittanica](http://bandabrittanica.com/)<br>

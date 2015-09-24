@@ -23,8 +23,6 @@ Você vai ajudar a causa e de quebra vai aprender UM MONTE com uma galera da pes
 
 Agora bora ouvir o podcast?
 
-<img title="Capa do Episódio 24 - A Muriçoca Gigante" src="http://i.imgur.com/1uiTK0z.png" class="mosaico" alt="Mosaico - Episódio 24 - A Muriçoca Gigante" width="600" height="600">
-
 [0:00:50](#t=0:00:50){: .timer} Pular intro<br>
 [0:02:15](#t=0:02:15){: .timer} [Leo KZ](http://leokz.com/campanha/)<br>
 [0:04:00](#t=0:04:00){: .timer} [Front-end United](http://frontendunited.io/leokzw/)<br>

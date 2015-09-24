@@ -19,8 +19,6 @@ Tim Maia é rei. Esse sim sabia o caminho do BEM! Mas se bem que, ser vilão é 
 
 Nesse episódio, [Daniel Filho](https://twitter.com/danielfilho), [Caio Gondim](https://twitter.com/caio_gondim) e [Almir Filho](https://twitter.com/almirfilho) falam sobre o novo processo de *build* do ZOFE, JavaScript e computação paralela, open-source e vários vídeos legais.
 
-<img title="Capa do Episódio 22 - O Caminho do BEM" src="http://i.imgur.com/BVVHWYu.png" class="mosaico" alt="Mosaico - Episódio 22 - O Caminho do BEM" width="600" height="600">
-
 [0:00:50](#t=0:00:50){: .timer} Pular intro<br>
 [0:02:10](#t=0:02:10){: .timer} [@fnando](https://twitter.com/fnando)<br>
 [0:02:17](#t=0:02:17){: .timer} [@philss](https://twitter.com/philss)<br>

@@ -31,8 +31,6 @@ Outra melhoria: os episódios terão no máximo 30 minutos.
 
 ZOFE 2.0, chega mais!
 
-<img title="Capa do Episódio 19 - Seja Você Mesmo, Bundão" src="http://i.imgur.com/3wwFY7n.png" class="mosaico" alt="Mosaico - Episódio 19 - Seja Você Mesmo, Bundão" width="600" height="600">
-
 [0:02:57](#t=0:02:57){: .timer} [Diego Eis](https://twitter.com/diegoeis)<br>
 [0:04:35](#t=0:04:35){: .timer} [Locaweb](http://locaweb.com.br/)<br>
 [0:04:45](#t=0:04:45){: .timer} [Tableless](http://www.tableless.com.br/)<br>
