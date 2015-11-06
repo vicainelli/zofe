@@ -4,7 +4,6 @@ rvm:
   - 2.1.7
 install:
   - travis_retry bundle install
-  # - travis_retry gem install --no-document jekyll
   - travis_retry npm install -g grunt-cli
   - travis_retry npm install -g bower
 before_script:
