@@ -8,6 +8,7 @@ install:
   - travis_retry npm install -g bower
 before_script:
   - npm install
+  - - rvm use 2.1.7 --fuzzy
   - bower install
 script:
   - grunt build
