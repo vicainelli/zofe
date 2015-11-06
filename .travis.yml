@@ -3,13 +3,14 @@ sudo: false
 node_js:
   - "0.10"
 install:
-  - travis_retry gem install --no-document jekyll
+  - travis_retry bundle install
+  # - travis_retry gem install --no-document jekyll
   - travis_retry npm install -g grunt-cli
   - travis_retry npm install -g bower
 before_script:
-  - npm install
   - rvm install 2.1.7
   - rvm use 2.1.7 --fuzzy
+  - npm install
   - bower install
 script:
   - grunt build
