@@ -11,7 +11,6 @@ tags: episodio, front-end, teste, leo balter,
 duration: '1:35:39'
 durationMeta: T1H35M39S
 layout: post
-excerpt_separator: <!-- excerpt -->
 ---
 
 

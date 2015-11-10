@@ -11,7 +11,6 @@ tags: episodio, front-end, facebook, fabio costa
 duration: '1:24:45'
 durationMeta: T1H24M45S
 layout: post
-excerpt_separator: <!-- excerpt -->
 ---
 
 

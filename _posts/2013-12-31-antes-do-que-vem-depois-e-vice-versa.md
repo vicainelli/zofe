@@ -11,7 +11,6 @@ tags: episodio, front-end, desabafo, palestras, eventos
 duration: '1:31:35'
 durationMeta: T1H31M35S
 layout: post
-excerpt_separator: <!-- excerpt -->
 ---
 
 

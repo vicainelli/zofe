@@ -11,7 +11,6 @@ mosaico_g: 'http://i.imgur.com/bbJbLmC.jpg'
 duration: '0:30:31'
 durationMeta: T0H30M31S
 layout: post
-excerpt_separator: <!-- excerpt -->
 ---
 
 
