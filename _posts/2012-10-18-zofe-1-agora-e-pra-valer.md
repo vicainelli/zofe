@@ -11,13 +11,14 @@ durationMeta: T54M15S
 soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155516820%3Fsecret_token%3Ds-cb53Q&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
 tags: opera, episodio, miket-aylor,
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 No primeiro episódio oficial do Zone Of Front-Enders contamos com um convidado quase brasileiro: Mike Taylor.
 
 Ele morou no Brasil por alguns anos, hoje trabalha como “Web Opener” na Opera Software e fala português melhor que a gente. Acho que corremos risco, Zeno! :D
-{% endexcerpt %}
+<!-- excerpt -->
 
 Recomendamos que baixem a versão AAC e ouçam em seu iPod, iPhone ou iTunes. O conteúdo é mais rico, com links e imagens.
 

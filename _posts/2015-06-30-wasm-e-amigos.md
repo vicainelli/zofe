@@ -11,13 +11,14 @@ mosaico_g: 'http://i.imgur.com/bbJbLmC.jpg'
 duration: '0:30:31'
 durationMeta: T0H30M31S
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 A web cresceu, o JavaScript já é maior de idade e já era hora dele se tornar adulto.
 
 Agora a web tem seu próprio bytecode e o WebAssembly (ou wasm) vai trazer pra linha de frente o pessoal que sempre desenvolveu as entranhas da internet.
-{% endexcerpt %}
+<!-- excerpt -->
 
 Nesse episódio começamos também a introduzir algumas mudanças no formato do podcast. De pouco em pouco vamos melhorando ;)
 

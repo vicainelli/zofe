@@ -11,13 +11,14 @@ mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
 duration: '0:52:47'
 durationMeta: T0H52M47S
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 DIRETO de San Francisco, na ensolarada California, Zeno SanDiego e [Ciro Nunes](http://twitter.com/cironunesdev) participam de mais um ZOFE.minify(); e Daniel de São Paulo. Forever alone.
 
 Falaremos de AngularJS, JSConfBR, MEANJS
-{% endexcerpt %}
+<!-- excerpt -->
 
 E QUERO VER RECLAMAR DO VOLUME AGORA!
 

@@ -11,11 +11,12 @@ mosaico_g: 'http://i.imgur.com/nPLgQGd.png'
 duration: '0:44:41'
 durationMeta: T0H44M41S
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 Neste episódio apresentamos MAIS um *ZOFER*: o [Bruno Passos](https://twitter.com/brunopassos). No final do episódio demos mais detalhes de como foi *refatorar* o ZOFE e antes, falamos com o [Leo](http://leokz.com/campanha/) e porque o ZOFE precisa da sua ajuda. Ouça, entenda e ajude ;)
-{% endexcerpt %}
+<!-- excerpt -->
 
 Nesse episódio, [Daniel Filho](https://twitter.com/danielfilho), [Bruno Passos](https://twitter.com/brunopassos), [Rafael Rinaldi](https://twitter.com/rafaelrinaldi) e [Almir Filho](https://twitter.com/almirfilho) chegam pra falar de algo sério e pedir sua ajuda.
 

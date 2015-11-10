@@ -11,11 +11,12 @@ durationMeta: T56M52S
 soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155517102%3Fsecret_token%3Ds-9P19G&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
 tags: w3c, episodio
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 Chegamos no segundo episódio do Zone Of Front-Enders. A entrevista da vez é dupla: Reinaldo Ferraz e Yasodara Córdova. Ambos trabalham como “Developer Relations” no escritório brasileiro do W3C.
-{% endexcerpt %}
+<!-- excerpt -->
 
 Recomendamos que baixem a versão AAC e ouçam em seu iPod, iPhone ou iTunes. O conteúdo é mais rico, com links e imagens.
 

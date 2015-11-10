@@ -11,11 +11,12 @@ mosaico_g: 'http://i.imgur.com/orMKv3i.png'
 duration: '0:33:10'
 durationMeta: T0H33M10S
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 Tim Maia é rei. Esse sim sabia o caminho do BEM! Mas se bem que, ser vilão é bem mais legal. Não?
-{% endexcerpt %}
+<!-- excerpt -->
 
 Nesse episódio, [Daniel Filho](https://twitter.com/danielfilho), [Caio Gondim](https://twitter.com/caio_gondim) e [Almir Filho](https://twitter.com/almirfilho) falam sobre o novo processo de *build* do ZOFE, JavaScript e computação paralela, open-source e vários vídeos legais.
 

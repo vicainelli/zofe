@@ -11,13 +11,14 @@ durationMeta: T1H11M53S
 soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155519268%3Fsecret_token%3Ds-d2QoA&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
 tags: episodio, front-end, dia, sorteio, resultado
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 Como foi o dia do Daniel Filho? E o do Zeno Rocha? Mais importante ainda, queremos saber **como foi o SEU dia!**
 
 Diga como foi seu dia profissional no comentário deste post, pode ser que, sei lá. De repente, você pode ganhar um botom do ZOFE, ou um adesivo. OU OS DOIS! (Vai que, né?)
-{% endexcerpt %}
+<!-- excerpt -->
 
 Seguindo no formato conhecido internamente como "Forever Alones" (mentira, acabei de inventar), Daniel e Zeno contam um pouco mais do seu dia-a-dia no trabalho, ferramentas que usam, além de pedir o que vem sendo pedindo desde 2010: um fim a negatividade. Corre e da o play!
 

@@ -15,8 +15,8 @@ layout: default
     </header>
 
     <div class="episode-content">
-      {% if post.excerpt_tag %}
-        {{ post.excerpt_tag | markdownify }}
+      {% if post.excerpt %}
+        {{ post.excerpt }}
         <p><a href="{{ post.url }}" class="more-link">Acessar episódio <span class="arrow">→</span></a></p>
       {% else %}
         {{ post.content }}

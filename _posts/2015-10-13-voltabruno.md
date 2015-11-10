@@ -11,12 +11,12 @@ mosaico_g: 'http://i.imgur.com/RCHbm1e.png'
 duration: '0:22:37'
 durationMeta: T0H22M37S
 layout: post
-
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 Nesse episódio contamos um pouco de algumas novas ferramentas lançadas e que podem facilitar sua vida, além de muito material de estudo.
-{% endexcerpt %}
+<!-- excerpt -->
 
 > Episódio gravado em: 28/09/2015 - 9pm
 

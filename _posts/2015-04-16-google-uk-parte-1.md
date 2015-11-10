@@ -11,13 +11,14 @@ mosaico_g: 'http://i.imgur.com/mtXRlGc.jpg'
 duration: '0:42:03'
 durationMeta: T0H42M03S
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 A GENTE É CHIQUE! Fala ingrêis e tudo mais.
 
 Nas férias, o [Daniel Filho](https://twitter.com/danielfilho) viajou mas não largou o podcast. Nesse episódio ele conversou com [Addy Osmani](https://twitter.com/addyosmani/), [Jake Archibald](https://twitter.com/jaffathecake/) and [Paul Lewis](https://twitter.com/aerotwist/) sobre Web Components, Performance, Progressive Enhancement, Service Workers e mais um monte de coisas.
-{% endexcerpt %}
+<!-- excerpt -->
 
 Vale a pena lembrar: como o episódio ficou bem grande, ele foi dividido em 2 partes. Essa é a primeira, e o episódio #27 será a segunda.
 

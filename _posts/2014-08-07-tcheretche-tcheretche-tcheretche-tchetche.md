@@ -11,13 +11,14 @@ mosaico_g: 'http://i.imgur.com/tz58sIA.png'
 duration: '1:21:01'
 durationMeta: T1H21M01S
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 Eis que o dia chegou. O dia mais esperado por todos da comunidade global da rede mundial de computadores do universo: ele veio participar conosco. E pelo jeito, quer tirar o Zeno do podcast.
 
 Neste episódio, Miller Medeiros se tornou o terceiro membro do podcast, e até "cantou" o Tcheretchê Tcheretchê Tcheretchê Tchetchê (ou algo assim).
-{% endexcerpt %}
+<!-- excerpt -->
 
 Também vai rolar o [PRIMEIRO ENCONTRO ZOFE](http://www.eventick.com.br/encontro-zofe-2014), que também vai ser um esquenta pra [BrazilJS](http://braziljs.com.br). Inscreva-se já e vá jogar conversa fora com o Daniel Filho e o Zeno Rocha. Vai ser divertido ;)
 

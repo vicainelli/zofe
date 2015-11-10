@@ -11,12 +11,13 @@ mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
 duration: '1:31:35'
 durationMeta: T1H31M35S
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 Vital. Do latim, *vitālis*. Em alemão, espanhol, francês, indonésio e inglês: *vital*. Uma palavra única, TAL QUAL nosso episódio de hoje, um tanto inspirador com os mais do que queridos [Almir Filho](https://twitter.com/almirfilho) e [Caio Gondim](https://twitter.com/caio_gondim) do [Loop Infinito](http://loopinfinito.com.br).
 
-{% endexcerpt %}
+<!-- excerpt -->
 
 Com a participação de nossos amigos do começo ao fim, [Almir](https://twitter.com/almirfilho) e [Caio](https://twitter.com/caio_gondim) compartilham sua experiência e trajetória, com bom humor e participação de um público ESSENCIAL para o episódio.
 

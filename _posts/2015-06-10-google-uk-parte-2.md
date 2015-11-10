@@ -11,13 +11,14 @@ mosaico_g: 'http://i.imgur.com/mtXRlGc.jpg'
 duration: '0:49:20'
 durationMeta: T0H49M20S
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 Vamos para a segunda parte da entrevista? VAMOS!
 
 Conversamos bastante sobre gráficos, web workers e as tendências pra esse ano relacionadas ao desenvolvimento. Como no último episódio, com [Addy Osmani](https://twitter.com/addyosmani), [Jake Archibald](https://twitter.com/jaffathecake) and [Paul Lewis](https://twitter.com/aerotwist)
-{% endexcerpt %}
+<!-- excerpt -->
 
 Este segundo episódio ficou maior que o esperado. Será bem atípico, mas esperamos que vocês gostem!
 

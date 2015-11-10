@@ -11,11 +11,12 @@ tags: episodio, front-end, teste, leo balter,
 duration: '1:35:39'
 durationMeta: T1H35M39S
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 Um assunto controverso e, em alguns casos, até polêmico: testes. Testar seu código é perder tempo de desenvolvimento? Ganhar qualidade no produto final? Deixar sua aplicação mais legível para terceiros? É necessário? COMOFAS????
-{% endexcerpt %}
+<!-- excerpt -->
 
 Neste episódio vamos falar bastante sobre testes em JavaScript. Bastante mesmo. Tipo MAIS DE UMA HORA.
 

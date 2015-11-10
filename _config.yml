@@ -1,8 +1,11 @@
-paginate:  5
-permalink: /posts/:title/
-url:       http://zofe.com.br
-markdown:  Kramdown
-excerpt_separator: someNonsenseString
+gems:              [jekyll-paginate]
+paginate:          5
+paginate_path:     "/posts/page:num/"
+permalink:         "/posts/:title/"
+url:               "http://zofe.com.br"
+markdown:          "Kramdown"
+excerpt_separator: <!-- excerpt -->
+# excerpt_separator: someNonsenseString
 
 title: "Zone Of Front-Enders - ZOFE"
 exclude: [
@@ -14,6 +17,7 @@ exclude: [
   'Gemfile*',
   'assets/sass'
 ]
+
 cover-image: "//i.imgur.com/3wwFY7n.png"
 
 members:

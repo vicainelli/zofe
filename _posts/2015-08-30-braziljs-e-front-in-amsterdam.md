@@ -11,11 +11,12 @@ mosaico_g: 'http://i.imgur.com/0PUDC7E.png'
 duration: '0:56:00'
 durationMeta: T0H56M00S
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 Um bate papo descontraído sobre o que rolou na [BrazilJS 2015](http://braziljs.com.br/2015){: .post-link}, e o que estava por rolar no [Front In Amsterdam](http://frontinamsterdam.nl){: .post-link}.
-{% endexcerpt %}
+<!-- excerpt -->
 
 
 [0:00:17](#t=0:00:17){: .timer} Pular intro<br>

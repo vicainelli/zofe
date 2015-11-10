@@ -11,14 +11,15 @@ tags: episodio, front-end, desabafo, palestras, eventos
 duration: '1:31:35'
 durationMeta: T1H31M35S
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 Nem demorou tanto assim, vai?
 
 E voltamos novamente, dessa vez falando sobre um assunto comum entre Daniel e Zeno: eventos e palestras.
 
-{% endexcerpt %}
+<!-- excerpt -->
 
 Quer saber como começar a palestrar? Ou como começamos? Dicas e até um desabafo, onde Daniel explica o porque não vai mais palestrar em 2014.
 

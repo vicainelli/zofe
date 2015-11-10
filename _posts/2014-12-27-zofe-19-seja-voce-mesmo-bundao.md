@@ -11,11 +11,12 @@ mosaico_g: 'http://i.imgur.com/XaaJwi1.png'
 duration: '1:22:44'
 durationMeta: T1H22M44S
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 E lá vamos nós, depois de séculos, chegamos com o último episódio do ano. E o último episódio dessa fase do ZOFE. E pra fechar mais um ano `<cliche>`com chave de ouro`</cliche>`, convidamos ninguém menos que o grande amigo e Pterodáctilo da web: [Diego Eis](https://twitter.com/diegoeis).
-{% endexcerpt %}
+<!-- excerpt -->
 
 ## Novidades no ZOFE
 

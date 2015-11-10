@@ -11,13 +11,14 @@ durationMeta: T1H09M49S
 soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155519873%3Fsecret_token%3Ds-vokk4&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
 tags: episodio, front-end, jonathan neal, english
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 Where is the book? The book is on the table. I LOVE BARBECUE!
 
 Pessoal, afiem seus ouvidos que hoje vamos treinar o inglês. Nosso entrevistado é Jonathan Neal que, assim como nosso co-apresentador, trabalha na Liferay e tem uma presença na comunidade open-source magnífica. Você já usou algum projeto que ele participou. Se não usou, tem algo de errado!
-{% endexcerpt %}
+<!-- excerpt -->
 
 Estamos numa correria, este foi o episódio que mais levou tempo pra se gravar (e menos pra editar). O Zeno viajando, o Daniel passando mal e os dois trabalhando muito. Mas finalmente, saiu! Esperamos que gostem.
 

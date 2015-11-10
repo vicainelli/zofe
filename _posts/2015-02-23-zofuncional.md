@@ -11,11 +11,12 @@ mosaico_g: 'http://i.imgur.com/dTY86oF.png'
 duration: '0:33:10'
 durationMeta: T0H33M10S
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 O ZOFE é igual o JavaScript: Multiparadigma. 6to5 que virou Babel, Risadas, ES6, Pacotes no front-end com NPM (que gostamos. Inclusive temos amigos que são!)
-{% endexcerpt %}
+<!-- excerpt -->
 
 Nesse episódio, [Daniel Filho](https://twitter.com/danielfilho), [Caio Gondim](https://twitter.com/caio_gondim) e [Rafael Rinaldi](https://twitter.com/rafaelrinaldi) (que tem problemas em instalar jQuery com NPM hoje. Mas amanhã, não!)
 

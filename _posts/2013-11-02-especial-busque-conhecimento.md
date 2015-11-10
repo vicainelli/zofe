@@ -11,9 +11,10 @@ tags: episodio, front-end, fabio costa, felipe nascimento, almir filho, caio gon
 duration: '1:24:45'
 durationMeta: T1H24M45S
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 Finalmente, o episódio DEZ!
 
 Estamos todos vivos e todos bem e FINALMENTE gravamos nosso décimo episódio. Todos os que já participaram do ZOFE foram convidados, mas os heróis da resistência são:
@@ -24,7 +25,7 @@ Estamos todos vivos e todos bem e FINALMENTE gravamos nosso décimo episódio. T
 * [Felipe Nascimento](http://felipenmoura.org/)
 * [Reinaldo Ferraz](http://www.reinaldoferraz.com.br/)
 
-{% endexcerpt %}
+<!-- excerpt -->
 
 ### Bate-Papo
 

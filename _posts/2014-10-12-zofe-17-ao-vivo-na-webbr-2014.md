@@ -11,11 +11,12 @@ mosaico_g: 'http://i.imgur.com/40Aflgb.png'
 duration: '0:40:36'
 durationMeta: T0H40M36S
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 Novidade, novidade! O ZOFE foi convidado pra participar da [conferência web.br](http://conferenciaweb.w3c.br/), e gravamos ao vivo, um episódio. Com uma participação especial de [Reinaldo Ferraz](https://twitter.com/reinaldoferraz).
-{% endexcerpt %}
+<!-- excerpt -->
 
 Confira este episódio que foi o primeiro do tipo. E foi emocionante :)
 

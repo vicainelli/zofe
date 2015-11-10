@@ -11,12 +11,12 @@ mosaico_g: 'http://i.imgur.com/obDkdB5.png'
 duration: '0:40:44'
 durationMeta: T0H40M44S
 layout: post
-
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 O [Jean Carlo Emer](http://twitter.com/jcemer) topou bater um papo com a gente sobre React, Componentes e desenvolvimento web.
-{% endexcerpt %}
+<!-- excerpt -->
 
 Prepare-se para um episódio denso e direto ao ponto. Muitos links interessantes e material pra estudo!
 

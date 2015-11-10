@@ -11,11 +11,12 @@ durationMeta: T1H27M01S
 soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155518025%3Fsecret_token%3Ds-dnxS0&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
 tags: episodio, google, front-end, profissao, renato mangini
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 VOLTAMOS, e dessa vez pra ficar! Isso aí, pessoal. Depois de uma pausa sabática, o seu podcast com conteúdo em português sobre desenvolvimento web com foco no front-end apresentado pelo Daniel e Zeno voltou (é, não sobraram muitas opções também, né?). Dessa vez, entrevistamos **O_CARA** do Google Chrome no Brasil: Renato Mangini.
-{% endexcerpt %}
+<!-- excerpt -->
 
 Entrevistamos o [Renato Mangini](https://plus.google.com/102180419759627664875/posts) no [DevFest](http://devfest.com.br) mas, por problemas técnicos, não conseguimos publicar nem aproveitar o que gravamos. Então, convidamos ele pra fazer no formato tradicional, e deu certo. E aproveitamos o convidado para revelarmos TODOS OS SEGREDOS do Google (brincadeira, só uns dois ou três que nem são tão secretos assim).
 

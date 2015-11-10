@@ -11,13 +11,14 @@ mosaico_g: 'http://i.imgur.com/QROlXw6.png'
 duration: '0:53:50'
 durationMeta: T0H53M50S
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 Lembra do ZOFE? Sério, lembra? A GENTE LEMBRA DE VOCÊS!
 
 Vamos pro episódio 16, aquele papo direto, reto e maroto. Só o Zeno e o Daniel, com um MONTE de assuntos legais e novidades.
-{% endexcerpt %}
+<!-- excerpt -->
 
 Transferimos nossos arquivos de áudio pra SoundCloud, olha que fantástico!
 

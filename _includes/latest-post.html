@@ -9,12 +9,9 @@
     </header>
 
     <div class="latest-post-content">
-      {% if post.excerpt_tag %}
-        {{ post.excerpt_tag | markdownify }}
-
-
+      {% if post.excerpt %}
+        {{ post.excerpt }}
         <p><a href="{{ post.url }}" class="more-link-header">Acessar episódio <span class="arrow">→</span></a></p>
-        <!-- <p><a href="{{ post.url }}" class="latest-post-more">Continue lendo <span class="arrow">→</span></a></p> -->
       {% else %}
         {{ post.content }}
       {% endif %}

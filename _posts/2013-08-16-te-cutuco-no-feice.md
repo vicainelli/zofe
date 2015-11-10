@@ -11,13 +11,14 @@ tags: episodio, front-end, facebook, fabio costa
 duration: '1:24:45'
 durationMeta: T1H24M45S
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 Nós já revelamos TODOS os segredos mais bem guardados do Google (ou quase isso). Agora chegou a vez de revelar as entranhas do Facebook (ou quase isso).
 
 Neste episódio batemos um papo divertido com o Fábio M. Costa, Front-End Engineer no Facebook.
-{% endexcerpt %}
+<!-- excerpt -->
 
 Resolvemos dar uma mudada. Ou seria MAIS uma? Desta vez experimentamos interações com os ouvintes do podcast, ao vivo. A entrevista contou com um chat em tempo real com o entrevistado e, a gravação das notícias e eventos fizemos ao vivo, via Google Hangout (mas só o áudio).
 

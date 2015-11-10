@@ -11,11 +11,12 @@ mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
 duration: '0:57:16'
 durationMeta: T0H57M16S
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 [Eduardo](http://twitter.com/shiota) [Shiota](http://eshiota.com/), referência como desenvolvedor front-end completo, conta um pouco de sua experiência e como foi parar no velho mundo.
-{% endexcerpt %}
+<!-- excerpt -->
 
 Como é trabalhar no terceiro maior e-commerces do mundo, como foi colaborar em uma startup no Brasil, suas experiências e experimentos.
 

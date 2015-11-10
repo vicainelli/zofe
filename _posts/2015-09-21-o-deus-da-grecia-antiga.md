@@ -11,12 +11,12 @@ mosaico_g: 'http://i.imgur.com/CJhLv3d.png'
 duration: '0:21:37'
 durationMeta: T0H21M37S
 layout: post
-
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 Um episódio sem *muita* enrolação, com muito conteúdo e pouco bla bla bla.
-{% endexcerpt %}
+<!-- excerpt -->
 
 [0:00:41](#t=0:00:41){: .timer} Pular intro<br>
 [0:01:42](#t=0:01:42){: .timer} [Mais vídeos publicados da BrazilJS](https://www.youtube.com/playlist?list=PLg2lQYZDBwORUpJTu5MxI71iEQIyc_Lno){: .timer-title}<br>

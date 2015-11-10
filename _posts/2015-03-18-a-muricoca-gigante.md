@@ -11,11 +11,12 @@ mosaico_g: 'http://i.imgur.com/gfAO323.png'
 duration: '0:26:43'
 durationMeta: T0H26M43S
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 Fui tentar explicar o efeito Doppler e o Caio disse que parecia uma muriçoca gigante. E PÕE GIGANTE NISSO! OLOCO MÊO!
-{% endexcerpt %}
+<!-- excerpt -->
 
 Falamos de um monte de coisa, mas a primeira foram agradecimentos. OBRIGADO a todos que colaboraram, e a primeira fase da luta a gente ajudou o Leo a vencer. Mas ainda tem uma batalha pela frente, e pra isso estamos em mais uma iniciativa: [Front-End United for LeoKZ](http://frontendunited.io/leokzw/).
 

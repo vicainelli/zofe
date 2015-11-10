@@ -11,11 +11,12 @@ mosaico_g: 'http://i.imgur.com/OlK8ypP.jpg'
 duration: '0:32:39'
 durationMeta: T0H32M39S
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 
-{% excerpt %}
+
 Dois ponto zero. Talvez o episódio mais demorado pra ser lançado foi o mais rápido pra ser gravado. Desde o comecinho de Janeiro pronto e esperando esse dia pra ser lançado. Mas tem muita novidade. Vem com a gente!
-{% endexcerpt %}
+<!-- excerpt -->
 
 ## TUDO novo no ZOFE
 
