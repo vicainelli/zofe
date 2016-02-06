@@ -23,13 +23,13 @@ Dicas com visualização de dados, um parser de JavaScript em Rust e muitas, mui
 [0:01:15](#t=0:01:15){: .timer} [vega](https://github.com/vega/vega){: .timer-title}<br>
 [0:02:59](#t=0:02:59){: .timer} [esprit](https://github.com/dherman/esprit){: .timer-title}<br>
 [0:04:35](#t=0:04:35){: .timer} [react for beginners](https://reactforbeginners.com/){: .timer-title}<br>
-[0:04:35](#t=0:06:59){: .timer} [Weslley Araujo](https://twitter.com/_weslleyaraujo){: .timer-title}<br>
-[0:06:59](#t=0:07:50){: .timer} [react flux puzzle](https://github.com/weslleyaraujo/react-flux-puzzle){: .timer-title}<br>
-[0:07:50](#t=0:09:44){: .timer} [My thoughts on my first flux application](https://medium.com/@_weslleyaraujo/my-thoughts-on-my-first-flux-application-a1fd1cccd724){: .timer-title}<br>
-[0:09:44](#t=0:10:04){: .timer} [rxjs](http://reactivex.io/){: .timer-title}<br>
-[0:10:04](#t=0:11:05){: .timer} [yolk](https://github.com/yolkjs/yolk){: .timer-title}<br>
-[0:11:05](#t=0:11:55){: .timer} [rx-book](http://xgrommx.github.io/rx-book/){: .timer-title}<br>
-[0:11:55](#t=0:14:34){: .timer} [Mauricio Soares](https://twitter.com/omauriciosoares){: .timer-title}<br>
+[0:06:59](#t=0:06:59){: .timer} [Weslley Araujo](https://twitter.com/_weslleyaraujo){: .timer-title}<br>
+[0:07:50](#t=0:07:50){: .timer} [react flux puzzle](https://github.com/weslleyaraujo/react-flux-puzzle){: .timer-title}<br>
+[0:09:44](#t=0:09:44){: .timer} [My thoughts on my first flux application](https://medium.com/@_weslleyaraujo/my-thoughts-on-my-first-flux-application-a1fd1cccd724){: .timer-title}<br>
+[0:10:04](#t=0:10:04){: .timer} [rxjs](http://reactivex.io/){: .timer-title}<br>
+[0:11:05](#t=0:11:05){: .timer} [yolk](https://github.com/yolkjs/yolk){: .timer-title}<br>
+[0:11:55](#t=0:11:55){: .timer} [rx-book](http://xgrommx.github.io/rx-book/){: .timer-title}<br>
+[0:14:34](#t=0:14:34){: .timer} [Mauricio Soares](https://twitter.com/omauriciosoares){: .timer-title}<br>
 
 A música utilizada na intro e outro desse episódio é: [Mess. - Lucky One - 03 Enemy (Alcohol)](http://store.southerncitylab.net/album/lucky-one). Também, um trecho do filme [One Flew Over the Cuckoo's Nest](http://www.imdb.com/title/tt0073486/) de 1975.
 
