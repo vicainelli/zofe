@@ -6,4 +6,11 @@ $(document).ready( function(){
       element.target = '_blank';
     }
   });
+
+  $('#search-query').lunrSearch({
+    indexUrl: '/assets/js/index.json',
+    results : '#search-results',
+    entries : '.entries',
+    template: '#search-results-template'
+  });
 });
