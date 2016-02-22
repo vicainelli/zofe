@@ -1,0 +1,25 @@
+.search-form
+  .search-query
+    width: 95%
+    margin-left: 1em
+
+.search-results
+  display: none
+  position: absolute
+  top: 120px
+  left: 0
+  width: 100%
+  padding: 1em
+  background-color: white
+  border-top: 20px solid $zofe-yellow
+  border-bottom: 20px solid $zofe-yellow
+  z-index: 2
+
+  h4
+    margin-left: 1em
+
+@media (max-width: 425px)
+  .search-results
+    top: 233px
+    border-top: 10px solid $zofe-yellow
+    border-bottom: 10px solid $zofe-yellow
