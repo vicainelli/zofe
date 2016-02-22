@@ -7,6 +7,8 @@ $(document).ready( function(){
     }
   });
 
+  $('#search-form').on('submit', function() { return false; })
+
   $('#search-query').lunrSearch({
     indexUrl: '/assets/js/index.json',
     results : '#search-results',
