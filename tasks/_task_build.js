@@ -1,6 +1,6 @@
 module.exports = function(grunt){
   grunt.registerTask('build', [
-    'sass:dev',
+    'sass:dist',
     'jekyll:build'
   ]);
 };
