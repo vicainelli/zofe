@@ -1,10 +1,11 @@
-gems:              [jekyll-paginate]
+gems:              ["jekyll-paginate", "jekyll-lunr-js-search"]
 paginate:          5
 paginate_path:     "/posts/page:num/"
 permalink:         "/posts/:title/"
 url:               "http://zofe.com.br"
 markdown:          "Kramdown"
 excerpt_separator: <!-- excerpt -->
+encoding: UTF-8
 # excerpt_separator: someNonsenseString
 
 title: "Zone Of Front-Enders - ZOFE"
@@ -17,6 +18,9 @@ exclude: [
   'Gemfile*',
   'assets/sass'
 ]
+
+lunr_search:
+  js_dir: "assets/js"
 
 cover-image: "//i.imgur.com/3wwFY7n.png"
 
