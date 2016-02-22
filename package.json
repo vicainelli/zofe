@@ -26,10 +26,11 @@
   "homepage": "https://github.com/zofepod/zofe",
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-concurrent": "^1.0.0",
+    "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-sass": "^0.8.1",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-shell": "^1.1.1",
-    "load-grunt-tasks": "^2.0.0"
+    "grunt-jekyll": "^0.4.3",
+    "load-grunt-tasks": "^2.0.0",
+    "pjax": "^0.1.4"
   }
 }
