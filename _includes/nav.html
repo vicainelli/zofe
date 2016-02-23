@@ -7,10 +7,21 @@
     <nav class="main-menu">
       <ul>
         <li><a href="/">Home</a></li>
-         <li><a href="/sobre">Sobre</a></li>
+        <li><a href="/sobre">Sobre</a></li>
         <li><a href="/contato">Contato</a></li>
       </ul>
-    </nav>
 
+      <div id="search" class="search-box">
+        <form id="search-form" action="/search" method="get">
+          <input type="text" id="search-query" class="search-query" name="q" placeholder="Buscar" autocomplete="off">
+        </form>
+      </div>
+    </nav>
   </div>
 </header>
+
+<section id="search-results" class="search-results">
+  <h2>Resultado da busca</h2>
+  <div class="entries"></div>
+</section>
+
