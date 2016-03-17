@@ -21,20 +21,20 @@ Dois ponto zero. Talvez o episódio mais demorado pra ser lançado foi o mais r�
 
 O episódio tá pronto desde o comecinho de Janeiro, mas decidimos so lançar quando o novo site estivesse pronto. Em meio de viagens, semanas ultra atarefadas e fusos, FINALMENTE o dia chegou.
 
-[0:02:30](#t=0:02:30) [Daniel Filho](https://twitter.com/danielfilho)<br>
-[0:03:02](#t=0:03:02) [Caio Gondim](https://twitter.com/caio_gondim)<br>
-[0:03:18](#t=0:03:18) [Rafael Rinaldi](https://twitter.com/rafaelrinaldi)<br>
-[0:04:25](#t=0:04:25) [Almir Filho](https://twitter.com/almirfilho)<br>
-[0:05:53](#t=0:05:53) [Zeno Rocha](https://twitter.com/zenorocha)<br>
-[0:14:05](#t=0:14:05) [6to5](https://babeljs.io/)<br>
-[0:14:31](#t=0:14:31) [Google Traceur](https://github.com/google/traceur-compiler)<br>
-[0:15:31](#t=0:15:31) [azk](http://www.azk.io/)<br>
-[0:15:54](#t=0:15:54) [Pluguinho :P](https://twitter.com/nuxlli)<br>
-[0:16:34](#t=0:16:34) [nubank](https://nubank.com.br/)<br>
-[0:22:18](#t=0:22:18) [Magnetis](https://www.magnetis.com.br/)<br>
-[0:24:49](#t=0:24:49) [Loop Infinito](http://loopinfinito.com.br/)<br>
-[0:25:45](#t=0:25:45) [gshow](http://gshow.globo.com/)<br>
-[0:28:45](#t=0:28:45) [Sugestões? Feedback? Opa!](http://zofe.com.br/contato)<br>
+[0:02:30](#t=0:02:30){: .timer} [Daniel Filho](https://twitter.com/danielfilho)<br>
+[0:03:02](#t=0:03:02){: .timer} [Caio Gondim](https://twitter.com/caio_gondim)<br>
+[0:03:18](#t=0:03:18){: .timer} [Rafael Rinaldi](https://twitter.com/rafaelrinaldi)<br>
+[0:04:25](#t=0:04:25){: .timer} [Almir Filho](https://twitter.com/almirfilho)<br>
+[0:05:53](#t=0:05:53){: .timer} [Zeno Rocha](https://twitter.com/zenorocha)<br>
+[0:14:05](#t=0:14:05){: .timer} [6to5](https://babeljs.io/)<br>
+[0:14:31](#t=0:14:31){: .timer} [Google Traceur](https://github.com/google/traceur-compiler)<br>
+[0:15:31](#t=0:15:31){: .timer} [azk](http://www.azk.io/)<br>
+[0:15:54](#t=0:15:54){: .timer} [Pluguinho :P](https://twitter.com/nuxlli)<br>
+[0:16:34](#t=0:16:34){: .timer} [nubank](https://nubank.com.br/)<br>
+[0:22:18](#t=0:22:18){: .timer} [Magnetis](https://www.magnetis.com.br/)<br>
+[0:24:49](#t=0:24:49){: .timer} [Loop Infinito](http://loopinfinito.com.br/)<br>
+[0:25:45](#t=0:25:45){: .timer} [gshow](http://gshow.globo.com/)<br>
+[0:28:45](#t=0:28:45){: .timer} [Sugestões? Feedback? Opa!](http://zofe.com.br/contato)<br>
 
 ## Siga o ZOFE
 

@@ -26,7 +26,7 @@ Este segundo episódio ficou maior que o esperado. Será bem atípico, mas esper
 [0:01:28](#t=0:01:28){: .timer} [SpriteCow](http://spritecow.com/), [Lanyrd](http://lanyrd.com/), [SVGO](http://jakearchibald.github.io/svgomg) <br>
 [0:03:20](#t=0:03:20){: .timer} [New JS Techniques for Rapid Page Loads](http://blog.chromium.org/2015/03/new-javascript-techniques-for-rapid.html)<br>
 [0:05:08](#t=0:05:08){: .timer} [That webapp. Again.](https://theairhorner.appspot.com/)<br>
-[0:06:53](#t=0:00:00){: .timer} [Animation Timeline in Chrome DevTools](https://www.youtube.com/watch?v=U9xfYbKxosI)<br>
+[0:06:53](#t=0:06:53){: .timer} [Animation Timeline in Chrome DevTools](https://www.youtube.com/watch?v=U9xfYbKxosI)<br>
 [0:07:00](#t=0:07:00){: .timer} Graphics on the web<br>
 [0:11:40](#t=0:11:40){: .timer} [Flash®](https://www.youtube.com/watch?v=ee925OTFBCA)<br>
 [0:13:49](#t=0:13:49){: .timer} [VelocityJS](http://julian.com/research/velocity/)<br>
