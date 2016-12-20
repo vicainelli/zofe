@@ -6,7 +6,7 @@ audio: http://zofe.com.br/episodios/zofe-11-antes-do-que-vem-depois-e-vice-versa
 audio_file_length: 45127897
 mosaico: http://i.imgur.com/0c6CIcp.png
 mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155520903%3Fsecret_token%3Ds-ekXmY&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155520903%3Fsecret_token%3Ds-ekXmY&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
 tags: episodio, front-end, desabafo, palestras, eventos
 duration: '1:31:35'
 durationMeta: T1H31M35S

@@ -4,7 +4,7 @@ subtitle: 'Batemos um papo sobre WebAssembly e várias outras coisas'
 episodeID: 'ep28'
 audio: 'http://feeds.soundcloud.com/stream/212655712-zofepod-zofe-28-compila-o-js-ai'
 audio_file_length: 29699027
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212655712&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212655712&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 tags: episodio, front-end, wasm, javascript
 mosaico: 'http://i.imgur.com/IqRmizJ.jpg'
 mosaico_g: 'http://i.imgur.com/bbJbLmC.jpg'

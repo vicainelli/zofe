@@ -4,7 +4,7 @@ subtitle: 'Com a melhor abertura de todas.'
 episodeID: 'ep31'
 audio: 'http://feeds.soundcloud.com/stream/224978054-zofepod-zofe-31-o-deus-da-grecia-antiga'
 audio_file_length: 21041321
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/224978054&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/224978054&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 tags: episodio, front-end, javascript, react, componentes
 mosaico: 'http://i.imgur.com/CJhLv3d.png'
 mosaico_g: 'http://i.imgur.com/CJhLv3d.png'

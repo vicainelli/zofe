@@ -8,7 +8,7 @@ audio: http://zofe.com.br/episodios/zofe-04-todos-os-segredos-do-google
 audio_file_length: 41855415
 duration: '1:27:01'
 durationMeta: T1H27M01S
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155518025%3Fsecret_token%3Ds-dnxS0&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155518025%3Fsecret_token%3Ds-dnxS0&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
 tags: episodio, google, front-end, profissao, renato mangini
 layout: post
 ---

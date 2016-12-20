@@ -4,7 +4,7 @@ subtitle: 'Com Addy Osmani, Jake Archibald e Paul Lewis'
 episodeID: 'ep27'
 audio: 'http://feeds.soundcloud.com/stream/209758783-zofepod-zofe-27-google-uk-parte-2'
 audio_file_length: 47961056
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/209758783&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/209758783&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 tags: episodio, front-end, google, londres
 mosaico: 'http://i.imgur.com/m0b2GiM.jpg'
 mosaico_g: 'http://i.imgur.com/mtXRlGc.jpg'

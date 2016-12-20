@@ -4,7 +4,7 @@ subtitle: 'Senão é justa causa. Hahaha!'
 episodeID: 'ep32'
 audio: 'http://feeds.soundcloud.com/stream/228164625-zofepod-zofe-32-voltabruno'
 audio_file_length: 22022278
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/228164625&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/228164625&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 tags: episodio, front-end, javascript, news
 mosaico: 'http://i.imgur.com/RCHbm1e.png'
 mosaico_g: 'http://i.imgur.com/RCHbm1e.png'

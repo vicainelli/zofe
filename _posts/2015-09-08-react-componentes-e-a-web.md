@@ -4,7 +4,7 @@ subtitle: 'Com o convidado Jean Carlo Emer'
 episodeID: 'ep30'
 audio: 'http://feeds.soundcloud.com/stream/223126448-zofepod-zofe-30'
 audio_file_length: 39611851
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/223126448&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/223126448&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 tags: episodio, front-end, javascript, react, componentes
 mosaico: 'http://i.imgur.com/sDF5eCC.png'
 mosaico_g: 'http://i.imgur.com/obDkdB5.png'

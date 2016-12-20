@@ -4,7 +4,7 @@ subtitle: 'Tudo novo, sempre, de novo'
 episodeID: 'ep20'
 audio: 'http://feeds.soundcloud.com/stream/192038747-zofepod-zofe-20-dois-ponto-zero-finalmente'
 audio_file_length: 31756319
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/192038747%3Fsecret_token%3Ds-mwj5H&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/192038747%3Fsecret_token%3Ds-mwj5H&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 tags: episodio, front-end, zofe, dois
 mosaico: 'http://i.imgur.com/z4hY97Y.jpg'
 mosaico_g: 'http://i.imgur.com/OlK8ypP.jpg'
