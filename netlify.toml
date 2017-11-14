@@ -1,0 +1,7 @@
+[build]
+  base    = "_site"
+  publish = "./"
+  command = "make production"
+
+[context.staging]
+  command = "make staging"
