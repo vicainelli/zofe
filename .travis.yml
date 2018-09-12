@@ -5,12 +5,10 @@ rvm:
 install:
   - travis_retry bundle install
   - travis_retry npm install -g grunt-cli
-  - travis_retry npm install -g bower
 before_script:
   - rvm install 2.1.7
   - rvm use 2.1.7 --fuzzy
   - npm install
-  - bower install
 script:
   - grunt build
 after_success:
@@ -19,4 +17,4 @@ after_success:
   - bash deploy/notification.bash
 notifications:
   slack:
-    - secure: "lgIokb+6DIhsWC1cMWflbuDSRhVKHRYY3B4q2IgFKestlnwYnvbJsnQuU0wEKHFscjxD6fIZpMooxKPhqz3M8GFA6qIBizsD4p0H7kjSg+gvHWmxkn11IVdjxEyqJZOjeSDNK+5l/Jg8eBr0nZm6umlciO0apkZcE23javc1uBM="
+    - secure: 'lgIokb+6DIhsWC1cMWflbuDSRhVKHRYY3B4q2IgFKestlnwYnvbJsnQuU0wEKHFscjxD6fIZpMooxKPhqz3M8GFA6qIBizsD4p0H7kjSg+gvHWmxkn11IVdjxEyqJZOjeSDNK+5l/Jg8eBr0nZm6umlciO0apkZcE23javc1uBM='
