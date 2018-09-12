@@ -50,7 +50,7 @@
 
     var timestamp,
         media,
-        soundcloudPlayer = document.querySelector('#soundcloud-player iframe'),
+        soundcloudPlayer = document.querySelector('#episode-player iframe'),
         t = getQueryVariable() || 0;
     if (t) {
         if(!soundcloudPlayer) {
@@ -72,7 +72,7 @@
                 }, false);
             }
         } else {
-            var scIFRAME = document.querySelector('#soundcloud-player iframe'),
+            var scIFRAME = document.querySelector('#episode-player iframe'),
                 scPlayer = SC.Widget(scIFRAME);
             timestamp = parseTime(t)*1000;
             scPlayer.seekTo(timestamp);

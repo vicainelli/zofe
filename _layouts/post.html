@@ -3,7 +3,8 @@ layout: default
 ---
 
 <article class="episode u-full-width">
-  <header class="episode-header u-full-width"{% if page.mosaico_g %} style="background-image: url({{ page.mosaico_g }})"{% endif %}>
+  <header class="episode-header u-full-width" {% if page.mosaico_g %} style="background-image: url({{ page.mosaico_g }})" {%
+    endif %}>
     <a href="{{ page.url }}" class="latest-post-date">{{ page.date | date: "%d/%m/%y" }}</a>
     <h2 class="episode-title">
       <a href="{{ page.url }}" title="{{ page.title }}" class="latest-post-title" rel="bookmark">{{ page.title }}</a>
@@ -19,7 +20,7 @@ layout: default
   <div class="episode-podcast">
     <div class="container">
       <h2>Episode Timeline</h2>
-      <div id="soundcloud-player">{{ page.soundcloud-player }}</div>
+      <div id="episode-player">{{ page.episode-player }}</div>
     </div>
   </div>
 

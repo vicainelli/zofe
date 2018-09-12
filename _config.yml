@@ -1,4 +1,4 @@
-gems:              ["jekyll-paginate", "jekyll-lunr-js-search"]
+plugins:           ["jekyll-paginate", "jekyll-lunr-js-search"]
 paginate:          5
 paginate_path:     "/posts/page:num/"
 permalink:         "/posts/:title/"
@@ -34,6 +34,3 @@ members:
   - name: Daniel Filho
     url: https://twitter.com/danielfilho
     image: http://www.gravatar.com/avatar/3f2ebf61315d43cae59e727dab091620?s=300
-  - name: Rafael Rinaldi
-    url: https://twitter.com/rafaelrinaldi
-    image: http://www.gravatar.com/avatar/ffc5102ee85d0d7ec57200fa3e6b1fce?s=300

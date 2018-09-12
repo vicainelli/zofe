@@ -2,9 +2,9 @@
 title: 'ZOFE #13: O Êxodo Frontendiano'
 subtitle: 'Você pode estar na Holanda, sei lá, AGORA!'
 episodeID: 'ep13'
-audio: http://zofe.com.br/episodios/zofe-13-o-exodo-frontendiano
+audio: 'http://traffic.libsyn.com/zofepod/zofe-13-o-exodo-frontendiano.m4a'
 audio_file_length: 55720075
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155521873%3Fsecret_token%3Ds-ZeUFb&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032644/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, eduardo shiota, shiota, booking
 mosaico: http://i.imgur.com/j0cLYVD.png
 mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
@@ -13,8 +13,8 @@ durationMeta: T0H57M16S
 layout: post
 ---
 
-
 [Eduardo](http://twitter.com/shiota) [Shiota](http://eshiota.com/), referência como desenvolvedor front-end completo, conta um pouco de sua experiência e como foi parar no velho mundo.
+
 <!-- excerpt -->
 
 Como é trabalhar no terceiro maior e-commerces do mundo, como foi colaborar em uma startup no Brasil, suas experiências e experimentos.
@@ -55,9 +55,7 @@ Também contamos com uma nova abertura que entendedores entenderão :D
 [0:52:17](#t=0:52:17){: .timer} [How To Code](http://howtocode.com.br/)<br>
 [0:55:23](#t=0:55:23){: .timer} Considerações finais<br>
 
-
-
 ## Siga o ZOFE
 
-[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
-[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
+[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ 'ZOFE no Facebook: fb.com/zofepod')<br>
+[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ 'ZOFE no Twitter')<br>

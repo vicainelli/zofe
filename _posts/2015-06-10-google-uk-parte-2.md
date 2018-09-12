@@ -2,9 +2,9 @@
 title: 'ZOFE #27 - Google UK parte 2'
 subtitle: 'Com Addy Osmani, Jake Archibald e Paul Lewis'
 episodeID: 'ep27'
-audio: 'http://feeds.soundcloud.com/stream/209758783-zofepod-zofe-27-google-uk-parte-2'
+audio: 'http://traffic.libsyn.com/zofepod/209758783-zofepod-zofe-27-google-uk-parte-2.m4a'
 audio_file_length: 47961056
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/209758783&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032626/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, google, londres
 mosaico: 'http://i.imgur.com/m0b2GiM.jpg'
 mosaico_g: 'http://i.imgur.com/mtXRlGc.jpg'
@@ -13,10 +13,10 @@ durationMeta: T0H49M20S
 layout: post
 ---
 
-
 Vamos para a segunda parte da entrevista? VAMOS!
 
 Conversamos bastante sobre gráficos, web workers e as tendências pra esse ano relacionadas ao desenvolvimento. Como no último episódio, com [Addy Osmani](https://twitter.com/addyosmani), [Jake Archibald](https://twitter.com/jaffathecake) and [Paul Lewis](https://twitter.com/aerotwist)
+
 <!-- excerpt -->
 
 Este segundo episódio ficou maior que o esperado. Será bem atípico, mas esperamos que vocês gostem!
@@ -38,8 +38,7 @@ Este segundo episódio ficou maior que o esperado. Será bem atípico, mas esper
 [0:42:42](#t=0:42:42){: .timer} [Push Notifications on the open web](https://developers.google.com/web/updates/2015/03/push-notificatons-on-the-open-web?hl=en)<br>
 [0:44:12](#t=0:44:12){: .timer} [ServiceWorker API](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorker_API)<br>
 
-
 ## Siga o ZOFE
 
-[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
-[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
+[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ 'ZOFE no Facebook: fb.com/zofepod')<br>
+[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ 'ZOFE no Twitter')<br>

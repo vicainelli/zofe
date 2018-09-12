@@ -2,9 +2,9 @@
 title: 'ZOFE #15.minify("ciro nunes"); - AngularJS'
 subtitle: 'Haters gonna LISTEN TO ZOFE!'
 episodeID: 'ep14'
-audio: http://zofe.com.br/episodios/zofe-15-minify-angularjs
+audio: 'http://traffic.libsyn.com/zofepod/zofe-15-minify-angularjs.m4a'
 audio_file_length: 51367955
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155522716%3Fsecret_token%3Ds-Z4tiy&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032642/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, minify, eventos, noticias, open-source
 mosaico: http://i.imgur.com/ttlc8Ec.png
 mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
@@ -13,10 +13,10 @@ durationMeta: T0H52M47S
 layout: post
 ---
 
-
 DIRETO de San Francisco, na ensolarada California, Zeno SanDiego e [Ciro Nunes](http://twitter.com/cironunesdev) participam de mais um ZOFE.minify(); e Daniel de São Paulo. Forever alone.
 
 Falaremos de AngularJS, JSConfBR, MEANJS
+
 <!-- excerpt -->
 
 E QUERO VER RECLAMAR DO VOLUME AGORA!
@@ -49,9 +49,7 @@ E QUERO VER RECLAMAR DO VOLUME AGORA!
 [0:46:42](#t=0:46:42){: .timer} [InterCon WP + FEMUG](http://interconwp.imasters.com.br)<br>
 [0:47:41](#t=0:47:41){: .timer} [FEMUG-MG](https://groups.google.com/forum/#!forum/femug-mg)<br>
 
-
-
 ## Siga o ZOFE
 
-[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
-[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
+[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ 'ZOFE no Facebook: fb.com/zofepod')<br>
+[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ 'ZOFE no Twitter')<br>

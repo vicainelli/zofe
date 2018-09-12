@@ -2,9 +2,9 @@
 title: 'ZOFE #20 - Dois Ponto Zero'
 subtitle: 'Tudo novo, sempre, de novo'
 episodeID: 'ep20'
-audio: 'http://feeds.soundcloud.com/stream/192038747-zofepod-zofe-20-dois-ponto-zero-finalmente'
+audio: 'http://traffic.libsyn.com/zofepod/192038747-zofepod-zofe-20-dois-ponto-zero-finalmente.m4a'
 audio_file_length: 31756319
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/192038747%3Fsecret_token%3Ds-mwj5H&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032635/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, zofe, dois
 mosaico: 'http://i.imgur.com/z4hY97Y.jpg'
 mosaico_g: 'http://i.imgur.com/OlK8ypP.jpg'
@@ -13,8 +13,8 @@ durationMeta: T0H32M39S
 layout: post
 ---
 
-
 Dois ponto zero. Talvez o episódio mais demorado pra ser lançado foi o mais rápido pra ser gravado. Desde o comecinho de Janeiro pronto e esperando esse dia pra ser lançado. Mas tem muita novidade. Vem com a gente!
+
 <!-- excerpt -->
 
 ## TUDO novo no ZOFE
@@ -38,5 +38,5 @@ O episódio tá pronto desde o comecinho de Janeiro, mas decidimos so lançar qu
 
 ## Siga o ZOFE
 
-[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
-[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
+[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ 'ZOFE no Facebook: fb.com/zofepod')<br>
+[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ 'ZOFE no Twitter')<br>

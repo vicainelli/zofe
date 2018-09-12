@@ -2,9 +2,9 @@
 title: 'ZOFE #28 - WASM e Amigos'
 subtitle: 'Batemos um papo sobre WebAssembly e várias outras coisas'
 episodeID: 'ep28'
-audio: 'http://feeds.soundcloud.com/stream/212655712-zofepod-zofe-28-compila-o-js-ai'
+audio: 'http://traffic.libsyn.com/zofepod/212655712-zofepod-zofe-28-compila-o-js-ai.m4a'
 audio_file_length: 29699027
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212655712&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032625/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, wasm, javascript
 mosaico: 'http://i.imgur.com/IqRmizJ.jpg'
 mosaico_g: 'http://i.imgur.com/bbJbLmC.jpg'
@@ -13,10 +13,10 @@ durationMeta: T0H30M31S
 layout: post
 ---
 
-
 A web cresceu, o JavaScript já é maior de idade e já era hora dele se tornar adulto.
 
 Agora a web tem seu próprio bytecode e o WebAssembly (ou wasm) vai trazer pra linha de frente o pessoal que sempre desenvolveu as entranhas da internet.
+
 <!-- excerpt -->
 
 Nesse episódio começamos também a introduzir algumas mudanças no formato do podcast. De pouco em pouco vamos melhorando ;)
@@ -35,5 +35,5 @@ Pedimos desculpas pelo vacilo e áudio do Rafael Rinaldi. Entrou um guaxinim no 
 
 ## Siga o ZOFE
 
-[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
-[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
+[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ 'ZOFE no Facebook: fb.com/zofepod')<br>
+[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ 'ZOFE no Twitter')<br>

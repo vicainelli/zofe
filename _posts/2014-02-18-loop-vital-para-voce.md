@@ -2,9 +2,9 @@
 title: 'ZOFE #12: Loop Vital Para Você'
 subtitle: 'E Infinito Para Todos Nós'
 episodeID: 'ep12'
-audio: http://zofe.com.br/episodios/zofe-12-loop-vital-para-voce
+audio: 'http://traffic.libsyn.com/zofepod/zofe-12-loop-vital-para-voce.m4a'
 audio_file_length: 35165757
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155521409%3Fsecret_token%3Ds-82kMk&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032647/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, loop infinito, vital
 mosaico: http://i.imgur.com/cZADk5g.png
 mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
@@ -13,8 +13,7 @@ durationMeta: T1H31M35S
 layout: post
 ---
 
-
-Vital. Do latim, *vitālis*. Em alemão, espanhol, francês, indonésio e inglês: *vital*. Uma palavra única, TAL QUAL nosso episódio de hoje, um tanto inspirador com os mais do que queridos [Almir Filho](https://twitter.com/almirfilho) e [Caio Gondim](https://twitter.com/caio_gondim) do [Loop Infinito](http://loopinfinito.com.br).
+Vital. Do latim, _vitālis_. Em alemão, espanhol, francês, indonésio e inglês: _vital_. Uma palavra única, TAL QUAL nosso episódio de hoje, um tanto inspirador com os mais do que queridos [Almir Filho](https://twitter.com/almirfilho) e [Caio Gondim](https://twitter.com/caio_gondim) do [Loop Infinito](http://loopinfinito.com.br).
 
 <!-- excerpt -->
 
@@ -58,11 +57,10 @@ Um grande abraço para o [Vital](https://twitter.com/vitallyma) que se fez sem i
 [0:55:10](#t=0:55:10){: .timer} [Alagoas Dev Day](http://alagoasdevday.com.br)<br>
 [0:55:49](#t=0:55:49){: .timer} [BrazilJS Conf 2014](http://braziljs.com.br/2014)<br>
 
-
 ## Siga o ZOFE
 
-[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
-[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
+[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ 'ZOFE no Facebook: fb.com/zofepod')<br>
+[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ 'ZOFE no Twitter')<br>
 
 ## De brinde
 

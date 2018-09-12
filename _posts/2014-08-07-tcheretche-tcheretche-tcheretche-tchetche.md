@@ -2,9 +2,9 @@
 title: 'ZOFE #17 - Tcheretchê Tcheretchê Tcheretchê Tchetchê'
 subtitle: 'Com o grande Miller Medeiros como terceiro membro!'
 episodeID: 'ep17'
-audio: http://feeds.soundcloud.com/stream/162204771-zofepod-17-tcheretche-tcheretche-tcheretche-tchetche
+audio: 'http://traffic.libsyn.com/zofepod/162204771-zofepod-17-tcheretche-tcheretche-tcheretche-tchetche.m4a'
 audio_file_length: 78769200
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/162204771%3Fsecret_token%3Ds-WVmpl&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032640/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, eventos, noticias, open-source, javascript, miller medeiros
 mosaico: 'http://i.imgur.com/zBSbaok.png'
 mosaico_g: 'http://i.imgur.com/tz58sIA.png'
@@ -13,10 +13,10 @@ durationMeta: T1H21M01S
 layout: post
 ---
 
-
 Eis que o dia chegou. O dia mais esperado por todos da comunidade global da rede mundial de computadores do universo: ele veio participar conosco. E pelo jeito, quer tirar o Zeno do podcast.
 
 Neste episódio, Miller Medeiros se tornou o terceiro membro do podcast, e até "cantou" o Tcheretchê Tcheretchê Tcheretchê Tchetchê (ou algo assim).
+
 <!-- excerpt -->
 
 Também vai rolar o [PRIMEIRO ENCONTRO ZOFE](http://www.eventick.com.br/encontro-zofe-2014), que também vai ser um esquenta pra [BrazilJS](http://braziljs.com.br). Inscreva-se já e vá jogar conversa fora com o Daniel Filho e o Zeno Rocha. Vai ser divertido ;)
@@ -43,8 +43,7 @@ Também vai rolar o [PRIMEIRO ENCONTRO ZOFE](http://www.eventick.com.br/encontro
 [1:12:52](#t=1:12:52){: .timer} [Front In Aracaju](http://www.frontinaracaju.com.br/)<br>
 [1:13:23](#t=1:13:23){: .timer} [X-Salada: o melhor webcomponent do mundo](https://github.com/danielfilho/x-salada)<br>
 
-
 ## Siga o ZOFE
 
-[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
-[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
+[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ 'ZOFE no Facebook: fb.com/zofepod')<br>
+[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ 'ZOFE no Twitter')<br>

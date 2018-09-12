@@ -1,10 +1,10 @@
 (function () {
   'use strict';
-  
+
   /**
    * Metodos Auxiliares
    */
-  
+
 
   var utils = {
     /**
@@ -61,7 +61,7 @@
   $(function () {
     'use strict';
 
-    var iframe = document.querySelector('#soundcloud-player iframe');
+    var iframe = document.querySelector('#episode-player iframe');
 
     if (!iframe)
       return;

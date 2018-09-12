@@ -2,9 +2,9 @@
 title: 'ZOFE #14.minify(); - Mamilos'
 subtitle: 'Eventos, Brendan Eich e um monte de coisas.'
 episodeID: 'ep14'
-audio: http://zofe.com.br/episodios/zofe-14-minify-mamilos
+audio: 'http://traffic.libsyn.com/zofepod/zofe-14-minify-mamilos.m4a'
 audio_file_length: 42254111
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155522556%3Fsecret_token%3Ds-UbRpK&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032643/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, minify, eventos, noticias, open-source
 mosaico: http://i.imgur.com/1wFIkwh.png
 mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
@@ -13,8 +13,8 @@ durationMeta: T0H43M24S
 layout: post
 ---
 
-
 Seguindo com nosso formato fechado totalmente aberto, resolvemos fazer episódios mais diretos, sem edição, direto e reto.
+
 <!-- excerpt -->
 
 Comentem e passem a opinião de vocês, pra sabermos se continuamos assim ;)
@@ -41,9 +41,7 @@ Comentem e passem a opinião de vocês, pra sabermos se continuamos assim ;)
 [0:39:50](#t=0:39:50){: .timer} [RSJS](http://rsjs.org)<br>
 [0:41:36](#t=0:41:36){: .timer} [FrontIn Aracaju](http://frontinaracaju.com.br/)<br>
 
-
-
 ## Siga o ZOFE
 
-[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
-[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
+[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ 'ZOFE no Facebook: fb.com/zofepod')<br>
+[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ 'ZOFE no Twitter')<br>

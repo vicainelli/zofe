@@ -2,17 +2,16 @@
 title: 'ZOFE #11: Antes Do Que Vem Depois e Vice-Versa'
 subtitle: 'E Um Desabafo De Brinde'
 episodeID: 'ep11'
-audio: http://zofe.com.br/episodios/zofe-11-antes-do-que-vem-depois-e-vice-versa
+audio: 'http://traffic.libsyn.com/zofepod/zofe-11-antes-do-que-vem-depois-e-vice-versa.m4a'
 audio_file_length: 45127897
 mosaico: http://i.imgur.com/0c6CIcp.png
 mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155520903%3Fsecret_token%3Ds-ekXmY&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032648/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, desabafo, palestras, eventos
 duration: '1:31:35'
 durationMeta: T1H31M35S
 layout: post
 ---
-
 
 Nem demorou tanto assim, vai?
 
@@ -43,8 +42,7 @@ Além das notícias no início e os eventos no final do episódio.
 [1:12:10](#t=1:12:10){: .timer} [Don't Tell Me What To Do](https://medium.com/i-m-h-o/974fbfe7900)<br>
 [1:18:16](#t=1:18:16){: .timer} Eventos<br>
 
-
 ## Siga o ZOFE
 
-[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
-[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
+[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ 'ZOFE no Facebook: fb.com/zofepod')<br>
+[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ 'ZOFE no Twitter')<br>

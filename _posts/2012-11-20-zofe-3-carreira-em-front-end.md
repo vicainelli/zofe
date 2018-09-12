@@ -4,17 +4,17 @@ subtitle: 'Respostas para dúvidas sobre a profissão'
 episodeID: 'ep3'
 mosaico: http://i.imgur.com/K5Rrl.png
 mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
-audio: http://zofe.com.br/episodios/zofe-03-carreira-em-front-end
+audio: 'http://traffic.libsyn.com/zofepod/zofe-03-carreira-em-front-end.m4a'
 audio_file_length: 32638769
 duration: '1:07:59'
 durationMeta: T1H07M59S
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155517497%3Fsecret_token%3Ds-3DZIw&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032657/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, carreira, front-end, profissao
 layout: post
 ---
 
-
 Terceiro episódio com nova plataforma no site e… FEED! Neste episódio temos um formato diferente: um bate-papo entre Daniel Filho e Zeno Rocha, com um tema escolhido pelo público: Carreira em Front-End.
+
 <!-- excerpt -->
 
 Neste episódio fizemos um formato diferente: um bate-papo entre Daniel Filho e Zeno Rocha, com um tema escolhido pelo público: Carreira em Front-End.
@@ -47,9 +47,8 @@ Agora você pode deixar seus comentários no post do episódio (no caso deste, n
 [1:01:57](#t=1:01:57){: .timer} [FrontInterior](http://www.frontinterior.com.br)<br>
 [1:04:28](#t=1:04:28){: .timer} [DevFest](http://devfest.com.br)<br>
 
-
 ## Siga o ZOFE
 
-[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
-[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
+[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ 'ZOFE no Facebook: fb.com/zofepod')<br>
+[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ 'ZOFE no Twitter')<br>
 [55:11](#t=0:55:11){: .timer} Zone Of Front-Enders no Google+: &nbsp;URL só ouvindo.

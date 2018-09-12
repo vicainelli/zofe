@@ -31,8 +31,8 @@ layout: default
       <itunes:subtitle>{{ page.subtitle }}</itunes:subtitle>
       <itunes:summary>{{ content }}</itunes:summary>
       <itunes:image href="{{ page.mosaico300 }}" />
-      <enclosure url="{{ page.audio }}.aac" length="{{ page.podcastLength }}" type="audio/x-m4a" />
-      <guid>{{ page.audio }}.aac</guid>
+      <enclosure url="{{ page.audio }}" length="{{ page.podcastLength }}" type="audio/x-m4a" />
+      <guid>{{ page.audio }}</guid>
       <pubDate>{{ page.podcastPubDate }}</pubDate>
       <itunes:duration>{{ podcast.duration }}</itunes:duration>
       <itunes:keywords>{{ podcast.tags }}</itunes:keywords>

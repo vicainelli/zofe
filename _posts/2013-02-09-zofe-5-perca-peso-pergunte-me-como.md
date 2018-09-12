@@ -4,17 +4,17 @@ subtitle: 'Entrevista épica com Marcel Duran, engenheiro front-end no Twitter'
 episodeID: 'ep5'
 mosaico: http://i.imgur.com/HGILa8T.png
 mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
-audio: http://zofe.com.br/episodios/zofe-05-perca-peso-pergunte-me-como
+audio: 'http://traffic.libsyn.com/zofepod/zofe-05-perca-peso-pergunte-me-como.m4a'
 audio_file_length: 34505374
 duration: '1:11:53'
 durationMeta: T1H11M53S
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155519072%3Fsecret_token%3Ds-VZCQ1&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032655/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, twitter, yahoo, yslow, front-end, performance, campus-party
 layout: post
 ---
 
-
 Vou te contar, se perder KG fosse tão fácil quando perder MB, eu era modelo e não programador! Mas já que, mesmo com uma força do Crockford pra perder KG ainda é difícil, vamos ficar com todas as dicas do Marcel Duran pra perder MB no front-end e ganhar velocidade e performance.
+
 <!-- excerpt -->
 
 No episódio cinco, o entrevistado da vez é ninguém menos que [Marcel Duran](http://twitter.com/marcelduran). Ele conta como é manter um dos maiores projetos de análise de performance do front-end, o [YSlow](http://yslow.org), fala da sua trajetória até chegar ao Twitter e passa muitas dicas e links a respeito do assunto que domina: performance.
@@ -56,11 +56,10 @@ Por pouquíssimas pessoas que acessam a versão OGG do podcast, resolvemos deixa
 
 [1:05:50](#t=1:05:50){: .timer} Eventos<br>
 
-* [Zeno Rocha e Bernard de Luna: Layouts Responsivos o seu conteúdo em múltiplos dispositivos](http://www.youtube.com/watch?v=ty7zj37gaBI)<br>
-* [Daniel Filho: Desenvolvendo Interfaces Total-Flex](http://www.youtube.com/watch?v=b9ZrOdTFkNk)<br>
-
+- [Zeno Rocha e Bernard de Luna: Layouts Responsivos o seu conteúdo em múltiplos dispositivos](http://www.youtube.com/watch?v=ty7zj37gaBI)<br>
+- [Daniel Filho: Desenvolvendo Interfaces Total-Flex](http://www.youtube.com/watch?v=b9ZrOdTFkNk)<br>
 
 ## Siga o ZOFE
 
-[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
-[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
+[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ 'ZOFE no Facebook: fb.com/zofepod')<br>
+[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ 'ZOFE no Twitter')<br>

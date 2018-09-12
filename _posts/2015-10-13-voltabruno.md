@@ -2,9 +2,9 @@
 title: 'ZOFE #32 - #VOLTABRUNO'
 subtitle: 'Senão é justa causa. Hahaha!'
 episodeID: 'ep32'
-audio: 'http://feeds.soundcloud.com/stream/228164625-zofepod-zofe-32-voltabruno'
+audio: 'http://traffic.libsyn.com/zofepod/228164625-zofepod-zofe-32-voltabruno.m4a'
 audio_file_length: 22022278
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/228164625&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032621/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, javascript, news
 mosaico: 'http://i.imgur.com/RCHbm1e.png'
 mosaico_g: 'http://i.imgur.com/RCHbm1e.png'
@@ -13,8 +13,8 @@ durationMeta: T0H22M37S
 layout: post
 ---
 
-
 Nesse episódio contamos um pouco de algumas novas ferramentas lançadas e que podem facilitar sua vida, além de muito material de estudo.
+
 <!-- excerpt -->
 
 > Episódio gravado em: 28/09/2015 - 9pm
@@ -38,5 +38,5 @@ A música utilizada na intro e outro desse episódio é: [Mess. - Lucky One - 03
 
 ## Siga o ZOFE
 
-[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
-[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
+[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ 'ZOFE no Facebook: fb.com/zofepod')<br>
+[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ 'ZOFE no Twitter')<br>

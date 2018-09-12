@@ -4,19 +4,19 @@ subtitle: 'Como foi o dia de Daniel Filho, Zeno Rocha e o seu. É sério.'
 episodeID: 'ep6'
 mosaico: http://i.imgur.com/2eU6yo6.png
 mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
-audio: http://zofe.com.br/episodios/zofe-06-o-que-voce-fez-hoje
+audio: 'http://traffic.libsyn.com/zofepod/zofe-06-o-que-voce-fez-hoje.m4a'
 audio_file_length: 29776668
 duration: '1:11:53'
 durationMeta: T1H11M53S
-soundcloud-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155519268%3Fsecret_token%3Ds-d2QoA&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032654/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, dia, sorteio, resultado
 layout: post
 ---
 
-
 Como foi o dia do Daniel Filho? E o do Zeno Rocha? Mais importante ainda, queremos saber **como foi o SEU dia!**
 
 Diga como foi seu dia profissional no comentário deste post, pode ser que, sei lá. De repente, você pode ganhar um botom do ZOFE, ou um adesivo. OU OS DOIS! (Vai que, né?)
+
 <!-- excerpt -->
 
 Seguindo no formato conhecido internamente como "Forever Alones" (mentira, acabei de inventar), Daniel e Zeno contam um pouco mais do seu dia-a-dia no trabalho, ferramentas que usam, além de pedir o que vem sendo pedindo desde 2010: um fim a negatividade. Corre e da o play!
@@ -45,6 +45,7 @@ Seguindo no formato conhecido internamente como "Forever Alones" (mentira, acabe
 [53:39](#t=0:53:39){: .timer} Sorteio: Bolsa do Twitter<br>
 
 ## Sorteio: Twitter + ZOFE
+
 E foi feito o sorteio da promoção e os vencedores são:
 
 1. "Bolsa Família ou Bolsa Reclusão. Para esses eu digo não. O desejo é só um para quem é geek. Faturar a Bolsa Hack Week.#zofeTwitter" -- Bruna [@griebeler](http://twitter.com/griebeler)
@@ -53,10 +54,10 @@ E foi feito o sorteio da promoção e os vencedores são:
 
 Então não se esqueçam:
 
-* **BRUNA**: envie um e-mail com seu nome completo e endereço para: crotylde \[arroba\] zofe \[.com .br\]
-* **JULIO e RAMON**: envie um e-mail com seu nome completo e endereço para: creuza \[arroba\] zofe \[.com .br\]
+- **BRUNA**: envie um e-mail com seu nome completo e endereço para: crotylde \[arroba\] zofe \[.com .br\]
+- **JULIO e RAMON**: envie um e-mail com seu nome completo e endereço para: creuza \[arroba\] zofe \[.com .br\]
 
 ## Siga o ZOFE
 
-[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
-[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
+[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ 'ZOFE no Facebook: fb.com/zofepod')<br>
+[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ 'ZOFE no Twitter')<br>
