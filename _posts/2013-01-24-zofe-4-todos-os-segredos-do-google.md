@@ -4,17 +4,17 @@ subtitle: 'Brincadeira. São só uns três ou quatro..'
 episodeID: 'ep4'
 mosaico: http://i.imgur.com/YOd4ID5.png
 mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
-audio: http://zofe.com.br/episodios/zofe-04-todos-os-segredos-do-google
+audio: 'http://traffic.libsyn.com/zofepod/zofe-04-todos-os-segredos-do-google.m4a'
 audio_file_length: 41855415
 duration: '1:27:01'
 durationMeta: T1H27M01S
-episode-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155518025%3Fsecret_token%3Ds-dnxS0&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032656/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, google, front-end, profissao, renato mangini
 layout: post
 ---
 
-
 VOLTAMOS, e dessa vez pra ficar! Isso aí, pessoal. Depois de uma pausa sabática, o seu podcast com conteúdo em português sobre desenvolvimento web com foco no front-end apresentado pelo Daniel e Zeno voltou (é, não sobraram muitas opções também, né?). Dessa vez, entrevistamos **O_CARA** do Google Chrome no Brasil: Renato Mangini.
+
 <!-- excerpt -->
 
 Entrevistamos o [Renato Mangini](https://plus.google.com/102180419759627664875/posts) no [DevFest](http://devfest.com.br) mas, por problemas técnicos, não conseguimos publicar nem aproveitar o que gravamos. Então, convidamos ele pra fazer no formato tradicional, e deu certo. E aproveitamos o convidado para revelarmos TODOS OS SEGREDOS do Google (brincadeira, só uns dois ou três que nem são tão secretos assim).
@@ -54,8 +54,7 @@ Esperamos que você curta o episódio!
 [1:23:40](#t=1:23:40){: .timer} [BeagaJS](http://www.beagajs.com.br/)<br>
 [1:25:06](#t=1:25:06){: .timer} [Firefox App Day](http://firefoxosappdays-saopaulo.eventbrite.com/)<br>
 
-
 ## Siga o ZOFE
 
-[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
-[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
+[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ 'ZOFE no Facebook: fb.com/zofepod')<br>
+[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ 'ZOFE no Twitter')<br>

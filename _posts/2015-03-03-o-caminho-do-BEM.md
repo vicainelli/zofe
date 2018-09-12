@@ -2,9 +2,9 @@
 title: 'ZOFE #22 - O Caminho do BEM'
 subtitle: 'Tim Maia é rei. Esse sim sabia o caminho do BEM!'
 episodeID: 'ep22'
-audio: 'http://feeds.soundcloud.com/stream/193943601-zofepod-zofe-22-o-caminho-do-bem'
+audio: 'http://traffic.libsyn.com/zofepod/193943601-zofepod-zofe-22-o-caminho-do-bem.m4a'
 audio_file_length: 32597510
-episode-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193943601&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032632/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, zofe, bem, sass
 mosaico: 'http://i.imgur.com/BVVHWYu.png'
 mosaico_g: 'http://i.imgur.com/orMKv3i.png'
@@ -13,11 +13,11 @@ durationMeta: T0H33M10S
 layout: post
 ---
 
-
 Tim Maia é rei. Esse sim sabia o caminho do BEM! Mas se bem que, ser vilão é bem mais legal. Não?
+
 <!-- excerpt -->
 
-Nesse episódio, [Daniel Filho](https://twitter.com/danielfilho), [Caio Gondim](https://twitter.com/caio_gondim) e [Almir Filho](https://twitter.com/almirfilho) falam sobre o novo processo de *build* do ZOFE, JavaScript e computação paralela, open-source e vários vídeos legais.
+Nesse episódio, [Daniel Filho](https://twitter.com/danielfilho), [Caio Gondim](https://twitter.com/caio_gondim) e [Almir Filho](https://twitter.com/almirfilho) falam sobre o novo processo de _build_ do ZOFE, JavaScript e computação paralela, open-source e vários vídeos legais.
 
 [0:00:50](#t=0:00:50){: .timer} Pular intro<br>
 [0:02:10](#t=0:02:10){: .timer} [@fnando](https://twitter.com/fnando)<br>
@@ -40,5 +40,5 @@ Nesse episódio, [Daniel Filho](https://twitter.com/danielfilho), [Caio Gondim](
 
 ## Siga o ZOFE
 
-[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
-[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
+[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ 'ZOFE no Facebook: fb.com/zofepod')<br>
+[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ 'ZOFE no Twitter')<br>

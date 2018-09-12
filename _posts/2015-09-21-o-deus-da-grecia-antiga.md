@@ -2,9 +2,9 @@
 title: 'ZOFE #31 - O Deus Da Grécia Antiga'
 subtitle: 'Com a melhor abertura de todas.'
 episodeID: 'ep31'
-audio: 'http://feeds.soundcloud.com/stream/224978054-zofepod-zofe-31-o-deus-da-grecia-antiga'
+audio: 'http://traffic.libsyn.com/zofepod/224978054-zofepod-zofe-31-o-deus-da-grecia-antiga.m4a'
 audio_file_length: 21041321
-episode-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/224978054&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032622/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, javascript, react, componentes
 mosaico: 'http://i.imgur.com/CJhLv3d.png'
 mosaico_g: 'http://i.imgur.com/CJhLv3d.png'
@@ -13,8 +13,8 @@ durationMeta: T0H21M37S
 layout: post
 ---
 
+Um episódio sem _muita_ enrolação, com muito conteúdo e pouco bla bla bla.
 
-Um episódio sem *muita* enrolação, com muito conteúdo e pouco bla bla bla.
 <!-- excerpt -->
 
 [0:00:41](#t=0:00:41){: .timer} Pular intro<br>
@@ -38,5 +38,5 @@ A música utilizada na intro e outro desse episódio é: [Mess. - Lucky One - 03
 
 ## Siga o ZOFE
 
-[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
-[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
+[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ 'ZOFE no Facebook: fb.com/zofepod')<br>
+[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ 'ZOFE no Twitter')<br>

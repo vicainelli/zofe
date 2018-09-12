@@ -2,9 +2,9 @@
 title: 'ZOFE #24 - A Muriçoca Gigante'
 subtitle: 'Ou: Daniel explicando o efeito Doppler'
 episodeID: 'ep24'
-audio: 'http://feeds.soundcloud.com/stream/196423727-zofepod-zofe-24-a-muricoca-gigante'
+audio: 'http://traffic.libsyn.com/zofepod/196423727-zofepod-zofe-24-a-muricoca-gigante.m4a'
 audio_file_length: 26006212
-episode-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/196423727&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032630/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end
 mosaico: 'http://i.imgur.com/1uiTK0z.png'
 mosaico_g: 'http://i.imgur.com/gfAO323.png'
@@ -13,8 +13,8 @@ durationMeta: T0H26M43S
 layout: post
 ---
 
-
 Fui tentar explicar o efeito Doppler e o Caio disse que parecia uma muriçoca gigante. E PÕE GIGANTE NISSO! OLOCO MÊO!
+
 <!-- excerpt -->
 
 Falamos de um monte de coisa, mas a primeira foram agradecimentos. OBRIGADO a todos que colaboraram, e a primeira fase da luta a gente ajudou o Leo a vencer. Mas ainda tem uma batalha pela frente, e pra isso estamos em mais uma iniciativa: [Front-End United for LeoKZ](http://frontendunited.io/leokzw/).
@@ -43,5 +43,5 @@ Agora bora ouvir o podcast?
 
 ## Siga o ZOFE
 
-[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
-[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
+[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ 'ZOFE no Facebook: fb.com/zofepod')<br>
+[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ 'ZOFE no Twitter')<br>

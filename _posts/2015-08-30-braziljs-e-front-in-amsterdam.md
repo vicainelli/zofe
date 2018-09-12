@@ -2,9 +2,9 @@
 title: 'ZOFE #29 - BrazilJS e Front In Amsterdam'
 subtitle: ''
 episodeID: 'ep29'
-audio: 'http://feeds.soundcloud.com/stream/221640156-zofepod-zofe-29-braziljs-e-front-in-amsterdam'
+audio: 'http://traffic.libsyn.com/zofepod/221640156-zofepod-zofe-29-braziljs-e-front-in-amsterdam.m4a'
 audio_file_length: 54424618
-episode-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221640156&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032624/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, javascript, braziljs, frontinamsterdam
 mosaico: 'http://i.imgur.com/AbrOFjy.png'
 mosaico_g: 'http://i.imgur.com/0PUDC7E.png'
@@ -13,10 +13,9 @@ durationMeta: T0H56M00S
 layout: post
 ---
 
-
 Um bate papo descontraído sobre o que rolou na [BrazilJS 2015](http://braziljs.com.br/2015){: .post-link}, e o que estava por rolar no [Front In Amsterdam](http://frontinamsterdam.nl){: .post-link}.
-<!-- excerpt -->
 
+<!-- excerpt -->
 
 [0:00:17](#t=0:00:17){: .timer} Pular intro<br>
 [0:02:22](#t=0:02:22){: .timer} [Grok Podcast](http://grokpodcast.com/){: .timer-title}<br>
@@ -55,5 +54,5 @@ A música utilizada na intro e outro desse episódio é: [Slate Shirt - Computer
 
 ## Siga o ZOFE
 
-[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
-[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
+[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ 'ZOFE no Facebook: fb.com/zofepod')<br>
+[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ 'ZOFE no Twitter')<br>

@@ -2,9 +2,9 @@
 title: 'ZOFE #30 - Componentes, React e a Web'
 subtitle: 'Com o convidado Jean Carlo Emer'
 episodeID: 'ep30'
-audio: 'http://feeds.soundcloud.com/stream/223126448-zofepod-zofe-30'
+audio: 'http://traffic.libsyn.com/zofepod/223126448-zofepod-zofe-30.m4a'
 audio_file_length: 39611851
-episode-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/223126448&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032623/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, javascript, react, componentes
 mosaico: 'http://i.imgur.com/sDF5eCC.png'
 mosaico_g: 'http://i.imgur.com/obDkdB5.png'
@@ -13,8 +13,8 @@ durationMeta: T0H40M44S
 layout: post
 ---
 
-
 O [Jean Carlo Emer](http://twitter.com/jcemer) topou bater um papo com a gente sobre React, Componentes e desenvolvimento web.
+
 <!-- excerpt -->
 
 Prepare-se para um episódio denso e direto ao ponto. Muitos links interessantes e material pra estudo!
@@ -49,5 +49,5 @@ A música utilizada na intro e outro desse episódio é: [Slate Shirt - Computer
 
 ## Siga o ZOFE
 
-[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ "ZOFE no Facebook: fb.com/zofepod")<br>
-[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ "ZOFE no Twitter")<br>
+[Zone Of Front-Enders no Facebook: fb.com/zofepod](http://fb.com/zofepod/ 'ZOFE no Facebook: fb.com/zofepod')<br>
+[Zone Of Front-Enders no Twitter: twitter.com/zofepod](http://twitter.com/zofepod/ 'ZOFE no Twitter')<br>

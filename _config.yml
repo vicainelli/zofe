@@ -1,4 +1,4 @@
-gems:              ["jekyll-paginate", "jekyll-lunr-js-search"]
+plugins:           ["jekyll-paginate", "jekyll-lunr-js-search"]
 paginate:          5
 paginate_path:     "/posts/page:num/"
 permalink:         "/posts/:title/"
