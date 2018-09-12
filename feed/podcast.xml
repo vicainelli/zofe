@@ -39,8 +39,8 @@ layout: null
         <![CDATA[ {{ post.excerpt }} ]]>
       </content:encoded>
       <itunes:image href="{{ post.mosaico }}" />
-      <enclosure url="{{ post.audio }}.m4a" length="{{ post.audio_file_length }}" type="audio/x-m4a" />
-      <guid>{{ post.audio }}.m4a</guid>
+      <enclosure url="{{ post.audio }}" length="{{ post.audio_file_length }}" type="audio/x-m4a" />
+      <guid>{{ post.audio }}</guid>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
       <itunes:duration>{{ post.duration }}</itunes:duration>
       <itunes:keywords>{{ post.tags }}</itunes:keywords>
