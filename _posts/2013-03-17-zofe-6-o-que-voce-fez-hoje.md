@@ -2,9 +2,9 @@
 title: 'ZOFE #6: O que você fez hoje?'
 subtitle: 'Como foi o dia de Daniel Filho, Zeno Rocha e o seu. É sério.'
 episodeID: 'ep6'
-mosaico: http://i.imgur.com/2eU6yo6.png
-mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
-audio: 'http://traffic.libsyn.com/zofepod/zofe-06-o-que-voce-fez-hoje.m4a'
+mosaico: https://i.imgur.com/2eU6yo6.png
+mosaico_g: 'https://i.imgur.com/xYVJGsa.png'
+audio: 'https://traffic.libsyn.com/zofepod/zofe-06-o-que-voce-fez-hoje.m4a'
 audio_file_length: 29776668
 duration: '1:11:53'
 durationMeta: T1H11M53S
@@ -40,7 +40,7 @@ Seguindo no formato conhecido internamente como "Forever Alones" (mentira, acabe
 [29:41](#t=0:29:41){: .timer} [Jekyll](http://jekyllrb.com/)<br>
 [30:46](#t=0:30:46){: .timer} [Octopress](http://octopress.org/)<br>
 [36:40](#t=0:36:40){: .timer} [Why are front end developers so high in demand at startups if front end development is relatively easier than other fields of engineering?](https://www.quora.com/Startups/Why-are-front-end-developers-so-high-in-demand-at-startups-if-front-end-development-is-relatively-easier-than-other-fields-of-engineering)<br>
-[42:55](#t=0:42:55){: .timer} [Discrepância profissional](http://i.imgur.com/aX8LXyu.png)<br>
+[42:55](#t=0:42:55){: .timer} [Discrepância profissional](https://i.imgur.com/aX8LXyu.png)<br>
 [44:59](#t=0:44:59){: .timer} [Chris Williams: An End to Negativity](http://jsconf.eu/2011/an_end_to_negativity.html)<br>
 [53:39](#t=0:53:39){: .timer} Sorteio: Bolsa do Twitter<br>
 

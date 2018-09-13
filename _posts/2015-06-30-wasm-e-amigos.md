@@ -2,12 +2,12 @@
 title: 'ZOFE #28 - WASM e Amigos'
 subtitle: 'Batemos um papo sobre WebAssembly e várias outras coisas'
 episodeID: 'ep28'
-audio: 'http://traffic.libsyn.com/zofepod/212655712-zofepod-zofe-28-compila-o-js-ai.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/212655712-zofepod-zofe-28-compila-o-js-ai.m4a'
 audio_file_length: 29699027
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032625/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, wasm, javascript
-mosaico: 'http://i.imgur.com/IqRmizJ.jpg'
-mosaico_g: 'http://i.imgur.com/bbJbLmC.jpg'
+mosaico: 'https://i.imgur.com/IqRmizJ.jpg'
+mosaico_g: 'https://i.imgur.com/bbJbLmC.jpg'
 duration: '0:30:31'
 durationMeta: T0H30M31S
 layout: post

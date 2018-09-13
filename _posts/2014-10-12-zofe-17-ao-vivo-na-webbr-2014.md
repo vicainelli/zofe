@@ -2,12 +2,12 @@
 title: 'ZOFE #18 - Ao Vivo na web.br'
 subtitle: 'Com Reinaldo Ferraz'
 episodeID: 'ep18'
-audio: 'http://traffic.libsyn.com/zofepod/171872428-zofepod-zofe-18-ao-vivo-na-webbr.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/171872428-zofepod-zofe-18-ao-vivo-na-webbr.m4a'
 audio_file_length: 39509251
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032639/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, eventos, webbr, reinaldo-ferraz
-mosaico: 'http://i.imgur.com/40Aflgb.png'
-mosaico_g: 'http://i.imgur.com/40Aflgb.png'
+mosaico: 'https://i.imgur.com/40Aflgb.png'
+mosaico_g: 'https://i.imgur.com/40Aflgb.png'
 duration: '0:40:36'
 durationMeta: T0H40M36S
 layout: post

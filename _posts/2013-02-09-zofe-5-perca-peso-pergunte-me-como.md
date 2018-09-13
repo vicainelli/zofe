@@ -2,9 +2,9 @@
 title: 'ZOFE #5: Perca peso. Pergunte-me como.'
 subtitle: 'Entrevista épica com Marcel Duran, engenheiro front-end no Twitter'
 episodeID: 'ep5'
-mosaico: http://i.imgur.com/HGILa8T.png
-mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
-audio: 'http://traffic.libsyn.com/zofepod/zofe-05-perca-peso-pergunte-me-como.m4a'
+mosaico: https://i.imgur.com/HGILa8T.png
+mosaico_g: 'https://i.imgur.com/xYVJGsa.png'
+audio: 'https://traffic.libsyn.com/zofepod/zofe-05-perca-peso-pergunte-me-como.m4a'
 audio_file_length: 34505374
 duration: '1:11:53'
 durationMeta: T1H11M53S

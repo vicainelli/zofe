@@ -2,12 +2,12 @@
 title: 'ZOFE #17 - Tcheretchê Tcheretchê Tcheretchê Tchetchê'
 subtitle: 'Com o grande Miller Medeiros como terceiro membro!'
 episodeID: 'ep17'
-audio: 'http://traffic.libsyn.com/zofepod/162204771-zofepod-17-tcheretche-tcheretche-tcheretche-tchetche.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/162204771-zofepod-17-tcheretche-tcheretche-tcheretche-tchetche.m4a'
 audio_file_length: 78769200
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032640/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, eventos, noticias, open-source, javascript, miller medeiros
-mosaico: 'http://i.imgur.com/zBSbaok.png'
-mosaico_g: 'http://i.imgur.com/tz58sIA.png'
+mosaico: 'https://i.imgur.com/zBSbaok.png'
+mosaico_g: 'https://i.imgur.com/tz58sIA.png'
 duration: '1:21:01'
 durationMeta: T1H21M01S
 layout: post
@@ -21,7 +21,7 @@ Neste episódio, Miller Medeiros se tornou o terceiro membro do podcast, e até 
 
 Também vai rolar o [PRIMEIRO ENCONTRO ZOFE](http://www.eventick.com.br/encontro-zofe-2014), que também vai ser um esquenta pra [BrazilJS](http://braziljs.com.br). Inscreva-se já e vá jogar conversa fora com o Daniel Filho e o Zeno Rocha. Vai ser divertido ;)
 
-<a href="http://www.eventick.com.br/encontro-zofe-2014"><img src="http://i.imgur.com/lRfMxiS.png" alt="Primeiro Encontro ZOFE"></a>
+<a href="http://www.eventick.com.br/encontro-zofe-2014"><img src="https://i.imgur.com/lRfMxiS.png" alt="Primeiro Encontro ZOFE"></a>
 
 [0:01:35](#t=0:01:35){: .timer} [Miller Medeiros](https://twitter.com/millermedeiros)<br>
 [0:03:40](#t=0:03:40){: .timer} [Camiseta do ZOFE](https://cottonbureau.com/products/zone-of-front-enders)<br>

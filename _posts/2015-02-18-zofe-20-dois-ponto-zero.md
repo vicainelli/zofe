@@ -2,12 +2,12 @@
 title: 'ZOFE #20 - Dois Ponto Zero'
 subtitle: 'Tudo novo, sempre, de novo'
 episodeID: 'ep20'
-audio: 'http://traffic.libsyn.com/zofepod/192038747-zofepod-zofe-20-dois-ponto-zero-finalmente.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/192038747-zofepod-zofe-20-dois-ponto-zero-finalmente.m4a'
 audio_file_length: 31756319
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032635/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, zofe, dois
-mosaico: 'http://i.imgur.com/z4hY97Y.jpg'
-mosaico_g: 'http://i.imgur.com/OlK8ypP.jpg'
+mosaico: 'https://i.imgur.com/z4hY97Y.jpg'
+mosaico_g: 'https://i.imgur.com/OlK8ypP.jpg'
 duration: '0:32:39'
 durationMeta: T0H32M39S
 layout: post

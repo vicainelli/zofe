@@ -2,12 +2,12 @@
 title: 'ZOFE #31 - O Deus Da Grécia Antiga'
 subtitle: 'Com a melhor abertura de todas.'
 episodeID: 'ep31'
-audio: 'http://traffic.libsyn.com/zofepod/224978054-zofepod-zofe-31-o-deus-da-grecia-antiga.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/224978054-zofepod-zofe-31-o-deus-da-grecia-antiga.m4a'
 audio_file_length: 21041321
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032622/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, javascript, react, componentes
-mosaico: 'http://i.imgur.com/CJhLv3d.png'
-mosaico_g: 'http://i.imgur.com/CJhLv3d.png'
+mosaico: 'https://i.imgur.com/CJhLv3d.png'
+mosaico_g: 'https://i.imgur.com/CJhLv3d.png'
 duration: '0:21:37'
 durationMeta: T0H21M37S
 layout: post

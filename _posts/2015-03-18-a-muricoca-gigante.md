@@ -2,12 +2,12 @@
 title: 'ZOFE #24 - A Muriçoca Gigante'
 subtitle: 'Ou: Daniel explicando o efeito Doppler'
 episodeID: 'ep24'
-audio: 'http://traffic.libsyn.com/zofepod/196423727-zofepod-zofe-24-a-muricoca-gigante.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/196423727-zofepod-zofe-24-a-muricoca-gigante.m4a'
 audio_file_length: 26006212
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032630/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end
-mosaico: 'http://i.imgur.com/1uiTK0z.png'
-mosaico_g: 'http://i.imgur.com/gfAO323.png'
+mosaico: 'https://i.imgur.com/1uiTK0z.png'
+mosaico_g: 'https://i.imgur.com/gfAO323.png'
 duration: '0:26:43'
 durationMeta: T0H26M43S
 layout: post

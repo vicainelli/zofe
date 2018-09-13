@@ -14,9 +14,9 @@ layout: null
   <Contact>daniel@zofe.com.br</Contact>
   <Description>Podcast sobre desenvolvimento web, com foco em tecnologias front-end e JavaScript</Description>
   <Tags>html css javascript html5 css3 development frontend front-end xml web</Tags>
-  <Attribution>Dados da busca do ZOFE, http://zofe.com.br/</Attribution>
+  <Attribution>Dados da busca do ZOFE, https://zofe.com.br/</Attribution>
   <SyndicationRight>open</SyndicationRight>
-  <Image height="16" width="16" type="image/vnd.microsoft.icon">http://zofe.com.br/favicon.ico</Image>
-  <Image height="160" width="160" type="image/png">http://zofe.com.br/favicon-160x160.png</Image>
-  <Url type="text/html" template="http://www.google.com/search?sitesearch={{ site.url | cgi_escape }}%2F&amp;as_q={searchTerms}"/>
+  <Image height="16" width="16" type="image/vnd.microsoft.icon">https://zofe.com.br/favicon.ico</Image>
+  <Image height="160" width="160" type="image/png">https://zofe.com.br/favicon-160x160.png</Image>
+  <Url type="text/html" template="https://www.google.com/search?sitesearch={{ site.url | cgi_escape }}%2F&amp;as_q={searchTerms}"/>
 </OpenSearchDescription>

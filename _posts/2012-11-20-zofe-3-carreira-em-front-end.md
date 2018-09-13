@@ -2,9 +2,9 @@
 title: 'ZOFE #3: Carreira em Front-End'
 subtitle: 'Respostas para dúvidas sobre a profissão'
 episodeID: 'ep3'
-mosaico: http://i.imgur.com/K5Rrl.png
-mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
-audio: 'http://traffic.libsyn.com/zofepod/zofe-03-carreira-em-front-end.m4a'
+mosaico: https://i.imgur.com/K5Rrl.png
+mosaico_g: 'https://i.imgur.com/xYVJGsa.png'
+audio: 'https://traffic.libsyn.com/zofepod/zofe-03-carreira-em-front-end.m4a'
 audio_file_length: 32638769
 duration: '1:07:59'
 durationMeta: T1H07M59S

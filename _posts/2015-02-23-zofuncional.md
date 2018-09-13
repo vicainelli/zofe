@@ -2,12 +2,12 @@
 title: 'ZOFE #21 - ZOFuncional'
 subtitle: 'O ZOFE é igual o JavaScript: Multiparadigma'
 episodeID: 'ep21'
-audio: 'http://traffic.libsyn.com/zofepod/192716887-zofepod-zofe-21-zofuncional.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/192716887-zofepod-zofe-21-zofuncional.m4a'
 audio_file_length: 32261261
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032633/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, zofe, npm, babel, es6, jspm
-mosaico: 'http://i.imgur.com/H45znuF.png'
-mosaico_g: 'http://i.imgur.com/dTY86oF.png'
+mosaico: 'https://i.imgur.com/H45znuF.png'
+mosaico_g: 'https://i.imgur.com/dTY86oF.png'
 duration: '0:33:10'
 durationMeta: T0H33M10S
 layout: post

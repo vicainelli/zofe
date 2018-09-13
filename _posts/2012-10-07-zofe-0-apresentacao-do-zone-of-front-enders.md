@@ -2,9 +2,9 @@
 title: 'ZOFE #0: Apresentação do Zone Of Front-Enders'
 subtitle: 'Apresentação do Zone Of Front-Enders'
 episodeID: 'ep0'
-mosaico: http://i.imgur.com/HwwDi.png
-mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
-audio: 'http://traffic.libsyn.com/zofepod/zofe-0-apresentacao.m4a'
+mosaico: https://i.imgur.com/HwwDi.png
+mosaico_g: 'https://i.imgur.com/xYVJGsa.png'
+audio: 'https://traffic.libsyn.com/zofepod/zofe-0-apresentacao.m4a'
 audio_file_length: 23211281
 duration: '48:21'
 durationMeta: T48M21S

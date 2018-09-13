@@ -2,10 +2,10 @@
 title: 'ZOFE #9: Te Cutuco No Feice!'
 subtitle: 'Um brasileiro aprontando ALTAS CONFUSÕES no Feice'
 episodeID: 'ep9'
-audio: 'http://traffic.libsyn.com/zofepod/zofe-09-te-cutuco-no-feice.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/zofe-09-te-cutuco-no-feice.m4a'
 audio_file_length: 41770981
-mosaico: http://i.imgur.com/6GqkpjC.png
-mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
+mosaico: https://i.imgur.com/6GqkpjC.png
+mosaico_g: 'https://i.imgur.com/xYVJGsa.png'
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032650/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, facebook, fabio costa
 duration: '1:24:45'

@@ -2,12 +2,12 @@
 title: 'ZOFE #14.minify(); - Mamilos'
 subtitle: 'Eventos, Brendan Eich e um monte de coisas.'
 episodeID: 'ep14'
-audio: 'http://traffic.libsyn.com/zofepod/zofe-14-minify-mamilos.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/zofe-14-minify-mamilos.m4a'
 audio_file_length: 42254111
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032643/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, minify, eventos, noticias, open-source
-mosaico: http://i.imgur.com/1wFIkwh.png
-mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
+mosaico: https://i.imgur.com/1wFIkwh.png
+mosaico_g: 'https://i.imgur.com/xYVJGsa.png'
 duration: '0:43:24'
 durationMeta: T0H43M24S
 layout: post

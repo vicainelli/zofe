@@ -2,7 +2,7 @@ plugins:           ["jekyll-paginate", "jekyll-lunr-js-search"]
 paginate:          5
 paginate_path:     "/posts/page:num/"
 permalink:         "/posts/:title/"
-url:               "http://zofe.com.br"
+url:               "https://zofe.com.br"
 markdown:          "Kramdown"
 excerpt_separator: <!-- excerpt -->
 encoding: UTF-8
@@ -27,7 +27,7 @@ cover-image: "//i.imgur.com/3wwFY7n.png"
 members:
   - name: Daniel Filho
     url: https://twitter.com/danielfilho
-    image: http://www.gravatar.com/avatar/3f2ebf61315d43cae59e727dab091620?s=300
+    image: https://www.gravatar.com/avatar/3f2ebf61315d43cae59e727dab091620?s=300
   - name: Isa Silveira
     url: https://twitter.com/silveira_bells
-    image: http://www.gravatar.com/avatar/91b0fc08849c4128f1eed542c057fd27?s=300
+    image: https://www.gravatar.com/avatar/91b0fc08849c4128f1eed542c057fd27?s=300

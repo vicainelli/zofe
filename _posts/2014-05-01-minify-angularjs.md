@@ -2,12 +2,12 @@
 title: 'ZOFE #15.minify("ciro nunes"); - AngularJS'
 subtitle: 'Haters gonna LISTEN TO ZOFE!'
 episodeID: 'ep14'
-audio: 'http://traffic.libsyn.com/zofepod/zofe-15-minify-angularjs.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/zofe-15-minify-angularjs.m4a'
 audio_file_length: 51367955
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032642/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, minify, eventos, noticias, open-source
-mosaico: http://i.imgur.com/ttlc8Ec.png
-mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
+mosaico: https://i.imgur.com/ttlc8Ec.png
+mosaico_g: 'https://i.imgur.com/xYVJGsa.png'
 duration: '0:52:47'
 durationMeta: T0H52M47S
 layout: post

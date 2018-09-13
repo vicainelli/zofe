@@ -2,9 +2,9 @@
 title: 'ZOFE #4: Todos Os Segredos do Google!!!1!onze!!'
 subtitle: 'Brincadeira. São só uns três ou quatro..'
 episodeID: 'ep4'
-mosaico: http://i.imgur.com/YOd4ID5.png
-mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
-audio: 'http://traffic.libsyn.com/zofepod/zofe-04-todos-os-segredos-do-google.m4a'
+mosaico: https://i.imgur.com/YOd4ID5.png
+mosaico_g: 'https://i.imgur.com/xYVJGsa.png'
+audio: 'https://traffic.libsyn.com/zofepod/zofe-04-todos-os-segredos-do-google.m4a'
 audio_file_length: 41855415
 duration: '1:27:01'
 durationMeta: T1H27M01S

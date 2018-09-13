@@ -4,25 +4,25 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <id>http://zofe.com.br/</id>
+  <id>https://zofe.com.br/</id>
   <title>Zone of Front-Enders - Blog</title>
-  <icon>http://zofe.com.br/favicon.ico</icon>
+  <icon>https://zofe.com.br/favicon.ico</icon>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <link href="http://zofe.com.br/feed/posts.xml" rel="self" />
-  <link href="http://zofe.com.br/" />
+  <link href="https://zofe.com.br/feed/posts.xml" rel="self" />
+  <link href="https://zofe.com.br/" />
 
   {% for post in site.posts %}
   <entry>
-    <id>http://zofe.com.br{{ post.id }}/</id>
+    <id>https://zofe.com.br{{ post.id }}/</id>
     <title>{{ post.title | strip_html }}</title>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <link href="http://zofe.com.br{{ post.url }}" />
+    <link href="https://zofe.com.br{{ post.url }}" />
     <author>
       <name>Zone of Front-Enders</name>
-      <uri>http://zofe.com.br/</uri>
+      <uri>https://zofe.com.br/</uri>
     </author>
     <content type="html">
-      {{ post.content | replace: "src='/assets/img/", "src='http://zofe.com.br/assets/img/" | xml_escape }}
+      {{ post.content | replace: "src='/assets/img/", "src='https://zofe.com.br/assets/img/" | xml_escape }}
     </content>
   </entry>
   {% endfor %}

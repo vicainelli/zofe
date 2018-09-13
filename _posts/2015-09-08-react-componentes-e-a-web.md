@@ -2,12 +2,12 @@
 title: 'ZOFE #30 - Componentes, React e a Web'
 subtitle: 'Com o convidado Jean Carlo Emer'
 episodeID: 'ep30'
-audio: 'http://traffic.libsyn.com/zofepod/223126448-zofepod-zofe-30.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/223126448-zofepod-zofe-30.m4a'
 audio_file_length: 39611851
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032623/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, javascript, react, componentes
-mosaico: 'http://i.imgur.com/sDF5eCC.png'
-mosaico_g: 'http://i.imgur.com/obDkdB5.png'
+mosaico: 'https://i.imgur.com/sDF5eCC.png'
+mosaico_g: 'https://i.imgur.com/obDkdB5.png'
 duration: '0:40:44'
 durationMeta: T0H40M44S
 layout: post

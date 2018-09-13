@@ -6,7 +6,7 @@ layout: null
   <channel>
 
     <title>Zone Of Front-Enders - Podcast</title>
-    <link>http://zofe.com.br/</link>
+    <link>https://zofe.com.br/</link>
     <language>pt-br</language>
     <copyright>&#x2117; &amp; &#xA9; 2015 Daniel Filho</copyright>
     <itunes:subtitle>Podcast sobre desenvolvimento web, front-end e afins</itunes:subtitle>
@@ -20,7 +20,7 @@ layout: null
       <itunes:email>daniel@zofe.com.br</itunes:email>
     </itunes:owner>
 
-    <itunes:image href="http://zofe.com.br/assets/img/zofe300.png" />
+    <itunes:image href="https://zofe.com.br/assets/img/zofe300.png" />
 
     <itunes:category text="Technology">
       <itunes:category text="Tech News"/>

@@ -2,9 +2,9 @@
 title: 'ZOFE #1: Agora é pra valer!'
 subtitle: 'Agora é pra valer!'
 episodeID: 'ep1'
-mosaico: http://i.imgur.com/HwwDi.png
-mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
-audio: 'http://traffic.libsyn.com/zofepod/zofe-01-agora-e-pra-valer.m4a'
+mosaico: https://i.imgur.com/HwwDi.png
+mosaico_g: 'https://i.imgur.com/xYVJGsa.png'
+audio: 'https://traffic.libsyn.com/zofepod/zofe-01-agora-e-pra-valer.m4a'
 audio_file_length: 26040656
 duration: '54:15'
 durationMeta: T54M15S

@@ -2,9 +2,9 @@
 title: 'ZOFE #2: Beijo no Coração'
 subtitle: 'Beijo no Coração'
 episodeID: 'ep2'
-mosaico: http://i.imgur.com/ZSyFi.png
-mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
-audio: 'http://traffic.libsyn.com/zofepod/zofe-02-beijo-no-coracao.m4a'
+mosaico: https://i.imgur.com/ZSyFi.png
+mosaico_g: 'https://i.imgur.com/xYVJGsa.png'
+audio: 'https://traffic.libsyn.com/zofepod/zofe-02-beijo-no-coracao.m4a'
 audio_file_length: 27300803
 duration: '56:52'
 durationMeta: T56M52S

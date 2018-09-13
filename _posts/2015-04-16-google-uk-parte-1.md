@@ -2,12 +2,12 @@
 title: 'ZOFE #26 - Google UK parte 1'
 subtitle: 'Com Addy Osmani, Jake Archibald e Paul Lewis'
 episodeID: 'ep26'
-audio: 'http://traffic.libsyn.com/zofepod/201099237-zofepod-zofe-26-google-uk-parte-1.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/201099237-zofepod-zofe-26-google-uk-parte-1.m4a'
 audio_file_length: 40883600
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032628/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, google, londres
-mosaico: 'http://i.imgur.com/m0b2GiM.jpg'
-mosaico_g: 'http://i.imgur.com/mtXRlGc.jpg'
+mosaico: 'https://i.imgur.com/m0b2GiM.jpg'
+mosaico_g: 'https://i.imgur.com/mtXRlGc.jpg'
 duration: '0:42:03'
 durationMeta: T0H42M03S
 layout: post

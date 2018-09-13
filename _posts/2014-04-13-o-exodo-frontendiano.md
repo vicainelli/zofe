@@ -2,12 +2,12 @@
 title: 'ZOFE #13: O Êxodo Frontendiano'
 subtitle: 'Você pode estar na Holanda, sei lá, AGORA!'
 episodeID: 'ep13'
-audio: 'http://traffic.libsyn.com/zofepod/zofe-13-o-exodo-frontendiano.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/zofe-13-o-exodo-frontendiano.m4a'
 audio_file_length: 55720075
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032644/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, eduardo shiota, shiota, booking
-mosaico: http://i.imgur.com/j0cLYVD.png
-mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
+mosaico: https://i.imgur.com/j0cLYVD.png
+mosaico_g: 'https://i.imgur.com/xYVJGsa.png'
 duration: '0:57:16'
 durationMeta: T0H57M16S
 layout: post

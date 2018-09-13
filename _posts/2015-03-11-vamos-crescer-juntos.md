@@ -2,12 +2,12 @@
 title: 'ZOFE #23 - Vamos Crescer Juntos'
 subtitle: 'Vamos ajudar o @leonardokzw ;)'
 episodeID: 'ep23'
-audio: 'http://traffic.libsyn.com/zofepod/195293580-zofepod-zofe-23-vamos-crescer-juntos.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/195293580-zofepod-zofe-23-vamos-crescer-juntos.m4a'
 audio_file_length: 43430102
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032631/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, leonardokzw
-mosaico: 'http://i.imgur.com/VIn6EUj.png'
-mosaico_g: 'http://i.imgur.com/nPLgQGd.png'
+mosaico: 'https://i.imgur.com/VIn6EUj.png'
+mosaico_g: 'https://i.imgur.com/nPLgQGd.png'
 duration: '0:44:41'
 durationMeta: T0H44M41S
 layout: post

@@ -2,12 +2,12 @@
 title: 'ZOFE #16 - Imagina na Copa'
 subtitle: 'Mais um tempo sem vocês. Mas voltamos!'
 episodeID: 'ep16'
-audio: 'http://traffic.libsyn.com/zofepod/159451103-zofepod-16-imagina-na-copa.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/159451103-zofepod-16-imagina-na-copa.m4a'
 audio_file_length: 52389761
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032641/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, eventos, noticias, open-source, javascript, nodejs, npm
-mosaico: 'http://i.imgur.com/WKzll1A.png'
-mosaico_g: 'http://i.imgur.com/QROlXw6.png'
+mosaico: 'https://i.imgur.com/WKzll1A.png'
+mosaico_g: 'https://i.imgur.com/QROlXw6.png'
 duration: '0:53:50'
 durationMeta: T0H53M50S
 layout: post

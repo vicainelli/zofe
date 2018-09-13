@@ -2,12 +2,12 @@
 title: 'ZOFE #29 - BrazilJS e Front In Amsterdam'
 subtitle: ''
 episodeID: 'ep29'
-audio: 'http://traffic.libsyn.com/zofepod/221640156-zofepod-zofe-29-braziljs-e-front-in-amsterdam.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/221640156-zofepod-zofe-29-braziljs-e-front-in-amsterdam.m4a'
 audio_file_length: 54424618
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032624/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, javascript, braziljs, frontinamsterdam
-mosaico: 'http://i.imgur.com/AbrOFjy.png'
-mosaico_g: 'http://i.imgur.com/0PUDC7E.png'
+mosaico: 'https://i.imgur.com/AbrOFjy.png'
+mosaico_g: 'https://i.imgur.com/0PUDC7E.png'
 duration: '0:56:00'
 durationMeta: T0H56M00S
 layout: post

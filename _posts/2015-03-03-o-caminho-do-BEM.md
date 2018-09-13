@@ -2,12 +2,12 @@
 title: 'ZOFE #22 - O Caminho do BEM'
 subtitle: 'Tim Maia é rei. Esse sim sabia o caminho do BEM!'
 episodeID: 'ep22'
-audio: 'http://traffic.libsyn.com/zofepod/193943601-zofepod-zofe-22-o-caminho-do-bem.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/193943601-zofepod-zofe-22-o-caminho-do-bem.m4a'
 audio_file_length: 32597510
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032632/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, zofe, bem, sass
-mosaico: 'http://i.imgur.com/BVVHWYu.png'
-mosaico_g: 'http://i.imgur.com/orMKv3i.png'
+mosaico: 'https://i.imgur.com/BVVHWYu.png'
+mosaico_g: 'https://i.imgur.com/orMKv3i.png'
 duration: '0:33:10'
 durationMeta: T0H33M10S
 layout: post

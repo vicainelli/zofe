@@ -2,9 +2,9 @@
 title: 'ZOFE #7: Necessity Is The Mother Of Invention'
 subtitle: 'Where is the book? The book is on the table. I LOVE BARBECUE!'
 episodeID: 'ep7'
-mosaico: http://i.imgur.com/chJ9Ze2.png
-mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
-audio: 'http://traffic.libsyn.com/zofepod/zofe-07-necessity-is-the-mother-of-invention.m4a'
+mosaico: https://i.imgur.com/chJ9Ze2.png
+mosaico_g: 'https://i.imgur.com/xYVJGsa.png'
+audio: 'https://traffic.libsyn.com/zofepod/zofe-07-necessity-is-the-mother-of-invention.m4a'
 audio_file_length: 34298388
 duration: '1:09:49'
 durationMeta: T1H09M49S

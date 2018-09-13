@@ -2,10 +2,10 @@
 title: 'ZOFE #11: Antes Do Que Vem Depois e Vice-Versa'
 subtitle: 'E Um Desabafo De Brinde'
 episodeID: 'ep11'
-audio: 'http://traffic.libsyn.com/zofepod/zofe-11-antes-do-que-vem-depois-e-vice-versa.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/zofe-11-antes-do-que-vem-depois-e-vice-versa.m4a'
 audio_file_length: 45127897
-mosaico: http://i.imgur.com/0c6CIcp.png
-mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
+mosaico: https://i.imgur.com/0c6CIcp.png
+mosaico_g: 'https://i.imgur.com/xYVJGsa.png'
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032648/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, desabafo, palestras, eventos
 duration: '1:31:35'

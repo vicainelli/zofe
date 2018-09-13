@@ -2,12 +2,12 @@
 title: 'ZOFE #32 - #VOLTABRUNO'
 subtitle: 'Senão é justa causa. Hahaha!'
 episodeID: 'ep32'
-audio: 'http://traffic.libsyn.com/zofepod/228164625-zofepod-zofe-32-voltabruno.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/228164625-zofepod-zofe-32-voltabruno.m4a'
 audio_file_length: 22022278
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032621/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, javascript, news
-mosaico: 'http://i.imgur.com/RCHbm1e.png'
-mosaico_g: 'http://i.imgur.com/RCHbm1e.png'
+mosaico: 'https://i.imgur.com/RCHbm1e.png'
+mosaico_g: 'https://i.imgur.com/RCHbm1e.png'
 duration: '0:22:37'
 durationMeta: T0H22M37S
 layout: post

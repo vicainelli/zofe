@@ -2,12 +2,12 @@
 title: 'ZOFE #19 - Seja Você Mesmo, Bundão'
 subtitle: 'Com Diego Eis'
 episodeID: 'ep19'
-audio: 'http://traffic.libsyn.com/zofepod/183396055-zofepod-zofe-19-seja-voce-mesmo-bundao.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/183396055-zofepod-zofe-19-seja-voce-mesmo-bundao.m4a'
 audio_file_length: 80385563
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032637/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, diego-eis, tableless
-mosaico: 'http://i.imgur.com/3wwFY7n.png'
-mosaico_g: 'http://i.imgur.com/XaaJwi1.png'
+mosaico: 'https://i.imgur.com/3wwFY7n.png'
+mosaico_g: 'https://i.imgur.com/XaaJwi1.png'
 duration: '1:22:44'
 durationMeta: T1H22M44S
 layout: post

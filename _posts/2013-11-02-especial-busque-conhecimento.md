@@ -2,10 +2,10 @@
 title: 'ZOFE #10: Especial - Busque Conhecimento'
 subtitle: 'Tudo junto e misturado'
 episodeID: 'ep10'
-audio: 'http://traffic.libsyn.com/zofepod/zofe-10-especial-busque-conhecimento.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/zofe-10-especial-busque-conhecimento.m4a'
 audio_file_length: 39110630
-mosaico: http://i.imgur.com/gjPDbTN.png
-mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
+mosaico: https://i.imgur.com/gjPDbTN.png
+mosaico_g: 'https://i.imgur.com/xYVJGsa.png'
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032649/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, fabio costa, felipe nascimento, almir filho, caio gondim, reinaldo ferraz, especial, bilu
 duration: '1:24:45'

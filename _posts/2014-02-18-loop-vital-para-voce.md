@@ -2,12 +2,12 @@
 title: 'ZOFE #12: Loop Vital Para Você'
 subtitle: 'E Infinito Para Todos Nós'
 episodeID: 'ep12'
-audio: 'http://traffic.libsyn.com/zofepod/zofe-12-loop-vital-para-voce.m4a'
+audio: 'https://traffic.libsyn.com/zofepod/zofe-12-loop-vital-para-voce.m4a'
 audio_file_length: 35165757
 episode-player: '<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/7032647/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>'
 tags: episodio, front-end, loop infinito, vital
-mosaico: http://i.imgur.com/cZADk5g.png
-mosaico_g: 'http://i.imgur.com/xYVJGsa.png'
+mosaico: https://i.imgur.com/cZADk5g.png
+mosaico_g: 'https://i.imgur.com/xYVJGsa.png'
 duration: '1:31:35'
 durationMeta: T1H31M35S
 layout: post
