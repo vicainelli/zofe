@@ -1,36 +1,35 @@
 {
-  "name": "zofe",
-  "version": "2.0.0",
-  "description": "Zone Of Front-Enders, a podcast about web development, front-end and stuff",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zofepod/zofe.git"
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
+  "version": "1.0.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "disqus-react": "^1.0.5",
+    "gatsby": "^2.0.0",
+    "gatsby-plugin-manifest": "^2.0.2",
+    "gatsby-plugin-offline": "^2.0.5",
+    "gatsby-plugin-react-helmet": "^3.0.0",
+    "gatsby-transformer-remark": "^2.1.4",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-helmet": "^5.2.0"
   },
   "keywords": [
-    "podcast",
-    "site",
-    "front-end",
-    "zone",
-    "of",
-    "front-enders",
-    "web",
-    "talks",
-    "dev"
+    "gatsby"
   ],
-  "author": "Daniel Filho",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zofepod/zofe/issues"
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/zofepod/zofe",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-browser-sync": "^2.2.0",
-    "grunt-contrib-sass": "^0.8.1",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-jekyll": "^0.4.3",
-    "load-grunt-tasks": "^2.0.0",
-    "pjax": "^0.1.4"
+    "gatsby-source-contentful": "^2.0.1",
+    "prettier": "^1.14.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   }
 }

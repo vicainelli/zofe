@@ -1,16 +1,8 @@
-.DS_Store
-.jekyll-metadata
-_site
-generate
-episodios
-*.m4a
-*.mp3
-*.ogg
-zofe-0-apresentacao-do-zone-of-front-enders
-zofe-1-agora-e-pra-valer
-zofe-2-beijo-no-coracao
+# Project dependencies
+.cache
 node_modules
-.sass-cache
-assets/css
-assets/js/vendor
-Gemfile.lock
+yarn-error.log
+
+# Build directory
+/public
+.DS_Store
