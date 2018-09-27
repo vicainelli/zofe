@@ -30,43 +30,47 @@ const Episode = props => {
           </h2>
         </header>
 
-        <div className="episode-content container">
-          <div
-            className="row"
-            dangerouslySetInnerHTML={{
-              __html: postText.childMarkdownRemark.html,
-            }}
-          />
-        </div>
+        {!!postText && (
+          <div className="episode-content container">
+            <div
+              className="row"
+              dangerouslySetInnerHTML={{
+                __html: postText.childMarkdownRemark.html,
+              }}
+            />
+          </div>
+        )}
 
         <div className="episode-podcast">
           <div className="container">
             <h3>Episode Timeline</h3>
-            <div className="episode-guide">
-              <ul>
-                {episodeGuide.map(item => (
-                  <li key={item.id}>
-                    {!!item.url ? (
-                      <>
-                        <span>[{item.timestamp}]</span>{' '}
-                        <a
-                          href={item.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          {item.title}
-                        </a>
-                      </>
-                    ) : (
-                      <>
-                        <span>[{item.timestamp}]</span>{' '}
-                        <span>{item.title}</span>
-                      </>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </div>
+            {!!episodeGuide && (
+              <div className="episode-guide">
+                <ul>
+                  {episodeGuide.map(item => (
+                    <li key={item.id}>
+                      {!!item.url ? (
+                        <>
+                          <span>[{item.timestamp}]</span>{' '}
+                          <a
+                            href={item.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {item.title}
+                          </a>
+                        </>
+                      ) : (
+                        <>
+                          <span>[{item.timestamp}]</span>{' '}
+                          <span>{item.title}</span>
+                        </>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
             <div
               id="episode-player"
               dangerouslySetInnerHTML={{ __html: playerMarkup.playerMarkup }}
