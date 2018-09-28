@@ -2,32 +2,39 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+  <header className="main-header">
+    <div className="header-content">
+      <Link to="/" className="zofe-logo ir">
+        <h1>{siteTitle}</h1>
+      </Link>
+
+      <nav className="main-menu">
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/sobre">Sobre</Link>
+          </li>
+          <li>
+            <Link to="/contato">Contato</Link>
+          </li>
+        </ul>
+
+        <div id="search" className="search-box">
+          <form id="search-form" action="/search" method="get">
+            <input
+              type="text"
+              id="search-query"
+              className="search-query"
+              name="q"
+              placeholder="Buscar"
+            />
+          </form>
+        </div>
+      </nav>
     </div>
-  </div>
+  </header>
 )
 
 export default Header

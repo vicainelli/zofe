@@ -1,0 +1,32 @@
+.sobre-content {
+  font-size: 22px;
+  text-align: left;
+}
+
+.sobre-about {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.sobre-copyright {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.sobre-subheader {
+  font-family: "Open Sans", Helvetica, "Lucida Grande", sans-serif;
+  margin: 50px 0 10px;
+  font-weight: 300;
+}
+
+.sobre-section-text {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.sobre-social-item {
+  width: 35px;
+  height: 35px;
+  margin: 10px 10px 0 0;
+  display: inline-block;
+}
