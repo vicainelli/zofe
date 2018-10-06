@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/posts/*"
+  to = "/?redirect=true"
+  status = 301 
+
