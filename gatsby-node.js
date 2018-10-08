@@ -1,5 +1,19 @@
 const path = require('path')
 
+// Merge webpack configs
+exports.onCreateWebpackConfig = ({ getConfig, actions }) => {
+  const config = getConfig()
+
+  // Add custom alias for the components
+  actions.setWebpackConfig({
+    resolve: {
+      alias: {
+        '@components': path.resolve(config.context, 'src/components'),
+      },
+    },
+  })
+}
+
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
