@@ -1,10 +1,13 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Layout from '@components/layout'
+import Layout from '@components/Layout'
 import EpisodesList from '@components/EpisodesList'
+import EpisodeContent from '@components/EpisodeContent'
+import './index.css'
 
 const IndexPage = ({ data }) => (
-  <Layout>
+  <Layout className="indexWrapper">
+    <EpisodeContent />
     <EpisodesList {...data} />
   </Layout>
 )

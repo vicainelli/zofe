@@ -1,15 +1,16 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import './styles.css'
 
 const Episode = node => {
   const { slug, title, publishDate } = node.node
   return (
-    <article className="row">
+    <article className="row episodeListWrapper">
       <header className="episode-header">
         <Link to={slug}>
-          <h2>
+          <h3>
             {title} em {publishDate}
-          </h2>
+          </h3>
         </Link>
       </header>
     </article>

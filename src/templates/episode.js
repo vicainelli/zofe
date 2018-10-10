@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import Layout from '../components/layout'
-import Comments from '../components/Comments'
+import Layout from '@components/Layout'
+import Comments from '@components/Comments'
 import './episode.css'
 
 const Episode = props => {

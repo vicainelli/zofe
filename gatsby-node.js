@@ -9,6 +9,7 @@ exports.onCreateWebpackConfig = ({ getConfig, actions }) => {
     resolve: {
       alias: {
         '@components': path.resolve(config.context, 'src/components'),
+        '@images': path.resolve(config.context, 'src/images'),
       },
     },
   })
