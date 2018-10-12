@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '@components/Layout'
+import AudioPlayer from '@components/AudioPlayer'
 import Comments from '@components/Comments'
 import './episode.css'
 
@@ -10,7 +11,7 @@ const Episode = props => {
     title,
     slug,
     postText,
-    playerMarkup,
+    audioUrl,
     episodeGuide,
   } = props.data.contentfulEpisode
 
@@ -71,10 +72,13 @@ const Episode = props => {
                 </ul>
               </div>
             )}
-            <div
+
+            <AudioPlayer url={audioUrl} />
+
+            {/* <div
               id="episode-player"
               dangerouslySetInnerHTML={{ __html: playerMarkup.playerMarkup }}
-            />
+            /> */}
           </div>
         </div>
 
@@ -99,9 +103,7 @@ export const pageQuery = graphql`
     contentfulEpisode(episodeNumber: { eq: $episodeNumber }) {
       title
       slug
-      playerMarkup {
-        playerMarkup
-      }
+      audioUrl
       cover {
         description
         file {
