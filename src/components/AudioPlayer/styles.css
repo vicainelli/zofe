@@ -1,0 +1,82 @@
+.episode-player {
+  width: 100%;
+  min-width: 530px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  user-select: none;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.episode-player .player-row {
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.07);
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 56px;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 100%;
+  min-width: 300px;
+}
+
+.episode-player .play-pause-btn {
+  border: 0 none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.episode-player .spinner {
+  width: 18px;
+  height: 18px;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/355309/loading.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: spin 0.4s linear infinite;
+}
+
+.episode-player .slider {
+  flex-grow: 1;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.episode-player .controls {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: #55606E;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.episode-player .controls span {
+  cursor: default;
+}
+
+.episode-player .volume {
+  position: relative;
+}
+
+.episode-player .volume .volume-btn {
+  border: 0 none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(1turn);
+  }
+}

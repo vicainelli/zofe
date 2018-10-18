@@ -1,30 +1,28 @@
 import React, { Component } from 'react'
-import { findDOMNode } from 'react-dom'
-import screenfull from 'screenfull'
+import ReactPlayer from 'react-player'
+import './styles.css'
 
-import './reset.css'
-import './defaults.css'
-import './range.css'
-import './App.css'
+const Duration = ({ className, seconds }) => {
+  function format (seconds) {
+    const date = new Date(seconds * 1000)
+    const hh = date.getUTCHours()
+    const mm = date.getUTCMinutes()
+    const ss = pad(date.getUTCSeconds())
+    if (hh) {
+      return `${hh}:${pad(mm)}:${ss}`
+    }
+    return `${mm}:${ss}`
+  }
 
-import { version } from '../../package.json'
-import ReactPlayer from '../ReactPlayer'
-import Duration from './Duration'
-
-const MULTIPLE_SOURCES = [
-  {
-    src: 'http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4',
-    type: 'video/mp4',
-  },
-  {
-    src: 'http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv',
-    type: 'video/ogv',
-  },
-  {
-    src: 'http://clips.vorwaerts-gmbh.de/big_buck_bunny.webm',
-    type: 'video/webm',
-  },
-]
+  function pad (string) {
+    return ('0' + string).slice(-2)
+  }
+  return (
+    <time dateTime={`P${Math.round(seconds)}S`} className={className}>
+      {format(seconds)}
+    </time>
+  )
+}
 
 class App extends Component {
   state = {
@@ -38,6 +36,7 @@ class App extends Component {
     playbackRate: 1.0,
     loop: false,
   }
+
   load = url => {
     this.setState({
       url,
@@ -45,66 +44,84 @@ class App extends Component {
       loaded: 0,
     })
   }
+
   playPause = () => {
     this.setState({ playing: !this.state.playing })
   }
+
+  play = () => {
+    this.setState({ playing: true })
+  }
+
+  pause = () => {
+    this.setState({ playing: false })
+  }
+
   stop = () => {
     this.setState({ url: null, playing: false })
   }
+
   toggleLoop = () => {
     this.setState({ loop: !this.state.loop })
   }
+
   setVolume = e => {
     this.setState({ volume: parseFloat(e.target.value) })
   }
+
   toggleMuted = () => {
     this.setState({ muted: !this.state.muted })
   }
+
   setPlaybackRate = e => {
     this.setState({ playbackRate: parseFloat(e.target.value) })
   }
+
   onPlay = () => {
-    console.log('onPlay')
     this.setState({ playing: true })
   }
+
   onPause = () => {
-    console.log('onPause')
     this.setState({ playing: false })
   }
+
   onSeekMouseDown = e => {
     this.setState({ seeking: true })
   }
+
   onSeekChange = e => {
     this.setState({ played: parseFloat(e.target.value) })
   }
+
   onSeekMouseUp = e => {
     this.setState({ seeking: false })
     this.player.seekTo(parseFloat(e.target.value))
   }
+
   onProgress = state => {
-    console.log('onProgress', state)
     // We only want to update time slider if we are not currently seeking
     if (!this.state.seeking) {
       this.setState(state)
     }
   }
+
   onEnded = () => {
-    console.log('onEnded')
     this.setState({ playing: this.state.loop })
   }
+
   onDuration = duration => {
-    console.log('onDuration', duration)
     this.setState({ duration })
   }
-  onClickFullscreen = () => {
-    screenfull.request(findDOMNode(this.player))
-  }
-  renderLoadButton = (url, label) => {
-    return <button onClick={() => this.load(url)}>{label}</button>
-  }
+
   ref = player => {
     this.player = player
   }
+
+  componentDidMount() {
+    this.load(this.props.url)
+    this.pause()
+  }
+
   render() {
     const {
       url,
@@ -117,12 +134,14 @@ class App extends Component {
       duration,
       playbackRate,
     } = this.state
-    const SEPARATOR = ' · '
+
+    const playPauseChar = () => {
+      return playing ? 'M0 0h6v24H0zM12 0h6v24h-6z' : 'M18 12L0 24V0'
+    }
 
     return (
       <div className="app">
         <section className="section">
-          <h1>ReactPlayer Demo</h1>
           <div className="player-wrapper">
             <ReactPlayer
               ref={this.ref}
@@ -135,12 +154,8 @@ class App extends Component {
               playbackRate={playbackRate}
               volume={volume}
               muted={muted}
-              onReady={() => console.log('onReady')}
-              onStart={() => console.log('onStart')}
               onPlay={this.onPlay}
               onPause={this.onPause}
-              onBuffer={() => console.log('onBuffer')}
-              onSeek={e => console.log('onSeek', e)}
               onEnded={this.onEnded}
               onError={e => console.log('onError', e)}
               onProgress={this.onProgress}
@@ -148,278 +163,59 @@ class App extends Component {
             />
           </div>
 
-          <table>
-            <tbody>
-              <tr>
-                <th>Controls</th>
-                <td>
-                  <button onClick={this.stop}>Stop</button>
-                  <button onClick={this.playPause}>
-                    {playing ? 'Pause' : 'Play'}
-                  </button>
-                  <button onClick={this.onClickFullscreen}>Fullscreen</button>
-                  <button onClick={this.setPlaybackRate} value={1}>
-                    1
-                  </button>
-                  <button onClick={this.setPlaybackRate} value={1.5}>
-                    1.5
-                  </button>
-                  <button onClick={this.setPlaybackRate} value={2}>
-                    2
-                  </button>
-                </td>
-              </tr>
-              <tr>
-                <th>Seek</th>
-                <td>
-                  <input
-                    type="range"
-                    min={0}
-                    max={1}
-                    step="any"
-                    value={played}
-                    onMouseDown={this.onSeekMouseDown}
-                    onChange={this.onSeekChange}
-                    onMouseUp={this.onSeekMouseUp}
-                  />
-                </td>
-              </tr>
-              <tr>
-                <th>Volume</th>
-                <td>
-                  <input
-                    type="range"
-                    min={0}
-                    max={1}
-                    step="any"
-                    value={volume}
-                    onChange={this.setVolume}
-                  />
-                </td>
-              </tr>
-              <tr>
-                <th>
-                  <label htmlFor="muted">Muted</label>
-                </th>
-                <td>
-                  <input
-                    id="muted"
-                    type="checkbox"
-                    checked={muted}
-                    onChange={this.toggleMuted}
-                  />
-                </td>
-              </tr>
-              <tr>
-                <th>
-                  <label htmlFor="loop">Loop</label>
-                </th>
-                <td>
-                  <input
-                    id="loop"
-                    type="checkbox"
-                    checked={loop}
-                    onChange={this.toggleLoop}
-                  />
-                </td>
-              </tr>
-              <tr>
-                <th>Played</th>
-                <td>
-                  <progress max={1} value={played} />
-                </td>
-              </tr>
-              <tr>
-                <th>Loaded</th>
-                <td>
-                  <progress max={1} value={loaded} />
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <hr />
+          <div className='episode-player'>
+            <div className='player-row'>
+              <button className="play-pause-btn" onClick={this.playPause} disabled={loaded <= 0.01}>
+                { loaded <= 0.01 ? (
+                <div className="loading">
+                  <div className="spinner"></div>
+                </div>
+                ) : (
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="24" viewBox="0 0 18 24">
+                  <path fill="#566574" fillRule="evenodd" d={playPauseChar()} className="play-pause-icon" id="playPause"/>
+                </svg>
+                )}
+              </button>
+
+              <div className="controls">
+                <span className="current-time">
+                  <Duration seconds={duration * played} />
+                </span>
+                <input
+                  type="range"
+                  min={0}
+                  max={1}
+                  step="any"
+                  value={played}
+                  onMouseDown={this.onSeekMouseDown}
+                  onChange={this.onSeekChange}
+                  onMouseUp={this.onSeekMouseUp}
+                  className="slider"
+                />
+                <span className="total-time"><Duration seconds={duration} /></span>
+              </div>
+
+              <div className="volume">
+                <button className="volume-btn" onClick={this.toggleMuted}>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill={muted ? '#c42929' : '#566574'} fillRule="evenodd" d="M14.667 0v2.747c3.853 1.146 6.666 4.72 6.666 8.946 0 4.227-2.813 7.787-6.666 8.934v2.76C20 22.173 24 17.4 24 11.693 24 5.987 20 1.213 14.667 0zM18 11.693c0-2.36-1.333-4.386-3.333-5.373v10.707c2-.947 3.333-2.987 3.333-5.334zm-18-4v8h5.333L12 22.36V1.027L5.333 7.693H0z" id="speaker"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <hr />
         </section>
+
         <section className="section">
-          <table>
-            <tbody>
-              <tr>
-                <th>YouTube</th>
-                <td>
-                  {this.renderLoadButton(
-                    'https://www.youtube.com/watch?v=oUFJJNQGwhk',
-                    'Test A'
-                  )}
-                  {this.renderLoadButton(
-                    'https://www.youtube.com/watch?v=jNgP6d9HraI',
-                    'Test B'
-                  )}
-                </td>
-              </tr>
-              <tr>
-                <th>SoundCloud</th>
-                <td>
-                  {this.renderLoadButton(
-                    'https://soundcloud.com/miami-nights-1984/accelerated',
-                    'Test A'
-                  )}
-                  {this.renderLoadButton(
-                    'https://soundcloud.com/tycho/tycho-awake',
-                    'Test B'
-                  )}
-                </td>
-              </tr>
-              <tr>
-                <th>Facebook</th>
-                <td>
-                  {this.renderLoadButton(
-                    'https://www.facebook.com/facebook/videos/10153231379946729/',
-                    'Test A'
-                  )}
-                  {this.renderLoadButton(
-                    'https://www.facebook.com/FacebookDevelopers/videos/10152454700553553/',
-                    'Test B'
-                  )}
-                </td>
-              </tr>
-              <tr>
-                <th>Vimeo</th>
-                <td>
-                  {this.renderLoadButton(
-                    'https://vimeo.com/90509568',
-                    'Test A'
-                  )}
-                  {this.renderLoadButton(
-                    'https://vimeo.com/169599296',
-                    'Test B'
-                  )}
-                </td>
-              </tr>
-              <tr>
-                <th>Twitch</th>
-                <td>
-                  {this.renderLoadButton(
-                    'https://www.twitch.tv/videos/106400740',
-                    'Test A'
-                  )}
-                  {this.renderLoadButton(
-                    'https://www.twitch.tv/videos/12783852',
-                    'Test B'
-                  )}
-                  {this.renderLoadButton(
-                    'https://www.twitch.tv/kronovi',
-                    'Test C'
-                  )}
-                </td>
-              </tr>
-              <tr>
-                <th>Streamable</th>
-                <td>
-                  {this.renderLoadButton(
-                    'https://streamable.com/moo',
-                    'Test A'
-                  )}
-                  {this.renderLoadButton(
-                    'https://streamable.com/ifjh',
-                    'Test B'
-                  )}
-                </td>
-              </tr>
-              <tr>
-                <th>Wistia</th>
-                <td>
-                  {this.renderLoadButton(
-                    'https://home.wistia.com/medias/e4a27b971d',
-                    'Test A'
-                  )}
-                  {this.renderLoadButton(
-                    'https://home.wistia.com/medias/29b0fbf547',
-                    'Test B'
-                  )}
-                </td>
-              </tr>
-              <tr>
-                <th>DailyMotion</th>
-                <td>
-                  {this.renderLoadButton(
-                    'https://www.dailymotion.com/video/x5e9eog',
-                    'Test A'
-                  )}
-                  {this.renderLoadButton(
-                    'https://www.dailymotion.com/video/x61xx3z',
-                    'Test B'
-                  )}
-                </td>
-              </tr>
-              <tr>
-                <th>Mixcloud</th>
-                <td>
-                  {this.renderLoadButton(
-                    'https://www.mixcloud.com/mixcloud/meet-the-curators/',
-                    'Test A'
-                  )}
-                  {this.renderLoadButton(
-                    'https://www.mixcloud.com/mixcloud/mixcloud-curates-4-mary-anne-hobbs-in-conversation-with-dan-deacon/',
-                    'Test B'
-                  )}
-                </td>
-              </tr>
-              <tr>
-                <th>Files</th>
-                <td>
-                  {this.renderLoadButton(
-                    'http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4',
-                    'mp4'
-                  )}
-                  {this.renderLoadButton(
-                    'http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv',
-                    'ogv'
-                  )}
-                  {this.renderLoadButton(
-                    'http://clips.vorwaerts-gmbh.de/big_buck_bunny.webm',
-                    'webm'
-                  )}
-                  {this.renderLoadButton(
-                    'https://storage.googleapis.com/media-session/elephants-dream/the-wires.mp3',
-                    'mp3'
-                  )}
-                  {this.renderLoadButton(MULTIPLE_SOURCES, 'Multiple')}
-                  {this.renderLoadButton(
-                    'https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8',
-                    'HLS (m3u8)'
-                  )}
-                  {this.renderLoadButton(
-                    'http://dash.edgesuite.net/envivio/EnvivioDash3/manifest.mpd',
-                    'DASH (mpd)'
-                  )}
-                </td>
-              </tr>
-              <tr>
-                <th>Custom URL</th>
-                <td>
-                  <input
-                    ref={input => {
-                      this.urlInput = input
-                    }}
-                    type="text"
-                    placeholder="Enter URL"
-                  />
-                  <button
-                    onClick={() => this.setState({ url: this.urlInput.value })}
-                  >
-                    Load
-                  </button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-
           <h2>State</h2>
-
           <table>
             <tbody>
               <tr>
                 <th>url</th>
                 <td className={!url ? 'faded' : ''}>
-                  {(url instanceof Array ? 'Multiple' : url) || 'null'}
+                  {url}
                 </td>
               </tr>
               <tr>
@@ -459,13 +255,6 @@ class App extends Component {
             </tbody>
           </table>
         </section>
-        <footer className="footer">
-          Version <strong>{version}</strong>
-          {SEPARATOR}
-          <a href="https://github.com/CookPete/react-player">GitHub</a>
-          {SEPARATOR}
-          <a href="https://www.npmjs.com/package/react-player">npm</a>
-        </footer>
       </div>
     )
   }

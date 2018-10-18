@@ -74,11 +74,6 @@ const Episode = props => {
             )}
 
             <AudioPlayer url={audioUrl} />
-
-            {/* <div
-              id="episode-player"
-              dangerouslySetInnerHTML={{ __html: playerMarkup.playerMarkup }}
-            /> */}
           </div>
         </div>
 
