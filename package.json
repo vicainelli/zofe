@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "core-js": "^2.5.7",
     "disqus-react": "^1.0.5",
     "gatsby": "^2.0.0",
     "gatsby-plugin-manifest": "^2.0.2",
