@@ -163,7 +163,6 @@ class App extends Component {
             />
           </div>
 
-          <hr />
           <div className='episode-player'>
             <div className='player-row'>
               <button className="play-pause-btn" onClick={this.playPause} disabled={loaded <= 0.01}>
@@ -205,55 +204,6 @@ class App extends Component {
               </div>
             </div>
           </div>
-          <hr />
-        </section>
-
-        <section className="section">
-          <h2>State</h2>
-          <table>
-            <tbody>
-              <tr>
-                <th>url</th>
-                <td className={!url ? 'faded' : ''}>
-                  {url}
-                </td>
-              </tr>
-              <tr>
-                <th>playing</th>
-                <td>{playing ? 'true' : 'false'}</td>
-              </tr>
-              <tr>
-                <th>volume</th>
-                <td>{volume.toFixed(3)}</td>
-              </tr>
-              <tr>
-                <th>played</th>
-                <td>{played.toFixed(3)}</td>
-              </tr>
-              <tr>
-                <th>loaded</th>
-                <td>{loaded.toFixed(3)}</td>
-              </tr>
-              <tr>
-                <th>duration</th>
-                <td>
-                  <Duration seconds={duration} />
-                </td>
-              </tr>
-              <tr>
-                <th>elapsed</th>
-                <td>
-                  <Duration seconds={duration * played} />
-                </td>
-              </tr>
-              <tr>
-                <th>remaining</th>
-                <td>
-                  <Duration seconds={duration * (1 - played)} />
-                </td>
-              </tr>
-            </tbody>
-          </table>
         </section>
       </div>
     )

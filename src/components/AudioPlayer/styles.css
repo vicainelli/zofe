@@ -1,6 +1,8 @@
 .episode-player {
-  width: 100%;
+  top: 10px;
+  margin-bottom: 1em;
   min-width: 530px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -27,7 +29,8 @@
 .episode-player .play-pause-btn {
   border: 0 none;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 10px;
+  background: transparent;
 }
 
 .episode-player .spinner {
@@ -69,7 +72,8 @@
 .episode-player .volume .volume-btn {
   border: 0 none;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 10px;
+  background: transparent;
 }
 
 @keyframes spin {

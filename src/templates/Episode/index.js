@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '@components/Layout'
 import AudioPlayer from '@components/AudioPlayer'
 import Comments from '@components/Comments'
-import './episode.css'
+import './styles.css'
 
 const Episode = props => {
   const {
@@ -42,9 +42,11 @@ const Episode = props => {
           </div>
         )}
 
+        <AudioPlayer url={audioUrl} />
+
         <div className="episode-podcast">
           <div className="container">
-            <h3>Episode Timeline</h3>
+            <h3>Anotações</h3>
             {!!episodeGuide && (
               <div className="episode-guide">
                 <ul>
@@ -72,8 +74,6 @@ const Episode = props => {
                 </ul>
               </div>
             )}
-
-            <AudioPlayer url={audioUrl} />
           </div>
         </div>
 

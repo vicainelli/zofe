@@ -20,18 +20,6 @@ const Header = ({ siteTitle }) => (
             <Link to="/contato">Contato</Link>
           </li>
         </ul>
-
-        <div id="search" className="search-box">
-          <form id="search-form" action="/search" method="get">
-            <input
-              type="text"
-              id="search-query"
-              className="search-query"
-              name="q"
-              placeholder="Buscar"
-            />
-          </form>
-        </div>
       </nav>
     </div>
   </header>
