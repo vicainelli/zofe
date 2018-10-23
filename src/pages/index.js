@@ -4,7 +4,7 @@ import Layout from '@components/Layout'
 import EpisodesList from '@components/EpisodesList'
 
 const IndexPage = ({ data }) => (
-  <Layout className="indexWrapper">
+  <Layout>
     <EpisodesList {...data} />
   </Layout>
 )
