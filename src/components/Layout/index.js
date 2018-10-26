@@ -23,8 +23,8 @@ const Layout = ({ children }) => (
           <html lang="pt-br" />
         </Helmet>
 
-        <div class="wrapper">
-          <div class="meta">
+        <div className="wrapper">
+          <div className="meta">
             <Meta className="sidebarContent" />
           </div>
           <div id="main-content" className="main">
