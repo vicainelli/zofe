@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import ZofeLink from '@components/ZofeLink'
 import './styles.css'
 
 const Episode = node => {
@@ -7,10 +7,10 @@ const Episode = node => {
   return (
     <li className="episode-item">
       <h3>
-        <Link to={slug} className="episode-link">
+        <ZofeLink to={`/${slug}`} className="episode-link">
           <span className="episode-number">{episodeNumber}</span>
           {title} em {publishDate}
-        </Link>
+        </ZofeLink>
       </h3>
     </li>
   )

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import ZofeLink from '@components/ZofeLink'
 import logo from '@images/zofe-logo.png'
 import twitter from '@images/social-icons/twitter.svg'
 import facebook from '@images/social-icons/facebook.svg'
@@ -8,33 +8,33 @@ import './styles.css'
 const Header = ({ siteTitle }) => (
   <header className="main-header">
     <div className="header-content">
-      <Link to="/" className="zofe-logo no-underline">
+      <ZofeLink to="/" className="zofe-logo no-underline">
         <img src={logo} alt="ZOFE Logo - A yellow cube made of smaller cubes, written ZOFE in one face" />
-      </Link>
+      </ZofeLink>
 
       <nav className="main-menu">
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <ZofeLink to="/">Home</ZofeLink>
           </li>
           <li>
-            <Link to="/sobre">Sobre</Link>
+            <ZofeLink to="/sobre">Sobre</ZofeLink>
           </li>
           <li>
-            <Link to="/contato">Contato</Link>
+            <ZofeLink to="/contato">Contato</ZofeLink>
           </li>
         </ul>
 
         <ul>
           <li>
-            <Link to="https://twitter.com/zofepod" className="social-icon no-underline">
+            <ZofeLink to="https://twitter.com/zofepod" className="social-icon no-underline">
               <img src={twitter} alt="ZOFE no Twitter" />
-            </Link>
+            </ZofeLink>
           </li>
           <li>
-            <Link to="https://fb.com/zofepod" className="social-icon no-underline">
+            <ZofeLink to="https://fb.com/zofepod" className="social-icon no-underline">
               <img src={facebook} alt="ZOFE no Facebook" />
-            </Link>
+            </ZofeLink>
           </li>
         </ul>
 
