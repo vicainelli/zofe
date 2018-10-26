@@ -5,7 +5,9 @@ import EpisodesList from '@components/EpisodesList'
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <EpisodesList {...data} />
+    <ul className="list-reset">
+      <EpisodesList {...data} />
+    </ul>
   </Layout>
 )
 
@@ -20,6 +22,7 @@ export const pageQuery = graphql`
       edges {
         node {
           id
+          episodeNumber
           title
           publishDate(formatString: "DD/MM/YYYY", locale: "pt-BR")
           cover {

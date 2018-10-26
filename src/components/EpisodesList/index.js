@@ -3,17 +3,16 @@ import { Link } from 'gatsby'
 import './styles.css'
 
 const Episode = node => {
-  const { slug, title, publishDate } = node.node
+  const { slug, episodeNumber, title, publishDate } = node.node
   return (
-    <article className="row episodeListWrapper">
-      <header className="episode-header">
-        <Link to={slug}>
-          <h3>
-            {title} em {publishDate}
-          </h3>
+    <li className="episode-item">
+      <h3>
+        <Link to={slug} className="episode-link">
+          <span className="episode-number">{episodeNumber}</span>
+          {title} em {publishDate}
         </Link>
-      </header>
-    </article>
+      </h3>
+    </li>
   )
 }
 

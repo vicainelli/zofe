@@ -1,3 +1,24 @@
 .episodeListWrapper {
   width: 100%;
 }
+
+.episode-item {
+  margin-bottom: 2em;
+}
+
+.episode-link {
+  color: inherit;
+  border-bottom: 0 none;
+}
+
+.episode-number {
+  display: inline-block;
+  margin-right: 0.5em;
+  color: #661111;
+  font-weight: 400;
+}
+.episode-number:before {
+  content: "#";
+  color: #661111;
+  opacity: 0.5;
+}

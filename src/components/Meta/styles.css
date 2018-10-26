@@ -1,0 +1,16 @@
+.no-underline,
+.no-underline:hover {
+  border-bottom: 0 none;
+}
+
+.zofe-logo,
+.zofe-logo:hover {
+  display: block;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.social-icon {
+  display: block;
+  max-width: 50px;
+}

@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -16,12 +20,29 @@ body {
 
 .main {
   background: #ffffff;
-  width: 60%;
+  width: 70%;
 }
 
 .meta {
-  width: 25%;
   height: 100%;
+  padding: 2em;
   position: sticky;
   top: 2em;
+}
+
+.meta ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.meta li {
+  margin: 0 1em 1em 0;
+}
+
+.list-reset {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
