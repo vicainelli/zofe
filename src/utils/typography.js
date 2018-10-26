@@ -9,6 +9,7 @@ oceanBeachTheme.overrideStyles = (options) => ({
     borderBottom: '3px solid #3388cc',
     transition: 'border .3s ease-out'
   },
+
   'a:hover': {
     borderBottom: '3px solid #ffdd44'
   }
