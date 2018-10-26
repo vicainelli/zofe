@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '@components/Layout'
-import AudioPlayer from '@components/AudioPlayer'
+import EpisodeContent from '@components/EpisodeContent'
 import Comments from '@components/Comments'
 import './styles.css'
 
@@ -42,40 +42,7 @@ const Episode = props => {
           </div>
         )}
 
-        <AudioPlayer url={audioUrl} />
-
-        <div className="episode-podcast">
-          <div className="container">
-            <h3>Anotações</h3>
-            {!!episodeGuide && (
-              <div className="episode-guide">
-                <ul>
-                  {episodeGuide.map(item => (
-                    <li key={item.id}>
-                      {!!item.url ? (
-                        <>
-                          <span>[{item.timestamp}]</span>{' '}
-                          <a
-                            href={item.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            {item.title}
-                          </a>
-                        </>
-                      ) : (
-                        <>
-                          <span>[{item.timestamp}]</span>{' '}
-                          <span>{item.title}</span>
-                        </>
-                      )}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-          </div>
-        </div>
+        <EpisodeContent audioUrl={audioUrl} content={episodeGuide} />
 
         <footer className="episode-meta container">
           <div className="row">

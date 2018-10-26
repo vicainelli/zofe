@@ -97,7 +97,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.load(this.props.url)
+    this.load(this.props.audioUrl)
     this.pause()
   }
 
