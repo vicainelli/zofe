@@ -24,6 +24,7 @@ body {
 }
 
 .meta {
+  max-width: 30%;
   height: 100%;
   padding: 2em;
   position: sticky;
@@ -32,6 +33,7 @@ body {
 
 .meta ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   list-style: none;
   margin: 0 auto;
