@@ -32,6 +32,14 @@
   color: #eed738;
 }
 
+.timestamp {
+  font-size: 80%;
+  margin-top: -2em;
+  padding-left: 1em;
+  text-decoration: none;
+  text-align: center;
+}
+
 .timer-title {
   background: #eacd15;
   color: #897700;

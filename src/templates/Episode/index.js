@@ -13,6 +13,7 @@ const Episode = props => {
     postText,
     audioUrl,
     episodeGuide,
+    publishDate
   } = props.data.contentfulEpisode
 
   return (
@@ -29,6 +30,7 @@ const Episode = props => {
               {title}
             </a>
           </h2>
+          <p className="timestamp">De {publishDate}</p>
         </header>
 
         {!!postText && (
@@ -66,6 +68,7 @@ export const pageQuery = graphql`
       title
       slug
       audioUrl
+      publishDate(formatString: "DD/MM/YYYY", locale: "pt-BR")
       cover {
         description
         file {

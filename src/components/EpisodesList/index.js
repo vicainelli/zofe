@@ -3,13 +3,13 @@ import ZofeLink from '@components/ZofeLink'
 import './styles.css'
 
 const Episode = node => {
-  const { slug, episodeNumber, title, publishDate } = node.node
+  const { slug, episodeNumber, title } = node.node
   return (
     <li className="episode-item">
       <h3>
         <ZofeLink to={`/${slug}`} className="episode-link">
           <span className="episode-number">{episodeNumber}</span>
-          {title} em {publishDate}
+          {title}
         </ZofeLink>
       </h3>
     </li>
