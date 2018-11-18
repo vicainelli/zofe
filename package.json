@@ -7,7 +7,7 @@
     "core-js": "^2.5.7",
     "disqus-react": "^1.0.5",
     "gatsby": "^2.0.0",
-    "gatsby-cli": "^2.4.3",
+    "gatsby-cli": "^2.4.5",
     "gatsby-plugin-manifest": "^2.0.2",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",

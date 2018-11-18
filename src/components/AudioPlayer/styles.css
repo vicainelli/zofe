@@ -1,7 +1,6 @@
 .episode-player {
   top: 10px;
   margin-bottom: 1em;
-  min-width: 530px;
   width: 100%;
   display: flex;
   flex-direction: column;
