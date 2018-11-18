@@ -4,6 +4,10 @@
   background-position: 0 50%;
 }
 
+.episode-title {
+  line-height: 1.5;
+}
+
 .episode-content {
   margin: 35px auto;
 }
