@@ -12,14 +12,14 @@ const AboutPage = () => (
     <div>
       <section>
         <p>Podcast com enfoque no desenvolvimento front-end da web. Sempre trazendo novidades, entrevistas, eventos e multiplicando
-          conhecimento. Este podcast é apresentado por <a href="https://twitter.com/danielfilho">Daniel Filho</a> e <a href="https://twitter.com/silveira_bells">Isa
+          conhecimento. Este podcast é apresentado por <ZofeLink to="https://twitter.com/danielfilho">Daniel Filho</ZofeLink> e <ZofeLink to="https://twitter.com/silveira_bells">Isa
             Silveira
-          </a>.
+          </ZofeLink>.
         </p>
         <p>
           <ul>
             <li>
-              <ZofeLink href="https://twitter.com/danielfilho" target="_blank" className="no-underline">
+              <ZofeLink to="https://twitter.com/danielfilho" target="_blank" className="no-underline">
                 <img src="https://www.gravatar.com/avatar/3f2ebf61315d43cae59e727dab091620?s=300" alt="Foto de perfíl de Daniel Filho" />
                 <p>Daniel Filho</p>
               </ZofeLink>
@@ -66,7 +66,7 @@ const AboutPage = () => (
 
       <section>
         <p className="sobre-subheader">GITHUB</p>
-        <p className="sobre-section-text">O código do nosso site pode ser encontrado no github: <a href="https://github.com/zofepod">https://github.com/zofepod</a>.</p>
+        <p className="sobre-section-text">O código do nosso site pode ser encontrado no github: <ZofeLink to="https://github.com/zofepod">https://github.com/zofepod</ZofeLink>.</p>
       </section>
       <hr />
       <section className="sobre-copyright">
