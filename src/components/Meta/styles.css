@@ -11,7 +11,7 @@
 }
 
 .main-links {
-  margin-bottom: 32px;
+  margin-bottom: 1.5rem;
 }
 
 .main-links li {
@@ -29,7 +29,7 @@
 }
 
 .social-list {
-  margin-bottom: 32px;
+  margin-bottom: 1.5rem;
 }
 
 .social-icon {
@@ -49,4 +49,19 @@ footer-feeds-list {
 .footer-feed-item {
   margin: 0 0 5px 0;
   padding: 0 0 0 12px;
+}
+
+.footer-feed-item:after,
+.footer-feed-item:first-child:before {
+  content: '\B7';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #661111;
+  margin-left: 0.5rem;
+}
+.footer-feed-item:first-child:before {
+  margin-right: 0.5rem;
 }
