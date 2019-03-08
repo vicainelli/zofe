@@ -13,7 +13,7 @@ const Episode = props => {
     postText,
     audioUrl,
     episodeGuide,
-    publishDate
+    publishDate,
   } = props.data.contentfulEpisode
 
   return (
@@ -33,7 +33,7 @@ const Episode = props => {
           <p className="timestamp">De {publishDate}</p>
         </header>
 
-        {!!postText && (
+        {Boolean(postText) && (
           <div className="episode-content container">
             <div
               className="row"
@@ -44,7 +44,7 @@ const Episode = props => {
           </div>
         )}
 
-        <EpisodeContent audioUrl={audioUrl} content={episodeGuide} />
+        <EpisodeContent audioUrl={audioUrl} episodeGuide={episodeGuide} />
 
         <footer className="episode-meta container">
           <div className="row">

@@ -17,7 +17,7 @@ class EpisodeContent extends React.Component {
 
   render() {
     return (
-      !!this.props.content && (
+      !!this.props.episodeGuide && (
         <>
           <AudioPlayer ref={this.ref} audioUrl={this.props.audioUrl} />
 
@@ -27,7 +27,7 @@ class EpisodeContent extends React.Component {
 
               <div className="episode-guide">
                 <ListItems>
-                  {this.props.content.map(item => (
+                  {this.props.episodeGuide.map(item => (
                     <li key={item.id} className="episodeItem">
                       <button
                         className="timestampButton"
