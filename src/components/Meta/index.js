@@ -3,7 +3,6 @@ import ZofeLink from '@components/ZofeLink'
 import ListItems from '@components/ListItems'
 import logo from '@images/zofe-logo.png'
 import twitter from '@images/social-icons/twitter.svg'
-import facebook from '@images/social-icons/facebook.svg'
 import './styles.css'
 
 const Header = ({ siteTitle }) => (
@@ -34,14 +33,6 @@ const Header = ({ siteTitle }) => (
             className="social-icon no-underline"
           >
             <img src={twitter} alt="ZOFE no Twitter" />
-          </ZofeLink>
-        </li>
-        <li>
-          <ZofeLink
-            to="https://fb.com/zofepod"
-            className="social-icon no-underline"
-          >
-            <img src={facebook} alt="ZOFE no Facebook" />
           </ZofeLink>
         </li>
       </ListItems>
