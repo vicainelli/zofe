@@ -3,7 +3,7 @@ import oceanBeachTheme from 'typography-theme-ocean-beach'
 
 oceanBeachTheme.overrideStyles = options => ({
   body: {
-    fontSize: '16px',
+    fontSize: '1rem',
   },
 
   a: {
