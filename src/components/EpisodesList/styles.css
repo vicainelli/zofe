@@ -6,6 +6,10 @@
   margin-bottom: 2em;
 }
 
+.episode-item h3 {
+  line-height: 1.3em;
+}
+
 .episode-link {
   color: inherit;
   border-bottom: 0 none;
@@ -18,7 +22,7 @@
   font-weight: 400;
 }
 .episode-number:before {
-  content: "#";
+  content: '#';
   color: #661111;
   opacity: 0.5;
 }

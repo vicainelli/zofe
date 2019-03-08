@@ -2,12 +2,12 @@ import React from 'react'
 import parseTime from '@helpers/parseTime'
 import AudioPlayer from '@components/AudioPlayer'
 import ZofeLink from '@components/ZofeLink'
+import ListItems from '@components/ListItems'
 import './styles.css'
 
-// const EpisodeContent = props => {
 class EpisodeContent extends React.Component {
   state = {
-    player: ''
+    player: '',
   }
 
   ref = player => {
@@ -16,24 +16,28 @@ class EpisodeContent extends React.Component {
   }
 
   render() {
-    return (!!this.props.content && (
-      <>
-        <AudioPlayer ref={this.ref} audioUrl={this.props.audioUrl} />
+    return (
+      !!this.props.content && (
+        <>
+          <AudioPlayer ref={this.ref} audioUrl={this.props.audioUrl} />
 
-        <div className="episode-podcast">
-          <div className="container">
-            <h3>Anotações</h3>
+          <div className="episode-podcast">
+            <div className="container">
+              <h3>Anotações</h3>
 
               <div className="episode-guide">
-                <ul className="list-reset">
+                <ListItems>
                   {this.props.content.map(item => (
                     <li key={item.id} className="episodeItem">
                       <button
                         className="timestampButton"
                         title={`Pular áudio para tópico: ${item.title}`}
                         onClick={() => {
-                        this.state.player.player.seekTo(parseTime(item.timestamp))
-                      }}>
+                          this.state.player.player.seekTo(
+                            parseTime(item.timestamp)
+                          )
+                        }}
+                      >
                         [{item.timestamp}]
                       </button>{' '}
                       {!!item.url ? (
@@ -54,7 +58,7 @@ class EpisodeContent extends React.Component {
                       )}
                     </li>
                   ))}
-                </ul>
+                </ListItems>
               </div>
             </div>
           </div>
