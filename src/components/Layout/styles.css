@@ -37,6 +37,19 @@ body {
   top: 2em;
 }
 
+.meta ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.meta li {
+  margin: 0 1em 1em 0;
+}
+
 @media only screen and (max-width: 800px) {
   .wrapper {
     flex-wrap: wrap;
