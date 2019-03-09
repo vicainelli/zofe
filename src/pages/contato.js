@@ -5,27 +5,36 @@ const ContactPage = () => (
   <Layout>
     <h2>Contato</h2>
 
-    <form name="contact" method="post" netlify>
-      <div>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome"  />
-      </div>
+    <form
+      name="contact"
+      method="POST"
+      data-netlify-recaptcha="true"
+      data-netlify="true"
+    >
+      <p>
+        <label>
+          Nome: <br />
+          <input type="text" name="name" />
+        </label>
+      </p>
+      <p>
+        <label>
+          Email: <br />
+          <input type="email" name="email" />
+        </label>
+      </p>
+      <p>
+        <label>
+          Mensagem: <br />
+          <textarea name="message" />
+        </label>
+      </p>
 
-      <div>
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" />
-      </div>
+      <div data-netlify-recaptcha="true" />
 
-      <div>
-        <label for="message">Mensagem:</label>
-        <textarea id="message" name="message" rows="3"></textarea>
-      </div>
-
-      <div data-netlify-recaptcha></div>
-
-      <div>
+      <p>
         <button type="submit">Enviar</button>
-      </div>
+      </p>
     </form>
   </Layout>
 )
