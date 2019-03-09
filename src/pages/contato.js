@@ -5,12 +5,7 @@ const ContactPage = () => (
   <Layout>
     <h2>Contato</h2>
 
-    <form
-      name="contact"
-      method="POST"
-      data-netlify-recaptcha="true"
-      data-netlify="true"
-    >
+    <form name="contact" method="POST" data-netlify="true">
       <p>
         <label>
           Nome: <br />
@@ -29,8 +24,6 @@ const ContactPage = () => (
           <textarea name="message" />
         </label>
       </p>
-
-      <div data-netlify-recaptcha="true" />
 
       <p>
         <input type="hidden" name="form-name" value="contact" />
