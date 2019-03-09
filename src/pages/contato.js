@@ -33,6 +33,7 @@ const ContactPage = () => (
       <div data-netlify-recaptcha="true" />
 
       <p>
+        <input type="hidden" name="form-name" value="contact" />
         <button type="submit">Enviar</button>
       </p>
     </form>
