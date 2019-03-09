@@ -21,7 +21,7 @@ const AboutPage = () => (
           </ZofeLink>
           .
         </p>
-        <p>
+        <div>
           <ul>
             <li>
               <ZofeLink
@@ -33,7 +33,8 @@ const AboutPage = () => (
                   src="https://www.gravatar.com/avatar/3f2ebf61315d43cae59e727dab091620?s=300"
                   alt="Foto de perfíl de Daniel Filho"
                 />
-                <p>Daniel Filho</p>
+                <br />
+                <span>Daniel Filho</span>
               </ZofeLink>
             </li>
             <li>
@@ -46,11 +47,12 @@ const AboutPage = () => (
                   src="https://www.gravatar.com/avatar/91b0fc08849c4128f1eed542c057fd27?s=300"
                   alt="Foto de perfíl de Isa Silveira"
                 />
-                <p>Isabella Silveira</p>
+                <br />
+                <span>Isabella Silveira</span>
               </ZofeLink>
             </li>
           </ul>
-        </p>
+        </div>
       </section>
 
       <section>
