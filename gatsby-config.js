@@ -1,3 +1,9 @@
+const normaliseFeedContent = text => {
+  const normalisedText = text.replace('<!-- excerpt -->', '').replace('\n', ' ')
+
+  return normalisedText
+}
+
 module.exports = {
   siteMetadata: {
     title: 'ZOFE - Zone Of Front-Enders',
@@ -76,9 +82,8 @@ module.exports = {
                   url: `${site.siteMetadata.site_url}/${edge.node.slug}`,
                   title: edge.node.title,
                   author: site.siteMetadata.author,
-                  description: edge.node.postText.postText.replace(
-                    '<!-- excerpt -->',
-                    ''
+                  description: normaliseFeedContent(
+                    edge.node.postText.postText
                   ),
                   enclosure: {
                     file: edge.node.audioUrl,
@@ -108,9 +113,8 @@ module.exports = {
                       'itunes:author': site.siteMetadata.author,
                     },
                     {
-                      'itunes:summary': edge.node.postText.postText.replace(
-                        '<!-- excerpt -->',
-                        ''
+                      'itunes:summary': normaliseFeedContent(
+                        edge.node.postText.postText
                       ),
                     },
                     {
@@ -124,9 +128,8 @@ module.exports = {
                       },
                     },
                     {
-                      'content:encoded': edge.node.postText.postText.replace(
-                        '<!-- excerpt -->',
-                        ''
+                      'content:encoded': normaliseFeedContent(
+                        edge.node.postText.postText
                       ),
                     },
                   ],
