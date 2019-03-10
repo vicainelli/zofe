@@ -1,71 +1,28 @@
 module.exports = {
   siteMetadata: {
     title: 'ZOFE - Zone Of Front-Enders',
-    description: 'Podcast com enfoque no desenvolvimento front-end da web. Sempre trazendo novidades, entrevistas, eventos e multiplicando conhecimento. Este podcast é apresentado por Daniel Filho e Isa Silveira.',
+    description:
+      'Podcast com enfoque no desenvolvimento front-end da web. Sempre trazendo novidades, entrevistas, eventos e multiplicando conhecimento. Este podcast é apresentado por Daniel Filho e Isa Silveira.',
     siteUrl: 'https://zofe.com.br',
-    twitter: '@zofepod'
+    summary:
+      'Um podcast quinzenal que aborda assuntos relacionados ao desenvolvimento para a internet, trazendo notícias, cobrindo eventos e entrevistas com nomes de expressão no desenvolvimento web nacional e mundial.',
+    twitter: '@zofepod',
+    author: 'Zone Of Front-Enders',
+    podcast: {
+      explicit: 'no',
+      image: 'https://zofe.com.br/assets/img/zofe300.png',
+      owner: 'Danie Filho',
+      email: 'daniel@zofe.com.br',
+    },
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-remark',
-    // {
-    //   resolve: 'gatsby-plugin-feed',
-    //   options: {
-    //     query: `
-    //       {
-    //         site {
-    //           siteMetadata {
-    //             title
-    //             description
-    //             siteUrl
-    //             site_url: siteUrl
-    //           }
-    //         }
-    //       }
-    //     `,
-    //     feeds: [
-    //       {
-    //         serialize: ({ query: { site, allContentfulEpisode } }) => {
-    //           return allContentfulEpisode.edges.map(edge => {
-    //             return Object.assign({}, edge.node.frontmatter, {
-    //               description: edge.node.excerpt,
-    //               url: site.siteMetadata.siteUrl + edge.node.fields.slug,
-    //               guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
-    //               custom_elements: [{ "content:encoded": edge.node.html }],
-    //             })
-    //           })
-    //         },
-    //         query: `
-    //           {
-    //             allContentfulEpisode(
-    //               sort: { order: DESC, fields: [frontmatter___date] },
-    //               filter: {frontmatter: { draft: { ne: true } }}
-    //             ) {
-    //               edges {
-    //                 node {
-    //                   excerpt
-    //                   html
-    //                   fields { slug }
-    //                   frontmatter {
-    //                     title
-    //                     date
-    //                   }
-    //                 }
-    //               }
-    //             }
-    //           }
-    //         `,
-    //         output: "/feed/podcast.xml",
-    //         title: "Zone Of Front-Enders - Podcast",
-    //       },
-    //     ],
-    //   },
-    // },
     {
       resolve: 'gatsby-plugin-typography',
       options: {
-        pathToConfigModule: 'src/utils/typography'
-      }
+        pathToConfigModule: 'src/utils/typography',
+      },
     },
     {
       resolve: 'gatsby-source-contentful',
@@ -85,5 +42,119 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-feed',
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                site_url: siteUrl
+                author
+                summary
+                twitter
+                podcast {
+                  explicit
+                  image
+                  owner
+                  email
+                }
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allContentfulEpisode } }) => {
+              return allContentfulEpisode.edges.map(edge => {
+                return Object.assign({}, edge.node.id, {
+                  id: `${site.siteMetadata.site_url}/${edge.node.slug}`,
+                  guid: edge.node.audioUrl,
+                  updated: edge.node.updatedAt,
+                  url: `${site.siteMetadata.site_url}/${edge.node.slug}`,
+                  title: edge.node.title,
+                  author: site.siteMetadata.author,
+                  description: edge.node.postText.postText,
+                  enclosure: {
+                    file: edge.node.audioUrl,
+                    size: edge.node.audioFileLength,
+                    type: 'audio/x-m4a',
+                  },
+                  custom_namespaces: {
+                    itunes: 'http://www.itunes.com/dtds/podcast-1.0.dtd',
+                  },
+                  custom_elements: [
+                    {
+                      'itunes:category': {
+                        _attr: {
+                          text: 'Technology',
+                        },
+                        'itunes:category': {
+                          _attr: {
+                            text: 'Tech News',
+                          },
+                        },
+                      },
+                    },
+                    {
+                      'itunes:subtitle': site.siteMetadata.description,
+                    },
+                    {
+                      'itunes:author': site.siteMetadata.author,
+                    },
+                    {
+                      'itunes:summary': edge.node.postText.postText,
+                    },
+                    {
+                      'itunes:explicit': site.siteMetadata.podcast.explicit,
+                    },
+                    {
+                      'itunes:image': {
+                        _attr: {
+                          href: edge.node.cover.file.url,
+                        },
+                      },
+                    },
+                    {
+                      'content:encoded': edge.node.postText.postText,
+                    },
+                  ],
+                })
+              })
+            },
+            query: `
+              {
+                allContentfulEpisode(
+                  filter: { node_locale: { eq: "pt-BR" } }
+                  sort: { fields: [episodeNumber], order: DESC }
+                ) {
+                  edges {
+                    node {
+                      title
+                      slug
+                      updatedAt
+                      audioUrl
+                      audioFileLength
+                      postText {
+                        postText
+                      }
+                      cover {
+                        file {
+                          url
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: '/feed/podcast.xml',
+            title: 'Zone Of Front-Enders - Podcast',
+          },
+        ],
+      },
+    },
   ],
 }
