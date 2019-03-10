@@ -76,7 +76,10 @@ module.exports = {
                   url: `${site.siteMetadata.site_url}/${edge.node.slug}`,
                   title: edge.node.title,
                   author: site.siteMetadata.author,
-                  description: edge.node.postText.postText,
+                  description: edge.node.postText.postText.replace(
+                    '<!-- excerpt -->',
+                    ''
+                  ),
                   enclosure: {
                     file: edge.node.audioUrl,
                     size: edge.node.audioFileLength,
@@ -105,7 +108,10 @@ module.exports = {
                       'itunes:author': site.siteMetadata.author,
                     },
                     {
-                      'itunes:summary': edge.node.postText.postText,
+                      'itunes:summary': edge.node.postText.postText.replace(
+                        '<!-- excerpt -->',
+                        ''
+                      ),
                     },
                     {
                       'itunes:explicit': site.siteMetadata.podcast.explicit,
@@ -118,7 +124,10 @@ module.exports = {
                       },
                     },
                     {
-                      'content:encoded': edge.node.postText.postText,
+                      'content:encoded': edge.node.postText.postText.replace(
+                        '<!-- excerpt -->',
+                        ''
+                      ),
                     },
                   ],
                 })
