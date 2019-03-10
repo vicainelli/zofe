@@ -9,3 +9,5 @@ yarn-error.log
 
 # Local script
 zofedev.sh
+zofebuild.sh
+
