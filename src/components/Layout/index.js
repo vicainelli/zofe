@@ -27,7 +27,7 @@ const Layout = ({ children }) => (
           <div className="meta">
             <Meta className="sidebarContent" />
           </div>
-          
+
           <div id="main-content" className="main">
             {children}
           </div>
