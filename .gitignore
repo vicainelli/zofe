@@ -11,3 +11,4 @@ yarn-error.log
 zofedev.sh
 zofebuild.sh
 
+.env
