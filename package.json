@@ -3,9 +3,41 @@
   "description": "Zone Of Front-Enders",
   "version": "3.0.0",
   "author": "Daniel Filho",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "eslint . --fix",
+    "test": "eslint ."
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": [
+      "plugin:react/recommended",
+      "plugin:prettier/recommended",
+      "prettier/react"
+    ],
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "rules": {
+      "react/react-in-jsx-scope": 0,
+      "react/prop-types": 0
+    }
+  },
   "dependencies": {
     "core-js": "^3.1.4",
     "disqus-react": "^1.0.6",
+    "dotenv": "^8.2.0",
     "gatsby": "^2.13.23",
     "gatsby-cli": "^2.7.15",
     "gatsby-plugin-feed": "^2.3.4",
@@ -22,22 +54,9 @@
     "typography": "^0.16.19",
     "typography-theme-ocean-beach": "^0.16.19"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write '**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "devDependencies": {
+    "gatsby-plugin-react-axe": "^0.4.0",
     "gatsby-source-contentful": "^2.1.13",
     "prettier": "^1.18.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   }
 }

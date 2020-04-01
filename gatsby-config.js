@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const normaliseFeedContent = text => {
   const normalisedText = text.replace('<!-- excerpt -->', '').replace('\n', ' ')
 
@@ -24,6 +26,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-remark',
+    'gatsby-plugin-react-axe',
     {
       resolve: 'gatsby-plugin-typography',
       options: {
