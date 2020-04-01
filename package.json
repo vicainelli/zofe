@@ -31,7 +31,8 @@
     },
     "rules": {
       "react/react-in-jsx-scope": 0,
-      "react/prop-types": 0
+      "react/prop-types": 0,
+      "eol-last": 2
     }
   },
   "dependencies": {
@@ -55,6 +56,8 @@
     "typography-theme-ocean-beach": "^0.16.19"
   },
   "devDependencies": {
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
     "gatsby-plugin-react-axe": "^0.4.0",
     "gatsby-source-contentful": "^2.1.13",
     "prettier": "^1.18.2"
