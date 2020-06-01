@@ -10,6 +10,10 @@
   margin: 0 auto;
 }
 
+.zofe-logo svg {
+  height: auto;
+}
+
 .main-links {
   margin-bottom: 1.5rem;
 }
@@ -35,6 +39,11 @@
 .social-icon {
   display: block;
   max-width: 50px;
+}
+
+.social-icon svg {
+  max-width: 50px;
+  height: auto;
 }
 
 footer-feeds-list {

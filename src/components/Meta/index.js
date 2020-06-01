@@ -1,17 +1,19 @@
 import React from 'react'
 import ZofeLink from '@components/ZofeLink'
 import ListItems from '@components/ListItems'
-import logo from '@images/logo.svg'
-import twitter from '@images/social-icons/twitter.svg'
+import Logo from '@images/logo.svg'
+import TwitterIcon from '@images/social-icons/twitter.svg'
 import './styles.css'
 
 const Header = ({ siteTitle }) => (
   <header className="main-header">
     <div className="header-content">
       <ZofeLink to="/" className="zofe-logo no-underline">
-        <img
-          src={logo}
-          alt="ZOFE Logo - A yellow cube made of smaller cubes, written ZOFE in one face"
+        <Logo
+          alt="ZOFE Logo - Um círculo amarelo com um corte dentro escrito zofe, em letras minúsculas"
+          width="100%"
+          viewBox="0 0 1730 1730"
+          preserveAspectRatio="xMidYMid meet"
         />
       </ZofeLink>
 
@@ -31,7 +33,7 @@ const Header = ({ siteTitle }) => (
         <ListItems classNames="social-list">
           <li>
             <ZofeLink to="https://twitter.com/zofepod" className="social-icon no-underline">
-              <img src={twitter} alt="ZOFE no Twitter" />
+              <TwitterIcon alt="ZOFE no Twitter" preserveAspectRatio="xMidYMid meet" />
             </ZofeLink>
           </li>
         </ListItems>
