@@ -21,12 +21,7 @@ const Episode = props => {
       <article className="episode u-full-width">
         <header className="episode-header u-full-width">
           <h2 className="episode-title">
-            <a
-              href={slug}
-              title={title}
-              className="latest-post-title"
-              rel="bookmark"
-            >
+            <a href={slug} title={title} className="latest-post-title" rel="bookmark">
               {title}
             </a>
           </h2>

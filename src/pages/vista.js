@@ -12,13 +12,10 @@ const VistaPage = () => (
 
     <div>
       <section>
+        <p>Você pode colaborar com o podcast comprando nossa camiseta ou blusa.</p>
         <p>
-          Você pode colaborar com o podcast comprando nossa camiseta ou blusa.
-        </p>
-        <p>
-          Temos uma margem de lucro de aproximadamente 10{' '}
-          <span title="dólares">USD</span> por produto vendido, que é convertido
-          para pagar a edição de nossos episódios.
+          Temos uma margem de lucro de aproximadamente 10 <span title="dólares">USD</span> por
+          produto vendido, que é convertido para pagar a edição de nossos episódios.
         </p>
       </section>
 
@@ -66,12 +63,11 @@ const VistaPage = () => (
           <ZofeLink to="https://cottonbureau.com/">Cotton Bureau</ZofeLink>.
         </p>
         <p>
-          A operação fica toda nos Estados Unidos da America, são enviados por
-          eles para todo o mundo, cobrado em dólares via cartão de crédito. Toda
-          a logística e distribuição fica por encargo dos mesmos. Até a criação
-          desta página, os pedidos levam de uma a duas semanas para serem
-          produzidos e enviados. O tempo entre o envio e a chegada pode variar
-          com sua região e logística da mesma.
+          A operação fica toda nos Estados Unidos da America, são enviados por eles para todo o
+          mundo, cobrado em dólares via cartão de crédito. Toda a logística e distribuição fica por
+          encargo dos mesmos. Até a criação desta página, os pedidos levam de uma a duas semanas
+          para serem produzidos e enviados. O tempo entre o envio e a chegada pode variar com sua
+          região e logística da mesma.
         </p>
       </section>
     </div>

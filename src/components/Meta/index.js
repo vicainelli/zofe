@@ -30,10 +30,7 @@ const Header = ({ siteTitle }) => (
 
         <ListItems classNames="social-list">
           <li>
-            <ZofeLink
-              to="https://twitter.com/zofepod"
-              className="social-icon no-underline"
-            >
+            <ZofeLink to="https://twitter.com/zofepod" className="social-icon no-underline">
               <img src={twitter} alt="ZOFE no Twitter" />
             </ZofeLink>
           </li>
@@ -68,11 +65,7 @@ const Header = ({ siteTitle }) => (
             </ZofeLink>
           </li>
           <li className="footer-feed-item">
-            <ZofeLink
-              to="https://pca.st/dMr0"
-              className="footer-feed-link"
-              title="Pocketcasts"
-            >
+            <ZofeLink to="https://pca.st/dMr0" className="footer-feed-link" title="Pocketcasts">
               Pocketcasts
             </ZofeLink>
           </li>

@@ -102,17 +102,7 @@ class App extends Component {
   }
 
   render() {
-    const {
-      url,
-      playing,
-      volume,
-      muted,
-      loop,
-      played,
-      loaded,
-      duration,
-      playbackRate,
-    } = this.state
+    const { url, playing, volume, muted, loop, played, loaded, duration, playbackRate } = this.state
 
     const playPauseChar = () => {
       return playing ? 'M0 0h6v24H0zM12 0h6v24h-6z' : 'M18 12L0 24V0'
@@ -144,11 +134,7 @@ class App extends Component {
 
           <div className="episode-player">
             <div className="player-row">
-              <button
-                className="play-pause-btn"
-                onClick={this.playPause}
-                disabled={loaded <= 0.01}
-              >
+              <button className="play-pause-btn" onClick={this.playPause} disabled={loaded <= 0.01}>
                 {loaded <= 0.01 ? (
                   <div className="loading">
                     <div className="spinner"></div>

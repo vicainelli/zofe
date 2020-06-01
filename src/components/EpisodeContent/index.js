@@ -33,9 +33,7 @@ class EpisodeContent extends React.Component {
                         className="timestampButton"
                         title={`Pular áudio para tópico: ${item.title}`}
                         onClick={() => {
-                          this.state.player.player.seekTo(
-                            parseTime(item.timestamp)
-                          )
+                          this.state.player.player.seekTo(parseTime(item.timestamp))
                         }}
                       >
                         [{item.timestamp}]

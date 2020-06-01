@@ -1,6 +1,6 @@
 require('dotenv').config()
 
-const normaliseFeedContent = (text) => {
+const normaliseFeedContent = text => {
   const normalisedText = text.replace('<!-- excerpt -->', '').replace('\n', ' ')
 
   return normalisedText
@@ -77,7 +77,7 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allContentfulEpisode } }) => {
-              return allContentfulEpisode.edges.map((edge) => {
+              return allContentfulEpisode.edges.map(edge => {
                 return Object.assign({}, edge.node.id, {
                   id: `${site.siteMetadata.site_url}/${edge.node.slug}`,
                   guid: edge.node.audioUrl,
@@ -85,9 +85,7 @@ module.exports = {
                   url: `${site.siteMetadata.site_url}/${edge.node.slug}`,
                   title: edge.node.title,
                   author: site.siteMetadata.author,
-                  description: normaliseFeedContent(
-                    edge.node.postText.postText
-                  ),
+                  description: normaliseFeedContent(edge.node.postText.postText),
                   enclosure: {
                     file: edge.node.audioUrl,
                     size: edge.node.audioFileLength,
@@ -116,9 +114,7 @@ module.exports = {
                       'itunes:author': site.siteMetadata.author,
                     },
                     {
-                      'itunes:summary': normaliseFeedContent(
-                        edge.node.postText.postText
-                      ),
+                      'itunes:summary': normaliseFeedContent(edge.node.postText.postText),
                     },
                     {
                       'itunes:explicit': site.siteMetadata.podcast.explicit,
@@ -131,9 +127,7 @@ module.exports = {
                       },
                     },
                     {
-                      'content:encoded': normaliseFeedContent(
-                        edge.node.postText.postText
-                      ),
+                      'content:encoded': normaliseFeedContent(edge.node.postText.postText),
                     },
                   ],
                 })
