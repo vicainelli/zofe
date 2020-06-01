@@ -6,7 +6,7 @@ const Footer = props => (
     <div className="footer-copyright-wrapper">
       <div className="footer-copyright-container container">
         <div className="row">
-          <p className="footer-copyright twelve columns">© 2015 Zone of Front-enders</p>
+          <p className="footer-copyright twelve columns">© 2012-2020 ZOFE</p>
         </div>
       </div>
     </div>

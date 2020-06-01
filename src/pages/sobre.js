@@ -94,8 +94,8 @@ const AboutPage = () => (
       <section className="sobre-copyright">
         <h6>
           Todas as marcas, nomes e conteúdos registrados citados no podcast, site e qualquer outro
-          meio de publicação utilizado pelo Zone Of Front-Enders são de propriedade de seus
-          respectivos criadores e/ou mantenedores.
+          meio de publicação utilizado pelo ZOFE são de propriedade de seus respectivos criadores
+          e/ou mantenedores.
         </h6>
       </section>
     </div>

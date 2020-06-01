@@ -8,14 +8,14 @@ const normaliseFeedContent = text => {
 
 module.exports = {
   siteMetadata: {
-    title: 'ZOFE - Zone Of Front-Enders',
+    title: 'ZOFE',
     description:
       'Podcast com enfoque no desenvolvimento front-end da web. Sempre trazendo novidades, entrevistas, eventos e multiplicando conhecimento. Este podcast é apresentado por Daniel Filho e Isa Silveira.',
     siteUrl: 'https://zofe.com.br',
     summary:
       'Um podcast quinzenal que aborda assuntos relacionados ao desenvolvimento para a internet, trazendo notícias, cobrindo eventos e entrevistas com nomes de expressão no desenvolvimento web nacional e mundial.',
     twitter: '@zofepod',
-    author: 'Zone Of Front-Enders',
+    author: 'ZOFE',
     podcast: {
       explicit: 'no',
       image: 'https://zofe.com.br/assets/img/zofe300.png',
@@ -168,7 +168,7 @@ module.exports = {
               }
             `,
             output: '/feed/podcast.xml',
-            title: 'Zone Of Front-Enders - Podcast',
+            title: 'ZOFE - Podcast',
           },
         ],
       },

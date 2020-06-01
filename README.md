@@ -8,7 +8,7 @@
 
 # ZOFE
 
-O Zone of Front-Enders é um podcast sobre desenvolvimento web e tecnologia.
+O ZOFE é um podcast sobre desenvolvimento web e tecnologia.
 
 Novidades, eventos e opinião no mundo da programação. Multiplicando o alcance do conhecimento.
 
