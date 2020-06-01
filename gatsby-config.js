@@ -1,6 +1,6 @@
 require('dotenv').config()
 
-const normaliseFeedContent = text => {
+const normaliseFeedContent = (text) => {
   const normalisedText = text.replace('<!-- excerpt -->', '').replace('\n', ' ')
 
   return normalisedText
@@ -47,7 +47,7 @@ module.exports = {
         short_name: 'zofe',
         start_url: '/',
         display: 'minimal-ui',
-        icon: 'src/images/logo-header.png',
+        icon: 'src/images/logo.svg',
       },
     },
     'gatsby-plugin-offline',
@@ -77,7 +77,7 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allContentfulEpisode } }) => {
-              return allContentfulEpisode.edges.map(edge => {
+              return allContentfulEpisode.edges.map((edge) => {
                 return Object.assign({}, edge.node.id, {
                   id: `${site.siteMetadata.site_url}/${edge.node.slug}`,
                   guid: edge.node.audioUrl,

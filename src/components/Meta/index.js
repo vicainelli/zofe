@@ -1,7 +1,7 @@
 import React from 'react'
 import ZofeLink from '@components/ZofeLink'
 import ListItems from '@components/ListItems'
-import logo from '@images/zofe-logo.png'
+import logo from '@images/logo.svg'
 import twitter from '@images/social-icons/twitter.svg'
 import './styles.css'
 
