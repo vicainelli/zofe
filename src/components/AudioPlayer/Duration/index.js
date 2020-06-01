@@ -17,10 +17,7 @@ const Duration = props => {
   }
 
   return (
-    <time
-      dateTime={`P${Math.round(props.seconds)}S`}
-      className={props.className}
-    >
+    <time dateTime={`P${Math.round(props.seconds)}S`} className={props.className}>
       {format(props.seconds)}
     </time>
   )

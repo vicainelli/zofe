@@ -11,15 +11,10 @@ const AboutPage = () => (
     <div>
       <section>
         <p>
-          Podcast com enfoque no desenvolvimento front-end da web. Sempre
-          trazendo novidades, entrevistas, eventos e multiplicando conhecimento.
-          Este podcast é apresentado por{' '}
-          <ZofeLink to="https://twitter.com/danielfilho">Daniel Filho</ZofeLink>{' '}
-          e{' '}
-          <ZofeLink to="https://twitter.com/silveira_bells">
-            Isa Silveira
-          </ZofeLink>
-          .
+          Podcast com enfoque no desenvolvimento front-end da web. Sempre trazendo novidades,
+          entrevistas, eventos e multiplicando conhecimento. Este podcast é apresentado por{' '}
+          <ZofeLink to="https://twitter.com/danielfilho">Daniel Filho</ZofeLink> e{' '}
+          <ZofeLink to="https://twitter.com/silveira_bells">Isa Silveira</ZofeLink>.
         </p>
         <div>
           <ul>
@@ -58,8 +53,7 @@ const AboutPage = () => (
       <section>
         <p className="sobre-subheader">EDIÇÃO</p>
         <p className="sobre-section-text">
-          Podcast editado por{' '}
-          <ZofeLink to="https://twitter.com/guigraz">Gui Grazziotin</ZofeLink>
+          Podcast editado por <ZofeLink to="https://twitter.com/guigraz">Gui Grazziotin</ZofeLink>
         </p>
       </section>
 
@@ -82,10 +76,7 @@ const AboutPage = () => (
         <p className="sobre-subheader">REDES SOCIAIS</p>
         <ul className="social-networks">
           <li className="sobre-social-item">
-            <ZofeLink
-              to="https://twitter.com/zofepod"
-              className="no-underline social-icon"
-            >
+            <ZofeLink to="https://twitter.com/zofepod" className="no-underline social-icon">
               <img src={twitter} alt="ZOFE no Twitter" /> Twitter
             </ZofeLink>
           </li>
@@ -96,19 +87,15 @@ const AboutPage = () => (
         <p className="sobre-subheader">GITHUB</p>
         <p className="sobre-section-text">
           O código do nosso site pode ser encontrado no github:{' '}
-          <ZofeLink to="https://github.com/zofepod">
-            https://github.com/zofepod
-          </ZofeLink>
-          .
+          <ZofeLink to="https://github.com/zofepod">https://github.com/zofepod</ZofeLink>.
         </p>
       </section>
       <hr />
       <section className="sobre-copyright">
         <h6>
-          Todas as marcas, nomes e conteúdos registrados citados no podcast,
-          site e qualquer outro meio de publicação utilizado pelo Zone Of
-          Front-Enders são de propriedade de seus respectivos criadores e/ou
-          mantenedores.
+          Todas as marcas, nomes e conteúdos registrados citados no podcast, site e qualquer outro
+          meio de publicação utilizado pelo Zone Of Front-Enders são de propriedade de seus
+          respectivos criadores e/ou mantenedores.
         </h6>
       </section>
     </div>

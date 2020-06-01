@@ -17,10 +17,7 @@ class Comments extends React.Component {
           Comments
         </Disqus.CommentCount>
         <p>{this.props.body}</p>
-        <Disqus.DiscussionEmbed
-          shortname={disqusShortname}
-          config={disqusConfig}
-        />
+        <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
       </div>
     )
   }

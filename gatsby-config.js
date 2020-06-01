@@ -41,13 +41,21 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /svg/,
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'zone-of-front-enders',
         short_name: 'zofe',
         start_url: '/',
         display: 'minimal-ui',
-        icon: 'src/images/logo-header.png',
+        icon: 'src/images/logo.svg',
       },
     },
     'gatsby-plugin-offline',
@@ -85,9 +93,7 @@ module.exports = {
                   url: `${site.siteMetadata.site_url}/${edge.node.slug}`,
                   title: edge.node.title,
                   author: site.siteMetadata.author,
-                  description: normaliseFeedContent(
-                    edge.node.postText.postText
-                  ),
+                  description: normaliseFeedContent(edge.node.postText.postText),
                   enclosure: {
                     file: edge.node.audioUrl,
                     size: edge.node.audioFileLength,
@@ -116,9 +122,7 @@ module.exports = {
                       'itunes:author': site.siteMetadata.author,
                     },
                     {
-                      'itunes:summary': normaliseFeedContent(
-                        edge.node.postText.postText
-                      ),
+                      'itunes:summary': normaliseFeedContent(edge.node.postText.postText),
                     },
                     {
                       'itunes:explicit': site.siteMetadata.podcast.explicit,
@@ -131,9 +135,7 @@ module.exports = {
                       },
                     },
                     {
-                      'content:encoded': normaliseFeedContent(
-                        edge.node.postText.postText
-                      ),
+                      'content:encoded': normaliseFeedContent(edge.node.postText.postText),
                     },
                   ],
                 })
