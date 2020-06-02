@@ -58,21 +58,6 @@ const AboutPage = () => (
       </section>
 
       <section>
-        <p className="sobre-subheader">IDENTIDADE VISUAL</p>
-        <p className="sobre-section-text">
-          Nosso logotipo e todas as suas variações foram feitas por{' '}
-          <ZofeLink
-            title="Diosanto"
-            to="https://www.facebook.com/denisfonseca.diosanto"
-            target="_blank"
-          >
-            Denis &#8220;Diosanto&#8221; Fonseca
-          </ZofeLink>
-          .
-        </p>
-      </section>
-
-      <section>
         <p className="sobre-subheader">REDES SOCIAIS</p>
         <ul className="social-networks">
           <li className="sobre-social-item">
