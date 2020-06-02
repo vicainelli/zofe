@@ -23,6 +23,9 @@ const Header = ({ siteTitle }) => (
             <ZofeLink to="/sobre">Sobre</ZofeLink>
           </li>
           <li>
+            <ZofeLink to="/vista">Vista</ZofeLink>
+          </li>
+          <li>
             <ZofeLink to="/contato">Contato</ZofeLink>
           </li>
         </ListItems>
