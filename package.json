@@ -53,8 +53,8 @@
     "gatsby-transformer-remark": "^2.8.19",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-helmet": "^5.2.1",
-    "react-player": "^1.11.1",
+    "react-helmet": "^6.1.0",
+    "react-player": "^2.3.1",
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
     "typography-theme-ocean-beach": "^0.16.19"
