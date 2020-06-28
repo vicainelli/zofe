@@ -1,14 +1,11 @@
 {
   "name": "zofe",
   "description": "ZOFE",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "author": "Daniel Filho",
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "engines": {
-    "node": ">=12.18.1"
   },
   "keywords": [
     "gatsby"
