@@ -10,7 +10,7 @@ const Assine = ({ preview }) => (
         <title>Assine - {SITE_NAME}</title>
       </Head>
 
-      <h2>Assine o Podcast</h2>
+      <h1>Assine o Podcast</h1>
       <ul>
         <li>
           <Link href="https://zofe.com.br/feed/podcast.xml">

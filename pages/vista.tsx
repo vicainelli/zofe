@@ -10,7 +10,7 @@ export default function Vista({ preview }) {
         <title>Vista - {SITE_NAME}</title>
       </Head>
 
-      <h2>Vista o ZOFE</h2>
+      <h1>Vista o ZOFE</h1>
 
       <p>
         Você pode comprar camisetas do ZOFE. A nossa margem de lucro é zero, vemos isso como uma maneira de você poder

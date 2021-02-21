@@ -10,7 +10,7 @@ const AboutPage = ({ preview }) => (
       <title>Sobre - {SITE_NAME}</title>
     </Head>
 
-    <h2>Sobre</h2>
+    <h1>Sobre o Podcast</h1>
     <div>
       <p>
         Podcast com enfoque no desenvolvimento front-end da web. Sempre trazendo novidades, entrevistas, eventos e
