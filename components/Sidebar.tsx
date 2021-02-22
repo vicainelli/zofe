@@ -1,8 +1,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 
-const Sidebar = props => {
-  const { onChange } = props
+const Sidebar = ({ onChange }) => {
   const [currentTheme, setCurrentTheme] = useState()
   const theme = process.browser ? localStorage.theme : ''
 
