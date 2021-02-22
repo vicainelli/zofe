@@ -2,6 +2,7 @@ import { useRouter } from 'next/router'
 import Head from 'next/head'
 import ErrorPage from 'next/error'
 import Link from 'next/link'
+import ReactMarkdown from 'react-markdown'
 import Layout from 'components/layout'
 import Comments from 'components/Comments'
 import EpisodeContent from 'components/EpisodeContent'
@@ -36,11 +37,9 @@ export default function Episode({ episode, preview }) {
           {Boolean(episode.publishDate) && <div>De: {episode.publishDate}</div>}
 
           {Boolean(episode.postText) && (
-            <div
-              dangerouslySetInnerHTML={{
-                __html: episode.postText,
-              }}
-            ></div>
+              <ReactMarkdown linkTarget="_blank">
+                {episode.postText.replace(/\<\!--.*--\>/g, '')}
+              </ReactMarkdown>
           )}
 
           <EpisodeContent audioUrl={episode.audioUrl} episodeGuide={episode.episodeGuideCollection.items} />
