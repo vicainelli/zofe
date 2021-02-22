@@ -37,7 +37,7 @@ export default function Episode({ episode, preview }) {
           {Boolean(episode.publishDate) && <div>De: {episode.publishDate}</div>}
 
           {Boolean(episode.postText) && (
-              <ReactMarkdown linkTarget="_blank">
+              <ReactMarkdown className="post-text" linkTarget="_blank">
                 {episode.postText.replace(/\<\!--.*--\>/g, '')}
               </ReactMarkdown>
           )}

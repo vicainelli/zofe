@@ -10,8 +10,9 @@ module.exports = {
   theme: {
     colors: {
       zofe: "#d6b204",
-      gray: colors.gray,
       black: colors.black,
+      gray: colors.gray,
+      red: colors.red,
       yellow: colors.yellow,
     },
   },

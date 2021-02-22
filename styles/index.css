@@ -16,6 +16,19 @@
   p {
     margin-bottom: 3ch;
   }
+  .post-text a {
+    @apply text-red-800;
+    @apply border-b-2;
+    @apply border-zofe;
+    @apply font-semibold;
+  }
+  .post-text a:hover {
+    @apply border-b-4;
+  }
+  .dark .post-text a {
+    @apply text-yellow-200;
+    @apply border-red-800;
+  }
 }
 
 .main > div {
