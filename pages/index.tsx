@@ -9,7 +9,9 @@ export default function Index({ preview }) {
         <title>{SITE_NAME}</title>
       </Head>
 
-      <h1>Bem vindas</h1>
+      <div className="p-6">
+        <h1>Bem vindas</h1>
+      </div>
     </Layout>
   )
 }

@@ -2,15 +2,17 @@ import Link from 'next/link'
 
 const Footer = () => (
   <footer className="text-center">
-    <Link href="https://discord.com/invite/ZQ6Cr3S6wy">
-      <a target="_blank">Discord</a>
-    </Link>{' '}
-    &middot;{' '}
-    <Link href="https://twitter.com/zofepod">
-      <a target="_blank">Twitter</a>
-    </Link>
+    <div>
+      <Link href="https://discord.com/invite/ZQ6Cr3S6wy">
+        <a target="_blank">Discord</a>
+      </Link>{' '}
+      &middot;{' '}
+      <Link href="https://twitter.com/zofepod">
+        <a target="_blank">Twitter</a>
+      </Link>
+    </div>
 
-    <ul>
+    <ul className="p-4">
       <li className="inline-block mx-4">
         <Link href="https://zofe.com.br/feed/podcast.xml">
           <a className="footer-feed-link" title="Podcast RSS">
