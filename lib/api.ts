@@ -20,6 +20,28 @@ episodeGuideCollection {
 }
 `
 
+const FEED_EPISODES_GRAPHQL_FIELDS = `
+slug
+title
+episodeNumber
+publishDate
+audioUrl
+audioFileLength
+duration
+durationMeta
+cover {
+  url
+}
+postText
+episodeGuideCollection {
+  items {
+    timestamp
+    title
+    url
+  }
+}
+`
+
 const EPISODES_GRAPHQL_FIELDS = `
 slug
 title
@@ -78,6 +100,19 @@ export async function getAllEpisodes() {
       episodeCollection(where: { slug_exists: true }, order: episodeNumber_DESC) {
         items {
           ${EPISODES_GRAPHQL_FIELDS}
+        }
+      }
+    }`,
+  )
+  return extractPostEpisodes(episodes)
+}
+
+export async function getFeedEpisodes() {
+  const episodes = await fetchGraphQL(
+    `query {
+      episodeCollection(where: { slug_exists: true }, order: episodeNumber_DESC) {
+        items {
+          ${FEED_EPISODES_GRAPHQL_FIELDS}
         }
       }
     }`,
