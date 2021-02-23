@@ -1,0 +1,11 @@
+{
+  "github": {
+    "silent": true
+  },
+  "regions": [
+    "gru1"
+  ],
+  "rewrites": [
+    { "source": "/feed/podcast.xml", "destination": "http://zofepod.libsyn.com/rss" }
+  ]
+}
