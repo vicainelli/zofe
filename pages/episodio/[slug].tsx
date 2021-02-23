@@ -18,35 +18,37 @@ export default function Episode({ episode, preview }) {
 
   return (
     <Layout preview={preview}>
-      {router.isFallback ? (
-        <h2>Loading…</h2>
-      ) : (
-        <>
-          <Head>
-            <title>ZOFE - {episode.title}</title>
-          </Head>
+      <div className="p-6">
+        {router.isFallback ? (
+          <h2>Carregando…</h2>
+        ) : (
+          <>
+            <Head>
+              <title>ZOFE - {episode.title}</title>
+            </Head>
 
-          <h2>
-            <Link href={`/episodio/${slug}`}>
-              <a>
-                {episode.title} / #{episode.episodeNumber}
-              </a>
-            </Link>
-          </h2>
+            <h2>
+              <Link href={`/episodio/${slug}`}>
+                <a>
+                  {episode.title} / #{episode.episodeNumber}
+                </a>
+              </Link>
+            </h2>
 
-          {Boolean(episode.publishDate) && <div>De: {episode.publishDate}</div>}
+            {Boolean(episode.publishDate) && <div>De: {episode.publishDate}</div>}
 
-          {Boolean(episode.postText) && (
+            {Boolean(episode.postText) && (
               <ReactMarkdown className="post-text" linkTarget="_blank">
                 {episode.postText.replace(/\<\!--.*--\>/g, '')}
               </ReactMarkdown>
-          )}
+            )}
 
-          <EpisodeContent audioUrl={episode.audioUrl} episodeGuide={episode.episodeGuideCollection.items} />
+            <EpisodeContent audioUrl={episode.audioUrl} episodeGuide={episode.episodeGuideCollection.items} />
 
-          <Comments slug={slug} />
-        </>
-      )}
+            <Comments slug={slug} />
+          </>
+        )}
+      </div>
     </Layout>
   )
 }
