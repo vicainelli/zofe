@@ -27,6 +27,16 @@ episodeNumber
 publishDate
 `
 
+const LATEST_EPISODE_GRAPHQL_FIELDS = `
+slug
+title
+episodeNumber
+publishDate
+cover {
+  url
+}
+`
+
 async function fetchGraphQL(query, preview = false) {
   return fetch(`https://graphql.contentful.com/content/v1/spaces/${process.env.CONTENTFUL_SPACE_ID}`, {
     method: 'POST',
@@ -63,7 +73,7 @@ export async function getPreviewPostBySlug(slug) {
 }
 
 export async function getAllEpisodes() {
-  const entries = await fetchGraphQL(
+  const episodes = await fetchGraphQL(
     `query {
       episodeCollection(where: { slug_exists: true }, order: episodeNumber_DESC) {
         items {
@@ -72,15 +82,37 @@ export async function getAllEpisodes() {
       }
     }`,
   )
-  return extractPostEpisodes(entries)
+  return extractPostEpisodes(episodes)
+}
+
+export async function getLatestEpisode(preview) {
+  const episode = await fetchGraphQL(
+    `query {
+      episodeCollection(
+        order: episodeNumber_DESC,
+        preview: ${preview ? 'true' : 'false'},
+        limit: 1
+      )
+      {
+        items {
+          ${LATEST_EPISODE_GRAPHQL_FIELDS}
+        }
+      }
+    }`,
+    preview,
+  )
+  return extractPostEpisodes(episode)
 }
 
 export async function getEpisode(slug, preview = false) {
   const episode = await fetchGraphQL(
     `query {
-      episodeCollection(where: { slug: "${slug}" },
+      episodeCollection(
+        where: { slug: "${slug}" },
         preview: ${preview ? 'true' : 'false'},
-      limit: 1) {
+        limit: 1
+      )
+      {
         items {
           ${EPISODE_GRAPHQL_FIELDS}
         }

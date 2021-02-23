@@ -5,8 +5,8 @@ module.exports = {
     "./components/**/*.{js,jsx,ts,tsx}",
     "./pages/**/*.{js,jsx,ts,tsx}",
   ],
+  important: true,
   darkMode: "class",
-
   theme: {
     colors: {
       zofe: "#d6b204",

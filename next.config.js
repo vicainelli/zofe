@@ -6,7 +6,8 @@ module.exports = {
   images: {
     domains: [
       'www.gravatar.com',
-      'i.imgur.com'
+      'i.imgur.com',
+      'images.ctfassets.net'
     ]
   },
   env: {

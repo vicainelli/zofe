@@ -29,44 +29,49 @@ const ContactPage = ({ preview }) => {
         <title>Contato - {SITE_NAME}</title>
       </Head>
 
-      <h1>Contato</h1>
+      <div className="p-6">
+        <h1>Contato</h1>
 
-      <form onSubmit={contactZOFE}>
-        <div className="mb-6">
-          <label>
-            Nome: <br />
-            <input type="text" name="name" className="w-2/3 px-4 py-3" />
-          </label>
-        </div>
-        <div className="mb-6">
-          <label>
-            Email: <br />
-            <input type="email" name="email" className="w-2/3 px-4 py-3" />
-          </label>
-        </div>
-        <div className="mb-6">
-          <label>
-            Mensagem:
-            <br />
-            <textarea
-              name="message"
-              id="message"
-              maxLength={1024}
-              onChange={updateMessage}
-              className="h-96 w-2/3 px-4 py-3"
-            />
-          </label>
-          <div className="w-2/3 text-right">
-            <span>{message.length}</span> de <span>1024</span> caractéres
+        <form onSubmit={contactZOFE}>
+          <div className="mb-6">
+            <label>
+              Nome: <br />
+              <input type="text" name="name" className="w-2/3 px-4 py-3" />
+            </label>
           </div>
-        </div>
+          <div className="mb-6">
+            <label>
+              Email: <br />
+              <input type="email" name="email" className="w-2/3 px-4 py-3" />
+            </label>
+          </div>
+          <div className="mb-6">
+            <label>
+              Mensagem:
+              <br />
+              <textarea
+                name="message"
+                id="message"
+                maxLength={1024}
+                onChange={updateMessage}
+                className="h-96 w-2/3 px-4 py-3"
+              />
+            </label>
+            <div className="w-2/3 text-right">
+              <span>{message.length}</span> de <span>1024</span> caractéres
+            </div>
+          </div>
 
-        <div>
-          <button type="submit" className="border-4 border-zofe rounded-xl bg-yellow-300 px-4 py-3 dark:text-gray-900">
-            Enviar
-          </button>
-        </div>
-      </form>
+          <div>
+            <button
+              type="submit"
+              className="border-4 border-zofe rounded-xl bg-yellow-300 px-4 py-3 dark:text-gray-900"
+            >
+              Enviar
+            </button>
+          </div>
+        </form>
+      </div>
     </Layout>
   )
 }
