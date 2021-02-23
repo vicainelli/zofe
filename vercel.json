@@ -2,10 +2,4 @@
   "github": {
     "silent": true
   },
-  "regions": [
-    "gru1"
-  ],
-  "redirects": [
-    { "source": "/feed/podcast.xml", "destination": "http://zofepod.libsyn.com/rss" }
-  ]
 }

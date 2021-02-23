@@ -14,7 +14,7 @@ const Footer = () => (
 
     <ul className="p-4">
       <li className="inline-block mx-4">
-        <Link href="https://zofe.com.br/feed/podcast.xml">
+        <Link href="http://zofepod.libsyn.com/rss">
           <a className="footer-feed-link" title="Podcast RSS">
             Podcast RSS
           </a>
