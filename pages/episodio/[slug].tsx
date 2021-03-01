@@ -7,6 +7,7 @@ import Layout from 'components/layout'
 import Comments from 'components/Comments'
 import EpisodeContent from 'components/EpisodeContent'
 import { getEpisode, getAllEpisodes } from 'lib/api'
+import { GetStaticPropsContext } from 'next'
 
 export default function Episode({ episode, preview }) {
   const router = useRouter()
@@ -53,8 +54,9 @@ export default function Episode({ episode, preview }) {
   )
 }
 
-export async function getStaticProps({ params, preview = false }) {
-  const data = await getEpisode(params.slug, preview)
+export async function getStaticProps({ params, preview = false }: GetStaticPropsContext) {
+
+  const data = await getEpisode(params?.slug, preview)
 
   return {
     props: {
@@ -69,6 +71,6 @@ export async function getStaticPaths() {
 
   return {
     paths: allEpisodes?.map(({ slug }) => `/episodio/${slug}`) ?? [],
-    fallback: true,
+    fallback: false, // we want to be 404 when the episode is invalid
   }
 }

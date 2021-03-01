@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Layout from 'components/layout'
 import { SITE_NAME } from 'lib/constants'
 
-const AboutPage = ({ preview }) => (
+const AboutPage = ({ preview = false }) => (
   <Layout preview={preview}>
     <Head>
       <title>Sobre - {SITE_NAME}</title>

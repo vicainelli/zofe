@@ -1,6 +1,11 @@
+import type { NowRequest, NowResponse } from '@vercel/node'
 import axios from 'axios'
 
-export async function handler(req, res) {
+// this was written for Netlify
+// refactor?
+// deploy as standalone for now?
+
+export async function handler(req: NowRequest, res: NowResponse) {
   const {
     body: { name, email, message },
   } = req

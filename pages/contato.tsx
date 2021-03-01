@@ -1,9 +1,9 @@
-import { useState } from 'react'
+import { ChangeEvent, FormEvent, SyntheticEvent, useState } from 'react'
 import Head from 'next/head'
 import Layout from 'components/layout'
 import { SITE_NAME } from 'lib/constants'
 
-const contactZOFE = async event => {
+const contactZOFE = async (event: FormEvent<HTMLFormElement>) => {
   event.preventDefault()
 
   await fetch('/api/contact', {
@@ -19,9 +19,9 @@ const contactZOFE = async event => {
   })
 }
 
-const ContactPage = ({ preview }) => {
+const ContactPage = ({ preview = false }) => {
   const [message, setMessage] = useState('')
-  const updateMessage = event => setMessage(event.target.value)
+  const updateMessage = (event: ChangeEvent<HTMLTextAreaElement>) => setMessage(event.target.value)
 
   return (
     <Layout preview={preview}>

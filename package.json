@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "ts:check": "tsc --noEmit"
   },
   "dependencies": {
     "@contentful/rich-text-react-renderer": "14.1.2",
@@ -24,6 +25,7 @@
     "@tsconfig/recommended": "^1.0.1",
     "@types/node": "^14.14.30",
     "@types/react": "^17.0.2",
+    "@vercel/node": "^1.9.0",
     "autoprefixer": "^10.2.4",
     "contentful-import": "^7.8.7",
     "postcss": "^8.2.6",

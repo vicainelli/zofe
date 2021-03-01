@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Layout from 'components/layout'
 import { SITE_NAME } from 'lib/constants'
 
-export default function Vista({ preview }) {
+export default function Vista({ preview = false }) {
   return (
     <Layout preview={preview}>
       <Head>

@@ -1,6 +1,11 @@
 import Link from 'next/link'
+import type { Episode } from 'types'
 
-const EpisodeLink = episode => {
+type EpisodeListProps = {
+  episodes: Episode[]
+}
+
+const EpisodeLink = (episode: Episode) => {
   return (
     <li key={episode.slug} className="m-0 mr-10 mb-5">
       <Link href={`/episodio/${encodeURIComponent(episode.slug)}`}>
@@ -12,7 +17,7 @@ const EpisodeLink = episode => {
   )
 }
 
-export default function EpisodeList(episodeList) {
+export default function EpisodeList(episodeList: EpisodeListProps) {
   const episodes = episodeList.episodes
 
   return (

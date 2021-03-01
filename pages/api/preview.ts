@@ -1,6 +1,7 @@
-import { getPreviewPostBySlug } from '../../lib/api'
+import type { NowRequest, NowResponse } from '@vercel/node'
+import { getPreviewPostBySlug } from 'lib/api'
 
-export default async function preview(req, res) {
+export default async function preview(req: NowRequest, res: NowResponse) {
   const { secret, slug } = req.query
 
   if (secret !== process.env.CONTENTFUL_PREVIEW_SECRET || !slug) {
@@ -8,7 +9,7 @@ export default async function preview(req, res) {
   }
 
   // Fetch the headless CMS to check if the provided `slug` exists
-  const post = await getPreviewPostBySlug(slug)
+  const post = await getPreviewPostBySlug(slug as string)
 
   // If the slug doesn't exist prevent preview mode from being enabled
   if (!post) {
@@ -16,7 +17,7 @@ export default async function preview(req, res) {
   }
 
   // Enable Preview Mode by setting the cookies
-  res.setPreviewData({})
+  res.setPreviewData({}) // where is this coming from?
 
   // Redirect to the path from the fetched post
   // We don't redirect to req.query.slug as that might lead to open redirect vulnerabilities

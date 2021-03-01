@@ -2,8 +2,15 @@ import Link from 'next/link'
 import parseTime from 'lib/parseTime'
 // import AudioPlayer from "components/AudioPlayer";
 
-const EpisodeContent = props => {
-  const { episodeGuide } = props
+type EpisodeContent = {
+  episodeGuide: {
+    title: string
+    timestamp: string
+    url: string
+  }[]
+}
+
+const EpisodeContent = ({ episodeGuide }: EpisodeContent) => {
 
   return episodeGuide ? (
     <>

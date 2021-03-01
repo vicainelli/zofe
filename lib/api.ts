@@ -64,23 +64,22 @@ async function fetchGraphQL(query, preview = false) {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      Authorization: `Bearer ${
-        preview ? process.env.CONTENTFUL_PREVIEW_ACCESS_TOKEN : process.env.CONTENTFUL_ACCESS_TOKEN
-      }`,
+      Authorization: `Bearer ${preview ? process.env.CONTENTFUL_PREVIEW_ACCESS_TOKEN : process.env.CONTENTFUL_ACCESS_TOKEN
+        }`,
     },
     body: JSON.stringify({ query }),
   }).then(response => response.json())
 }
 
 function extractPost(fetchResponse) {
-  return fetchResponse?.data?.episodeCollection?.items?.[0]
+  return fetchResponse?.data?.episodeCollection?.items?.[ 0 ]
 }
 
 function extractPostEpisodes(fetchResponse) {
   return fetchResponse?.data?.episodeCollection?.items
 }
 
-export async function getPreviewPostBySlug(slug) {
+export async function getPreviewPostBySlug(slug: string) {
   const entry = await fetchGraphQL(
     `query {
       episodeCollection(where: { slug: "${slug}" }, preview: true, limit: 1) {
@@ -120,12 +119,12 @@ export async function getFeedEpisodes() {
   return extractPostEpisodes(episodes)
 }
 
-export async function getLatestEpisode(preview) {
+export async function getLatestEpisode(preview = false) {
   const episode = await fetchGraphQL(
     `query {
       episodeCollection(
         order: episodeNumber_DESC,
-        preview: ${preview ? 'true' : 'false'},
+        preview: ${preview},
         limit: 1
       )
       {
@@ -139,12 +138,12 @@ export async function getLatestEpisode(preview) {
   return extractPostEpisodes(episode)
 }
 
-export async function getEpisode(slug, preview = false) {
+export async function getEpisode(slug?: string, preview = false) {
   const episode = await fetchGraphQL(
     `query {
       episodeCollection(
         where: { slug: "${slug}" },
-        preview: ${preview ? 'true' : 'false'},
+        preview: ${preview},
         limit: 1
       )
       {

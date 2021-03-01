@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
-import { GetStaticProps } from 'next'
+import { GetStaticProps, InferGetStaticPropsType } from 'next'
 import EpisodeList from 'components/EpisodeList'
 import { getAllEpisodes } from 'lib/api'
 
-export default function EpisodesBar({ preview, allEpisodes }) {
+export default function EpisodesBar({ preview, allEpisodes }: InferGetStaticPropsType<typeof getStaticProps>) {
   const [episodes, setEpisodes] = useState([])
 
   useEffect(() => {
@@ -19,7 +19,7 @@ export default function EpisodesBar({ preview, allEpisodes }) {
   )
 }
 
-export const getStaticProps: GetStaticProps = async ({ preview = false }) => {
+export const getStaticProps = async ({ preview = false }) => {
   const allEpisodes = (await getAllEpisodes()) ?? []
 
   return {

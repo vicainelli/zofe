@@ -1,8 +1,12 @@
 import { DiscussionEmbed } from 'disqus-react'
 
-const Comments = props => {
+type CommentsProps = {
+  slug: string
+}
+
+const Comments = ({ slug }: CommentsProps) => {
   const disqusShortname = 'zofe'
-  const { slug } = props
+
   const config = {
     url: `https://zofe.com.br/posts/${slug}`,
     identifier: slug,

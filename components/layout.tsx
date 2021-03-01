@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import type { ReactNode } from 'react'
 import Head from 'next/head'
 import EpisodesBar from 'components/EpisodesBar'
 import Sidebar from 'components/Sidebar'
@@ -6,7 +6,12 @@ import Content from 'components/Content'
 import { SITE_NAME } from 'lib/constants'
 import { getAllEpisodes } from 'lib/api'
 
-export default function Layout({ preview, children }) {
+type LayoutProps = {
+  preview: boolean
+  children: ReactNode
+}
+
+export default function Layout({ preview, children }: LayoutProps) {
   const allEpisodes = getAllEpisodes()
 
   const switchTheme = () => {

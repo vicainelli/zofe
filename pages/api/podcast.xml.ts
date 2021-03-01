@@ -1,7 +1,9 @@
+import type { NowRequest, NowResponse } from '@vercel/node'
 import { getFeedEpisodes } from 'lib/api'
 import { AUTHORS, DESCRIPTION, FEED_NAME, SITE_URL } from 'lib/constants'
+import type { Episode } from 'types'
 
-async function renderEpisodeData(allEpisodes) {
+async function renderEpisodeData(allEpisodes: Episode[]) {
   const episodes = await allEpisodes
 
   return episodes.map(episode => {
@@ -22,7 +24,7 @@ async function renderEpisodeData(allEpisodes) {
   })
 }
 
-function feedTemplate(podcastEpisodes) {
+function feedTemplate(podcastEpisodes: string) {
   return `<?xml version="1.0" encoding="utf-8"?>
   <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
     <channel>
@@ -50,9 +52,10 @@ function feedTemplate(podcastEpisodes) {
   </rss>`
 }
 
-export default async function feedFunc(req, res) {
-  const allEpisodes = getFeedEpisodes()
-  const finalTemplate = feedTemplate(await renderEpisodeData(allEpisodes))
+export default async function feedFunc(req: NowRequest, res: NowResponse) {
+  const allEpisodes = await getFeedEpisodes()
+  const renderedEpisodes = await renderEpisodeData(allEpisodes)
+  const finalTemplate = feedTemplate(renderedEpisodes.join(''))
 
   try {
     res.statusCode = 200
