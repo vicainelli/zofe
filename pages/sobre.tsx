@@ -1,8 +1,14 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link'
 import Layout from 'components/layout'
+import Host from 'components/Host'
 import { SITE_NAME } from 'lib/constants'
+
+const HOSTS = [
+  { name: 'Atila Fassina', url: 'https://twitter.com/atilafassina', avatar: 'https://www.gravatar.com/avatar/5dec492a029e20e74054d5c4c3e8d16c?s=300' },
+  { name: 'Daniel Filho', url: 'https://twitter.com/danielfilho', avatar: 'https://www.gravatar.com/avatar/3f2ebf61315d43cae59e727dab091620?s=300' },
+  { name: 'Isa Silveira', url: 'https://twitter.com/silveira_bells', avatar: 'https://www.gravatar.com/avatar/91b0fc08849c4128f1eed542c057fd27?s=300'  }
+]
 
 const AboutPage = ({ preview = false }) => (
   <Layout preview={preview}>
@@ -10,77 +16,29 @@ const AboutPage = ({ preview = false }) => (
       <title>Sobre - {SITE_NAME}</title>
     </Head>
 
-    <div className="p-6">
-      <h1>Sobre o Podcast</h1>
+    <div className="main-container p-6">
+      <h2>O que é o ZOFE?</h2>
       <div>
         <p>
           Podcast com enfoque no desenvolvimento front-end da web. Sempre trazendo novidades, entrevistas, eventos e
-          multiplicando conhecimento. Este podcast é apresentado por{' '}
-          <a href="https://twitter.com/atilafassina" target="_blank" rel="noopener noreferrer">
-            Atila Fassina
-          </a>
-          ,{' '}
-          <a href="https://twitter.com/danielfilho" target="_blank" rel="noopener noreferrer">
-            Daniel Filho
-          </a>{' '}
-          e{' '}
-          <a href="https://twitter.com/silveira_bells" target="_blank" rel="noopener noreferrer">
-            Isa Silveira
-          </a>
-          .
+          multiplicando conhecimento.
         </p>
 
         <div className="my-12">
+          <h2>Time</h2>
           <ul className="flex justify-between text-center">
-            <li className="p-2">
-              <a href="https://twitter.com/atilafassina" target="_blank" rel="noopener noreferrer" className="border-0">
-                <Image
-                  src="https://www.gravatar.com/avatar/5dec492a029e20e74054d5c4c3e8d16c?s=300"
-                  alt="Foto de perfíl de Atila Fassina"
-                  className="rounded-3xl"
-                  width={300}
-                  height={300}
-                />
-                <br />
-                <span>Atila Fassina</span>
-              </a>
-            </li>
-            <li className="p-2">
-              <a href="https://twitter.com/danielfilho" target="_blank" rel="noopener noreferrer" className="border-0">
-                <Image
-                  src="https://www.gravatar.com/avatar/3f2ebf61315d43cae59e727dab091620?s=300"
-                  alt="Foto de perfíl de Daniel Filho"
-                  className="rounded-3xl"
-                  width={300}
-                  height={300}
-                />
-                <br />
-                <span>Daniel Filho</span>
-              </a>
-            </li>
-            <li className="p-2">
-              <a
-                href="https://twitter.com/silveira_bells"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="border-0"
-              >
-                <Image
-                  src="https://www.gravatar.com/avatar/91b0fc08849c4128f1eed542c057fd27?s=300"
-                  alt="Foto de perfíl de Isa Silveira"
-                  className="rounded-3xl"
-                  width={300}
-                  height={300}
-                />
-                <br />
-                <span>Isabella Silveira</span>
-              </a>
-            </li>
+            {HOSTS.map(Host)}
           </ul>
+          <p className="my-8">
+            Podcast editado por{' '}
+            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/guigraz">
+              Gui Grazziotin
+            </a>
+          </p>
         </div>
 
         <div>
-          <h3>Redes Sociais</h3>
+          <h2>Fala conosco</h2>
 
           <ul className="flex justify-around p-10">
             <li className="flex items-center justify-center text-center">
@@ -123,16 +81,6 @@ const AboutPage = ({ preview = false }) => (
               </Link>
             </li>
           </ul>
-        </div>
-
-        <div>
-          <h3>Edição</h3>
-          <p>
-            Podcast editado por{' '}
-            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/guigraz">
-              Gui Grazziotin
-            </a>
-          </p>
         </div>
 
         <div className="mt-8 p-4 border-t-2 border-b-2 bg-gray-50 dark:border-gray-600 dark:bg-gray-800">

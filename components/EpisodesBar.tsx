@@ -11,7 +11,7 @@ export default function EpisodesBar({ preview, allEpisodes }: InferGetStaticProp
   }, [])
 
   return (
-    <div className="flex flex-col flex-shrink-0 overflow-y-auto w-96 p-6 bg-gray-100 dark:bg-gray-800 dark:text-gray-200">
+    <div className="flex flex-col flex-shrink-0 overflow-y-auto w-96 p-6 bg-gray-100 dark:bg-gray-800 dark:text-gray-200 zofe-scrollbar">
       <h2>Episódios</h2>
 
       <EpisodeList episodes={episodes} />

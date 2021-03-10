@@ -1,20 +1,32 @@
 import type { EpisodeGuide } from 'types'
+import { useRouter } from 'next/router'
+import dynamic from 'next/dynamic'
+import { useState } from 'react'
 import Link from 'next/link'
 import parseTime from 'lib/parseTime'
 // import AudioPlayer from "components/AudioPlayer";
+
+const Comments = dynamic(
+  () => import('components/Comments'),
+  { loading: () => <span>loading comments</span> }
+)
+
 
 type EpisodeContent = {
   audioUrl?: string
   episodeGuide: EpisodeGuide[]
 }
-
 const EpisodeContent = ({ audioUrl, episodeGuide }: EpisodeContent) => {
+  const router = useRouter()
+  const slug = router.query.slug as string
+
+  const [ showComments, setShowComments ] = useState(false)
 
   return episodeGuide ? (
     <>
       {/* <AudioPlayer ref={this.ref} audioUrl={audioUrl} /> */}
       {/* <AudioPlayer audioUrl={audioUrl} /> */}
-      <div className="w-full px-10 py-8 rounded-xl border-0 bg-gray-100 dark:bg-gray-800">
+      <div className="w-read px-10 py-8 rounded-xl border-0 bg-gray-100 dark:bg-gray-800">
         <h3>Anotações do Episódio</h3>
 
         <ul>
@@ -26,14 +38,10 @@ const EpisodeContent = ({ audioUrl, episodeGuide }: EpisodeContent) => {
               >
                 [{item.timestamp}]
               </button>{' '}
-              {!!item.url ? (
-                <>
-                  <Link href={item.url}>
-                    <a target="_blank" rel="noopener noreferrer" title={`Visitar link: ${item.title}`}>
-                      {item.title}
-                    </a>
-                  </Link>
-                </>
+              {Boolean(item.url) ? (
+                <a target="_blank" href={item.url} rel="noopener noreferrer" title={`Visitar link: ${item.title}`}>
+                  {item.title}
+                </a>
               ) : (
                 <>
                   <span>{item.title}</span>
@@ -43,6 +51,7 @@ const EpisodeContent = ({ audioUrl, episodeGuide }: EpisodeContent) => {
           ))}
         </ul>
       </div>
+      {showComments ? <Comments slug={slug} /> : <button onClick={() => {setShowComments(!showComments)}}>Show comments </button>}
     </>
   ) : null
 }

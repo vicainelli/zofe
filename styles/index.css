@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply zofe-scrollbar;
+  }
+
   h1,
   h2 {
     margin-bottom: 2rem;
@@ -28,6 +32,20 @@
   .dark .content a {
     @apply text-yellow-200;
     @apply border-red-800;
+  }
+}
+
+@layer utilities {
+  .w-read {
+    width: 80ch;
+  }
+
+  .zofe-scrollbar {
+    scrollbar-color: rgb(102, 102, 102) rgb(32, 28, 41);
+  }
+
+  .main-container {
+    @apply w-read m-auto
   }
 }
 

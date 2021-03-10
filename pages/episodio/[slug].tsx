@@ -5,7 +5,6 @@ import ErrorPage from 'next/error'
 import Link from 'next/link'
 import ReactMarkdown from 'react-markdown'
 import Layout from 'components/layout'
-import Comments from 'components/Comments'
 import EpisodeContent from 'components/EpisodeContent'
 import { getEpisode, getAllEpisodes } from 'lib/api'
 import { GetStaticPropsContext } from 'next'
@@ -25,7 +24,7 @@ export default function EpisodeCard({ episode, preview }: EpisodeProps) {
 
   return (
     <Layout preview={preview}>
-      <div className="p-6">
+      <div className="w-read p-6 m-auto">
         {router.isFallback ? (
           <h2>Carregando…</h2>
         ) : (
@@ -51,8 +50,6 @@ export default function EpisodeCard({ episode, preview }: EpisodeProps) {
             )}
 
             <EpisodeContent audioUrl={episode.audioUrl} episodeGuide={episode.episodeGuideCollection.items} />
-
-            <Comments slug={slug} />
           </>
         )}
       </div>

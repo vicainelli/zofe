@@ -18,7 +18,7 @@ const EpisodeLink = (episode: Episode) => {
 }
 
 export default function EpisodeList(episodeList: EpisodeListProps) {
-  const episodes = episodeList.episodes
+  const { episodes } = episodeList
 
   return (
     <div>
