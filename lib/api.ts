@@ -1,3 +1,5 @@
+import { EpisodeGuide } from 'types'
+
 const EPISODE_GRAPHQL_FIELDS = `
 slug
 title
@@ -59,7 +61,7 @@ cover {
 }
 `
 
-async function fetchGraphQL(query, preview = false) {
+async function fetchGraphQL(query: string, preview = false) {
   return fetch(`https://graphql.contentful.com/content/v1/spaces/${process.env.CONTENTFUL_SPACE_ID}`, {
     method: 'POST',
     headers: {
@@ -71,11 +73,11 @@ async function fetchGraphQL(query, preview = false) {
   }).then(response => response.json())
 }
 
-function extractPost(fetchResponse) {
+function extractPost(fetchResponse: any) {
   return fetchResponse?.data?.episodeCollection?.items?.[ 0 ]
 }
 
-function extractPostEpisodes(fetchResponse) {
+function extractPostEpisodes(fetchResponse: any) {
   return fetchResponse?.data?.episodeCollection?.items
 }
 
@@ -138,7 +140,7 @@ export async function getLatestEpisode(preview = false) {
   return extractPostEpisodes(episode)
 }
 
-export async function getEpisode(slug?: string, preview = false) {
+export async function getEpisode(slug: string, preview = false) {
   const episode = await fetchGraphQL(
     `query {
       episodeCollection(

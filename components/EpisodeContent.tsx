@@ -1,21 +1,19 @@
+import type { EpisodeGuide } from 'types'
 import Link from 'next/link'
 import parseTime from 'lib/parseTime'
 // import AudioPlayer from "components/AudioPlayer";
 
 type EpisodeContent = {
-  episodeGuide: {
-    title: string
-    timestamp: string
-    url: string
-  }[]
+  audioUrl?: string
+  episodeGuide: EpisodeGuide[]
 }
 
-const EpisodeContent = ({ episodeGuide }: EpisodeContent) => {
+const EpisodeContent = ({ audioUrl, episodeGuide }: EpisodeContent) => {
 
   return episodeGuide ? (
     <>
-      {/* <AudioPlayer ref={this.ref} audioUrl={this.props.audioUrl} /> */}
-
+      {/* <AudioPlayer ref={this.ref} audioUrl={audioUrl} /> */}
+      {/* <AudioPlayer audioUrl={audioUrl} /> */}
       <div className="w-full px-10 py-8 rounded-xl border-0 bg-gray-100 dark:bg-gray-800">
         <h3>Anotações do Episódio</h3>
 

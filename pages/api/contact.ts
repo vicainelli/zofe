@@ -30,12 +30,14 @@ export async function handler(req: NowRequest, res: NowResponse) {
         fields: [
           {
             name: 'Data',
-            value: new Intl.DateTimeFormat('pt-BR', dateOptions).format(now),
+            // value: new Intl.DateTimeFormat('pt-BR',dateOptions).format(now),
+            value: new Intl.DateTimeFormat('pt-BR').format(now),
             inline: true,
           },
           {
             name: 'Hora',
-            value: new Intl.DateTimeFormat('pt-BR', timeOptions).format(now),
+            // value: new Intl.DateTimeFormat('pt-BR', timeOptions).format(now),
+            value: new Intl.DateTimeFormat('pt-BR').format(now),
             inline: true,
           },
           {

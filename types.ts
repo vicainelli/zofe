@@ -1,3 +1,9 @@
+export type EpisodeGuide = {
+  title: string
+  timestamp: string
+  url: string
+}
+
 export type Episode = {
   slug: string
   episodeNumber: number
@@ -5,4 +11,8 @@ export type Episode = {
   postText: string
   audioUrl: string
   duration: string
+  publishDate?: string
+  episodeGuideCollection: {
+    items: EpisodeGuide[]
+  }
 }

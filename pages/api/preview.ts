@@ -17,7 +17,7 @@ export default async function preview(req: NowRequest, res: NowResponse) {
   }
 
   // Enable Preview Mode by setting the cookies
-  res.setPreviewData({}) // where is this coming from?
+  // res.setPreviewData({}) // where is this coming from?
 
   // Redirect to the path from the fetched post
   // We don't redirect to req.query.slug as that might lead to open redirect vulnerabilities

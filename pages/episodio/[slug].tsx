@@ -1,3 +1,4 @@
+import type { Episode } from 'types'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 import ErrorPage from 'next/error'
@@ -9,9 +10,14 @@ import EpisodeContent from 'components/EpisodeContent'
 import { getEpisode, getAllEpisodes } from 'lib/api'
 import { GetStaticPropsContext } from 'next'
 
-export default function Episode({ episode, preview }) {
+type EpisodeProps = {
+  episode: Episode
+  preview: boolean
+}
+
+export default function EpisodeCard({ episode, preview }: EpisodeProps) {
   const router = useRouter()
-  const slug = router.query.slug
+  const slug = router.query.slug as string
 
   if (!router.isFallback && !episode) {
     return <ErrorPage statusCode={404} />
@@ -54,14 +60,14 @@ export default function Episode({ episode, preview }) {
   )
 }
 
-export async function getStaticProps({ params, preview = false }: GetStaticPropsContext) {
-
-  const data = await getEpisode(params?.slug, preview)
+export async function getStaticProps({ params, preview = false }: GetStaticPropsContext<{ slug: string }>) {
+  const { slug = '' } = params ?? {}
+  const data = await getEpisode(slug, preview)
 
   return {
     props: {
       preview,
-      episode: data?.episode ?? null,
+      episode: data.episode,
     },
   }
 }
@@ -70,7 +76,7 @@ export async function getStaticPaths() {
   const allEpisodes = await getAllEpisodes()
 
   return {
-    paths: allEpisodes?.map(({ slug }) => `/episodio/${slug}`) ?? [],
+    paths: allEpisodes.map(({ slug }: { slug: string}) => `/episodio/${slug}`) ?? [],
     fallback: false, // we want to be 404 when the episode is invalid
   }
 }

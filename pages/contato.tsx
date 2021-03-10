@@ -6,15 +6,21 @@ import { SITE_NAME } from 'lib/constants'
 const contactZOFE = async (event: FormEvent<HTMLFormElement>) => {
   event.preventDefault()
 
+  const { name, email, message } = event.target as typeof event.target & {
+      name: { value: string }
+      email: { value: string }
+      message: { value: string }
+  }
+
   await fetch('/api/contact', {
     headers: {
       'Content-Type': 'application/json',
     },
     method: 'POST',
     body: JSON.stringify({
-      name: event.target.name.value,
-      email: event.target.email.value,
-      message: event.target.message.value,
+      name: name.value,
+      email: email.value,
+      message: message.value,
     }),
   })
 }
