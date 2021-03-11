@@ -11,7 +11,7 @@ export type Episode = {
   postText: string
   audioUrl: string
   duration: string
-  publishDate?: string
+  publishDate: string
   episodeGuideCollection: {
     items: EpisodeGuide[]
   }

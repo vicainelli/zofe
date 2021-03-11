@@ -2,8 +2,8 @@ import type { EpisodeGuide } from 'types'
 import { useRouter } from 'next/router'
 import dynamic from 'next/dynamic'
 import { useState } from 'react'
-import Link from 'next/link'
 import parseTime from 'lib/parseTime'
+import { SiDisqus as Disqus } from 'react-icons/si'
 // import AudioPlayer from "components/AudioPlayer";
 
 const Comments = dynamic(
@@ -51,7 +51,8 @@ const EpisodeContent = ({ audioUrl, episodeGuide }: EpisodeContent) => {
           ))}
         </ul>
       </div>
-      {showComments ? <Comments slug={slug} /> : <button onClick={() => {setShowComments(!showComments)}}>Show comments </button>}
+      {showComments ? <Comments slug={slug} /> : <button onClick={() => {setShowComments(!showComments)}}><Disqus aria-hidden /> Mostrar comentários </button>}
+      <p>💩 Ao carregar os comentários via Disqus, os cookies que eles injetam serão inseridos</p>
     </>
   ) : null
 }

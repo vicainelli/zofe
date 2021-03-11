@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { FaCottonBureau as CottonBureau } from 'react-icons/fa'
 import Layout from 'components/layout'
 import { SITE_NAME } from 'lib/constants'
 
@@ -10,7 +11,7 @@ export default function Vista({ preview = false }) {
         <title>Vista - {SITE_NAME}</title>
       </Head>
 
-      <div className="p-6">
+      <div className="p-6 main-container">
         <h1>Vista o ZOFE</h1>
 
         <p>
@@ -58,6 +59,9 @@ export default function Vista({ preview = false }) {
             <p className="text-center">Contrast</p>
           </div>
         </div>
+        <p>
+          As camisetas são fabricadas e vendidas através do Cotton Bureau. Nós não temos influência nem controle algum sobre a venda e o envio.
+        </p>
       </div>
     </Layout>
   )

@@ -35,7 +35,7 @@ const ContactPage = ({ preview = false }) => {
         <title>Contato - {SITE_NAME}</title>
       </Head>
 
-      <div className="p-6">
+      <div className="p-6 main-container">
         <h1>Contato</h1>
 
         <form onSubmit={contactZOFE}>

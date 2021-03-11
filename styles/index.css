@@ -7,6 +7,10 @@
     @apply zofe-scrollbar;
   }
 
+  html.dark {
+    @apply dark-zofe-scrollbar;
+  }
+
   h1,
   h2 {
     margin-bottom: 2rem;
@@ -40,12 +44,24 @@
     width: 80ch;
   }
 
-  .zofe-scrollbar {
+  .dark-zofe-scrollbar {
     scrollbar-color: rgb(102, 102, 102) rgb(32, 28, 41);
+  }
+
+  .dark .zofe-scrollbar {
+    @apply dark-zofe-scrollbar;
+  }
+
+  .zofe-scrollbar {
+    scrollbar-color: rgb(72, 68, 81) rgb(230, 230, 230);
   }
 
   .main-container {
     @apply w-read m-auto
+  }
+
+  .shine-filter-2xl {
+    filter: drop-shadow(0 0 5px rgba(255,255,255,0.25));
   }
 }
 
