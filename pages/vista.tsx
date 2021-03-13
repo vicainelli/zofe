@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { FaCottonBureau as CottonBureau } from 'react-icons/fa'
-import Layout from 'components/layout'
+import Layout from 'components/Layout'
 import { SITE_NAME } from 'lib/constants'
 
 export default function Vista({ preview = false }) {

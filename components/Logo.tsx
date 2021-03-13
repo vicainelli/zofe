@@ -1,5 +1,5 @@
 export default function ZofeLogo ({
-  color = 'text-zofe'
+  color = 'text-zofe',
 }) {
   return (
     <svg

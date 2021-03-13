@@ -1,5 +1,5 @@
-import Link from 'next/link'
 import type { Episode } from 'types'
+import Link from 'next/link'
 
 type EpisodeListProps = {
   episodes: Episode[]

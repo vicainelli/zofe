@@ -32,9 +32,7 @@ export default function Layout({ preview, children }: LayoutProps) {
 
       <div className="main flex flex-row h-screen dark:bg-gray-900">
         <Sidebar onChange={switchTheme} />
-
         <EpisodesBar preview={preview} allEpisodes={allEpisodes} />
-
         <Content>{children}</Content>
       </div>
     </>

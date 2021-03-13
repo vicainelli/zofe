@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout from 'components/layout'
+import Layout from 'components/Layout'
 import Host from 'components/Host'
 import { SITE_NAME, HOSTS } from 'lib/constants'
 import { FaDiscord as Discord, FaTwitter as Twitter } from 'react-icons/fa'
@@ -12,17 +12,19 @@ const AboutPage = ({ preview = false }) => (
     </Head>
 
     <div className="main-container p-6">
-      <h2>O que é o ZOFE?</h2>
+      <h2>O que é o <abbr title="Zone of Front-enders">ZOFE</abbr>?</h2>
       <div>
         <p>
-          Podcast com enfoque no desenvolvimento front-end da web. Sempre trazendo novidades, entrevistas, eventos e
+          <em>Zone of Front-enders</em> é um podcast com enfoque no desenvolvimento front-end da web. Sempre trazendo novidades, entrevistas, eventos e
           multiplicando conhecimento.
         </p>
 
         <div className="my-12">
-          <h2>Time</h2>
-          <ul className="flex justify-between text-center">
-            {HOSTS.map(Host)}
+          <h2>Apresentadores</h2>
+          <ul className="grid grid-cols-3 gap-8">
+            {HOSTS.map(host => (
+              <Host key={host.url} {...host}/>
+            ))}
           </ul>
           <p className="my-8">
             Podcast editado por{' '}
@@ -33,28 +35,22 @@ const AboutPage = ({ preview = false }) => (
         </div>
 
         <div>
-          <h2>Fala conosco</h2>
+          <h2>Conecte-se</h2>
 
           <ul className="flex justify-around p-10">
-            <li className="flex items-center justify-center text-center">
-              <Link href="https://discord.com/invite/ZQ6Cr3S6wy">
-                <a className="border-0">
-                  <div className="p-5">
-                    <Discord className="text-9xl text-discord" aria-hidden/>
-                  </div>
-                  <span className="block mt-4">Discord Server</span>
-                </a>
-              </Link>
+            <li className="grid place-items-center text-center">
+              <a href="https://discord.com/invite/ZQ6Cr3S6wy" className="border-0" rel="noopener noreferrer" target="_blank">
+                <Discord className="text-9xl text-discord" aria-hidden/>
+                <span className="block mt-4">Discord Server</span>
+              </a>
             </li>
             <li className="flex items-center justify-center text-center">
-              <Link href="https://twitter.com/zofepod">
-                <a className="border-0">
-                  <div className="dark:text-black">
-                    <Twitter className="text-9xl text-blue-500" />
-                  </div>
-                  <span className="block mt-4">@ZOFEpod</span>
-                </a>
-              </Link>
+              <a className="border-0" href="https://twitter.com/zofepod" rel="noopener noreferrer" target="_blank">
+                <div className="dark:text-black">
+                  <Twitter className="text-9xl text-blue-500" />
+                </div>
+                <span className="block mt-4">@ZOFEpod</span>
+              </a>
             </li>
           </ul>
         </div>

@@ -1,6 +1,7 @@
-import { ChangeEvent, FormEvent, SyntheticEvent, useState } from 'react'
+import type { ChangeEvent, FormEvent } from 'react'
+import { useState } from 'react'
 import Head from 'next/head'
-import Layout from 'components/layout'
+import Layout from 'components/Layout'
 import { SITE_NAME } from 'lib/constants'
 
 const contactZOFE = async (event: FormEvent<HTMLFormElement>) => {
@@ -64,7 +65,7 @@ const ContactPage = ({ preview = false }) => {
               />
             </label>
             <div className="w-2/3 text-right">
-              <span>{message.length}</span> de <span>1024</span> caractéres
+              <span>{message.length}</span> de <span>1024</span> caracteres
             </div>
           </div>
 

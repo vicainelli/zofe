@@ -1,69 +1,27 @@
-import Link from 'next/link'
+import { APPS } from 'lib/constants'
+import Logo from 'components/Logo'
 
 const Footer = () => (
-  <footer className="text-center">
+  <footer className="grid place-items-center text-center pt-24 gap-2.5">
     <div>
-      <Link href="https://discord.com/invite/ZQ6Cr3S6wy">
-        <a target="_blank">Discord</a>
-      </Link>{' '}
-      &middot;{' '}
-      <Link href="https://twitter.com/zofepod">
-        <a target="_blank">Twitter</a>
-      </Link>
+      <a href="https://discord.com/invite/ZQ6Cr3S6wy" target="_blank">Discord</a>
+        {' '}&middot;{' '}
+      <a href="https://twitter.com/zofepod" target="_blank">Twitter</a>
     </div>
 
     <ul className="p-4">
-      <li className="inline-block mx-4">
-        <Link href="http://zofepod.libsyn.com/rss">
-          <a className="footer-feed-link" title="Podcast RSS">
-            Podcast RSS
+      {APPS.map(app => (
+        <li className="inline-block mx-4">
+          <a href={app.url} className="footer-feed-link" title={app.name}>
+            {app.name}
           </a>
-        </Link>
-      </li>
-      <li className="inline-block mx-4">
-        <Link href="https://itunes.apple.com/br/podcast/zone-of-front-enders-podcast/id580335548?mt=2&ls=1">
-          <a className="footer-feed-link" target="_blank" rel="noopener noreferrer" title="Apple Podcast">
-            Apple Podcast
-          </a>
-        </Link>
-      </li>
-      <li className="inline-block mx-4">
-        <Link href="https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjAyODc2NDAvc291bmRzLnJzcw">
-          <a className="footer-feed-link" target="_blank" rel="noopener noreferrer" title="Google Podcast">
-            Google Podcast
-          </a>
-        </Link>
-      </li>
-      <li className="inline-block mx-4">
-        <Link href="https://pca.st/dMr0">
-          <a className="footer-feed-link" target="_blank" rel="noopener noreferrer" title="Pocketcasts">
-            Pocketcasts
-          </a>
-        </Link>
-      </li>
-      <li className="inline-block mx-4">
-        <Link href="https://overcast.fm/itunes580335548/zone-of-front-enders-podcast">
-          <a className="footer-feed-link" target="_blank" rel="noopener noreferrer" title="Overcast">
-            Overcast
-          </a>
-        </Link>
-      </li>
-      <li className="inline-block mx-4">
-        <Link href="http://www.stitcher.com/s?fid=250044&refid=stpr">
-          <a className="footer-feed-link" target="_blank" rel="noopener noreferrer" title="Stitcher">
-            Stitcher
-          </a>
-        </Link>
-      </li>
-      <li className="inline-block mx-4">
-        <Link href="https://open.spotify.com/show/13Q4XtzJ1tSZ7trS4dSOf6?si=LOLsMSQFTcOLSG6a7VLPSw">
-          <a className="footer-feed-link" target="_blank" rel="noopener noreferrer" title="Spotify">
-            Spotify
-          </a>
-        </Link>
-      </li>
+        </li>
+      ))}
     </ul>
-    <p>© 2012-{new Date().getFullYear()} ZOFE</p>
+    <div className="pt-12 grid place-items-center gap-y-6">
+      <Logo color="text-gray-400" />
+      <p><sup role="img" aria-label="copyright">©</sup> 2012-{new Date().getFullYear()}</p>
+    </div>
   </footer>
 )
 

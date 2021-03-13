@@ -11,9 +11,12 @@ export default function Host ({
   url,
   avatar
 }: HostProps) {
+
   return (
-    <li className="p-2" key={url}>
-    <a href={url} target="_blank" rel="noopener noreferrer" className="rounded-xl">
+    <li
+      key={url}
+      className="grid place-items-center gap-2 rounded-xl"
+    >
       <Image
         src={avatar}
         alt={`Foto de perfil de ${name}`}
@@ -21,9 +24,9 @@ export default function Host ({
         width={300}
         height={300}
       />
-      <br />
-      <span>{name}</span>
-    </a>
-  </li>
+      <a href={url} target="_blank" rel="noopener noreferrer">
+        {name}
+      </a>
+    </li>
   )
 }

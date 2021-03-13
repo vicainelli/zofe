@@ -44,6 +44,14 @@
     width: 80ch;
   }
 
+  .pancake-stack {
+    grid-template-rows: auto 1fr auto;
+  }
+
+  .liquid-gap {
+    grid-gap: 1fr;
+  }
+
   .dark-zofe-scrollbar {
     scrollbar-color: rgb(102, 102, 102) rgb(32, 28, 41);
   }

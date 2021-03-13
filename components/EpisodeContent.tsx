@@ -3,12 +3,12 @@ import { useRouter } from 'next/router'
 import dynamic from 'next/dynamic'
 import { useState } from 'react'
 import parseTime from 'lib/parseTime'
-import { SiDisqus as Disqus } from 'react-icons/si'
+import ShowComments, { DisqusLoader } from './ShowComments'
 // import AudioPlayer from "components/AudioPlayer";
 
 const Comments = dynamic(
   () => import('components/Comments'),
-  { loading: () => <span>loading comments</span> }
+  { loading: () =>  <DisqusLoader /> }
 )
 
 
@@ -51,8 +51,7 @@ const EpisodeContent = ({ audioUrl, episodeGuide }: EpisodeContent) => {
           ))}
         </ul>
       </div>
-      {showComments ? <Comments slug={slug} /> : <button onClick={() => {setShowComments(!showComments)}}><Disqus aria-hidden /> Mostrar comentários </button>}
-      <p>💩 Ao carregar os comentários via Disqus, os cookies que eles injetam serão inseridos</p>
+      {showComments ? <Comments slug={slug} /> : <ShowComments clickHandler={() => { setShowComments(!showComments) }} />}
     </>
   ) : null
 }
