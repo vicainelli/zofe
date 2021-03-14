@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import Layout from 'components/Layout'
+import Layout from 'components/layout'
 import Host from 'components/Host'
 import { SITE_NAME, HOSTS } from 'lib/constants'
 import { FaDiscord as Discord, FaTwitter as Twitter } from 'react-icons/fa'
