@@ -11,7 +11,7 @@ const Footer = () => (
 
     <ul className="p-4">
       {APPS.map(app => (
-        <li className="inline-block mx-4">
+        <li key={app.url} className="inline-block mx-4">
           <a href={app.url} className="footer-feed-link" title={app.name}>
             {app.name}
           </a>

@@ -7,7 +7,7 @@ type EpisodeListProps = {
 
 const EpisodeLink = (episode: Episode) => {
   return (
-    <li key={episode.slug} className="m-0 mr-10 mb-5">
+    <li className="m-0 mr-10 mb-5">
       <Link href={`/episodio/${encodeURIComponent(episode.slug)}`}>
         <a>
           {episode.episodeNumber} - {episode.title}
@@ -23,7 +23,7 @@ export default function EpisodeList(episodeList: EpisodeListProps) {
   return (
     <ul>
       {episodes.length > 0 && episodes.map((episodeProps) => (
-        <EpisodeLink {...episodeProps} />
+        <EpisodeLink key={episodeProps.slug} {...episodeProps} />
       ))}
     </ul>
   )
