@@ -8,9 +8,10 @@ import { IoMdRadio as Radio } from 'react-icons/io'
 
 type SideBarProps = {
   onChange: () => void
+  toggleEpisodeBar: () => void
 }
 
-const Sidebar = ({ onChange }: SideBarProps) => {
+const Sidebar = ({ onChange, toggleEpisodeBar }: SideBarProps) => {
   const [currentTheme, setCurrentTheme] = useState()
   const theme = process.browser ? localStorage.theme : ''
 
@@ -20,7 +21,7 @@ const Sidebar = ({ onChange }: SideBarProps) => {
   }
 
   return (
-    <header className="lg:grid lg:liquid-gap lg:w-24 lg:pt-6 py-3 lg:p-3 lg:h-screen w-full lg:static fixed bottom-0 bg-gray-200 dark:bg-gray-700 z-10">
+    <header className="lg:grid lg:liquid-gap lg:w-24 lg:pt-6 py-3 lg:p-3 lg:h-screen w-full lg:static fixed bottom-0 bg-gray-200 dark:bg-gray-700 z-20">
       <ul className="grid lg:grid-cols-none lg:auto-rows-max lg:gap-6 lg:w-full place-items-center w-screen grid-cols-6">
         <li>
           <Link href="/">
@@ -29,17 +30,17 @@ const Sidebar = ({ onChange }: SideBarProps) => {
             </a>
           </Link>
         </li>
-        <li className="lg:hidden">
-          <button className="grid place-items-center lg:bg-zofe lg:text-black text-zofe rounded-full w-16 h-16">
-            <Radio className="text-3xl" />
-          </button>
-        </li>
         <li>
           <Link href="/sobre">
             <a className="grid place-items-center lg:bg-zofe lg:text-black text-zofe rounded-full w-16 h-16">
               <People className="text-3xl" />
             </a>
           </Link>
+        </li>
+        <li className="lg:hidden">
+          <button className="grid place-items-center lg:bg-zofe lg:text-black text-zofe rounded-full w-16 h-16" onClick={toggleEpisodeBar}>
+            <Radio className="text-3xl" />
+          </button>
         </li>
         <li>
           <Link href="/vista">

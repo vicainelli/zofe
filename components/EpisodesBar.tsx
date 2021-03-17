@@ -1,28 +1,17 @@
-import { useState, useEffect } from 'react'
-import { GetStaticProps, InferGetStaticPropsType } from 'next'
 import EpisodeList from 'components/EpisodeList'
-import { getAllEpisodes } from 'lib/api'
+import type { Episode } from 'types'
 
-export default function EpisodesBar({ preview, allEpisodes }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const [episodes, setEpisodes] = useState([])
-
-  useEffect(() => {
-    getAllEpisodes().then(data => setEpisodes(data))
-  }, [])
-
-  return (
-    <nav className="hidden lg:flex flex-col flex-shrink-0 overflow-y-auto w-96 p-6 bg-gray-100 dark:bg-gray-800 dark:text-gray-200 zofe-scrollbar">
-      <h2>Episódios</h2>
-
-      <EpisodeList episodes={episodes} />
-    </nav>
-  )
+type EpisodeBarProps = {
+  allEpisodes: Episode[]
+  isVisible?: boolean
 }
 
-export const getStaticProps = async ({ preview = false }) => {
-  const allEpisodes = (await getAllEpisodes()) ?? []
+export default function EpisodesBar({ allEpisodes = [], isVisible = false }: EpisodeBarProps) {
+  return (
+    <nav className={`${isVisible ? 'translate-x-0' : '-translate-x-full'} absolute z-10 h-screen ease-in-out transform transition-all duration-300 lg:flex flex-col flex-shrink-0 overflow-y-auto w-96 p-6 lg:pb-0 pb-24 bg-gray-100 dark:bg-gray-800 dark:text-gray-200 zofe-scrollbar`}>
+      <h2>Episódios</h2>
 
-  return {
-    props: { preview, allEpisodes },
-  }
+      <EpisodeList episodes={allEpisodes} />
+    </nav>
+  )
 }

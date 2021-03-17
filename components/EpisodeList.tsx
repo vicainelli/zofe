@@ -17,9 +17,7 @@ const EpisodeLink = (episode: Episode) => {
   )
 }
 
-export default function EpisodeList(episodeList: EpisodeListProps) {
-  const { episodes } = episodeList
-
+export default function EpisodeList({ episodes } : EpisodeListProps) {
   return (
     <ul>
       {episodes.length > 0 && episodes.map((episodeProps) => (

@@ -1,10 +1,12 @@
 import Head from 'next/head'
 import { SITE_NAME } from 'lib/constants'
 import Layout from 'components/layout'
+import { getAllEpisodes } from 'lib/api'
+import { InferGetStaticPropsType } from 'next'
 
-export default function Index({ preview = false }) {
+export default function Index({ preview = false, allEpisodes }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
-    <Layout preview={preview}>
+    <Layout preview={preview} episodes={allEpisodes}>
       <Head>
         <title>{SITE_NAME}</title>
       </Head>
@@ -14,4 +16,12 @@ export default function Index({ preview = false }) {
       </div>
     </Layout>
   )
+}
+
+export const getStaticProps = async ({ preview = false }) => {
+  const allEpisodes = await getAllEpisodes()
+
+  return {
+    props: { preview, allEpisodes },
+  }
 }
