@@ -21,8 +21,10 @@ export default function EpisodeList(episodeList: EpisodeListProps) {
   const { episodes } = episodeList
 
   return (
-    <div>
-      <ul>{episodes.length > 0 && episodes.map(EpisodeLink)}</ul>
-    </div>
+    <ul>
+      {episodes.length > 0 && episodes.map((episodeProps) => (
+        <EpisodeLink {...episodeProps} />
+      ))}
+    </ul>
   )
 }
