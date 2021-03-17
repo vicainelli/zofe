@@ -5,16 +5,16 @@ import { useState } from 'react'
 import ShowComments, { DisqusLoader } from './ShowComments'
 import AudioPlayer from "components/AudioPlayer"
 
+type EpisodeContent = {
+  audioUrl: string
+  episodeGuide: EpisodeGuide[]
+}
+
 const Comments = dynamic(
   () => import('components/Comments'),
   { loading: () =>  <DisqusLoader /> }
 )
 
-
-type EpisodeContent = {
-  audioUrl: string
-  episodeGuide: EpisodeGuide[]
-}
 const EpisodeContent = ({ audioUrl, episodeGuide }: EpisodeContent) => {
   const router = useRouter()
   const slug = router.query.slug as string

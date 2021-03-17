@@ -25,10 +25,10 @@ export default function AudioPlayer({ url, guide }: AudioPlayerProps) {
         src={url}>
           Seu browser não suporta <code>audio</code> element.
       </audio>
-      <div className="w-read px-10 py-8 rounded-xl border-0 bg-gray-100 dark:bg-gray-800">
+      <div className="w-read w-full px-10 py-8 rounded-xl border-0 bg-gray-100 dark:bg-gray-800">
         <h3>Anotações do Episódio</h3>
 
-        <ul>
+        <ul className="grid pt-4 auto-cols-max gap-y-2">
           {guide.map(({ title, timestamp, url }, index) => (
             <li key={index}>
               <button

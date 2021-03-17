@@ -1,5 +1,4 @@
-import type { Episode } from 'types'
-import { GetStaticPropsContext } from 'next'
+import { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 import Link from 'next/link'
@@ -9,17 +8,12 @@ import EpisodeContent from 'components/EpisodeContent'
 import { getEpisode, getAllEpisodes } from 'lib/api'
 import formatDate from 'lib/formatDate'
 
-type EpisodeProps = {
-  episode: Episode
-  preview: boolean
-}
-
-export default function EpisodeCard({ episode, preview }: EpisodeProps) {
+export default function EpisodeCard({ episode, episodeList, preview }: InferGetStaticPropsType<typeof getStaticProps>) {
   const router = useRouter()
   const slug = router.query.slug as string
 
   return (
-    <Layout preview={preview}>
+    <Layout preview={preview} episodes={episodeList}>
       <div className="w-read p-6 m-auto">
         <Head>
           <title>ZOFE - {episode.title}</title>
@@ -49,11 +43,13 @@ export default function EpisodeCard({ episode, preview }: EpisodeProps) {
 export async function getStaticProps({ params, preview = false }: GetStaticPropsContext<{ slug: string }>) {
   const { slug = '' } = params ?? {}
   const data = await getEpisode(slug, preview)
+  const episodeList = await getAllEpisodes()
 
   return {
     props: {
       preview,
       episode: data.episode,
+      episodeList
     },
   }
 }

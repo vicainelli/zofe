@@ -1,5 +1,3 @@
-import { EpisodeGuide } from 'types'
-
 const EPISODE_GRAPHQL_FIELDS = `
 slug
 title

@@ -1,3 +1,4 @@
+import type { Episode } from 'types'
 import type { ReactNode } from 'react'
 import { useState } from 'react'
 import Head from 'next/head'
@@ -5,7 +6,6 @@ import EpisodesBar from 'components/EpisodesBar'
 import Sidebar from 'components/Sidebar'
 import Content from 'components/Content'
 import { SITE_NAME } from 'lib/constants'
-import type { Episode } from 'types'
 
 type LayoutProps = {
   preview: boolean
