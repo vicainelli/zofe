@@ -41,7 +41,11 @@
 
 @layer utilities {
   .w-read {
-    width: 80ch;
+    max-width: 80ch;
+  }
+
+  .content-height-mobile {
+    height: calc(100vh + 90px);
   }
 
   .pancake-stack {

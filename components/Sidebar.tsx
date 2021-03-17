@@ -3,7 +3,8 @@ import Link from 'next/link'
 import Logo from 'components/Logo'
 import { FaShoppingCart as ShoppingCart, FaMicrophone as Mic } from 'react-icons/fa'
 import { RiLightbulbFlashFill as LightBulbOn, RiLightbulbLine as LightBulbOff } from 'react-icons/ri'
-import { BsFillChatFill as Chat, BsPeopleFill as People } from 'react-icons/bs'
+import { BsFillChatFill as Chat, BsPeopleFill as People, BsThreeDotsVertical as Dots } from 'react-icons/bs'
+import { IoMdRadio as Radio } from 'react-icons/io'
 
 type SideBarProps = {
   onChange: () => void
@@ -19,35 +20,50 @@ const Sidebar = ({ onChange }: SideBarProps) => {
   }
 
   return (
-    <div className="grid liquid-gap w-24 pt-6 p-3 h-screen bg-gray-200 dark:bg-gray-700">
-      <div className="grid auto-rows-max gap-6 items-center">
-        <Link href="/">
-          <a className="grid place-items-center rounded-full bg-zofe w-16 h-16 shine-filter-2xl">
-            <Logo color="text-black" />
-          </a>
-        </Link>
+    <header className="lg:grid lg:liquid-gap lg:w-24 lg:pt-6 py-3 lg:p-3 lg:h-screen w-full lg:static fixed bottom-0 bg-gray-200 dark:bg-gray-700 z-10">
+      <ul className="grid lg:grid-cols-none lg:auto-rows-max lg:gap-6 lg:w-full place-items-center w-screen grid-cols-6">
+        <li>
+          <Link href="/">
+            <a className="grid place-items-center rounded-full lg:bg-zofe bg-gray-200 w-16 h-16 shine-filter-2xl">
+              <Logo color="text-black" />
+            </a>
+          </Link>
+        </li>
+        <li className="lg:hidden">
+          <button className="grid place-items-center lg:bg-zofe lg:text-black text-zofe rounded-full w-16 h-16">
+            <Radio className="text-3xl" />
+          </button>
+        </li>
+        <li>
+          <Link href="/sobre">
+            <a className="grid place-items-center lg:bg-zofe lg:text-black text-zofe rounded-full w-16 h-16">
+              <People className="text-3xl" />
+            </a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/vista">
+            <a className="grid place-items-center lg:bg-zofe lg:text-black text-zofe rounded-full w-16 h-16">
+              <ShoppingCart className="text-3xl" />
+            </a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/contato">
+            <a className="grid place-items-center lg:bg-zofe lg:text-black text-zofe rounded-full w-16 h-16">
+              <Chat className="text-3xl" />
+            </a>
+          </Link>
+        </li>
+        <li className="lg:hidden">
+          <button className="grid place-items-center lg:bg-zofe lg:text-black text-zofe rounded-full w-16 h-16">
+            <Dots className="text-3xl" />
+          </button>
+        </li>
+      </ul>
 
-        <Link href="/sobre">
-          <a className="grid place-items-center bg-zofe rounded-full w-16 h-16">
-            <People className="text-3xl" />
-          </a>
-        </Link>
-
-        <Link href="/vista">
-          <a className="grid place-items-center bg-zofe rounded-full w-16 h-16">
-            <ShoppingCart className="text-3xl" />
-          </a>
-        </Link>
-
-        <Link href="/contato">
-          <a className="grid place-items-center bg-zofe rounded-full w-16 h-16">
-            <Chat className="text-3xl" />
-          </a>
-        </Link>
-      </div>
-
-      <div className="flex flex-col justify-end space-y-6">
-        <button onClick={switchTheme} className="grid place-items-center bg-zofe rounded-full w-16 h-16">
+      <div className="flex-col justify-end space-y-6 lg:flex hidden">
+        <button onClick={switchTheme} className="grid place-items-center lg:bg-zofe lg:text-black text-zofe rounded-full w-16 h-16">
           {currentTheme === 'dark' ? (
             <LightBulbOff className="text-3xl" />
             ) : (
@@ -55,12 +71,12 @@ const Sidebar = ({ onChange }: SideBarProps) => {
           )}
         </button>
         <Link href="/">
-          <a className="grid place-items-center bg-zofe rounded-full w-16 h-16">
+          <a className="grid place-items-center lg:bg-zofe lg:text-black text-zofe rounded-full w-16 h-16">
             <Mic className="text-3xl" />
           </a>
         </Link>
       </div>
-    </div>
+    </header>
   )
 }
 

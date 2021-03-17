@@ -6,11 +6,9 @@ type ContentProps = {
 }
 
 const Content = ({ children }: ContentProps) => (
-  <main className="content flex flex-col flex-auto justify-between content-around overflow-y-auto dark:text-gray-200">
-    <div className="flex flex-col space-y-4">{children}</div>
-    <div className="flex flex-col space-y-4">
-      <Footer />
-    </div>
+  <main className="content w-full overflow-y-auto dark:text-gray-200 lg:h-auto">
+    {children}
+    <Footer />
   </main>
 )
 export default Content

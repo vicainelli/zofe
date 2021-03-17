@@ -5,6 +5,7 @@ import Sidebar from 'components/Sidebar'
 import Content from 'components/Content'
 import { SITE_NAME } from 'lib/constants'
 import { getAllEpisodes } from 'lib/api'
+import Footer from 'components/Footer'
 
 type LayoutProps = {
   preview: boolean
@@ -33,7 +34,9 @@ export default function Layout({ preview, children }: LayoutProps) {
       <div className="main flex flex-row h-screen dark:bg-gray-900">
         <Sidebar onChange={switchTheme} />
         <EpisodesBar preview={preview} allEpisodes={allEpisodes} />
-        <Content>{children}</Content>
+        <Content>
+          {children}
+        </Content>
       </div>
     </>
   )

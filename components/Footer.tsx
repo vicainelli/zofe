@@ -2,7 +2,7 @@ import { APPS } from 'lib/constants'
 import Logo from 'components/Logo'
 
 const Footer = () => (
-  <footer className="grid place-items-center text-center pt-24 gap-2.5">
+  <footer className="grid place-items-center text-center pt-24 lg:pb-0 pb-20 gap-2.5">
     <div>
       <a href="https://discord.com/invite/ZQ6Cr3S6wy" target="_blank">Discord</a>
         {' '}&middot;{' '}
