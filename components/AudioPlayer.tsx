@@ -44,9 +44,7 @@ export default function AudioPlayer({ url, guide }: AudioPlayerProps) {
                   {title}
                 </a>
               ) : (
-                <>
-                  <span>{title}</span>
-                </>
+                <span>{title}</span>
               )}
             </li>
           ))}
