@@ -15,7 +15,7 @@ export default function Host ({
   return (
     <li
       key={url}
-      className="grid place-items-center gap-2 rounded-xl"
+      className="grid lg:gap-2 lg:grid-cols-none grid-cols-2 place-items-center"
     >
       <Image
         src={avatar}

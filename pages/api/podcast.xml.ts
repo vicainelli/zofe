@@ -1,6 +1,6 @@
 import type { NowRequest, NowResponse } from '@vercel/node'
 import { getFeedEpisodes } from 'lib/api'
-import { AUTHORS, DESCRIPTION, FEED_NAME, SITE_URL } from 'lib/constants'
+import { AUTHORS, SITE_DESCRIPTION, FEED_NAME, SITE_URL } from 'lib/constants'
 import type { Episode } from 'types'
 
 async function renderEpisodeData(allEpisodes: Episode[]) {
@@ -32,11 +32,11 @@ function feedTemplate(podcastEpisodes: string) {
       <link>${SITE_URL}</link>
       <language>pt-br</language>
       <copyright>&#x2117; &amp; &#xA9; 2015 Daniel Filho</copyright>
-      <itunes:subtitle>${DESCRIPTION}</itunes:subtitle>
+      <itunes:subtitle>${SITE_DESCRIPTION}</itunes:subtitle>
       <itunes:author>${AUTHORS}</itunes:author>
-      <itunes:summary>${DESCRIPTION}</itunes:summary>
+      <itunes:summary>${SITE_DESCRIPTION}</itunes:summary>
       <itunes:explicit>no</itunes:explicit>
-      <description>${DESCRIPTION}</description>
+      <description>${SITE_DESCRIPTION}</description>
       <itunes:owner>
         <itunes:name>Daniel Filho</itunes:name>
         <itunes:email>daniel@zofe.com.br</itunes:email>

@@ -1,12 +1,14 @@
 export const SITE_NAME = 'ZOFE Podcast'
-export const SITE_URL = 'https://zofe.com.br' // :: change
+// export const SITE_URL = 'https://zofe.com.br'
+export const SITE_URL = 'https://zofe-next.vercel.app'
 export const FEED_NAME = 'ZOFE'
-export const AUTHORS = 'Daniel Filho, Isa Silveira e Atila Fassina'
+export const AUTHORS = 'Daniel Filho, Isa Silveira, e Atila Fassina'
+export const SITE_KEYWORDS = ['front-end', 'web', 'podcast']
+export const SITE_HANDLER  = '@zofepod'
+export const SITE_THEME_COLOR = '#E9D160'
 
-export const DESCRIPTION =
-  'Um podcast que aborda assuntos relacionados ao desenvolvimento web, trazendo notícias, cobrindo eventos e opinião.'
-
-  export const HOME_OG_IMAGE_URL = 'https://placekitten.com/400/300'
+export const SITE_DESCRIPTION =
+  'Um podcast semanal que aborda assuntos relacionados ao desenvolvimento web, trazendo notícias, cobrindo eventos e opinião.'
 
 export const HOSTS = [
   { name: 'Atila Fassina', url: 'https://twitter.com/atilafassina', avatar: 'https://www.gravatar.com/avatar/5dec492a029e20e74054d5c4c3e8d16c?s=300' },

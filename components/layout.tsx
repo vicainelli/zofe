@@ -1,11 +1,11 @@
 import type { Episode } from 'types'
 import type { ReactNode } from 'react'
 import { useState } from 'react'
-import Head from 'next/head'
+import SEO from 'components/SEO'
 import EpisodesBar from 'components/EpisodesBar'
 import Sidebar from 'components/Sidebar'
 import Content from 'components/Content'
-import { SITE_NAME } from 'lib/constants'
+
 
 type LayoutProps = {
   preview: boolean
@@ -28,10 +28,7 @@ export default function Layout({ preview, children, episodes }: LayoutProps) {
 
   return (
     <>
-      <Head>
-        <title>{SITE_NAME} - Desenvolviment web</title>
-      </Head>
-
+      <SEO />
       <div className="main flex flex-row h-screen dark:bg-gray-900">
         <Sidebar onChange={switchTheme} toggleEpisodeBar={() => { toggleEpisodeBar(!showEpisodeBar) }} />
         <EpisodesBar allEpisodes={episodes} isVisible={showEpisodeBar}/>

@@ -1,11 +1,14 @@
 import Head from 'next/head'
+import { getAllEpisodes } from 'lib/api'
 import Layout from 'components/layout'
 import Host from 'components/Host'
 import { SITE_NAME, HOSTS } from 'lib/constants'
 import { FaDiscord as Discord, FaTwitter as Twitter } from 'react-icons/fa'
+import { InferGetStaticPropsType } from 'next'
 
-const AboutPage = ({ preview = false }) => (
-  <Layout preview={preview}>
+export default function About ({ preview, allEpisodes }: InferGetStaticPropsType<typeof getStaticProps>) {
+  return (
+  <Layout preview={preview} episodes={allEpisodes}>
     <Head>
       <title>Sobre - {SITE_NAME}</title>
     </Head>
@@ -20,7 +23,7 @@ const AboutPage = ({ preview = false }) => (
 
         <div className="my-12">
           <h2>Apresentadores</h2>
-          <ul className="grid grid-cols-3 gap-8">
+          <ul className="grid lg:grid-cols-3 grid-row-3 gap-8">
             {HOSTS.map(host => (
               <Host key={host.url} {...host}/>
             ))}
@@ -63,6 +66,13 @@ const AboutPage = ({ preview = false }) => (
       </div>
     </div>
   </Layout>
-)
+  )
+}
 
-export default AboutPage
+export const getStaticProps = async ({ preview = false }) => {
+  const allEpisodes = await getAllEpisodes()
+
+  return {
+    props: { preview, allEpisodes },
+  }
+}
