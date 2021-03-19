@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import Link from 'next/link'
-import Logo from 'components/Logo'
-import { FaShoppingCart as ShoppingCart, FaMicrophone as Mic } from 'react-icons/fa'
+import { FaShoppingCart as ShoppingCart } from 'react-icons/fa'
 import { RiLightbulbFlashFill as LightBulbOn, RiLightbulbLine as LightBulbOff } from 'react-icons/ri'
 import { BsFillChatFill as Chat, BsPeopleFill as People, BsThreeDotsVertical as Dots } from 'react-icons/bs'
 import { IoMdRadio as Radio } from 'react-icons/io'
+import Logo from 'components/Logo'
+import PlayerButton from 'components/PlayerButton'
 
 type SideBarProps = {
   onChange: () => void
@@ -64,6 +65,7 @@ const Sidebar = ({ onChange, toggleEpisodeBar }: SideBarProps) => {
       </ul>
 
       <div className="flex-col justify-end space-y-6 lg:flex hidden">
+        <PlayerButton />
         <button onClick={switchTheme} className="grid place-items-center lg:bg-zofe lg:text-black text-zofe rounded-full w-16 h-16">
           {currentTheme === 'dark' ? (
             <LightBulbOff className="text-3xl" />
@@ -71,11 +73,6 @@ const Sidebar = ({ onChange, toggleEpisodeBar }: SideBarProps) => {
             <LightBulbOn className="text-3xl" />
           )}
         </button>
-        <Link href="/">
-          <a className="grid place-items-center lg:bg-zofe lg:text-black text-zofe rounded-full w-16 h-16">
-            <Mic className="text-3xl" />
-          </a>
-        </Link>
       </div>
     </header>
   )

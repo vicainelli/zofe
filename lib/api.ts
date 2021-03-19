@@ -46,6 +46,7 @@ const EPISODES_GRAPHQL_FIELDS = `
 slug
 title
 episodeNumber
+audioUrl
 publishDate
 `
 

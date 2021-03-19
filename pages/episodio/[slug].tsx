@@ -8,12 +8,12 @@ import EpisodeContent from 'components/EpisodeContent'
 import { getEpisode, getAllEpisodes } from 'lib/api'
 import formatDate from 'lib/formatDate'
 
-export default function EpisodeCard({ episode, episodeList, preview }: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function EpisodeCard({ episode, allEpisodes, preview }: InferGetStaticPropsType<typeof getStaticProps>) {
   const router = useRouter()
   const slug = router.query.slug as string
 
   return (
-    <Layout preview={preview} episodes={episodeList}>
+    <Layout preview={preview} episodes={allEpisodes}>
       <div className="w-read p-6 m-auto">
         <Head>
           <title>ZOFE - {episode.title}</title>
@@ -34,7 +34,7 @@ export default function EpisodeCard({ episode, episodeList, preview }: InferGetS
           </ReactMarkdown>
         )}
 
-        <EpisodeContent audioUrl={episode.audioUrl} episodeGuide={episode.episodeGuideCollection.items} />
+        <EpisodeContent audioTitle={episode.title} audioUrl={episode.audioUrl} episodeGuide={episode.episodeGuideCollection.items} />
       </div>
     </Layout>
   )
@@ -43,13 +43,13 @@ export default function EpisodeCard({ episode, episodeList, preview }: InferGetS
 export async function getStaticProps({ params, preview = false }: GetStaticPropsContext<{ slug: string }>) {
   const { slug = '' } = params ?? {}
   const data = await getEpisode(slug, preview)
-  const episodeList = await getAllEpisodes()
+  const allEpisodes = await getAllEpisodes()
 
   return {
     props: {
       preview,
       episode: data.episode,
-      episodeList
+      allEpisodes
     },
   }
 }

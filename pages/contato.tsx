@@ -1,8 +1,10 @@
+import type { InferGetStaticPropsType } from 'next'
 import type { ChangeEvent, FormEvent } from 'react'
 import { useState } from 'react'
 import Head from 'next/head'
-import Layout from 'components/layout'
 import { SITE_NAME } from 'lib/constants'
+import { getAllEpisodes } from 'lib/api'
+import Layout from 'components/layout'
 
 const contactZOFE = async (event: FormEvent<HTMLFormElement>) => {
   event.preventDefault()
@@ -26,12 +28,12 @@ const contactZOFE = async (event: FormEvent<HTMLFormElement>) => {
   })
 }
 
-const ContactPage = ({ preview = false }) => {
+const ContactPage = ({ preview = false, allEpisodes }: InferGetStaticPropsType<typeof getStaticProps>) => {
   const [message, setMessage] = useState('')
   const updateMessage = (event: ChangeEvent<HTMLTextAreaElement>) => setMessage(event.target.value)
 
   return (
-    <Layout preview={preview}>
+    <Layout preview={preview} episodes={allEpisodes}>
       <Head>
         <title>Contato - {SITE_NAME}</title>
       </Head>
@@ -81,6 +83,14 @@ const ContactPage = ({ preview = false }) => {
       </div>
     </Layout>
   )
+}
+
+export const getStaticProps = async ({ preview = false }) => {
+  const allEpisodes = await getAllEpisodes()
+
+  return {
+    props: { preview, allEpisodes },
+  }
 }
 
 export default ContactPage

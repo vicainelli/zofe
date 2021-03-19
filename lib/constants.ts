@@ -8,7 +8,7 @@ export const SITE_HANDLER  = '@zofepod'
 export const SITE_THEME_COLOR = '#E9D160'
 
 export const SITE_DESCRIPTION =
-  'Um podcast semanal que aborda assuntos relacionados ao desenvolvimento web, trazendo notícias, cobrindo eventos e opinião.'
+  'Um podcast que aborda assuntos relacionados ao desenvolvimento web, trazendo notícias, cobrindo eventos e opinião.'
 
 export const HOSTS = [
   { name: 'Atila Fassina', url: 'https://twitter.com/atilafassina', avatar: 'https://www.gravatar.com/avatar/5dec492a029e20e74054d5c4c3e8d16c?s=300' },
