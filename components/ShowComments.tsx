@@ -23,7 +23,7 @@ export default function ShowComments ({
   return (
     <div className={wrapperStyles}>
       <button
-        className="grid place-items-center bg-opacity-40 bg-blue-400 border-solid border-2 border-gray-700 rounded-2xl py-2 px-12"
+        className="grid place-items-center bg-opacity-40 border-solid border-2 border-gray-700 rounded-2xl py-2 px-12"
         onClick={clickHandler}
       >
         <Disqus aria-hidden className="text-5xl mt-2 mb-5" />

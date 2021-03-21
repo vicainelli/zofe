@@ -6,6 +6,8 @@ import { SITE_NAME } from 'lib/constants'
 import { getAllEpisodes } from 'lib/api'
 import Layout from 'components/layout'
 
+const FIELD_CLASSES = "md:w-2/3 md:px-4 w-full px-2 py-3"
+
 const contactZOFE = async (event: FormEvent<HTMLFormElement>) => {
   event.preventDefault()
 
@@ -39,46 +41,43 @@ const ContactPage = ({ preview = false, allEpisodes }: InferGetStaticPropsType<t
       </Head>
 
       <div className="p-6 main-container">
-        <h1>Contato</h1>
+        <h2>Contato</h2>
 
         <form onSubmit={contactZOFE}>
           <div className="mb-6">
-            <label>
-              Nome: <br />
-              <input type="text" name="name" className="w-2/3 px-4 py-3" />
+            <label htmlFor="name" className="block">
+              Nome:
             </label>
+            <input type="text" name="name" className={FIELD_CLASSES} />
           </div>
           <div className="mb-6">
-            <label>
-              Email: <br />
-              <input type="email" name="email" className="w-2/3 px-4 py-3" />
+            <label htmlFor="email" className="block">
+              Email:
             </label>
+            <input type="email" name="email" className={FIELD_CLASSES} />
           </div>
           <div className="mb-6">
-            <label>
+            <label htmlFor="message" className="block">
               Mensagem:
-              <br />
-              <textarea
-                name="message"
-                id="message"
-                maxLength={1024}
-                onChange={updateMessage}
-                className="h-96 w-2/3 px-4 py-3"
-              />
             </label>
-            <div className="w-2/3 text-right">
-              <span>{message.length}</span> de <span>1024</span> caracteres
-            </div>
+            <textarea
+              name="message"
+              id="message"
+              maxLength={1024}
+              onChange={updateMessage}
+              className={`h-96 ${FIELD_CLASSES}`}
+            />
+            <small className={`${FIELD_CLASSES} text-right block`}>
+              {message.length} de 1024 caracteres
+            </small>
           </div>
 
-          <div>
-            <button
-              type="submit"
-              className="border-4 border-zofe rounded-xl bg-yellow-300 px-4 py-3 dark:text-gray-900"
-            >
-              Enviar
-            </button>
-          </div>
+          <button
+            type="submit"
+            className={`border-4 border-zofe rounded-xl bg-yellow-300 mt-5 dark:text-gray-900 ${FIELD_CLASSES}`}
+          >
+            Enviar
+          </button>
         </form>
       </div>
     </Layout>
