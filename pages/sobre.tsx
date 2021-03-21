@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { getAllEpisodes } from 'lib/api'
 import Layout from 'components/layout'
 import Host from 'components/Host'
-import { SITE_NAME, HOSTS } from 'lib/constants'
+import { HOSTS } from 'lib/constants'
 import { FaDiscord as Discord, FaTwitter as Twitter } from 'react-icons/fa'
 import { InferGetStaticPropsType } from 'next'
 
@@ -10,22 +10,22 @@ export default function About ({ preview, allEpisodes }: InferGetStaticPropsType
   return (
   <Layout preview={preview} episodes={allEpisodes} seoProps={{ title: 'Sobre' }}>
     <div className="main-container p-6">
-      <h2>O que é o <abbr title="Zone of Front-enders">ZOFE</abbr>?</h2>
+      <h2>O que é o ZOFE?</h2>
       <div>
         <p>
-          <em>Zone of Front-enders</em> é um podcast com enfoque no desenvolvimento front-end da web. Sempre trazendo novidades, entrevistas, eventos e
+          Um podcast com enfoque no desenvolvimento front-end da web. Sempre trazendo novidades, entrevistas, eventos e
           multiplicando conhecimento.
         </p>
 
         <div className="my-12">
           <h2>Apresentadores</h2>
           <ul className="grid lg:grid-cols-3 grid-row-3 gap-8">
-            {HOSTS.map(host => (
-              <Host key={host.url} {...host}/>
+            {HOSTS.map((host, idx) => (
+              <Host key={host.url} invert={Boolean(idx % 2)} {...host}/>
             ))}
           </ul>
-          <p className="my-8">
-            Podcast editado por{' '}
+          <p className="my-24 lg:text-right text-center">
+            Editado por{' '}
             <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/guigraz">
               Gui Grazziotin
             </a>

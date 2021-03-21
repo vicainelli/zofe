@@ -4,12 +4,14 @@ type HostProps = {
   url: string
   name: string
   avatar: string
+  invert?: boolean
 }
 
 export default function Host ({
   name,
   url,
-  avatar
+  avatar,
+  invert
 }: HostProps) {
 
   return (
@@ -24,7 +26,7 @@ export default function Host ({
         width={300}
         height={300}
       />
-      <a href={url} target="_blank" rel="noopener noreferrer">
+      <a href={url} target="_blank" rel="noopener noreferrer" className={`${invert && 'row-start-1 lg:row-start-2'} md:text-3xl lg:text-xl`}>
         {name}
       </a>
     </li>
