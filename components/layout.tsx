@@ -1,5 +1,6 @@
 import type { Episode } from 'types'
 import type { ReactNode } from 'react'
+import type { SEOProps } from 'components/SEO'
 import { useState } from 'react'
 import SEO from 'components/SEO'
 import EpisodesBar from 'components/EpisodesBar'
@@ -11,9 +12,10 @@ type LayoutProps = {
   preview: boolean
   children: ReactNode
   episodes: Episode[]
+  seoProps?: SEOProps
 }
 
-export default function Layout({ preview, children, episodes }: LayoutProps) {
+export default function Layout({ preview, children, episodes, seoProps }: LayoutProps) {
   const [ showEpisodeBar, toggleEpisodeBar ] = useState(false)
 
   const switchTheme = () => {
@@ -28,7 +30,7 @@ export default function Layout({ preview, children, episodes }: LayoutProps) {
 
   return (
     <>
-      <SEO />
+      <SEO {...seoProps} />
       <div className="main flex flex-row h-screen dark:bg-gray-900">
         <Sidebar onChange={switchTheme} toggleEpisodeBar={() => { toggleEpisodeBar(!showEpisodeBar) }} />
         <EpisodesBar allEpisodes={episodes} isVisible={showEpisodeBar}/>

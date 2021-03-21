@@ -13,11 +13,8 @@ export default function EpisodeCard({ episode, allEpisodes, preview }: InferGetS
   const slug = router.query.slug as string
 
   return (
-    <Layout preview={preview} episodes={allEpisodes}>
+    <Layout preview={preview} episodes={allEpisodes} seoProps={{ title: episode.title }}>
       <div className="w-read p-6 m-auto">
-        <Head>
-          <title>ZOFE - {episode.title}</title>
-        </Head>
         <h2>
           <Link href={`/episodio/${slug}`}>
             <a>

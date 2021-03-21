@@ -8,11 +8,7 @@ import { SITE_NAME } from 'lib/constants'
 
 export default function Vista({ preview, allEpisodes }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
-    <Layout preview={preview} episodes={allEpisodes}>
-      <Head>
-        <title>Vista - {SITE_NAME}</title>
-      </Head>
-
+    <Layout preview={preview} episodes={allEpisodes} seoProps={{ title: 'Vista' }}>
       <div className="p-6 main-container">
         <h1>Vista o ZOFE</h1>
 

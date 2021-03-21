@@ -35,11 +35,7 @@ const ContactPage = ({ preview = false, allEpisodes }: InferGetStaticPropsType<t
   const updateMessage = (event: ChangeEvent<HTMLTextAreaElement>) => setMessage(event.target.value)
 
   return (
-    <Layout preview={preview} episodes={allEpisodes}>
-      <Head>
-        <title>Contato - {SITE_NAME}</title>
-      </Head>
-
+    <Layout preview={preview} episodes={allEpisodes} seoProps={{ title: 'Contato' }}>
       <div className="p-6 main-container">
         <h2>Contato</h2>
 

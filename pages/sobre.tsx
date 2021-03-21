@@ -8,11 +8,7 @@ import { InferGetStaticPropsType } from 'next'
 
 export default function About ({ preview, allEpisodes }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
-  <Layout preview={preview} episodes={allEpisodes}>
-    <Head>
-      <title>Sobre - {SITE_NAME}</title>
-    </Head>
-
+  <Layout preview={preview} episodes={allEpisodes} seoProps={{ title: 'Sobre' }}>
     <div className="main-container p-6">
       <h2>O que é o <abbr title="Zone of Front-enders">ZOFE</abbr>?</h2>
       <div>

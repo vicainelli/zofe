@@ -3,7 +3,7 @@ import { SITE_NAME, SITE_URL, SITE_DESCRIPTION, SITE_KEYWORDS, SITE_HANDLER ,SIT
 
 import { useRouter } from 'next/router'
 
-type SEOProps = Partial<{
+export type SEOProps = Partial<{
   title: string
   path: string
   pitch: string
@@ -15,7 +15,7 @@ const ROOT_OG_IMAGE = `${SITE_URL}/zofe-og.png`
 
 const getPageUrl = (path?: string) =>
   Boolean(path)
-    ? `${SITE_URL}/posts${path}`
+    ? `${SITE_URL}/${path}`
     : SITE_URL
 
 const getOGimage = (title: string, path: string, keywords?: string[]) => {
@@ -42,7 +42,7 @@ export default function SEO({
   ogOverride,
 }: SEOProps) {
   const { pathname } = useRouter()
-  const pageTitle = title ? `${title} | ${SITE_NAME}` : `${SITE_NAME} - Desenvolviment web`
+  const pageTitle = title ? `${title} - ${SITE_NAME}` : `${SITE_NAME} - Desenvolviment web`
   const pageDescription = pitch || SITE_DESCRIPTION
   const ogImage = ogOverride
     ? ogOverride
