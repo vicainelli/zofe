@@ -1,12 +1,10 @@
 import type { InferGetStaticPropsType } from 'next'
 import type { ChangeEvent, FormEvent } from 'react'
 import { useState } from 'react'
-import Head from 'next/head'
-import { SITE_NAME } from 'lib/constants'
 import { getAllEpisodes } from 'lib/api'
 import Layout from 'components/layout'
 
-const FIELD_CLASSES = "md:w-2/3 md:px-4 w-full px-2 py-3"
+const FIELD_CLASSES = "appearance-none md:w-2/3 md:px-4 w-full px-2 py-3 focus:outline-none focus:ring-2 focus:ring-zofe"
 
 const contactZOFE = async (event: FormEvent<HTMLFormElement>) => {
   event.preventDefault()
@@ -42,26 +40,26 @@ const ContactPage = ({ preview = false, allEpisodes }: InferGetStaticPropsType<t
         <form onSubmit={contactZOFE}>
           <div className="mb-6">
             <label htmlFor="name" className="block">
-              Nome:
+              Nome
             </label>
-            <input type="text" name="name" className={FIELD_CLASSES} />
+            <input type="text" name="name" className={`${FIELD_CLASSES} rounded-xl dark:bg-gray-200 bg-gray-400 bg-opacity-20 border-none shadow-sm`} />
           </div>
           <div className="mb-6">
             <label htmlFor="email" className="block">
-              Email:
+              Email
             </label>
-            <input type="email" name="email" className={FIELD_CLASSES} />
+            <input type="email" name="email" className={`${FIELD_CLASSES} rounded-xl dark:bg-gray-200 bg-gray-400 bg-opacity-20 border-none shadow-sm`} />
           </div>
           <div className="mb-6">
             <label htmlFor="message" className="block">
-              Mensagem:
+              Mensagem
             </label>
             <textarea
               name="message"
               id="message"
               maxLength={1024}
               onChange={updateMessage}
-              className={`h-96 ${FIELD_CLASSES}`}
+              className={`h-96 ${FIELD_CLASSES} rounded-xl dark:bg-gray-200 bg-gray-400 bg-opacity-20 border-none shadow-sm`}
             />
             <small className={`${FIELD_CLASSES} text-right block`}>
               {message.length} de 1024 caracteres
@@ -70,7 +68,7 @@ const ContactPage = ({ preview = false, allEpisodes }: InferGetStaticPropsType<t
 
           <button
             type="submit"
-            className={`border-4 border-zofe rounded-xl bg-yellow-300 mt-5 dark:text-gray-900 ${FIELD_CLASSES}`}
+            className={`border-2 border-zofe rounded-xl bg-yellow-300 mt-5 dark:text-gray-900 ${FIELD_CLASSES}`}
           >
             Enviar
           </button>

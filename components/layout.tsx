@@ -32,7 +32,7 @@ export default function Layout({ preview, children, episodes, seoProps }: Layout
     <>
       <SEO {...seoProps} />
       <div className="main flex flex-row h-screen dark:bg-gray-900">
-        <Sidebar onChange={switchTheme} toggleEpisodeBar={() => { toggleEpisodeBar(!showEpisodeBar) }} />
+        <Sidebar changeTheme={switchTheme} toggleEpisodeBar={() => { toggleEpisodeBar(!showEpisodeBar) }} />
         <EpisodesBar allEpisodes={episodes} isVisible={showEpisodeBar}/>
         <Content>
           {children}

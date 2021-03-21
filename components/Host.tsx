@@ -22,7 +22,7 @@ export default function Host ({
       <Image
         src={avatar}
         alt={`Foto de perfil de ${name}`}
-        className="rounded-3xl"
+        className="rounded-full"
         width={300}
         height={300}
       />

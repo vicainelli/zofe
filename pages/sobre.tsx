@@ -35,19 +35,17 @@ export default function About ({ preview, allEpisodes }: InferGetStaticPropsType
         <div>
           <h2>Conecte-se</h2>
 
-          <ul className="flex justify-around p-10">
+          <ul className="flex md:justify-around justify-between p-10">
             <li className="grid place-items-center text-center">
               <a href="https://discord.com/invite/ZQ6Cr3S6wy" className="border-0" rel="noopener noreferrer" target="_blank">
-                <Discord className="text-9xl text-discord" aria-hidden/>
-                <span className="block mt-4">Discord Server</span>
+                <Discord className="md:text-9xl text-6xl text-discord block mx-auto" aria-hidden/>
+                <span className="block mt-4">Discord</span>
               </a>
             </li>
             <li className="flex items-center justify-center text-center">
               <a className="border-0" href="https://twitter.com/zofepod" rel="noopener noreferrer" target="_blank">
-                <div className="dark:text-black">
-                  <Twitter className="text-9xl text-blue-500" />
-                </div>
-                <span className="block mt-4">@ZOFEpod</span>
+                <Twitter className="md:text-9xl text-6xl text-blue-500 block mx-auto" />
+                <span className="block mt-4 text-center">@ZOFEpod</span>
               </a>
             </li>
           </ul>
