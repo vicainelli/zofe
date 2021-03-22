@@ -6,7 +6,7 @@ type ContentProps = {
 }
 
 const Content = ({ children }: ContentProps) => (
-  <main className="content w-full overflow-y-auto dark:text-gray-200 lg:h-auto">
+  <main className="content w-full overflow-y-auto dark:text-gray-200 lg:h-auto pt-24 lg:pt-6">
     {children}
     <Footer />
   </main>

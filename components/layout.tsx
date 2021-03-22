@@ -15,6 +15,7 @@ type LayoutProps = {
   seoProps?: SEOProps
 }
 
+import MobileHeader from 'components/MobileHeader'
 export default function Layout({ preview, children, episodes, seoProps }: LayoutProps) {
   const [ showEpisodeBar, toggleEpisodeBar ] = useState(false)
 
@@ -32,6 +33,7 @@ export default function Layout({ preview, children, episodes, seoProps }: Layout
     <>
       <SEO {...seoProps} />
       <div className="main flex flex-row h-screen dark:bg-gray-900">
+        <MobileHeader />
         <Sidebar changeTheme={switchTheme} toggleEpisodeBar={() => { toggleEpisodeBar(!showEpisodeBar) }} />
         <EpisodesBar allEpisodes={episodes} isVisible={showEpisodeBar}/>
         <Content>
