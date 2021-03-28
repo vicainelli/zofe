@@ -30,6 +30,7 @@ export default function LinksMenu({ isExpanded, toggleLinksMenu, isLinksMenuExpa
             w-16
             h-16">
             <Logo />
+            <span className="sr-only">Página inicial</span>
           </a>
         </Link>
       </li>
@@ -37,6 +38,7 @@ export default function LinksMenu({ isExpanded, toggleLinksMenu, isLinksMenuExpa
       <Link href="/sobre">
         <a className="grid place-items-center lg:bg-zofe lg:text-black text-zofe rounded-full w-16 h-16">
           <People className="text-3xl" />
+          <span className="sr-only">Sobre o ZOFE</span>
         </a>
       </Link>
     </li>
@@ -44,6 +46,7 @@ export default function LinksMenu({ isExpanded, toggleLinksMenu, isLinksMenuExpa
       <Link href="/vista">
         <a className="grid place-items-center lg:bg-zofe lg:text-black text-zofe rounded-full w-16 h-16">
           <ShoppingCart className="text-3xl" />
+          <span className="sr-only">Compre produtos do ZOFE</span>
         </a>
       </Link>
     </li>
@@ -51,6 +54,7 @@ export default function LinksMenu({ isExpanded, toggleLinksMenu, isLinksMenuExpa
       <Link href="/contato">
         <a className="grid place-items-center lg:bg-zofe lg:text-black text-zofe rounded-full w-16 h-16">
           <Chat className="text-3xl" />
+          <span className="sr-only">Entre em contato</span>
         </a>
       </Link>
     </li>
