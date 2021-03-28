@@ -49,7 +49,7 @@ const Player = forwardRef<HTMLAudioElement, AudioPlayerProps>(({ title, url }, r
           </>
         )
         : (
-          <span>Nenhum episódio selecionado.</span>
+          <span className="text-black dark:text-white">Nenhum episódio selecionado.</span>
         )
       }
     </div>)
