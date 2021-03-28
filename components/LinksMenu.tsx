@@ -60,6 +60,7 @@ export default function LinksMenu({ isExpanded, toggleLinksMenu, isLinksMenuExpa
           className="grid place-items-center lg:bg-zofe lg:text-black text-zofe rounded-full w-16 h-16"
         >
           <Chevron className={`text-3xl transform transition-transform duration-500 ease-in-out ${isLinksMenuExpanded ? 'rotate-180' : 'rotate-0'}`} />
+          <span className="sr-only">{isLinksMenuExpanded ? 'Close' : 'Open'} controles do site</span>
         </button>
       </li>
   </ul>

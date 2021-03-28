@@ -10,6 +10,7 @@ export default function PlayerButton() {
   return (
     <button onClick={() => { toggleOpen(!isOpen) }} className={`grid place-items-center ${isOpen ? OPEN_CLASSES : CLOSED_CLASSES} rounded-full w-16 h-16`}>
       <Headphones className="text-3xl" />
+      <span className="sr-only">Mostrar/esconder tocador de áudio do episódio</span>
     </button>
   )
 }

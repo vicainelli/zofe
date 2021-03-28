@@ -107,7 +107,7 @@ const ContactPage = ({ preview = false, allEpisodes }: InferGetStaticPropsType<t
             type="submit"
             className={`border-2 border-zofe rounded-xl bg-yellow-300 mt-5 dark:text-gray-900 ${FIELD_CLASSES}`}
           >
-            Enviar
+            Entrar em contato
           </button>
         </form>
       </div>

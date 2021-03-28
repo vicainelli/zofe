@@ -33,11 +33,26 @@ export default function Controls({ changeTheme, toggleEpisodeBar, isExpanded }: 
     ease-in-out
     ${isExpanded ? 'mt-6 h-32' : 'mt-0 h-0'}`}>
      <li className="lg:row-start-3">
-        <button onClick={switchTheme} className="grid place-items-center lg:bg-zofe lg:text-black text-zofe rounded-full w-16 h-16">
+        <button
+          onClick={switchTheme}
+          className="grid
+          place-items-center
+          lg:bg-zofe
+          lg:text-black
+          text-zofe
+          rounded-full
+          w-16
+          h-16">
           {currentTheme === 'dark' ? (
-            <LightBulbOff className="text-3xl" />
-            ) : (
-            <LightBulbOn className="text-3xl" />
+            <>
+              <LightBulbOff className="text-3xl" />
+              <span className="sr-only">Ativar tema escuro</span>
+            </>
+          ) : (
+            <>
+              <LightBulbOn className="text-3xl" />
+              <span className="sr-only">Ativar tema claro</span>
+            </>
           )}
         </button>
       </li>
@@ -45,6 +60,7 @@ export default function Controls({ changeTheme, toggleEpisodeBar, isExpanded }: 
       <li className="lg:hidden">
         <button className="grid place-items-center lg:bg-zofe lg:text-black text-zofe rounded-full w-16 h-16" onClick={toggleEpisodeBar}>
           <Radio className="text-3xl" />
+          <span className="sr-only">Mostrar/esconder lista de episódios</span>
         </button>
       </li>
 
