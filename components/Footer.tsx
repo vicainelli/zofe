@@ -5,10 +5,10 @@ export default function Footer() {
     <footer className="grid place-items-center text-center pt-24 lg:pb-40 gap-2.5">
       <ul className="flex content-around mb-5">
         <li className="px-2">
-          <a href="https://discord.com/invite/ZQ6Cr3S6wy" target="_blank">Discord</a>
+          <a href="https://discord.com/invite/ZQ6Cr3S6wy" target="_blank" rel="noopener noreferrer">Discord</a>
         </li>
         <li className="px-2">
-          <a href="https://twitter.com/zofepod" target="_blank">Twitter</a>
+          <a href="https://twitter.com/zofepod" target="_blank" rel="noopener noreferrer">Twitter</a>
         </li>
       </ul>
 
