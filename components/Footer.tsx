@@ -15,7 +15,7 @@ export default function Footer() {
       <ul className="lg:p-4">
         {APPS.map(app => (
           <li key={app.url} className="inline-block mx-4 my-2 lg:my-0">
-            <a href={app.url} className="footer-feed-link" title={app.name}>
+            <a href={app.url} target="_blank" rel="noopener noreferrer" className="footer-feed-link" title={app.name}>
               {app.name}
             </a>
           </li>
