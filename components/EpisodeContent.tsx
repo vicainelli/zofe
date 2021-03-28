@@ -41,7 +41,7 @@ const EpisodeContent = ({ audioTitle, audioUrl, episodeGuide }: EpisodeContent) 
           aria-hidden
           className="animate-pulse text-zofe text-7xl"
         />
-        <span className="text-2xl text-zofe">
+        <span className="text-2xl text-red-800">
           Escutar este episódio
         </span>
       </button>
