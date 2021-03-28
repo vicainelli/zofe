@@ -46,7 +46,11 @@ const EpisodeContent = ({ audioTitle, audioUrl, episodeGuide }: EpisodeContent) 
         </span>
       </button>
       <EpisodeNotes trackUrl={audioUrl} guide={episodeGuide} />
-      {showComments ? <Comments slug={slug} /> : <ShowComments clickHandler={() => { setShowComments(!showComments) }} />}
+      {
+        showComments ?
+          <Comments slug={slug} /> :
+          <ShowComments clickHandler={() => { setShowComments(!showComments) }} />
+      }
     </>
   ) : null
 }

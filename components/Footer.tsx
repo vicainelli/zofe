@@ -1,15 +1,13 @@
 import { APPS } from 'lib/constants'
-import Logo from 'components/Logo'
 
 export default function Footer() {
   return (
-    <footer className="grid place-items-center text-center pt-24 lg:pb-0 pb-20 gap-2.5">
+    <footer className="grid place-items-center text-center pt-24 lg:pb-40 gap-2.5">
       <ul className="flex content-around mb-5">
-        <li>
+        <li className="px-2">
           <a href="https://discord.com/invite/ZQ6Cr3S6wy" target="_blank">Discord</a>
-          {' '}&middot;{' '}
         </li>
-        <li>
+        <li className="px-2">
           <a href="https://twitter.com/zofepod" target="_blank">Twitter</a>
         </li>
       </ul>
@@ -25,8 +23,7 @@ export default function Footer() {
       </ul>
 
       <div className="pt-12 grid place-items-center gap-y-6">
-        <Logo color="text-gray-400" />
-        <p><sup role="img" aria-label="copyright">©</sup> 2012-{new Date().getFullYear()}</p>
+        <p>Copyright <span role="img" aria-label="copyright">©</span> ZOFE 2012-{new Date().getFullYear()} - Todos os Direitos Reservados</p>
       </div>
     </footer>
   )

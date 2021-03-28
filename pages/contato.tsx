@@ -42,13 +42,39 @@ const ContactPage = ({ preview = false, allEpisodes }: InferGetStaticPropsType<t
             <label htmlFor="name" className="block">
               Nome
             </label>
-            <input type="text" name="name" className={`${FIELD_CLASSES} rounded-xl dark:bg-gray-200 bg-gray-400 bg-opacity-20 border-none shadow-sm`} />
+            <input
+              type="text"
+              name="name"
+              className={
+                `${FIELD_CLASSES}
+                rounded-xl
+                dark:bg-gray-200
+                dark:text-black
+                bg-gray-400
+                bg-opacity-20
+                border-2
+                border-zofe
+                shadow-sm`}
+            />
           </div>
           <div className="mb-6">
             <label htmlFor="email" className="block">
               Email
             </label>
-            <input type="email" name="email" className={`${FIELD_CLASSES} rounded-xl dark:bg-gray-200 bg-gray-400 bg-opacity-20 border-none shadow-sm`} />
+            <input
+              type="email"
+              name="email"
+              className={
+                `${FIELD_CLASSES}
+                rounded-xl
+                dark:bg-gray-200
+                dark:text-black
+                bg-gray-400
+                bg-opacity-20
+                border-2
+                border-zofe
+                shadow-sm`}
+            />
           </div>
           <div className="mb-6">
             <label htmlFor="message" className="block">
@@ -59,7 +85,18 @@ const ContactPage = ({ preview = false, allEpisodes }: InferGetStaticPropsType<t
               id="message"
               maxLength={1024}
               onChange={updateMessage}
-              className={`h-96 ${FIELD_CLASSES} rounded-xl dark:bg-gray-200 bg-gray-400 bg-opacity-20 border-none shadow-sm`}
+              className={
+                `h-96
+                ${FIELD_CLASSES}
+                rounded-xl
+                dark:bg-gray-200
+                dark:text-black
+                bg-gray-400
+                bg-opacity-20
+                border-2
+                border-zofe
+                shadow-sm`
+              }
             />
             <small className={`${FIELD_CLASSES} text-right block`}>
               {message.length} de 1024 caracteres

@@ -48,6 +48,9 @@ title
 episodeNumber
 audioUrl
 publishDate
+cover {
+  url
+}
 `
 
 const LATEST_EPISODE_GRAPHQL_FIELDS = `

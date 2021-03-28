@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import { SITE_NAME, SITE_URL, SITE_DESCRIPTION, SITE_KEYWORDS, SITE_HANDLER ,SITE_THEME_COLOR } from 'lib/constants'
-
+import { SITE_NAME, SITE_URL, SITE_DESCRIPTION, SITE_KEYWORDS, SITE_HANDLER, SITE_THEME_COLOR } from 'lib/constants'
 import { useRouter } from 'next/router'
 
 export type SEOProps = Partial<{

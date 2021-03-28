@@ -11,8 +11,14 @@ const Sidebar = ({ changeTheme, toggleEpisodeBar }: Omit<ControlsProps, 'toggleL
     <header
       className="lg:grid lg:liquid-gap lg:w-24 lg:pt-6 py-3 lg:p-3 lg:h-screen w-full lg:static fixed bottom-0 bg-gray-200 dark:bg-gray-700 z-20"
     >
-      <Controls changeTheme={changeTheme} isLinksMenuExpanded={isLinksMenuExpanded} toggleLinksMenu={toggleLinksMenu} toggleEpisodeBar={toggleEpisodeBar} />
-      <LinksMenu isExpanded={isLinksMenuExpanded} />
+      <LinksMenu
+        isExpanded={isLinksMenuExpanded}
+        isLinksMenuExpanded={isLinksMenuExpanded}
+        toggleLinksMenu={toggleLinksMenu} />
+      <Controls
+        isExpanded={isLinksMenuExpanded}
+        changeTheme={changeTheme}
+        toggleEpisodeBar={toggleEpisodeBar} />
     </header>
   )
 }

@@ -1,10 +1,7 @@
 import type { InferGetStaticPropsType } from 'next'
-import Head from 'next/head'
 import Image from 'next/image'
 import { getAllEpisodes } from 'lib/api'
-// import { FaCottonBureau as CottonBureau } from 'react-icons/fa'
 import Layout from 'components/layout'
-import { SITE_NAME } from 'lib/constants'
 
 export default function Vista({ preview, allEpisodes }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (

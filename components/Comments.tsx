@@ -13,7 +13,16 @@ const Comments = ({ slug }: CommentsProps) => {
   }
 
   return (
-    <div className="w-read max-h-96 overscroll-contain overflow-y-auto my-12 rounded-sm bg-gray-100">
+    <div className="w-read
+      w-full
+      md:px-10
+      px-2
+      mt-8
+      py-4
+      rounded-xl
+      border-0
+      bg-gray-200"
+    >
       <DiscussionEmbed shortname={disqusShortname} config={config} />
     </div>
   )

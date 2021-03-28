@@ -12,6 +12,9 @@ export type Episode = {
   audioUrl: string
   duration: string
   publishDate: string
+  cover: {
+    url: string
+  }
   episodeGuideCollection: {
     items: EpisodeGuide[]
   }

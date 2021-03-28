@@ -1,9 +1,7 @@
-import Head from 'next/head'
 import { getAllEpisodes } from 'lib/api'
 import Layout from 'components/layout'
 import Host from 'components/Host'
 import { HOSTS } from 'lib/constants'
-import { FaDiscord as Discord, FaTwitter as Twitter } from 'react-icons/fa'
 import { InferGetStaticPropsType } from 'next'
 
 export default function About ({ preview, allEpisodes }: InferGetStaticPropsType<typeof getStaticProps>) {
@@ -25,30 +23,11 @@ export default function About ({ preview, allEpisodes }: InferGetStaticPropsType
             ))}
           </ul>
           <p className="my-24 lg:text-right text-center">
-            Editado por{' '}
-            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/guigraz">
-              Gui Grazziotin
+            Edição por{' '}
+            <a target="_blank" rel="noopener noreferrer" href="https://www.radiotrama.com/">
+              Rádio Trama
             </a>
           </p>
-        </div>
-
-        <div>
-          <h2>Conecte-se</h2>
-
-          <ul className="flex md:justify-around justify-between p-10">
-            <li className="grid place-items-center text-center">
-              <a href="https://discord.com/invite/ZQ6Cr3S6wy" className="border-0" rel="noopener noreferrer" target="_blank">
-                <Discord className="md:text-9xl text-6xl text-discord block mx-auto" aria-hidden/>
-                <span className="block mt-4">Discord</span>
-              </a>
-            </li>
-            <li className="flex items-center justify-center text-center">
-              <a className="border-0" href="https://twitter.com/zofepod" rel="noopener noreferrer" target="_blank">
-                <Twitter className="md:text-9xl text-6xl text-blue-500 block mx-auto" />
-                <span className="block mt-4 text-center">@ZOFEpod</span>
-              </a>
-            </li>
-          </ul>
         </div>
 
         <div className="mt-8 p-4 border-t-2 border-b-2 bg-gray-50 dark:border-gray-600 dark:bg-gray-800">

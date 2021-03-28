@@ -11,7 +11,7 @@ export default function AudioPlayer({ trackUrl, guide }: AudioPlayerProps) {
   const { currentTrackUrl, skipTrack } = useAudioContext()
 
   return (
-    <div className="w-read w-full md:px-10 px-2 mt-8 py-4 rounded-xl border-0 bg-gray-100 dark:bg-gray-800 ">
+    <div className="w-read w-full md:px-10 px-2 mt-8 py-4 rounded-xl border-0 bg-gray-100 dark:bg-gray-800">
       <h3>Anotações do Episódio</h3>
 
       <ul className="grid pt-4 auto-cols-max gap-y-2 overflow-x-auto">
