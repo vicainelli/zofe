@@ -1,6 +1,5 @@
 export const SITE_NAME = 'ZOFE Podcast'
-// export const SITE_URL = 'https://zofe.com.br'
-export const SITE_URL = 'https://zofe-next.vercel.app'
+export const SITE_URL = 'https://zofe.com.br'
 export const FEED_NAME = 'ZOFE'
 export const AUTHORS = 'Daniel Filho, Isa Silveira, e Atila Fassina'
 export const SITE_KEYWORDS = ['front-end', 'web', 'podcast']
