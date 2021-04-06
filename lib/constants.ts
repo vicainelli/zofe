@@ -22,5 +22,5 @@ export const APPS = [
   { name: 'Pocketcasts', url: 'https://pca.st/dMr0' },
   { name: 'Overcast', url: 'https://overcast.fm/itunes580335548/zone-of-front-enders-podcast' },
   { name: 'Stitcher', url: 'http://www.stitcher.com/s?fid=250044&refid=stpr' },
-  { name: 'Spotify', url: 'https://open.spotify.com/show/13Q4XtzJ1tSZ7trS4dSOf6?si=LOLsMSQFTcOLSG6a7VLPSw' },
+  { name: 'Spotify', url: 'https://open.spotify.com/show/6BNGWeoke3Hm1RNx1F14sF' },
 ]
