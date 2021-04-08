@@ -16,7 +16,7 @@ const Player = forwardRef<HTMLAudioElement, AudioPlayerProps>(({ title, url }, r
       p-4
       z-30
       fixed
-      -bottom-10
+      bottom-2
       transform
       transition-all
       duration-300
